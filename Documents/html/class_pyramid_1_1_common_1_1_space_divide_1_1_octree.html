@@ -1,0 +1,407 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::Common::SpaceDivide::Octree クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_common.html">Common</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_common_1_1_space_divide.html">SpaceDivide</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html">Octree</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::Common::SpaceDivide::Octree クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>八分木. 静的に用意する. 登録されたオブジェクトに対して衝突の可能性リストを更新する  
+ <a href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_octree_8h_source.html">Octree.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::Common::SpaceDivide::Octree の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.png" usemap="#Pyramid::Common::SpaceDivide::Octree_map" alt=""/>
+  <map id="Pyramid::Common::SpaceDivide::Octree_map" name="Pyramid::Common::SpaceDivide::Octree_map">
+<area href="class_pyramid_1_1_common_1_1_world_space_divider.html" title="ゲーム内の唯一空間を分割する " alt="Pyramid::Common::WorldSpaceDivider" shape="rect" coords="0,56,235,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a449e33de51ecb5a6389b7e186533ee32"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html#a449e33de51ecb5a6389b7e186533ee32">Octree</a> ()</td></tr>
+<tr class="separator:a449e33de51ecb5a6389b7e186533ee32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb5824b1f578f81ad25efec2b2194dba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html#acb5824b1f578f81ad25efec2b2194dba">~Octree</a> ()</td></tr>
+<tr class="separator:acb5824b1f578f81ad25efec2b2194dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc1732387d15f7bd5be2dda9ab244266"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html#acc1732387d15f7bd5be2dda9ab244266">Octree</a> (const <a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html">Octree</a> &amp;)=default</td></tr>
+<tr class="separator:acc1732387d15f7bd5be2dda9ab244266"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8c1710b7460714e76b5d485efd064cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html#ab8c1710b7460714e76b5d485efd064cf">Octree</a> (<a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html">Octree</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ab8c1710b7460714e76b5d485efd064cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a041b6def8ad497f1c47ce3b2f50cf915"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html">Octree</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html#a041b6def8ad497f1c47ce3b2f50cf915">operator=</a> (const <a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html">Octree</a> &amp;)=default</td></tr>
+<tr class="separator:a041b6def8ad497f1c47ce3b2f50cf915"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0ffd618136a94058b7acf5de3783841"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html">Octree</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html#ae0ffd618136a94058b7acf5de3783841">operator=</a> (<a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html">Octree</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ae0ffd618136a94058b7acf5de3783841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ab7f9e10c9d9fd759cb3c0ea31a1891"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html#a9ab7f9e10c9d9fd759cb3c0ea31a1891">Initialize</a> (const unsigned _Level, const <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_a_a_b_b.html">Common::Diagram::AABB</a> &amp;_Volume)</td></tr>
+<tr class="memdesc:a9ab7f9e10c9d9fd759cb3c0ea31a1891"><td class="mdescLeft">&#160;</td><td class="mdescRight">八分木の構築を行う  <a href="#a9ab7f9e10c9d9fd759cb3c0ea31a1891">[詳解]</a><br /></td></tr>
+<tr class="separator:a9ab7f9e10c9d9fd759cb3c0ea31a1891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a672dca0219d64d134b95de5a6fa00894"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html#a672dca0219d64d134b95de5a6fa00894">Register</a> (<a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree_registrable_object.html">OctreeRegistrableObject</a> &amp;_Object)</td></tr>
+<tr class="memdesc:a672dca0219d64d134b95de5a6fa00894"><td class="mdescLeft">&#160;</td><td class="mdescRight">オブジェクトを登録する  <a href="#a672dca0219d64d134b95de5a6fa00894">[詳解]</a><br /></td></tr>
+<tr class="separator:a672dca0219d64d134b95de5a6fa00894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24d3734a5f22afb87cc5f1248a0be448"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html#a24d3734a5f22afb87cc5f1248a0be448">UnRegister</a> (<a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree_registrable_object.html">OctreeRegistrableObject</a> &amp;_Object)</td></tr>
+<tr class="memdesc:a24d3734a5f22afb87cc5f1248a0be448"><td class="mdescLeft">&#160;</td><td class="mdescRight">オブジェクトの登録を解除する  <a href="#a24d3734a5f22afb87cc5f1248a0be448">[詳解]</a><br /></td></tr>
+<tr class="separator:a24d3734a5f22afb87cc5f1248a0be448"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35ce2d1a74987b5246ff2b2d33aa48fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html#a35ce2d1a74987b5246ff2b2d33aa48fd">ReRegister</a> (<a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree_registrable_object.html">OctreeRegistrableObject</a> &amp;_Object)</td></tr>
+<tr class="memdesc:a35ce2d1a74987b5246ff2b2d33aa48fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">空間への再登録を行う  <a href="#a35ce2d1a74987b5246ff2b2d33aa48fd">[詳解]</a><br /></td></tr>
+<tr class="separator:a35ce2d1a74987b5246ff2b2d33aa48fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf66920269fff27129ef94e11dc188ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html#acf66920269fff27129ef94e11dc188ff">UpdataRelationsBetweenRegisteredObjects</a> ()</td></tr>
+<tr class="memdesc:acf66920269fff27129ef94e11dc188ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">登録されたオブジェクトの関係を更新する  <a href="#acf66920269fff27129ef94e11dc188ff">[詳解]</a><br /></td></tr>
+<tr class="separator:acf66920269fff27129ef94e11dc188ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62934d31e3afbab79057ebd60e267a9e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html#a62934d31e3afbab79057ebd60e267a9e">IsEffectiveAddress</a> (<a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree_registrable_object.html">OctreeRegistrableObject</a> *)</td></tr>
+<tr class="memdesc:a62934d31e3afbab79057ebd60e267a9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">仮想アドレスとnull以外に真を返す  <a href="#a62934d31e3afbab79057ebd60e267a9e">[詳解]</a><br /></td></tr>
+<tr class="separator:a62934d31e3afbab79057ebd60e267a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>八分木. 静的に用意する. 登録されたオブジェクトに対して衝突の可能性リストを更新する </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a449e33de51ecb5a6389b7e186533ee32"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Common::SpaceDivide::Octree::Octree </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acb5824b1f578f81ad25efec2b2194dba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Common::SpaceDivide::Octree::~Octree </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acc1732387d15f7bd5be2dda9ab244266"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Common::SpaceDivide::Octree::Octree </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html">Octree</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab8c1710b7460714e76b5d485efd064cf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Common::SpaceDivide::Octree::Octree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html">Octree</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a9ab7f9e10c9d9fd759cb3c0ea31a1891"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Common::SpaceDivide::Octree::Initialize </td>
+          <td>(</td>
+          <td class="paramtype">const unsigned&#160;</td>
+          <td class="paramname"><em>_Level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_a_a_b_b.html">Common::Diagram::AABB</a> &amp;&#160;</td>
+          <td class="paramname"><em>_Volume</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>八分木の構築を行う </p>
+<p>/// </p>
+
+</div>
+</div>
+<a class="anchor" id="a62934d31e3afbab79057ebd60e267a9e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Pyramid::Common::SpaceDivide::Octree::IsEffectiveAddress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree_registrable_object.html">OctreeRegistrableObject</a> *&#160;</td>
+          <td class="paramname"><em>_pObj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>仮想アドレスとnull以外に真を返す </p>
+
+</div>
+</div>
+<a class="anchor" id="a041b6def8ad497f1c47ce3b2f50cf915"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html">Octree</a>&amp; Pyramid::Common::SpaceDivide::Octree::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html">Octree</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae0ffd618136a94058b7acf5de3783841"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html">Octree</a>&amp; Pyramid::Common::SpaceDivide::Octree::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree.html">Octree</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a672dca0219d64d134b95de5a6fa00894"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Common::SpaceDivide::Octree::Register </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree_registrable_object.html">OctreeRegistrableObject</a> &amp;&#160;</td>
+          <td class="paramname"><em>_Object</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>オブジェクトを登録する </p>
+
+</div>
+</div>
+<a class="anchor" id="a35ce2d1a74987b5246ff2b2d33aa48fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Common::SpaceDivide::Octree::ReRegister </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree_registrable_object.html">OctreeRegistrableObject</a> &amp;&#160;</td>
+          <td class="paramname"><em>_Object</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>空間への再登録を行う </p>
+
+</div>
+</div>
+<a class="anchor" id="a24d3734a5f22afb87cc5f1248a0be448"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Common::SpaceDivide::Octree::UnRegister </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_common_1_1_space_divide_1_1_octree_registrable_object.html">OctreeRegistrableObject</a> &amp;&#160;</td>
+          <td class="paramname"><em>_Object</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>オブジェクトの登録を解除する </p>
+
+</div>
+</div>
+<a class="anchor" id="acf66920269fff27129ef94e11dc188ff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Common::SpaceDivide::Octree::UpdataRelationsBetweenRegisteredObjects </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>登録されたオブジェクトの関係を更新する </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Common/SpaceDivide/<a class="el" href="_octree_8h_source.html">Octree.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Common/SpaceDivide/<a class="el" href="_octree_8cpp.html">Octree.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

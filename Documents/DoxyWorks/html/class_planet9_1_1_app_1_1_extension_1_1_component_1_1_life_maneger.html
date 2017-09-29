@@ -1,0 +1,427 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Planet9::App::Extension::Component::LifeManeger クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_planet9.html">Planet9</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_app.html">App</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_app_1_1_extension.html">Extension</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_app_1_1_extension_1_1_component.html">Component</a></li><li class="navelem"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html">LifeManeger</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Planet9::App::Extension::Component::LifeManeger クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>プレイヤーのライフを管理する 最終的には内包したクラスにイベントをリレーしてダメージを反映させる  
+ <a href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_life_maneger_8h_source.html">LifeManeger.h</a>&gt;</code></p>
+<div class="dynheader">
+Planet9::App::Extension::Component::LifeManeger の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.png" usemap="#Planet9::App::Extension::Component::LifeManeger_map" alt=""/>
+  <map id="Planet9::App::Extension::Component::LifeManeger_map" name="Planet9::App::Extension::Component::LifeManeger_map">
+<area href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html" title="プレイヤーに追加されるコンポーネント InitでpOwnerからキャストしたpPlayerをキャッシュする ..." alt="Planet9::App::Extension::Component::PlayerModule" shape="rect" coords="0,56,297,80"/>
+<area href="class_planet9_1_1_collision_1_1_i_hit_event.html" title="衝突イベント " alt="Planet9::Collision::IHitEvent" shape="rect" coords="307,56,604,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a9b3523489243696924d65b903243e802"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html#a9b3523489243696924d65b903243e802">LifeManeger</a> ()</td></tr>
+<tr class="separator:a9b3523489243696924d65b903243e802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4dce1eb72b0aa56648d4291db6ee29e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html#aa4dce1eb72b0aa56648d4291db6ee29e">LifeManeger</a> (<a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_object_1_1_actor.html">Object::Actor</a> *)</td></tr>
+<tr class="separator:aa4dce1eb72b0aa56648d4291db6ee29e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a03a4543da4290c1acc79dec763c7f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html#a6a03a4543da4290c1acc79dec763c7f9">~LifeManeger</a> ()=default</td></tr>
+<tr class="separator:a6a03a4543da4290c1acc79dec763c7f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45dedf812c1746d05330e96d326a878f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html#a45dedf812c1746d05330e96d326a878f">LifeManeger</a> (const <a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html">LifeManeger</a> &amp;)=default</td></tr>
+<tr class="separator:a45dedf812c1746d05330e96d326a878f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9c2ff6b4c5425c086637a59737d845c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html#ac9c2ff6b4c5425c086637a59737d845c">LifeManeger</a> (<a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html">LifeManeger</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ac9c2ff6b4c5425c086637a59737d845c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14d455d071f84c06588693f155d6bcc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html">LifeManeger</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html#a14d455d071f84c06588693f155d6bcc4">operator=</a> (const <a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html">LifeManeger</a> &amp;)=default</td></tr>
+<tr class="separator:a14d455d071f84c06588693f155d6bcc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a717f9e96a132885321bb22d9e9cb684f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html">LifeManeger</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html#a717f9e96a132885321bb22d9e9cb684f">operator=</a> (<a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html">LifeManeger</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a717f9e96a132885321bb22d9e9cb684f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71167fd46755d4c5a39d10d10a219af2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html#a71167fd46755d4c5a39d10d10a219af2">OnCollisionEnter</a> (<a class="el" href="class_planet9_1_1_collision_1_1_hit_result.html">Collision::HitResult</a>) override</td></tr>
+<tr class="memdesc:a71167fd46755d4c5a39d10d10a219af2"><td class="mdescLeft">&#160;</td><td class="mdescRight">衝突した瞬間にmap登録して発行  <a href="#a71167fd46755d4c5a39d10d10a219af2">[詳解]</a><br /></td></tr>
+<tr class="separator:a71167fd46755d4c5a39d10d10a219af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e3434ee2d37b5996b9d6db5387ab5ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html#a7e3434ee2d37b5996b9d6db5387ab5ca">OnCollisionStay</a> (<a class="el" href="class_planet9_1_1_collision_1_1_hit_result.html">Collision::HitResult</a>) override</td></tr>
+<tr class="memdesc:a7e3434ee2d37b5996b9d6db5387ab5ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">登録された状態で衝突で発行  <a href="#a7e3434ee2d37b5996b9d6db5387ab5ca">[詳解]</a><br /></td></tr>
+<tr class="separator:a7e3434ee2d37b5996b9d6db5387ab5ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8c220e54b40e1e5d7ebc7499ee70b71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html#ad8c220e54b40e1e5d7ebc7499ee70b71">OnCollisionExit</a> (<a class="el" href="class_planet9_1_1_collision_1_1_hit_result.html">Collision::HitResult</a>) override</td></tr>
+<tr class="memdesc:ad8c220e54b40e1e5d7ebc7499ee70b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">登録された状態で衝突がなければ発行  <a href="#ad8c220e54b40e1e5d7ebc7499ee70b71">[詳解]</a><br /></td></tr>
+<tr class="separator:ad8c220e54b40e1e5d7ebc7499ee70b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">Planet9::App::Extension::Component::PlayerModule</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:abf554a858f1b058ad7accf73cc3ee731 inherit pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#abf554a858f1b058ad7accf73cc3ee731">PlayerModule</a> (<a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_object_1_1_actor.html">Object::Actor</a> *)</td></tr>
+<tr class="separator:abf554a858f1b058ad7accf73cc3ee731 inherit pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ac48a1f1d259209753a58321ec08505 inherit pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#a3ac48a1f1d259209753a58321ec08505">~PlayerModule</a> ()=default</td></tr>
+<tr class="separator:a3ac48a1f1d259209753a58321ec08505 inherit pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acefb8f9d0a89e0c8b2716cf239fa5c16 inherit pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#acefb8f9d0a89e0c8b2716cf239fa5c16">PlayerModule</a> (const <a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a> &amp;)=default</td></tr>
+<tr class="separator:acefb8f9d0a89e0c8b2716cf239fa5c16 inherit pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada82efd99f0822a56b2257fc0edb559b inherit pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#ada82efd99f0822a56b2257fc0edb559b">PlayerModule</a> (<a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ada82efd99f0822a56b2257fc0edb559b inherit pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56df6cdfa8c34f3a8ba546705a048a20 inherit pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#a56df6cdfa8c34f3a8ba546705a048a20">operator=</a> (const <a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a> &amp;)=default</td></tr>
+<tr class="separator:a56df6cdfa8c34f3a8ba546705a048a20 inherit pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbf9a006492ca3e77b26aa7bd3e99c9c inherit pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#afbf9a006492ca3e77b26aa7bd3e99c9c">operator=</a> (<a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:afbf9a006492ca3e77b26aa7bd3e99c9c inherit pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85cb9605ee7718a5f5b78e45473f4934 inherit pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#a85cb9605ee7718a5f5b78e45473f4934">Init</a> () override</td></tr>
+<tr class="separator:a85cb9605ee7718a5f5b78e45473f4934 inherit pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefb7ff011f04a2d325fa76049cc1ea97 inherit pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#aefb7ff011f04a2d325fa76049cc1ea97">PROPERTY</a> (<a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#af0c3cada336eeebe476cd68eba027986">m_pPlayer</a>, pPlayer, <a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_object_1_1_actor.html">Object::Actor</a> *)</td></tr>
+<tr class="separator:aefb7ff011f04a2d325fa76049cc1ea97 inherit pub_methods_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_planet9_1_1_collision_1_1_i_hit_event"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_planet9_1_1_collision_1_1_i_hit_event')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">Planet9::Collision::IHitEvent</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:aad449efdb46aecfcf059f326f74dcec8 inherit pub_methods_class_planet9_1_1_collision_1_1_i_hit_event"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#aad449efdb46aecfcf059f326f74dcec8">IHitEvent</a> ()=default</td></tr>
+<tr class="separator:aad449efdb46aecfcf059f326f74dcec8 inherit pub_methods_class_planet9_1_1_collision_1_1_i_hit_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d908660a821b5430bbc094a22a37f9a inherit pub_methods_class_planet9_1_1_collision_1_1_i_hit_event"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#a4d908660a821b5430bbc094a22a37f9a">~IHitEvent</a> ()=default</td></tr>
+<tr class="separator:a4d908660a821b5430bbc094a22a37f9a inherit pub_methods_class_planet9_1_1_collision_1_1_i_hit_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fa9d0dc2f574f6de22899b497934974 inherit pub_methods_class_planet9_1_1_collision_1_1_i_hit_event"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#a5fa9d0dc2f574f6de22899b497934974">IHitEvent</a> (const <a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;)=default</td></tr>
+<tr class="separator:a5fa9d0dc2f574f6de22899b497934974 inherit pub_methods_class_planet9_1_1_collision_1_1_i_hit_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac259493b8fbed750453432c2d0884f17 inherit pub_methods_class_planet9_1_1_collision_1_1_i_hit_event"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#ac259493b8fbed750453432c2d0884f17">IHitEvent</a> (<a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ac259493b8fbed750453432c2d0884f17 inherit pub_methods_class_planet9_1_1_collision_1_1_i_hit_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae286494185c3a87e78006a6261c44ea8 inherit pub_methods_class_planet9_1_1_collision_1_1_i_hit_event"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#ae286494185c3a87e78006a6261c44ea8">operator=</a> (const <a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;)=default</td></tr>
+<tr class="separator:ae286494185c3a87e78006a6261c44ea8 inherit pub_methods_class_planet9_1_1_collision_1_1_i_hit_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeec9decf6ecdcd17867bff95ec4aa91 inherit pub_methods_class_planet9_1_1_collision_1_1_i_hit_event"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#adeec9decf6ecdcd17867bff95ec4aa91">operator=</a> (<a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:adeec9decf6ecdcd17867bff95ec4aa91 inherit pub_methods_class_planet9_1_1_collision_1_1_i_hit_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+その他の継承メンバ</h2></td></tr>
+<tr class="inherit_header pro_attribs_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">Planet9::App::Extension::Component::PlayerModule</a> に属する継承限定公開変数類</td></tr>
+<tr class="memitem:af0c3cada336eeebe476cd68eba027986 inherit pro_attribs_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_object_1_1_actor.html">Object::Actor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#af0c3cada336eeebe476cd68eba027986">m_pPlayer</a></td></tr>
+<tr class="separator:af0c3cada336eeebe476cd68eba027986 inherit pro_attribs_class_planet9_1_1_app_1_1_extension_1_1_component_1_1_player_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>プレイヤーのライフを管理する 最終的には内包したクラスにイベントをリレーしてダメージを反映させる </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a9b3523489243696924d65b903243e802"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::App::Extension::Component::LifeManeger::LifeManeger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa4dce1eb72b0aa56648d4291db6ee29e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::App::Extension::Component::LifeManeger::LifeManeger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_object_1_1_actor.html">Object::Actor</a> *&#160;</td>
+          <td class="paramname"><em>_pActor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6a03a4543da4290c1acc79dec763c7f9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::App::Extension::Component::LifeManeger::~LifeManeger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a45dedf812c1746d05330e96d326a878f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::App::Extension::Component::LifeManeger::LifeManeger </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html">LifeManeger</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac9c2ff6b4c5425c086637a59737d845c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::App::Extension::Component::LifeManeger::LifeManeger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html">LifeManeger</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a71167fd46755d4c5a39d10d10a219af2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::App::Extension::Component::LifeManeger::OnCollisionEnter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_collision_1_1_hit_result.html">Collision::HitResult</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>衝突した瞬間にmap登録して発行 </p>
+
+<p><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#a30510843c4ec41b47eb3d63a600d4467">Planet9::Collision::IHitEvent</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="ad8c220e54b40e1e5d7ebc7499ee70b71"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::App::Extension::Component::LifeManeger::OnCollisionExit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_collision_1_1_hit_result.html">Collision::HitResult</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>登録された状態で衝突がなければ発行 </p>
+
+<p><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#a068db28c11eee9f322cc5a1335c1a882">Planet9::Collision::IHitEvent</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a7e3434ee2d37b5996b9d6db5387ab5ca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::App::Extension::Component::LifeManeger::OnCollisionStay </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_collision_1_1_hit_result.html">Collision::HitResult</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>登録された状態で衝突で発行 </p>
+
+<p><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#add2039d8b0a0d759c031cc66090a9181">Planet9::Collision::IHitEvent</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a14d455d071f84c06588693f155d6bcc4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html">LifeManeger</a>&amp; Planet9::App::Extension::Component::LifeManeger::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html">LifeManeger</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a717f9e96a132885321bb22d9e9cb684f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html">LifeManeger</a>&amp; Planet9::App::Extension::Component::LifeManeger::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html">LifeManeger</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/App/Extension/Component/<a class="el" href="_life_maneger_8h_source.html">LifeManeger.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/App/Extension/Component/<a class="el" href="_life_maneger_8cpp.html">LifeManeger.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

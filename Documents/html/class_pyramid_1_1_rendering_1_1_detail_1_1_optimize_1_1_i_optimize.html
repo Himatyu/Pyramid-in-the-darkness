@@ -1,0 +1,406 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::Rendering::Detail::Optimize::IOptimize クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_rendering.html">Rendering</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_rendering_1_1_detail.html">Detail</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_rendering_1_1_detail_1_1_optimize.html">Optimize</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pro-attribs">限定公開変数類</a> &#124;
+<a href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::Rendering::Detail::Optimize::IOptimize クラス<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>最適化インターフェース  
+ <a href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_i_optimize_8h_source.html">IOptimize.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::Rendering::Detail::Optimize::IOptimize の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.png" usemap="#Pyramid::Rendering::Detail::Optimize::IOptimize_map" alt=""/>
+  <map id="Pyramid::Rendering::Detail::Optimize::IOptimize_map" name="Pyramid::Rendering::Detail::Optimize::IOptimize_map">
+<area href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html" title="最適化後にレンダリングを行う " alt="Pyramid::Rendering::Detail::OptimizationRender" shape="rect" coords="498,56,820,80"/>
+<area href="class_pyramid_1_1_rendering_1_1_component_render_1_1_a_a_b_b_render.html" title="AABBをレンダリングする " alt="Pyramid::Rendering::ComponentRender::AABBRender" shape="rect" coords="0,112,322,136"/>
+<area href="class_pyramid_1_1_rendering_1_1_component_render_1_1_fbx_render.html" title="Fbxのレンダリングを行う. " alt="Pyramid::Rendering::ComponentRender::FbxRender" shape="rect" coords="332,112,654,136"/>
+<area href="class_pyramid_1_1_rendering_1_1_component_render_1_1_panel_render.html" title="パネルをレンダリングする " alt="Pyramid::Rendering::ComponentRender::PanelRender" shape="rect" coords="664,112,986,136"/>
+<area href="class_pyramid_1_1_rendering_1_1_component_render_1_1_particle_render.html" title="パーティクルのレンダリングを行う " alt="Pyramid::Rendering::ComponentRender::ParticleRender" shape="rect" coords="996,112,1318,136"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a9d050bb61a77311b4fd66c7422c7f9ae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a9d050bb61a77311b4fd66c7422c7f9ae">IOptimize</a> ()=default</td></tr>
+<tr class="separator:a9d050bb61a77311b4fd66c7422c7f9ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99002c78639b331b7eacbb3171fa3a1d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a99002c78639b331b7eacbb3171fa3a1d">~IOptimize</a> ()=default</td></tr>
+<tr class="separator:a99002c78639b331b7eacbb3171fa3a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af395d66a51b78d49c242e8b30cc876af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#af395d66a51b78d49c242e8b30cc876af">IOptimize</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;)=default</td></tr>
+<tr class="separator:af395d66a51b78d49c242e8b30cc876af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cf984313d1c2280fdc68037834fb288"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a4cf984313d1c2280fdc68037834fb288">IOptimize</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a4cf984313d1c2280fdc68037834fb288"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab235721095ee91fc124b70328a54f39d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#ab235721095ee91fc124b70328a54f39d">operator=</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;)=default</td></tr>
+<tr class="separator:ab235721095ee91fc124b70328a54f39d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d6c2213a0bb511484354ebfa39d5f75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a8d6c2213a0bb511484354ebfa39d5f75">operator=</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a8d6c2213a0bb511484354ebfa39d5f75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f0bc5071f9e4ac7bee3e84c5bb5b78c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a2f0bc5071f9e4ac7bee3e84c5bb5b78c">PrepareToOptimize</a> ()=0</td></tr>
+<tr class="separator:a2f0bc5071f9e4ac7bee3e84c5bb5b78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4653a1870ae0a8c29887884a8f3e3211"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a4653a1870ae0a8c29887884a8f3e3211">Optimize</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_context.html">Context</a> &amp;)=0</td></tr>
+<tr class="separator:a4653a1870ae0a8c29887884a8f3e3211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fdc96ff18a5259eece711621f15ec24"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a0fdc96ff18a5259eece711621f15ec24">PROPERTY</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a50fa1b61f7f2725b662e094171254bc3">m_RenderID</a>, RenderID, unsigned)</td></tr>
+<tr class="separator:a0fdc96ff18a5259eece711621f15ec24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+限定公開変数類</h2></td></tr>
+<tr class="memitem:a50fa1b61f7f2725b662e094171254bc3"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a50fa1b61f7f2725b662e094171254bc3">m_RenderID</a></td></tr>
+<tr class="separator:a50fa1b61f7f2725b662e094171254bc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>最適化インターフェース </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a9d050bb61a77311b4fd66c7422c7f9ae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Detail::Optimize::IOptimize::IOptimize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a99002c78639b331b7eacbb3171fa3a1d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Pyramid::Rendering::Detail::Optimize::IOptimize::~IOptimize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af395d66a51b78d49c242e8b30cc876af"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Detail::Optimize::IOptimize::IOptimize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4cf984313d1c2280fdc68037834fb288"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Detail::Optimize::IOptimize::IOptimize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="ab235721095ee91fc124b70328a54f39d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a>&amp; Pyramid::Rendering::Detail::Optimize::IOptimize::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8d6c2213a0bb511484354ebfa39d5f75"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a>&amp; Pyramid::Rendering::Detail::Optimize::IOptimize::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4653a1870ae0a8c29887884a8f3e3211"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Pyramid::Rendering::Detail::Optimize::IOptimize::Optimize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_context.html">Context</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_pyramid_1_1_rendering_1_1_component_render_1_1_fbx_render.html#a8d3ff85d8594dc5f7b80a77eb9fdfc30">Pyramid::Rendering::ComponentRender::FbxRender</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_component_render_1_1_particle_render.html#a68a6c8443aa74b74c588a593cdb8de55">Pyramid::Rendering::ComponentRender::ParticleRender</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_component_render_1_1_a_a_b_b_render.html#a49542f8f41b70b06204e3efa52cd915a">Pyramid::Rendering::ComponentRender::AABBRender</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_component_render_1_1_panel_render.html#a7081dee39c5a37590272fc5729aca865">Pyramid::Rendering::ComponentRender::PanelRender</a>で実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a2f0bc5071f9e4ac7bee3e84c5bb5b78c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Pyramid::Rendering::Detail::Optimize::IOptimize::PrepareToOptimize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_pyramid_1_1_rendering_1_1_component_render_1_1_fbx_render.html#a1280fa334ccdc8dfebaca4e623eec6ff">Pyramid::Rendering::ComponentRender::FbxRender</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_component_render_1_1_particle_render.html#aea2eb41c86c9e67aa1806c91c44af1c3">Pyramid::Rendering::ComponentRender::ParticleRender</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_component_render_1_1_a_a_b_b_render.html#ab78aa2aa15105fdb45f7af710caf0bb3">Pyramid::Rendering::ComponentRender::AABBRender</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_component_render_1_1_panel_render.html#a16e52667031847ef9fe80a5153b25803">Pyramid::Rendering::ComponentRender::PanelRender</a>で実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a0fdc96ff18a5259eece711621f15ec24"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Detail::Optimize::IOptimize::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a50fa1b61f7f2725b662e094171254bc3">m_RenderID</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RenderID&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a class="anchor" id="a50fa1b61f7f2725b662e094171254bc3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned Pyramid::Rendering::Detail::Optimize::IOptimize::m_RenderID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Detail/Optimize/<a class="el" href="_i_optimize_8h_source.html">IOptimize.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

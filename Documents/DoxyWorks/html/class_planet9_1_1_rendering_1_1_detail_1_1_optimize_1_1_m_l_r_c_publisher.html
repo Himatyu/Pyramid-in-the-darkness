@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Planet9::Rendering::Detail::Optimize::MLRCPublisher クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_planet9.html">Planet9</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_rendering.html">Rendering</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_rendering_1_1_detail.html">Detail</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_rendering_1_1_detail_1_1_optimize.html">Optimize</a></li><li class="navelem"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Planet9::Rendering::Detail::Optimize::MLRCPublisher クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>可視判定を行い、必要であればコマンドの発行を行う OptimizationRender対応なのはMTで最適化を行うのが前提だから  
+ <a href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_rendering_2_detail_2_optimize_2_m_l_r_c_publisher_8h_source.html">MLRCPublisher.h</a>&gt;</code></p>
+<div class="dynheader">
+Planet9::Rendering::Detail::Optimize::MLRCPublisher の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.png" usemap="#Planet9::Rendering::Detail::Optimize::MLRCPublisher_map" alt=""/>
+  <map id="Planet9::Rendering::Detail::Optimize::MLRCPublisher_map" name="Planet9::Rendering::Detail::Optimize::MLRCPublisher_map">
+<area href="class_planet9_1_1_components_1_1_detail_1_1_particle.html" title="最小パーティクル " alt="Planet9::Components::Detail::Particle" shape="rect" coords="0,112,304,136"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:aa14f3525f21a834ff79507350a699e4b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#aa14f3525f21a834ff79507350a699e4b">MLRCPublisher</a> (<a class="el" href="class_planet9_1_1_common_1_1_world_volume.html">Common::WorldVolume</a> &amp;, <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> *)</td></tr>
+<tr class="separator:aa14f3525f21a834ff79507350a699e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adae06b7b253ed31e89dcba4168ba5b0c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#adae06b7b253ed31e89dcba4168ba5b0c">~MLRCPublisher</a> ()=default</td></tr>
+<tr class="separator:adae06b7b253ed31e89dcba4168ba5b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08a189cfe5dd41c0228d2ab8b2a9dcf8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#a08a189cfe5dd41c0228d2ab8b2a9dcf8">MLRCPublisher</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;)</td></tr>
+<tr class="separator:a08a189cfe5dd41c0228d2ab8b2a9dcf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32cd4d85aec37a368712b02d5d640a59"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#a32cd4d85aec37a368712b02d5d640a59">MLRCPublisher</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a32cd4d85aec37a368712b02d5d640a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7964bd7b331e496a9d865a8512cd459"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#ad7964bd7b331e496a9d865a8512cd459">operator=</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;)</td></tr>
+<tr class="separator:ad7964bd7b331e496a9d865a8512cd459"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac47c6d90215b16c6048142cf13bf6491"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#ac47c6d90215b16c6048142cf13bf6491">operator=</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ac47c6d90215b16c6048142cf13bf6491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a028b9699dbca7cc99ae21c5a6a1ac172"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#a028b9699dbca7cc99ae21c5a6a1ac172">IsPublish</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_frustum.html">Frustum</a> &amp;)</td></tr>
+<tr class="memdesc:a028b9699dbca7cc99ae21c5a6a1ac172"><td class="mdescLeft">&#160;</td><td class="mdescRight">コマンド発行の有無を確認する  <a href="#a028b9699dbca7cc99ae21c5a6a1ac172">[詳解]</a><br /></td></tr>
+<tr class="separator:a028b9699dbca7cc99ae21c5a6a1ac172"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8d9db1fbbdefc1f457414765e2dd2b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#ac8d9db1fbbdefc1f457414765e2dd2b4">SetMLRCommand</a> (UINT)</td></tr>
+<tr class="memdesc:ac8d9db1fbbdefc1f457414765e2dd2b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">MLRCのコマンドを設定する  <a href="#ac8d9db1fbbdefc1f457414765e2dd2b4">[詳解]</a><br /></td></tr>
+<tr class="separator:ac8d9db1fbbdefc1f457414765e2dd2b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae502e8c5bfb89ab495efa6096a4be44f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c.html">MLRC</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#ae502e8c5bfb89ab495efa6096a4be44f">PublishMLRC</a> () override</td></tr>
+<tr class="separator:ae502e8c5bfb89ab495efa6096a4be44f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a9621a301f20b41349570d8d589e81c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#a9a9621a301f20b41349570d8d589e81c">PROPERTY_REF</a> (m_IsCommandPublish, IsCommandPublish, bool)</td></tr>
+<tr class="separator:a9a9621a301f20b41349570d8d589e81c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>可視判定を行い、必要であればコマンドの発行を行う OptimizationRender対応なのはMTで最適化を行うのが前提だから </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="aa14f3525f21a834ff79507350a699e4b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::Detail::Optimize::MLRCPublisher::MLRCPublisher </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_common_1_1_world_volume.html">Common::WorldVolume</a> &amp;&#160;</td>
+          <td class="paramname"><em>_vol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> *&#160;</td>
+          <td class="paramname"><em>_pRender</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adae06b7b253ed31e89dcba4168ba5b0c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Planet9::Rendering::Detail::Optimize::MLRCPublisher::~MLRCPublisher </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a08a189cfe5dd41c0228d2ab8b2a9dcf8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::Detail::Optimize::MLRCPublisher::MLRCPublisher </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;&#160;</td>
+          <td class="paramname"><em>_publisher</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a32cd4d85aec37a368712b02d5d640a59"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::Detail::Optimize::MLRCPublisher::MLRCPublisher </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a028b9699dbca7cc99ae21c5a6a1ac172"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Planet9::Rendering::Detail::Optimize::MLRCPublisher::IsPublish </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_frustum.html">Frustum</a> &amp;&#160;</td>
+          <td class="paramname"><em>_frustum</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>コマンド発行の有無を確認する </p>
+
+</div>
+</div>
+<a class="anchor" id="ad7964bd7b331e496a9d865a8512cd459"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a>&amp; Planet9::Rendering::Detail::Optimize::MLRCPublisher::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac47c6d90215b16c6048142cf13bf6491"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a>&amp; Planet9::Rendering::Detail::Optimize::MLRCPublisher::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9a9621a301f20b41349570d8d589e81c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::Detail::Optimize::MLRCPublisher::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_IsCommandPublish&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IsCommandPublish&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae502e8c5bfb89ab495efa6096a4be44f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c.html">MLRC</a> * Planet9::Rendering::Detail::Optimize::MLRCPublisher::PublishMLRC </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p></p>
+
+</div>
+</div>
+<a class="anchor" id="ac8d9db1fbbdefc1f457414765e2dd2b4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Rendering::Detail::Optimize::MLRCPublisher::SetMLRCommand </td>
+          <td>(</td>
+          <td class="paramtype">UINT&#160;</td>
+          <td class="paramname"><em>_priority</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>MLRCのコマンドを設定する </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Detail/Optimize/<a class="el" href="_rendering_2_detail_2_optimize_2_m_l_r_c_publisher_8h_source.html">MLRCPublisher.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Detail/Optimize/<a class="el" href="_rendering_2_detail_2_optimize_2_m_l_r_c_publisher_8cpp.html">MLRCPublisher.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

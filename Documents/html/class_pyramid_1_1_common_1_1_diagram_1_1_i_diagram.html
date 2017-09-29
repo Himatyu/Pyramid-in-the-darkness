@@ -1,0 +1,428 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::Common::Diagram::IDiagram クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_common.html">Common</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_common_1_1_diagram.html">Diagram</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::Common::Diagram::IDiagram クラス<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>図形共通処理  
+ <a href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_i_diagram_8h_source.html">IDiagram.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::Common::Diagram::IDiagram の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.png" usemap="#Pyramid::Common::Diagram::IDiagram_map" alt=""/>
+  <map id="Pyramid::Common::Diagram::IDiagram_map" name="Pyramid::Common::Diagram::IDiagram_map">
+<area href="class_pyramid_1_1_common_1_1_diagram_1_1_a_a_b_b.html" title="3DのAABB " alt="Pyramid::Common::Diagram::AABB" shape="rect" coords="0,112,221,136"/>
+<area href="class_pyramid_1_1_common_1_1_diagram_1_1_o_b_b.html" title="有効境界箱 " alt="Pyramid::Common::Diagram::OBB" shape="rect" coords="231,112,452,136"/>
+<area href="class_pyramid_1_1_common_1_1_diagram_1_1_plane.html" title="平面 " alt="Pyramid::Common::Diagram::Plane" shape="rect" coords="462,112,683,136"/>
+<area href="class_pyramid_1_1_common_1_1_diagram_1_1_sphere.html" title="衝突判定球 " alt="Pyramid::Common::Diagram::Sphere" shape="rect" coords="693,112,914,136"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a562d7e610ba706370f94a703070b57e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html#a562d7e610ba706370f94a703070b57e1">IDiagram</a> ()=default</td></tr>
+<tr class="separator:a562d7e610ba706370f94a703070b57e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8acf8399f8ad8a98ee6559ffeec283e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html#ab8acf8399f8ad8a98ee6559ffeec283e">~IDiagram</a> ()=default</td></tr>
+<tr class="separator:ab8acf8399f8ad8a98ee6559ffeec283e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3022aac94968aaa95f7df1b8b4fbe132"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html#a3022aac94968aaa95f7df1b8b4fbe132">IDiagram</a> (const <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &amp;)=default</td></tr>
+<tr class="separator:a3022aac94968aaa95f7df1b8b4fbe132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dfdc1f4b06433672c500eac3a05e11e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html#a7dfdc1f4b06433672c500eac3a05e11e">IDiagram</a> (<a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a7dfdc1f4b06433672c500eac3a05e11e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e95b61d17d647c7376a7c5a228ee4ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html#a5e95b61d17d647c7376a7c5a228ee4ac">operator=</a> (const <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &amp;)=default</td></tr>
+<tr class="separator:a5e95b61d17d647c7376a7c5a228ee4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48bf3299e86c47f8d96d41cb828a72ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html#a48bf3299e86c47f8d96d41cb828a72ea">operator=</a> (<a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a48bf3299e86c47f8d96d41cb828a72ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a380507bd3256229170f701e9739e15e5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html#a380507bd3256229170f701e9739e15e5">ReflectionOfTransfrom</a> (<a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_components_1_1_transform.html">Components::Transform</a> &gt; &amp;)=0</td></tr>
+<tr class="separator:a380507bd3256229170f701e9739e15e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3da167c7bbaba026e0738f8b8653759"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html#ad3da167c7bbaba026e0738f8b8653759">MoveTo</a> (const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;)</td></tr>
+<tr class="separator:ad3da167c7bbaba026e0738f8b8653759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73f611ffba240a2ed26800786664d3de"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html#a73f611ffba240a2ed26800786664d3de">ScaleTo</a> (const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;)</td></tr>
+<tr class="separator:a73f611ffba240a2ed26800786664d3de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98e1f41fc40549f1c2a8ec81abee0117"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html#a98e1f41fc40549f1c2a8ec81abee0117">RotateTo</a> (const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;)</td></tr>
+<tr class="separator:a98e1f41fc40549f1c2a8ec81abee0117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3848543f90348fbdfcf9d0b7a2a08b43"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html#a3848543f90348fbdfcf9d0b7a2a08b43">Initialize</a> ()=0</td></tr>
+<tr class="separator:a3848543f90348fbdfcf9d0b7a2a08b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>図形共通処理 </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a562d7e610ba706370f94a703070b57e1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Common::Diagram::IDiagram::IDiagram </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab8acf8399f8ad8a98ee6559ffeec283e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Pyramid::Common::Diagram::IDiagram::~IDiagram </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3022aac94968aaa95f7df1b8b4fbe132"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Common::Diagram::IDiagram::IDiagram </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7dfdc1f4b06433672c500eac3a05e11e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Common::Diagram::IDiagram::IDiagram </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a3848543f90348fbdfcf9d0b7a2a08b43"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Pyramid::Common::Diagram::IDiagram::Initialize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_plane.html#a58c20d3dbc7842cd0a32dc5c1f1e0e1d">Pyramid::Common::Diagram::Plane</a>, <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_o_b_b.html#a616446028678af86ac01006cf9b8cf6a">Pyramid::Common::Diagram::OBB</a>, <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_a_a_b_b.html#af3743d0c3e1c8156d132533bf2520d0d">Pyramid::Common::Diagram::AABB</a>, <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_sphere.html#aa92f5f9294162f8d379d8e87a6b57171">Pyramid::Common::Diagram::Sphere</a>で実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="ad3da167c7bbaba026e0738f8b8653759"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Pyramid::Common::Diagram::IDiagram::MoveTo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_plane.html#a4ea94c69c04c047b3f7b8e27a788a849">Pyramid::Common::Diagram::Plane</a>, <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_o_b_b.html#adf291a40bf41517c9c425d15046cfa18">Pyramid::Common::Diagram::OBB</a>, <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_a_a_b_b.html#aff4a3305c6e71aa6765925d437919829">Pyramid::Common::Diagram::AABB</a>, <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_sphere.html#ae10423d6eb5fd069b0b66407cc81ce44">Pyramid::Common::Diagram::Sphere</a>で再実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a5e95b61d17d647c7376a7c5a228ee4ac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a>&amp; Pyramid::Common::Diagram::IDiagram::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a48bf3299e86c47f8d96d41cb828a72ea"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a>&amp; Pyramid::Common::Diagram::IDiagram::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a380507bd3256229170f701e9739e15e5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Pyramid::Common::Diagram::IDiagram::ReflectionOfTransfrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_components_1_1_transform.html">Components::Transform</a> &gt; &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_plane.html#a374a21d83827d25230208005b4e308e3">Pyramid::Common::Diagram::Plane</a>, <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_o_b_b.html#a18d2ed09dc954053930a77a88fb08f75">Pyramid::Common::Diagram::OBB</a>, <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_a_a_b_b.html#a29efbfa4ad2029d57af301f93a7305a3">Pyramid::Common::Diagram::AABB</a>, <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_sphere.html#acef0a9d5e3592552a6b70a7342f0a054">Pyramid::Common::Diagram::Sphere</a>で実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a98e1f41fc40549f1c2a8ec81abee0117"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Pyramid::Common::Diagram::IDiagram::RotateTo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_o_b_b.html#a99805ba1cc894d62905e38085b6c57b9">Pyramid::Common::Diagram::OBB</a>で再実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a73f611ffba240a2ed26800786664d3de"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Pyramid::Common::Diagram::IDiagram::ScaleTo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_o_b_b.html#ad44e1640642ea7cbb7906a25b8063232">Pyramid::Common::Diagram::OBB</a>, <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_a_a_b_b.html#aefc06fc7c4bcfedef19983df86ad85e3">Pyramid::Common::Diagram::AABB</a>, <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_sphere.html#a2d90bf5e384e1cac947230377b88ee01">Pyramid::Common::Diagram::Sphere</a>で再実装されています。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Common/Diagram/<a class="el" href="_i_diagram_8h_source.html">IDiagram.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

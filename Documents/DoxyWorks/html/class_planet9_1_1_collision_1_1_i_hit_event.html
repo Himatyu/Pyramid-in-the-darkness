@@ -1,0 +1,380 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Planet9::Collision::IHitEvent クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_planet9.html">Planet9</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_collision.html">Collision</a></li><li class="navelem"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_planet9_1_1_collision_1_1_i_hit_event-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Planet9::Collision::IHitEvent クラス<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>衝突イベント  
+ <a href="class_planet9_1_1_collision_1_1_i_hit_event.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_i_hit_event_8h_source.html">IHitEvent.h</a>&gt;</code></p>
+<div class="dynheader">
+Planet9::Collision::IHitEvent の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_planet9_1_1_collision_1_1_i_hit_event.png" usemap="#Planet9::Collision::IHitEvent_map" alt=""/>
+  <map id="Planet9::Collision::IHitEvent_map" name="Planet9::Collision::IHitEvent_map">
+<area href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html" title="プレイヤーのライフを管理する 最終的には内包したクラスにイベントをリレーしてダメージを反映させる ..." alt="Planet9::App::Extension::Component::LifeManeger" shape="rect" coords="0,56,290,80"/>
+<area href="class_planet9_1_1_collision_1_1_detail_1_1_i_collidee.html" title="抽象衝突対象クラス イベントの発生に必要なパラメータを持つ " alt="Planet9::Collision::Detail::ICollidee" shape="rect" coords="300,56,590,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:aad449efdb46aecfcf059f326f74dcec8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#aad449efdb46aecfcf059f326f74dcec8">IHitEvent</a> ()=default</td></tr>
+<tr class="separator:aad449efdb46aecfcf059f326f74dcec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d908660a821b5430bbc094a22a37f9a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#a4d908660a821b5430bbc094a22a37f9a">~IHitEvent</a> ()=default</td></tr>
+<tr class="separator:a4d908660a821b5430bbc094a22a37f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fa9d0dc2f574f6de22899b497934974"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#a5fa9d0dc2f574f6de22899b497934974">IHitEvent</a> (const <a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;)=default</td></tr>
+<tr class="separator:a5fa9d0dc2f574f6de22899b497934974"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac259493b8fbed750453432c2d0884f17"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#ac259493b8fbed750453432c2d0884f17">IHitEvent</a> (<a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ac259493b8fbed750453432c2d0884f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae286494185c3a87e78006a6261c44ea8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#ae286494185c3a87e78006a6261c44ea8">operator=</a> (const <a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;)=default</td></tr>
+<tr class="separator:ae286494185c3a87e78006a6261c44ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeec9decf6ecdcd17867bff95ec4aa91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#adeec9decf6ecdcd17867bff95ec4aa91">operator=</a> (<a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:adeec9decf6ecdcd17867bff95ec4aa91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30510843c4ec41b47eb3d63a600d4467"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#a30510843c4ec41b47eb3d63a600d4467">OnCollisionEnter</a> (<a class="el" href="class_planet9_1_1_collision_1_1_hit_result.html">HitResult</a>)=0</td></tr>
+<tr class="memdesc:a30510843c4ec41b47eb3d63a600d4467"><td class="mdescLeft">&#160;</td><td class="mdescRight">衝突した瞬間にmap登録して発行  <a href="#a30510843c4ec41b47eb3d63a600d4467">[詳解]</a><br /></td></tr>
+<tr class="separator:a30510843c4ec41b47eb3d63a600d4467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add2039d8b0a0d759c031cc66090a9181"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#add2039d8b0a0d759c031cc66090a9181">OnCollisionStay</a> (<a class="el" href="class_planet9_1_1_collision_1_1_hit_result.html">HitResult</a>)=0</td></tr>
+<tr class="memdesc:add2039d8b0a0d759c031cc66090a9181"><td class="mdescLeft">&#160;</td><td class="mdescRight">登録された状態で衝突で発行  <a href="#add2039d8b0a0d759c031cc66090a9181">[詳解]</a><br /></td></tr>
+<tr class="separator:add2039d8b0a0d759c031cc66090a9181"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a068db28c11eee9f322cc5a1335c1a882"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html#a068db28c11eee9f322cc5a1335c1a882">OnCollisionExit</a> (<a class="el" href="class_planet9_1_1_collision_1_1_hit_result.html">HitResult</a>)=0</td></tr>
+<tr class="memdesc:a068db28c11eee9f322cc5a1335c1a882"><td class="mdescLeft">&#160;</td><td class="mdescRight">登録された状態で衝突がなければ発行  <a href="#a068db28c11eee9f322cc5a1335c1a882">[詳解]</a><br /></td></tr>
+<tr class="separator:a068db28c11eee9f322cc5a1335c1a882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>衝突イベント </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="aad449efdb46aecfcf059f326f74dcec8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Collision::IHitEvent::IHitEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4d908660a821b5430bbc094a22a37f9a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Collision::IHitEvent::~IHitEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5fa9d0dc2f574f6de22899b497934974"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Collision::IHitEvent::IHitEvent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac259493b8fbed750453432c2d0884f17"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Collision::IHitEvent::IHitEvent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a30510843c4ec41b47eb3d63a600d4467"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Planet9::Collision::IHitEvent::OnCollisionEnter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_collision_1_1_hit_result.html">HitResult</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>衝突した瞬間にmap登録して発行 </p>
+
+<p><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html#a71167fd46755d4c5a39d10d10a219af2">Planet9::App::Extension::Component::LifeManeger</a>で実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a068db28c11eee9f322cc5a1335c1a882"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Planet9::Collision::IHitEvent::OnCollisionExit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_collision_1_1_hit_result.html">HitResult</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>登録された状態で衝突がなければ発行 </p>
+
+<p><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html#ad8c220e54b40e1e5d7ebc7499ee70b71">Planet9::App::Extension::Component::LifeManeger</a>で実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="add2039d8b0a0d759c031cc66090a9181"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Planet9::Collision::IHitEvent::OnCollisionStay </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_collision_1_1_hit_result.html">HitResult</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>登録された状態で衝突で発行 </p>
+
+<p><a class="el" href="class_planet9_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html#a7e3434ee2d37b5996b9d6db5387ab5ca">Planet9::App::Extension::Component::LifeManeger</a>で実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="ae286494185c3a87e78006a6261c44ea8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a>&amp; Planet9::Collision::IHitEvent::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adeec9decf6ecdcd17867bff95ec4aa91"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a>&amp; Planet9::Collision::IHitEvent::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Collision/<a class="el" href="_i_hit_event_8h_source.html">IHitEvent.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

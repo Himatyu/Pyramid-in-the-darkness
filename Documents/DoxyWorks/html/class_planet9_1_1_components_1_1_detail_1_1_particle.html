@@ -1,0 +1,682 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Planet9::Components::Detail::Particle クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_planet9.html">Planet9</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_components.html">Components</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_components_1_1_detail.html">Detail</a></li><li class="navelem"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html">Particle</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#friends">フレンド</a> &#124;
+<a href="class_planet9_1_1_components_1_1_detail_1_1_particle-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Planet9::Components::Detail::Particle クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>最小パーティクル  
+ <a href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_components_2_detail_2_particle_8h_source.html">Particle.h</a>&gt;</code></p>
+<div class="dynheader">
+Planet9::Components::Detail::Particle の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_planet9_1_1_components_1_1_detail_1_1_particle.png" usemap="#Planet9::Components::Detail::Particle_map" alt=""/>
+  <map id="Planet9::Components::Detail::Particle_map" name="Planet9::Components::Detail::Particle_map">
+<area href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html" title="可視判定を行い、必要であればコマンドの発行を行う OptimizationRender対応なのはMTで最適化を行うのが前提..." alt="Planet9::Rendering::Detail::Optimize::MLRCPublisher" shape="rect" coords="314,56,618,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a2bcff92981b977f741b9b0dc7c93e090"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#a2bcff92981b977f741b9b0dc7c93e090">Particle</a> (<a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle_system_module.html">ParticleSystemModule</a> *)</td></tr>
+<tr class="separator:a2bcff92981b977f741b9b0dc7c93e090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae79c68da7e331cf5687229f88b3246fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#ae79c68da7e331cf5687229f88b3246fd">~Particle</a> ()</td></tr>
+<tr class="separator:ae79c68da7e331cf5687229f88b3246fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace5fa0b524c5909c34a0a428a43cb79e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#ace5fa0b524c5909c34a0a428a43cb79e">Particle</a> (const <a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;)=default</td></tr>
+<tr class="separator:ace5fa0b524c5909c34a0a428a43cb79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abda1023e8920e1b322d5ec7f5cd0ecd8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#abda1023e8920e1b322d5ec7f5cd0ecd8">Particle</a> (<a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:abda1023e8920e1b322d5ec7f5cd0ecd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf0a52e27307eb6953cd84aade9d9579"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#abf0a52e27307eb6953cd84aade9d9579">operator=</a> (const <a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;)=default</td></tr>
+<tr class="separator:abf0a52e27307eb6953cd84aade9d9579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a681c364391ab8151af64b7a59c756c76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#a681c364391ab8151af64b7a59c756c76">operator=</a> (<a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a681c364391ab8151af64b7a59c756c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa6d7ca9a2a809decbb8ba5df2b5f662"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#afa6d7ca9a2a809decbb8ba5df2b5f662">Init</a> ()</td></tr>
+<tr class="memdesc:afa6d7ca9a2a809decbb8ba5df2b5f662"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化. Emitterからの呼び出しを想定  <a href="#afa6d7ca9a2a809decbb8ba5df2b5f662">[詳解]</a><br /></td></tr>
+<tr class="separator:afa6d7ca9a2a809decbb8ba5df2b5f662"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9e767b4927947e524c371940eddc83a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#ac9e767b4927947e524c371940eddc83a">PROPERTY_REF</a> (m_Color, <a class="el" href="class_planet9_1_1_rendering_1_1_color.html">Color</a>, <a class="el" href="class_planet9_1_1_rendering_1_1_color.html">Rendering::Color</a>)</td></tr>
+<tr class="separator:ac9e767b4927947e524c371940eddc83a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58322df07ed5ad112507bcb75198d5fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#a58322df07ed5ad112507bcb75198d5fc">PROPERTY_REF</a> (m_Position, Position, <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>)</td></tr>
+<tr class="separator:a58322df07ed5ad112507bcb75198d5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d1958955886e31eb9fbee2cb32beb2f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#a1d1958955886e31eb9fbee2cb32beb2f">PROPERTY_REF</a> (m_Accel, Accel, <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>)</td></tr>
+<tr class="separator:a1d1958955886e31eb9fbee2cb32beb2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cc669e1bcb4c633b4a6360702b0b77a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#a3cc669e1bcb4c633b4a6360702b0b77a">PROPERTY_REF</a> (m_Speed, Speed, float)</td></tr>
+<tr class="separator:a3cc669e1bcb4c633b4a6360702b0b77a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49634a2da445b6ded8e73818d77fc6cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#a49634a2da445b6ded8e73818d77fc6cb">PROPERTY_REF</a> (m_Size, Size, float)</td></tr>
+<tr class="separator:a49634a2da445b6ded8e73818d77fc6cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac34b11eac79ec675745fe46269ca5e37"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#ac34b11eac79ec675745fe46269ca5e37">PROPERTY_REF</a> (m_Rotation, Rotation, float)</td></tr>
+<tr class="separator:ac34b11eac79ec675745fe46269ca5e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6d2080c7b19a7e53e107dd1a2ee8ca6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#af6d2080c7b19a7e53e107dd1a2ee8ca6">PROPERTY_REF</a> (m_Lifetime, Lifetime, float)</td></tr>
+<tr class="separator:af6d2080c7b19a7e53e107dd1a2ee8ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0320039c86c17824284540a6aec50368"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#a0320039c86c17824284540a6aec50368">PROPERTY_REF</a> (m_IsBillboard, IsBillboard, bool)</td></tr>
+<tr class="separator:a0320039c86c17824284540a6aec50368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d01df2a01610a76fc86a4ce8bf0e412"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#a4d01df2a01610a76fc86a4ce8bf0e412">PROPERTY_REF_R_ONLY</a> (m_TimeProgress, TimeProgress, float)</td></tr>
+<tr class="separator:a4d01df2a01610a76fc86a4ce8bf0e412"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfae9a68f6647423cecd96801881261b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#abfae9a68f6647423cecd96801881261b">PROPERTY_REF</a> (m_IsEmmit, IsEmmit, bool)</td></tr>
+<tr class="separator:abfae9a68f6647423cecd96801881261b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">Planet9::Rendering::Detail::Optimize::MLRCPublisher</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:aa14f3525f21a834ff79507350a699e4b inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#aa14f3525f21a834ff79507350a699e4b">MLRCPublisher</a> (<a class="el" href="class_planet9_1_1_common_1_1_world_volume.html">Common::WorldVolume</a> &amp;, <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> *)</td></tr>
+<tr class="separator:aa14f3525f21a834ff79507350a699e4b inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adae06b7b253ed31e89dcba4168ba5b0c inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#adae06b7b253ed31e89dcba4168ba5b0c">~MLRCPublisher</a> ()=default</td></tr>
+<tr class="separator:adae06b7b253ed31e89dcba4168ba5b0c inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08a189cfe5dd41c0228d2ab8b2a9dcf8 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#a08a189cfe5dd41c0228d2ab8b2a9dcf8">MLRCPublisher</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;)</td></tr>
+<tr class="separator:a08a189cfe5dd41c0228d2ab8b2a9dcf8 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32cd4d85aec37a368712b02d5d640a59 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#a32cd4d85aec37a368712b02d5d640a59">MLRCPublisher</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a32cd4d85aec37a368712b02d5d640a59 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7964bd7b331e496a9d865a8512cd459 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#ad7964bd7b331e496a9d865a8512cd459">operator=</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;)</td></tr>
+<tr class="separator:ad7964bd7b331e496a9d865a8512cd459 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac47c6d90215b16c6048142cf13bf6491 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#ac47c6d90215b16c6048142cf13bf6491">operator=</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ac47c6d90215b16c6048142cf13bf6491 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a028b9699dbca7cc99ae21c5a6a1ac172 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#a028b9699dbca7cc99ae21c5a6a1ac172">IsPublish</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_frustum.html">Frustum</a> &amp;)</td></tr>
+<tr class="memdesc:a028b9699dbca7cc99ae21c5a6a1ac172 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="mdescLeft">&#160;</td><td class="mdescRight">コマンド発行の有無を確認する  <a href="#a028b9699dbca7cc99ae21c5a6a1ac172">[詳解]</a><br /></td></tr>
+<tr class="separator:a028b9699dbca7cc99ae21c5a6a1ac172 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8d9db1fbbdefc1f457414765e2dd2b4 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#ac8d9db1fbbdefc1f457414765e2dd2b4">SetMLRCommand</a> (UINT)</td></tr>
+<tr class="memdesc:ac8d9db1fbbdefc1f457414765e2dd2b4 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="mdescLeft">&#160;</td><td class="mdescRight">MLRCのコマンドを設定する  <a href="#ac8d9db1fbbdefc1f457414765e2dd2b4">[詳解]</a><br /></td></tr>
+<tr class="separator:ac8d9db1fbbdefc1f457414765e2dd2b4 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae502e8c5bfb89ab495efa6096a4be44f inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c.html">MLRC</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#ae502e8c5bfb89ab495efa6096a4be44f">PublishMLRC</a> () override</td></tr>
+<tr class="separator:ae502e8c5bfb89ab495efa6096a4be44f inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a9621a301f20b41349570d8d589e81c inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#a9a9621a301f20b41349570d8d589e81c">PROPERTY_REF</a> (m_IsCommandPublish, IsCommandPublish, bool)</td></tr>
+<tr class="separator:a9a9621a301f20b41349570d8d589e81c inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+フレンド</h2></td></tr>
+<tr class="memitem:aeffe3d71be2604e79a441beccf97c016"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html#aeffe3d71be2604e79a441beccf97c016">Rendering::ComponentRender::ParticleRender</a></td></tr>
+<tr class="separator:aeffe3d71be2604e79a441beccf97c016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>最小パーティクル </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a2bcff92981b977f741b9b0dc7c93e090"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Detail::Particle::Particle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle_system_module.html">ParticleSystemModule</a> *&#160;</td>
+          <td class="paramname"><em>_pModule</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae79c68da7e331cf5687229f88b3246fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Detail::Particle::~Particle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ace5fa0b524c5909c34a0a428a43cb79e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Detail::Particle::Particle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abda1023e8920e1b322d5ec7f5cd0ecd8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Detail::Particle::Particle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="afa6d7ca9a2a809decbb8ba5df2b5f662"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Components::Detail::Particle::Init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初期化. Emitterからの呼び出しを想定 </p>
+
+</div>
+</div>
+<a class="anchor" id="abf0a52e27307eb6953cd84aade9d9579"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html">Particle</a>&amp; Planet9::Components::Detail::Particle::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a681c364391ab8151af64b7a59c756c76"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html">Particle</a>&amp; Planet9::Components::Detail::Particle::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac9e767b4927947e524c371940eddc83a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Color&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_rendering_1_1_color.html">Color</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_rendering_1_1_color.html">Rendering::Color</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a58322df07ed5ad112507bcb75198d5fc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Position&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Position&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1d1958955886e31eb9fbee2cb32beb2f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Accel&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Accel&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3cc669e1bcb4c633b4a6360702b0b77a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Speed&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Speed&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a49634a2da445b6ded8e73818d77fc6cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Size&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Size&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac34b11eac79ec675745fe46269ca5e37"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Rotation&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rotation&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af6d2080c7b19a7e53e107dd1a2ee8ca6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Lifetime&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Lifetime&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0320039c86c17824284540a6aec50368"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_IsBillboard&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IsBillboard&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abfae9a68f6647423cecd96801881261b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_IsEmmit&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IsEmmit&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4d01df2a01610a76fc86a4ce8bf0e412"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Detail::Particle::PROPERTY_REF_R_ONLY </td>
+          <td>(</td>
+          <td class="paramtype">m_TimeProgress&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TimeProgress&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">フレンドと関連関数の詳解</h2>
+<a class="anchor" id="aeffe3d71be2604e79a441beccf97c016"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_particle_render.html">Rendering::ComponentRender::ParticleRender</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Components/Detail/<a class="el" href="_components_2_detail_2_particle_8h_source.html">Particle.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Components/Detail/<a class="el" href="_components_2_detail_2_particle_8cpp.html">Particle.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

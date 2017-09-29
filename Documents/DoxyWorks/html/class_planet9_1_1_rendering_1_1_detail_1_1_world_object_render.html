@@ -1,0 +1,399 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Planet9::Rendering::Detail::WorldObjectRender クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_planet9.html">Planet9</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_rendering.html">Rendering</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_rendering_1_1_detail.html">Detail</a></li><li class="navelem"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pro-attribs">限定公開変数類</a> &#124;
+<a href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Planet9::Rendering::Detail::WorldObjectRender クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>ワールド空間のオブジェクトをレンダリングする  
+ <a href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_world_object_render_8h_source.html">WorldObjectRender.h</a>&gt;</code></p>
+<div class="dynheader">
+Planet9::Rendering::Detail::WorldObjectRender の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.png" usemap="#Planet9::Rendering::Detail::WorldObjectRender_map" alt=""/>
+  <map id="Planet9::Rendering::Detail::WorldObjectRender_map" name="Planet9::Rendering::Detail::WorldObjectRender_map">
+<area href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html" title="レンダリングを行う " alt="Planet9::Rendering::Detail::Render" shape="rect" coords="492,56,810,80"/>
+<area href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html" title="最適化後にレンダリングを行う " alt="Planet9::Rendering::Detail::OptimizationRender" shape="rect" coords="492,168,810,192"/>
+<area href="class_planet9_1_1_rendering_1_1_component_render_1_1_a_a_b_b_render.html" title="AABBをレンダリングする " alt="Planet9::Rendering::ComponentRender::AABBRender" shape="rect" coords="0,224,318,248"/>
+<area href="class_planet9_1_1_rendering_1_1_component_render_1_1_fbx_render.html" title="Fbxのレンダリングを行う. " alt="Planet9::Rendering::ComponentRender::FbxRender" shape="rect" coords="328,224,646,248"/>
+<area href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html" title="パネルをレンダリングする " alt="Planet9::Rendering::ComponentRender::PanelRender" shape="rect" coords="656,224,974,248"/>
+<area href="class_planet9_1_1_rendering_1_1_component_render_1_1_particle_render.html" title="パーティクルのレンダリングを行う " alt="Planet9::Rendering::ComponentRender::ParticleRender" shape="rect" coords="984,224,1302,248"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a3c040d7ab56aba9a3d278a0f0f3fbfb2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a3c040d7ab56aba9a3d278a0f0f3fbfb2">WorldObjectRender</a> (HLRCommand::HLRCommandPipeline &amp;)</td></tr>
+<tr class="separator:a3c040d7ab56aba9a3d278a0f0f3fbfb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ad57422e2a4ca9043f4dbd67cf97e3b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a6ad57422e2a4ca9043f4dbd67cf97e3b">~WorldObjectRender</a> ()=default</td></tr>
+<tr class="separator:a6ad57422e2a4ca9043f4dbd67cf97e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25b2cdcdecc4fa1c70cebeef20c634f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a25b2cdcdecc4fa1c70cebeef20c634f8">WorldObjectRender</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;)=default</td></tr>
+<tr class="separator:a25b2cdcdecc4fa1c70cebeef20c634f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a779ddf42fffc107a7244c043a6cff0c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a779ddf42fffc107a7244c043a6cff0c7">WorldObjectRender</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a779ddf42fffc107a7244c043a6cff0c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82ce9e7d4118dddc48e0077baada31e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a82ce9e7d4118dddc48e0077baada31e9">operator=</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;)=default</td></tr>
+<tr class="separator:a82ce9e7d4118dddc48e0077baada31e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae35b98c3bcff35c90e7c833445e03827"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#ae35b98c3bcff35c90e7c833445e03827">operator=</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ae35b98c3bcff35c90e7c833445e03827"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8506a43b4c99bb5fa07ab45d0ad9f34e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a8506a43b4c99bb5fa07ab45d0ad9f34e">Init</a> (<a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">Common::Diagram::AABB</a> &amp;, <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> *)</td></tr>
+<tr class="memdesc:a8506a43b4c99bb5fa07ab45d0ad9f34e"><td class="mdescLeft">&#160;</td><td class="mdescRight">WorldVolumeを初期化する 初期化を継承先のInitで行うよう推奨 継承先のInitがない際Initを生成しないように公開関数  <a href="#a8506a43b4c99bb5fa07ab45d0ad9f34e">[詳解]</a><br /></td></tr>
+<tr class="separator:a8506a43b4c99bb5fa07ab45d0ad9f34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a824348677e94da27ed3ab1391ff0fe5c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a824348677e94da27ed3ab1391ff0fe5c">PROPERTY_REF</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a79f40dd3fa81c6812c985616435fe7ef">m_RenderVolume</a>, RenderVolume, <a class="el" href="class_planet9_1_1_common_1_1_world_volume.html">Common::WorldVolume</a>)</td></tr>
+<tr class="separator:a824348677e94da27ed3ab1391ff0fe5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html">Planet9::Rendering::Detail::Render</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:aba21948a6fcfa5e84cc956738f767d73 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#aba21948a6fcfa5e84cc956738f767d73">Render</a> (HLRCommand::HLRCommandPipeline &amp;)</td></tr>
+<tr class="separator:aba21948a6fcfa5e84cc956738f767d73 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd6f73ac28db4a7fccc859a91c253f7d inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#acd6f73ac28db4a7fccc859a91c253f7d">~Render</a> ()=default</td></tr>
+<tr class="separator:acd6f73ac28db4a7fccc859a91c253f7d inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad51e4254ce1012800276febee594f024 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#ad51e4254ce1012800276febee594f024">Render</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;)=default</td></tr>
+<tr class="separator:ad51e4254ce1012800276febee594f024 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e81ba7bfc284ff5d49802869c88b245 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#a4e81ba7bfc284ff5d49802869c88b245">Render</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a4e81ba7bfc284ff5d49802869c88b245 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd418305d1d40b58ab4dc368145a8849 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#abd418305d1d40b58ab4dc368145a8849">operator=</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;)=default</td></tr>
+<tr class="separator:abd418305d1d40b58ab4dc368145a8849 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34743c7c839e03b1cb3536cf5f98083e inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#a34743c7c839e03b1cb3536cf5f98083e">operator=</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a34743c7c839e03b1cb3536cf5f98083e inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a570a970eaf27cd763f57998891981d2a inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#a570a970eaf27cd763f57998891981d2a">PrepareToRendering</a> () override</td></tr>
+<tr class="memdesc:a570a970eaf27cd763f57998891981d2a inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renderingの直前に呼ばれる リソースが一つで部分的な変更を行うなどを想定  <a href="#a570a970eaf27cd763f57998891981d2a">[詳解]</a><br /></td></tr>
+<tr class="separator:a570a970eaf27cd763f57998891981d2a inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00aa2fed6c3187f1d9d2fe9adf85882a inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#a00aa2fed6c3187f1d9d2fe9adf85882a">Rendering</a> () override</td></tr>
+<tr class="memdesc:a00aa2fed6c3187f1d9d2fe9adf85882a inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preparationの直後に呼ばれレンダリングを行う  <a href="#a00aa2fed6c3187f1d9d2fe9adf85882a">[詳解]</a><br /></td></tr>
+<tr class="separator:a00aa2fed6c3187f1d9d2fe9adf85882a inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+限定公開変数類</h2></td></tr>
+<tr class="memitem:a79f40dd3fa81c6812c985616435fe7ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_common_1_1_world_volume.html">Common::WorldVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a79f40dd3fa81c6812c985616435fe7ef">m_RenderVolume</a></td></tr>
+<tr class="separator:a79f40dd3fa81c6812c985616435fe7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_planet9_1_1_rendering_1_1_detail_1_1_render')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html">Planet9::Rendering::Detail::Render</a> に属する継承限定公開変数類</td></tr>
+<tr class="memitem:a743f9e31023184550d73359f786a3deb inherit pro_attribs_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">HLRCommand::HLRCommandPipeline &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#a743f9e31023184550d73359f786a3deb">m_Pipeline</a></td></tr>
+<tr class="separator:a743f9e31023184550d73359f786a3deb inherit pro_attribs_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>ワールド空間のオブジェクトをレンダリングする </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a3c040d7ab56aba9a3d278a0f0f3fbfb2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::Detail::WorldObjectRender::WorldObjectRender </td>
+          <td>(</td>
+          <td class="paramtype">HLRCommand::HLRCommandPipeline &amp;&#160;</td>
+          <td class="paramname"><em>_line</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6ad57422e2a4ca9043f4dbd67cf97e3b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::Detail::WorldObjectRender::~WorldObjectRender </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a25b2cdcdecc4fa1c70cebeef20c634f8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::Detail::WorldObjectRender::WorldObjectRender </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a779ddf42fffc107a7244c043a6cff0c7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::Detail::WorldObjectRender::WorldObjectRender </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a8506a43b4c99bb5fa07ab45d0ad9f34e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Rendering::Detail::WorldObjectRender::Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">Common::Diagram::AABB</a> &amp;&#160;</td>
+          <td class="paramname"><em>_aabb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> *&#160;</td>
+          <td class="paramname"><em>_pPos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>WorldVolumeを初期化する 初期化を継承先のInitで行うよう推奨 継承先のInitがない際Initを生成しないように公開関数 </p>
+
+</div>
+</div>
+<a class="anchor" id="a82ce9e7d4118dddc48e0077baada31e9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a>&amp; Planet9::Rendering::Detail::WorldObjectRender::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae35b98c3bcff35c90e7c833445e03827"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a>&amp; Planet9::Rendering::Detail::WorldObjectRender::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a824348677e94da27ed3ab1391ff0fe5c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::Detail::WorldObjectRender::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a79f40dd3fa81c6812c985616435fe7ef">m_RenderVolume</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RenderVolume&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_common_1_1_world_volume.html">Common::WorldVolume</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a class="anchor" id="a79f40dd3fa81c6812c985616435fe7ef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_common_1_1_world_volume.html">Common::WorldVolume</a> Planet9::Rendering::Detail::WorldObjectRender::m_RenderVolume</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Detail/<a class="el" href="_world_object_render_8h_source.html">WorldObjectRender.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Detail/<a class="el" href="_world_object_render_8cpp.html">WorldObjectRender.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/App/Extension/Component/BackJetEffector.cpp ファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li><a href="annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="dir_ff63a2891cf0d86b615320d999c7b9f1.html">Pyramid</a></li><li class="navelem"><a class="el" href="dir_d55dc0abb41ffb4adb20ab3e9b9e65ad.html">App</a></li><li class="navelem"><a class="el" href="dir_81323b8d0e1f50aa7c52505fa3aee359.html">Extension</a></li><li class="navelem"><a class="el" href="dir_e1b0ed50a94327be0ca444f1dcd55431.html">Component</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#namespaces">名前空間</a> &#124;
+<a href="#enum-members">列挙型</a> &#124;
+<a href="#func-members">関数</a>  </div>
+  <div class="headertitle">
+<div class="title">BackJetEffector.cpp ファイル</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>後方ジェットのエフェクト制御  
+<a href="#details">[詳解]</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="_back_jet_effector_8h_source.html">BackJetEffector.h</a>&quot;</code><br />
+<code>#include &quot;../App/Constant.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="_mathf_8h_source.html">Mathf.h</a>&quot;</code><br />
+<code>#include &lt;math.h&gt;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+名前空間</h2></td></tr>
+<tr class="memitem:namespace_planet9"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_planet9.html">Planet9</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespace_planet9_1_1_app"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_planet9_1_1_app.html">Planet9::App</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespace_planet9_1_1_app_1_1_extension"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_planet9_1_1_app_1_1_extension.html">Planet9::App::Extension</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespace_planet9_1_1_app_1_1_extension_1_1_component"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_planet9_1_1_app_1_1_extension_1_1_component.html">Planet9::App::Extension::Component</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+列挙型</h2></td></tr>
+<tr class="memitem:a1c7c02f3bcff5d6a69e70daa46eee016"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_back_jet_effector_8cpp.html#a1c7c02f3bcff5d6a69e70daa46eee016">JetEffect</a> : int { <br />
+&#160;&#160;<a class="el" href="_back_jet_effector_8cpp.html#a1c7c02f3bcff5d6a69e70daa46eee016ad48f7af8c070184f3774c8e85854eb66">Right</a> = 0, 
+<a class="el" href="_back_jet_effector_8cpp.html#a1c7c02f3bcff5d6a69e70daa46eee016a9d4d8b0b72fc2659da772d761a3c5ecb">Left</a>, 
+<a class="el" href="_back_jet_effector_8cpp.html#a1c7c02f3bcff5d6a69e70daa46eee016a4f61bd42e24fccf887d9785bc2f8b5f2">RightBlur</a>, 
+<a class="el" href="_back_jet_effector_8cpp.html#a1c7c02f3bcff5d6a69e70daa46eee016a000c7cf59f3fee07693b7699eb17639f">LeftBlur</a>, 
+<br />
+&#160;&#160;<a class="el" href="_back_jet_effector_8cpp.html#a1c7c02f3bcff5d6a69e70daa46eee016a928f33270be19855038d0245a0fa06a1">Count</a>
+<br />
+ }<tr class="memdesc:a1c7c02f3bcff5d6a69e70daa46eee016"><td class="mdescLeft">&#160;</td><td class="mdescRight">増えるかも  <a href="_back_jet_effector_8cpp.html#a1c7c02f3bcff5d6a69e70daa46eee016">[詳解]</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a1c7c02f3bcff5d6a69e70daa46eee016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+関数</h2></td></tr>
+<tr class="memitem:a6defa6794676643833efa2f045b2dc9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_back_jet_effector_8cpp.html#a6defa6794676643833efa2f045b2dc9d">SetTextureInMaterial</a> (<a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle_emitter.html">ParticleEmitter</a> *_pEmmit, <a class="el" href="namespace_planet9_1_1_common.html#a3afddc25e7003868fe9f44962c55f7ec">Sp</a>&lt; <a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">Texture::DirectXTextureFile</a> &gt; &amp;_refSpTexture)</td></tr>
+<tr class="separator:a6defa6794676643833efa2f045b2dc9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>後方ジェットのエフェクト制御 </p>
+<dl class="section author"><dt>著者</dt><dd>S.OIKAWA </dd></dl>
+<dl class="section date"><dt>日付</dt><dd>2017.02.23 </dd></dl>
+</div><h2 class="groupheader">列挙型詳解</h2>
+<a class="anchor" id="a1c7c02f3bcff5d6a69e70daa46eee016"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="_back_jet_effector_8cpp.html#a1c7c02f3bcff5d6a69e70daa46eee016">JetEffect</a> : int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>増えるかも </p>
+<table class="fieldtable">
+<tr><th colspan="2">列挙値</th></tr><tr><td class="fieldname"><a class="anchor" id="a1c7c02f3bcff5d6a69e70daa46eee016ad48f7af8c070184f3774c8e85854eb66"></a>Right&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a1c7c02f3bcff5d6a69e70daa46eee016a9d4d8b0b72fc2659da772d761a3c5ecb"></a>Left&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a1c7c02f3bcff5d6a69e70daa46eee016a4f61bd42e24fccf887d9785bc2f8b5f2"></a>RightBlur&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a1c7c02f3bcff5d6a69e70daa46eee016a000c7cf59f3fee07693b7699eb17639f"></a>LeftBlur&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a1c7c02f3bcff5d6a69e70daa46eee016a928f33270be19855038d0245a0fa06a1"></a>Count&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a6defa6794676643833efa2f045b2dc9d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetTextureInMaterial </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_components_1_1_detail_1_1_particle_emitter.html">ParticleEmitter</a> *&#160;</td>
+          <td class="paramname"><em>_pEmmit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_planet9_1_1_common.html#a3afddc25e7003868fe9f44962c55f7ec">Sp</a>&lt; <a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">Texture::DirectXTextureFile</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>_refSpTexture</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Resource/Audio/MCIMessageDispatcher.h ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li><a href="annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="dir_ff63a2891cf0d86b615320d999c7b9f1.html">Pyramid</a></li><li class="navelem"><a class="el" href="dir_da9e93db9986c646cc18f8adcbc85676.html">Resource</a></li><li class="navelem"><a class="el" href="dir_b67a7d968a96b144da48d1118891c250.html">Audio</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">MCIMessageDispatcher.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_m_c_i_message_dispatcher_8h.html">[詳解]</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">// include </span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include&lt;list&gt;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include&lt;memory&gt;</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include&quot;<a class="code" href="singleton_8h.html">singleton.h</a>&quot;</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">// define </span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_planet9.html">Planet9</a></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">namespace </span>Resources</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keyword">namespace </span>Audio</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keyword">class </span>MCIAudioFile;</div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html">   29</a></span>&#160;            <span class="keyword">class </span><a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html">MCIMessageDispatcher</a> final :</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                <span class="keyword">public</span> Utility::Singleton&lt;MCIMessageDispatcher&gt;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            {</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                <span class="comment">// defaluts </span></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <span class="keyword">public</span>:</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                <a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html#a61469ad09034ff3a6ba696f1e58f6025">MCIMessageDispatcher</a>() = <span class="keywordflow">default</span>;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                <a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html#adf84db7e5d0cffe97ca1caa63c67aac0">~MCIMessageDispatcher</a>() = <span class="keywordflow">default</span>;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                <a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html#a61469ad09034ff3a6ba696f1e58f6025">MCIMessageDispatcher</a>(<span class="keyword">const</span> <a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html">MCIMessageDispatcher</a>&amp;) = <span class="keywordflow">default</span>;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                <a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html#a61469ad09034ff3a6ba696f1e58f6025">MCIMessageDispatcher</a>(<a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html">MCIMessageDispatcher</a>&amp;&amp;) = <span class="keywordflow">default</span>;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                <a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html">MCIMessageDispatcher</a>&amp;<a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html#af7b2e30f0de1ba11b996c32b4be03160">operator=</a>(<span class="keyword">const</span> <a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html">MCIMessageDispatcher</a>&amp;) = <span class="keywordflow">default</span>;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                <a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html">MCIMessageDispatcher</a>&amp;<a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html#af7b2e30f0de1ba11b996c32b4be03160">operator=</a>(<a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html">MCIMessageDispatcher</a>&amp;&amp;) = <span class="keywordflow">default</span>;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                <span class="comment">// function</span></div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                <span class="keywordtype">void</span> <a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html#a06ee2403739fc06eee76dea9fe7bda1d">DispatchMessage</a>(WPARAM wp, LPARAM lp);</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                <span class="keywordtype">void</span> <a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html#aebe2cf0ac346a57ea1b9a60be7101464">Register</a>(<a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_audio_file.html">MCIAudioFile</a>* _pMCIAudioFile);</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                <span class="keywordtype">void</span> <a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html#aef9c3e809ab026986f96665e9381717f">UnRegister</a>(<a class="code" href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_audio_file.html">MCIAudioFile</a>* _pMCIAudioFile);</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            <span class="keyword">private</span>:</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                <span class="comment">// val </span></div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                std::list&lt;MCIAudioFile*&gt; m_pListenerList;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            };</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        }</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;}</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">// EOF </span></div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="ttc" id="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher_html_aef9c3e809ab026986f96665e9381717f"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html#aef9c3e809ab026986f96665e9381717f">Planet9::Resources::Audio::MCIMessageDispatcher::UnRegister</a></div><div class="ttdeci">void UnRegister(MCIAudioFile *_pMCIAudioFile)</div><div class="ttdoc">登録解除. </div><div class="ttdef"><b>Definition:</b> MCIMessageDispatcher.cpp:49</div></div>
+<div class="ttc" id="singleton_8h_html"><div class="ttname"><a href="singleton_8h.html">singleton.h</a></div><div class="ttdoc">mozc式シングルトン </div></div>
+<div class="ttc" id="namespace_planet9_html"><div class="ttname"><a href="namespace_planet9.html">Planet9</a></div><div class="ttdef"><b>Definition:</b> Constant.cpp:18</div></div>
+<div class="ttc" id="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher_html_a06ee2403739fc06eee76dea9fe7bda1d"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html#a06ee2403739fc06eee76dea9fe7bda1d">Planet9::Resources::Audio::MCIMessageDispatcher::DispatchMessage</a></div><div class="ttdeci">void DispatchMessage(WPARAM wp, LPARAM lp)</div><div class="ttdoc">メッセージディスパッチ </div><div class="ttdef"><b>Definition:</b> MCIMessageDispatcher.cpp:26</div></div>
+<div class="ttc" id="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_audio_file_html"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_audio_file.html">Planet9::Resources::Audio::MCIAudioFile</a></div><div class="ttdoc">MCIオーディオを扱う </div><div class="ttdef"><b>Definition:</b> MCIAudioFile.h:31</div></div>
+<div class="ttc" id="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher_html_a61469ad09034ff3a6ba696f1e58f6025"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html#a61469ad09034ff3a6ba696f1e58f6025">Planet9::Resources::Audio::MCIMessageDispatcher::MCIMessageDispatcher</a></div><div class="ttdeci">MCIMessageDispatcher()=default</div></div>
+<div class="ttc" id="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher_html_af7b2e30f0de1ba11b996c32b4be03160"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html#af7b2e30f0de1ba11b996c32b4be03160">Planet9::Resources::Audio::MCIMessageDispatcher::operator=</a></div><div class="ttdeci">MCIMessageDispatcher &amp; operator=(const MCIMessageDispatcher &amp;)=default</div></div>
+<div class="ttc" id="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher_html"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html">Planet9::Resources::Audio::MCIMessageDispatcher</a></div><div class="ttdoc">メッセージディスパッチャ </div><div class="ttdef"><b>Definition:</b> MCIMessageDispatcher.h:29</div></div>
+<div class="ttc" id="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher_html_adf84db7e5d0cffe97ca1caa63c67aac0"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html#adf84db7e5d0cffe97ca1caa63c67aac0">Planet9::Resources::Audio::MCIMessageDispatcher::~MCIMessageDispatcher</a></div><div class="ttdeci">~MCIMessageDispatcher()=default</div></div>
+<div class="ttc" id="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher_html_aebe2cf0ac346a57ea1b9a60be7101464"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_audio_1_1_m_c_i_message_dispatcher.html#aebe2cf0ac346a57ea1b9a60be7101464">Planet9::Resources::Audio::MCIMessageDispatcher::Register</a></div><div class="ttdeci">void Register(MCIAudioFile *_pMCIAudioFile)</div><div class="ttdoc">登録. </div><div class="ttdef"><b>Definition:</b> MCIMessageDispatcher.cpp:41</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

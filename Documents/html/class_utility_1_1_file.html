@@ -1,0 +1,627 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Utility::File クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_utility.html">Utility</a></li><li class="navelem"><a class="el" href="class_utility_1_1_file.html">File</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pro-methods">限定公開メンバ関数</a> &#124;
+<a href="#pro-attribs">限定公開変数類</a> &#124;
+<a href="class_utility_1_1_file-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Utility::File クラス<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>ファイルベースクラス.  
+ <a href="class_utility_1_1_file.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_file_8h_source.html">File.h</a>&gt;</code></p>
+<div class="dynheader">
+Utility::File の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_utility_1_1_file.png" usemap="#Utility::File_map" alt=""/>
+  <map id="Utility::File_map" name="Utility::File_map">
+<area href="class_pyramid_1_1_resources_1_1_i_resource.html" title="抽象リソース " alt="Pyramid::Resources::IResource" shape="rect" coords="663,56,1032,80"/>
+<area href="class_utility_1_1_text_file.html" title="テキストファイル入出力クラス " alt="Utility::TextFile" shape="rect" coords="1042,56,1411,80"/>
+<area href="class_pyramid_1_1_resources_1_1_audio_1_1_i_audio_file.html" title="サウンドファイル. 今のところ対応はMP3,Wavのみ. " alt="Pyramid::Resources::Audio::IAudioFile" shape="rect" coords="0,112,369,136"/>
+<area href="class_pyramid_1_1_resources_1_1_data_object_1_1_i_data_object_file.html" title="固定値データをリソースとして扱う " alt="Pyramid::Resources::DataObject::IDataObjectFile" shape="rect" coords="379,112,748,136"/>
+<area href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html" title="モデルファイルが実装すべき機能と持つべき変数 " alt="Pyramid::Resources::Model::IModelFile" shape="rect" coords="947,112,1316,136"/>
+<area href="class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file.html" title="テクスチャファイルAPI. " alt="Pyramid::Resources::Texture::ITextureFile" shape="rect" coords="1516,112,1885,136"/>
+<area href="class_pyramid_1_1_resources_1_1_audio_1_1_m_c_i_audio_file.html" title="MCIオーディオを扱う " alt="Pyramid::Resources::Audio::MCIAudioFile" shape="rect" coords="0,168,369,192"/>
+<area href="class_pyramid_1_1_resources_1_1_data_object_1_1_particle_system_data_object.html" title="ParticleSystemのパラメータ " alt="Pyramid::Resources::DataObject::ParticleSystemDataObject" shape="rect" coords="379,168,748,192"/>
+<area href="class_data_object_1_1_entity_1_1_fbx_file.html" title="Fbxの機能提供をリソースに対して行う " alt="DataObject::Entity::FbxFile" shape="rect" coords="758,168,1127,192"/>
+<area href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html" title="ゲームに使用するFbxのリソース " alt="Pyramid::Resources::Model::FbxFile" shape="rect" coords="1137,168,1506,192"/>
+<area href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html" title="DirectX形式のテクスチャを扱う. " alt="Pyramid::Resources::Texture::DirectXTextureFile" shape="rect" coords="1516,168,1885,192"/>
+<area href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html" title="オンメモリなテクスチャからDirectX用のテクスチャを生成する " alt="Pyramid::Resources::Texture::DirectXTextureFileFromInMemory" shape="rect" coords="1516,224,1885,248"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a02c3136c52ac8011a75136238d17739a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a02c3136c52ac8011a75136238d17739a">File</a> ()=default</td></tr>
+<tr class="memdesc:a02c3136c52ac8011a75136238d17739a"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタ  <a href="#a02c3136c52ac8011a75136238d17739a">[詳解]</a><br /></td></tr>
+<tr class="separator:a02c3136c52ac8011a75136238d17739a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af04320e6d8d0dbe790d746f9ad6b48cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#af04320e6d8d0dbe790d746f9ad6b48cc">File</a> (std::string &amp;_filePath)</td></tr>
+<tr class="memdesc:af04320e6d8d0dbe790d746f9ad6b48cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタ  <a href="#af04320e6d8d0dbe790d746f9ad6b48cc">[詳解]</a><br /></td></tr>
+<tr class="separator:af04320e6d8d0dbe790d746f9ad6b48cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdf997b6d6a61a1a4ecbb2e84153c9cf"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#acdf997b6d6a61a1a4ecbb2e84153c9cf">~File</a> ()=default</td></tr>
+<tr class="memdesc:acdf997b6d6a61a1a4ecbb2e84153c9cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">デストラクタ  <a href="#acdf997b6d6a61a1a4ecbb2e84153c9cf">[詳解]</a><br /></td></tr>
+<tr class="separator:acdf997b6d6a61a1a4ecbb2e84153c9cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a817e637c996f509872d9c2e40476d9ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a817e637c996f509872d9c2e40476d9ac">File</a> (const <a class="el" href="class_utility_1_1_file.html">File</a> &amp;)=default</td></tr>
+<tr class="separator:a817e637c996f509872d9c2e40476d9ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eacfa02285de4f6165e33b67247524e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a5eacfa02285de4f6165e33b67247524e">File</a> (<a class="el" href="class_utility_1_1_file.html">File</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a5eacfa02285de4f6165e33b67247524e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4281e1bf951805f5955cad2911b11aef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_utility_1_1_file.html">File</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a4281e1bf951805f5955cad2911b11aef">operator=</a> (const <a class="el" href="class_utility_1_1_file.html">File</a> &amp;)=default</td></tr>
+<tr class="separator:a4281e1bf951805f5955cad2911b11aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a0fe6f0514c251d610072b2b7f5c3a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_utility_1_1_file.html">File</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a3a0fe6f0514c251d610072b2b7f5c3a8">operator=</a> (<a class="el" href="class_utility_1_1_file.html">File</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a3a0fe6f0514c251d610072b2b7f5c3a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74b1d5495a1421ef2eba99bbfcc62dec"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a74b1d5495a1421ef2eba99bbfcc62dec">Read</a> (std::string _path)=0</td></tr>
+<tr class="memdesc:a74b1d5495a1421ef2eba99bbfcc62dec"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイル読み込み.  <a href="#a74b1d5495a1421ef2eba99bbfcc62dec">[詳解]</a><br /></td></tr>
+<tr class="separator:a74b1d5495a1421ef2eba99bbfcc62dec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d89e32ae499548f48eae2b0fc571a89"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a1d89e32ae499548f48eae2b0fc571a89">Write</a> (std::string _path=&quot;&quot;)=0</td></tr>
+<tr class="memdesc:a1d89e32ae499548f48eae2b0fc571a89"><td class="mdescLeft">&#160;</td><td class="mdescRight">書き込み.  <a href="#a1d89e32ae499548f48eae2b0fc571a89">[詳解]</a><br /></td></tr>
+<tr class="separator:a1d89e32ae499548f48eae2b0fc571a89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9612a50672d0a88b0c6a02e6f8172848"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a9612a50672d0a88b0c6a02e6f8172848">PROPERTY_CR_R_ONLY</a> (<a class="el" href="class_utility_1_1_file.html#a8fbe64e81f0843fc3b22ea8e3d65efda">m_FileName</a>, FileName, std::string)</td></tr>
+<tr class="separator:a9612a50672d0a88b0c6a02e6f8172848"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5959c3a1e7191f06b4f31b450e7b7b26"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a5959c3a1e7191f06b4f31b450e7b7b26">PROPERTY_CR_R_ONLY</a> (<a class="el" href="class_utility_1_1_file.html#a605debf399ada3dc28b7fb64d4741cd1">m_FilePath</a>, FilePath, std::string)</td></tr>
+<tr class="separator:a5959c3a1e7191f06b4f31b450e7b7b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40d090a13bc64c641f651cba8d4d7750"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a40d090a13bc64c641f651cba8d4d7750">PROPERTY_CR_R_ONLY</a> (<a class="el" href="class_utility_1_1_file.html#a61471e0b688e064f28929a4d51a02de2">m_FileDirectory</a>, FileDirectory, std::string)</td></tr>
+<tr class="separator:a40d090a13bc64c641f651cba8d4d7750"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+限定公開メンバ関数</h2></td></tr>
+<tr class="memitem:a267d93c696e8cba414caa702a7ea4906"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a267d93c696e8cba414caa702a7ea4906">SetFilePathInfo</a> (std::string _path)</td></tr>
+<tr class="memdesc:a267d93c696e8cba414caa702a7ea4906"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイル名とパスをセット.  <a href="#a267d93c696e8cba414caa702a7ea4906">[詳解]</a><br /></td></tr>
+<tr class="separator:a267d93c696e8cba414caa702a7ea4906"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+限定公開変数類</h2></td></tr>
+<tr class="memitem:a8fbe64e81f0843fc3b22ea8e3d65efda"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a8fbe64e81f0843fc3b22ea8e3d65efda">m_FileName</a></td></tr>
+<tr class="separator:a8fbe64e81f0843fc3b22ea8e3d65efda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a605debf399ada3dc28b7fb64d4741cd1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a605debf399ada3dc28b7fb64d4741cd1">m_FilePath</a></td></tr>
+<tr class="separator:a605debf399ada3dc28b7fb64d4741cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61471e0b688e064f28929a4d51a02de2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a61471e0b688e064f28929a4d51a02de2">m_FileDirectory</a></td></tr>
+<tr class="separator:a61471e0b688e064f28929a4d51a02de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>ファイルベースクラス. </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a02c3136c52ac8011a75136238d17739a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Utility::File::File </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>コンストラクタ </p>
+
+</div>
+</div>
+<a class="anchor" id="af04320e6d8d0dbe790d746f9ad6b48cc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Utility::File::File </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_filePath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>コンストラクタ </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_Filename</td><td>ファイル名</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="acdf997b6d6a61a1a4ecbb2e84153c9cf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Utility::File::~File </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>デストラクタ </p>
+
+</div>
+</div>
+<a class="anchor" id="a817e637c996f509872d9c2e40476d9ac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Utility::File::File </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_utility_1_1_file.html">File</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5eacfa02285de4f6165e33b67247524e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Utility::File::File </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_file.html">File</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a4281e1bf951805f5955cad2911b11aef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_utility_1_1_file.html">File</a>&amp; Utility::File::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_utility_1_1_file.html">File</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3a0fe6f0514c251d610072b2b7f5c3a8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_utility_1_1_file.html">File</a>&amp; Utility::File::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_file.html">File</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9612a50672d0a88b0c6a02e6f8172848"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Utility::File::PROPERTY_CR_R_ONLY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_file.html#a8fbe64e81f0843fc3b22ea8e3d65efda">m_FileName</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FileName&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5959c3a1e7191f06b4f31b450e7b7b26"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Utility::File::PROPERTY_CR_R_ONLY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_file.html#a605debf399ada3dc28b7fb64d4741cd1">m_FilePath</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FilePath&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a40d090a13bc64c641f651cba8d4d7750"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Utility::File::PROPERTY_CR_R_ONLY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_file.html#a61471e0b688e064f28929a4d51a02de2">m_FileDirectory</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FileDirectory&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a74b1d5495a1421ef2eba99bbfcc62dec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Utility::File::Read </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>_path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ファイル読み込み. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_path</td><td>ファイルパス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>読み込み成功判定</dd></dl>
+
+<p><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html#a41c66294ab20ea80589c6e11d5f29e6a">Pyramid::Resources::Model::FbxFile</a>, <a class="el" href="class_utility_1_1_text_file.html#ac8dbb3a3bfeb76850355e7b180c87186">Utility::TextFile</a>, <a class="el" href="class_pyramid_1_1_resources_1_1_data_object_1_1_i_data_object_file.html#a518a353302f9bd4df57e34fb0a5a3d0b">Pyramid::Resources::DataObject::IDataObjectFile</a>, <a class="el" href="class_pyramid_1_1_resources_1_1_audio_1_1_m_c_i_audio_file.html#ae575bb90d2a2c2da8c1d6a4d3cb68560">Pyramid::Resources::Audio::MCIAudioFile</a>, <a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#ae716b2df59eee22292e7bc44d3c6b075">Pyramid::Resources::Texture::DirectXTextureFile</a>, <a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#a37f0152bc36d32cc5ead88b22ffc2ca9">Pyramid::Resources::IResource</a>で実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a267d93c696e8cba414caa702a7ea4906"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Utility::File::SetFilePathInfo </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>_path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ファイル名とパスをセット. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_path</td><td>ファイルパス</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a1d89e32ae499548f48eae2b0fc571a89"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Utility::File::Write </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>_path</em> = <code>&quot;&quot;</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>書き込み. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_path</td><td>ファイルパス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>書き込み成功是非</dd></dl>
+
+<p><a class="el" href="class_utility_1_1_text_file.html#a0bdf93396c9f3d280ab5eee7d7210f14">Utility::TextFile</a>, <a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#a1d7f73537f71ec4919f65de9c70d9402">Pyramid::Resources::IResource</a>で実装されています。</p>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a class="anchor" id="a61471e0b688e064f28929a4d51a02de2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Utility::File::m_FileDirectory</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8fbe64e81f0843fc3b22ea8e3d65efda"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Utility::File::m_FileName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a605debf399ada3dc28b7fb64d4741cd1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Utility::File::m_FilePath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Utility/<a class="el" href="_file_8h_source.html">File.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Utility/<a class="el" href="_file_8cpp.html">File.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

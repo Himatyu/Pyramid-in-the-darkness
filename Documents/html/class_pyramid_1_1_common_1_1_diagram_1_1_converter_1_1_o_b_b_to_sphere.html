@@ -1,0 +1,343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::Common::Diagram::Converter::OBBToSphere クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_common.html">Common</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_common_1_1_diagram.html">Diagram</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_common_1_1_diagram_1_1_converter.html">Converter</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html">OBBToSphere</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::Common::Diagram::Converter::OBBToSphere クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>OBBAndSphereコンバータ  
+ <a href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_o_b_b_to_sphere_8h_source.html">OBBToSphere.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::Common::Diagram::Converter::OBBToSphere の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.png" usemap="#Pyramid::Common::Diagram::Converter::OBBToSphere_map" alt=""/>
+  <map id="Pyramid::Common::Diagram::Converter::OBBToSphere_map" name="Pyramid::Common::Diagram::Converter::OBBToSphere_map">
+<area href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter.html" title="抽象コンバータ " alt="Pyramid::Common::Diagram::Converter::IConverter" shape="rect" coords="162,112,477,136"/>
+<area href="class_utility_1_1_type_comparable.html" title="型比較. " alt="Utility::TypeComparable" shape="rect" coords="325,56,640,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a86d0f44ff7bfb433c6b948a31671a340"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html#a86d0f44ff7bfb433c6b948a31671a340">OBBToSphere</a> ()</td></tr>
+<tr class="separator:a86d0f44ff7bfb433c6b948a31671a340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa83f553252b83d55548cad5c76d7702"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html#aaa83f553252b83d55548cad5c76d7702">~OBBToSphere</a> ()=default</td></tr>
+<tr class="separator:aaa83f553252b83d55548cad5c76d7702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28412de68eda652daa16f875d669d2d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html#a28412de68eda652daa16f875d669d2d9">OBBToSphere</a> (const <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html">OBBToSphere</a> &amp;)=default</td></tr>
+<tr class="separator:a28412de68eda652daa16f875d669d2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50e5580f846e345509be7f0dc0fd1c17"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html#a50e5580f846e345509be7f0dc0fd1c17">OBBToSphere</a> (<a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html">OBBToSphere</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a50e5580f846e345509be7f0dc0fd1c17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6694f1f91077e560e83e6fac3982fd44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html">OBBToSphere</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html#a6694f1f91077e560e83e6fac3982fd44">operator=</a> (const <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html">OBBToSphere</a> &amp;)=default</td></tr>
+<tr class="separator:a6694f1f91077e560e83e6fac3982fd44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a908fe341820a89483717d8cc9c264f15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html">OBBToSphere</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html#a908fe341820a89483717d8cc9c264f15">operator=</a> (<a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html">OBBToSphere</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a908fe341820a89483717d8cc9c264f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9e30c8eaed1af1465ddcfcf26624552"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html#aa9e30c8eaed1af1465ddcfcf26624552">Convert</a> (<a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> *) override</td></tr>
+<tr class="memdesc:aa9e30c8eaed1af1465ddcfcf26624552"><td class="mdescLeft">&#160;</td><td class="mdescRight">OBBをSphereに変換する  <a href="#aa9e30c8eaed1af1465ddcfcf26624552">[詳解]</a><br /></td></tr>
+<tr class="separator:aa9e30c8eaed1af1465ddcfcf26624552"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter.html">Pyramid::Common::Diagram::Converter::IConverter</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:ad47b14043ed4ccae386f51cb6ef91abd inherit pub_methods_class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter.html#ad47b14043ed4ccae386f51cb6ef91abd">IConverter</a> ()=default</td></tr>
+<tr class="separator:ad47b14043ed4ccae386f51cb6ef91abd inherit pub_methods_class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92dc2a036a8910bb5322a1c9fd224e8a inherit pub_methods_class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter.html#a92dc2a036a8910bb5322a1c9fd224e8a">~IConverter</a> ()=default</td></tr>
+<tr class="separator:a92dc2a036a8910bb5322a1c9fd224e8a inherit pub_methods_class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32c6431781be883f8a928878b8c6d967 inherit pub_methods_class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter.html#a32c6431781be883f8a928878b8c6d967">IConverter</a> (const <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter.html">IConverter</a> &amp;)=default</td></tr>
+<tr class="separator:a32c6431781be883f8a928878b8c6d967 inherit pub_methods_class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fbb693a41d4216704fb62a0f97324aa inherit pub_methods_class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter.html#a3fbb693a41d4216704fb62a0f97324aa">IConverter</a> (<a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter.html">IConverter</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a3fbb693a41d4216704fb62a0f97324aa inherit pub_methods_class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1509c48dd0af2515404f335b605bdfc6 inherit pub_methods_class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter.html">IConverter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter.html#a1509c48dd0af2515404f335b605bdfc6">operator=</a> (const <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter.html">IConverter</a> &amp;)=default</td></tr>
+<tr class="separator:a1509c48dd0af2515404f335b605bdfc6 inherit pub_methods_class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad28b38c8e2d128793fcbd870844ecb08 inherit pub_methods_class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter.html">IConverter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter.html#ad28b38c8e2d128793fcbd870844ecb08">operator=</a> (<a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter.html">IConverter</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ad28b38c8e2d128793fcbd870844ecb08 inherit pub_methods_class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_utility_1_1_type_comparable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_utility_1_1_type_comparable')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_utility_1_1_type_comparable.html">Utility::TypeComparable</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a2786cb774a2067dcf7991cfbd8a12532 inherit pub_methods_class_utility_1_1_type_comparable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_type_comparable.html#a2786cb774a2067dcf7991cfbd8a12532">TypeComparable</a> ()=default</td></tr>
+<tr class="separator:a2786cb774a2067dcf7991cfbd8a12532 inherit pub_methods_class_utility_1_1_type_comparable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa345ea4fceb85b32af09cc4f76c24613 inherit pub_methods_class_utility_1_1_type_comparable"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_type_comparable.html#aa345ea4fceb85b32af09cc4f76c24613">~TypeComparable</a> ()=default</td></tr>
+<tr class="separator:aa345ea4fceb85b32af09cc4f76c24613 inherit pub_methods_class_utility_1_1_type_comparable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad913e83adc5f94b92de88465050b0168 inherit pub_methods_class_utility_1_1_type_comparable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_type_comparable.html#ad913e83adc5f94b92de88465050b0168">TypeComparable</a> (const <a class="el" href="class_utility_1_1_type_comparable.html">TypeComparable</a> &amp;)=default</td></tr>
+<tr class="separator:ad913e83adc5f94b92de88465050b0168 inherit pub_methods_class_utility_1_1_type_comparable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a638283a9db9295a37c893b07a4aa4d37 inherit pub_methods_class_utility_1_1_type_comparable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_type_comparable.html#a638283a9db9295a37c893b07a4aa4d37">TypeComparable</a> (<a class="el" href="class_utility_1_1_type_comparable.html">TypeComparable</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a638283a9db9295a37c893b07a4aa4d37 inherit pub_methods_class_utility_1_1_type_comparable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a644197fbde7d174b35a693b4c798c73f inherit pub_methods_class_utility_1_1_type_comparable"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_utility_1_1_type_comparable.html">TypeComparable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_type_comparable.html#a644197fbde7d174b35a693b4c798c73f">operator=</a> (const <a class="el" href="class_utility_1_1_type_comparable.html">TypeComparable</a> &amp;)=default</td></tr>
+<tr class="separator:a644197fbde7d174b35a693b4c798c73f inherit pub_methods_class_utility_1_1_type_comparable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad02dfbddd3696d73f47aa16217409aa5 inherit pub_methods_class_utility_1_1_type_comparable"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_utility_1_1_type_comparable.html">TypeComparable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_type_comparable.html#ad02dfbddd3696d73f47aa16217409aa5">operator=</a> (<a class="el" href="class_utility_1_1_type_comparable.html">TypeComparable</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ad02dfbddd3696d73f47aa16217409aa5 inherit pub_methods_class_utility_1_1_type_comparable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab89454357828341d0f9c605941d0524 inherit pub_methods_class_utility_1_1_type_comparable"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_type_comparable.html#aab89454357828341d0f9c605941d0524">IsSame</a> (const std::type_index &amp;_Type, unsigned _index)</td></tr>
+<tr class="separator:aab89454357828341d0f9c605941d0524 inherit pub_methods_class_utility_1_1_type_comparable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addac79e84de411e4ebef35e9269f510b inherit pub_methods_class_utility_1_1_type_comparable"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_type_comparable.html#addac79e84de411e4ebef35e9269f510b">operator==</a> (<a class="el" href="class_utility_1_1_type_comparable.html">TypeComparable</a> &amp;_Type)</td></tr>
+<tr class="separator:addac79e84de411e4ebef35e9269f510b inherit pub_methods_class_utility_1_1_type_comparable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1ee018ef05bbb1772f4c269d011c8ca inherit pub_methods_class_utility_1_1_type_comparable"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_type_comparable.html#ac1ee018ef05bbb1772f4c269d011c8ca">operator!=</a> (<a class="el" href="class_utility_1_1_type_comparable.html">TypeComparable</a> &amp;_Type)</td></tr>
+<tr class="separator:ac1ee018ef05bbb1772f4c269d011c8ca inherit pub_methods_class_utility_1_1_type_comparable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>OBBAndSphereコンバータ </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a86d0f44ff7bfb433c6b948a31671a340"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Common::Diagram::Converter::OBBToSphere::OBBToSphere </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaa83f553252b83d55548cad5c76d7702"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Common::Diagram::Converter::OBBToSphere::~OBBToSphere </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a28412de68eda652daa16f875d669d2d9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Common::Diagram::Converter::OBBToSphere::OBBToSphere </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html">OBBToSphere</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a50e5580f846e345509be7f0dc0fd1c17"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Common::Diagram::Converter::OBBToSphere::OBBToSphere </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html">OBBToSphere</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="aa9e30c8eaed1af1465ddcfcf26624552"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &gt; Pyramid::Common::Diagram::Converter::OBBToSphere::Convert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> *&#160;</td>
+          <td class="paramname"><em>_pOBB</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>OBBをSphereに変換する </p>
+
+<p><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_i_converter.html#afc3a6256622aa38fe13ef97ff7ad8517">Pyramid::Common::Diagram::Converter::IConverter</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a6694f1f91077e560e83e6fac3982fd44"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html">OBBToSphere</a>&amp; Pyramid::Common::Diagram::Converter::OBBToSphere::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html">OBBToSphere</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a908fe341820a89483717d8cc9c264f15"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html">OBBToSphere</a>&amp; Pyramid::Common::Diagram::Converter::OBBToSphere::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_converter_1_1_o_b_b_to_sphere.html">OBBToSphere</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Common/Diagram/Converter/<a class="el" href="_o_b_b_to_sphere_8h_source.html">OBBToSphere.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Common/Diagram/Converter/<a class="el" href="_o_b_b_to_sphere_8cpp.html">OBBToSphere.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

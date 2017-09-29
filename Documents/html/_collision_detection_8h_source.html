@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Collision/CollisionDetection.h ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li><a href="annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="dir_ff63a2891cf0d86b615320d999c7b9f1.html">Pyramid</a></li><li class="navelem"><a class="el" href="dir_a12584d2c6561f981f56e3c574258776.html">Collision</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">CollisionDetection.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_collision_detection_8h.html">[詳解]</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#pragma region include</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">// include</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#pragma endregion</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#pragma region define</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">// define</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#pragma endregion</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_pyramid.html">Pyramid</a></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">namespace </span>Collision</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    {</div><div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="namespace_pyramid_1_1_collision.html#a286e6cdf77862c21f79042c8a2ed6ef3">   30</a></span>&#160;        <span class="keyword">enum class</span> <a class="code" href="namespace_pyramid_1_1_collision.html#a286e6cdf77862c21f79042c8a2ed6ef3">Detection</a> : int</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        {</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <a class="code" href="namespace_pyramid_1_1_collision.html#a286e6cdf77862c21f79042c8a2ed6ef3a4ed2f4da77491abd3b106b431579c9e3">Discontinuity</a> = 0, </div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <a class="code" href="namespace_pyramid_1_1_collision.html#a286e6cdf77862c21f79042c8a2ed6ef3acebb140a48eabb833fcc8b81655243e0">SVT</a>,</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <a class="code" href="namespace_pyramid_1_1_collision.html#a286e6cdf77862c21f79042c8a2ed6ef3ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>,</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        };</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        </div><div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="class_pyramid_1_1_collision_1_1_collision_detection.html">   58</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_pyramid_1_1_collision_1_1_collision_detection.html">CollisionDetection</a> final</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        {</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keyword">public</span>:</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#pragma region  defaults</span></div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <span class="comment">// defaults</span></div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <a class="code" href="class_pyramid_1_1_collision_1_1_collision_detection.html">CollisionDetection</a>();</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            ~<a class="code" href="class_pyramid_1_1_collision_1_1_collision_detection.html">CollisionDetection</a>() = <span class="keywordflow">default</span>;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <a class="code" href="class_pyramid_1_1_collision_1_1_collision_detection.html">CollisionDetection</a>(<span class="keyword">const</span> <a class="code" href="class_pyramid_1_1_collision_1_1_collision_detection.html">CollisionDetection</a>&amp;);</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <a class="code" href="class_pyramid_1_1_collision_1_1_collision_detection.html">CollisionDetection</a>(<a class="code" href="class_pyramid_1_1_collision_1_1_collision_detection.html">CollisionDetection</a>&amp;&amp;);</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <a class="code" href="class_pyramid_1_1_collision_1_1_collision_detection.html">CollisionDetection</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="class_pyramid_1_1_collision_1_1_collision_detection.html">CollisionDetection</a>&amp;);</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <a class="code" href="class_pyramid_1_1_collision_1_1_collision_detection.html">CollisionDetection</a>&amp; operator=(<a class="code" href="class_pyramid_1_1_collision_1_1_collision_detection.html">CollisionDetection</a>&amp;&amp;) ;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#pragma endregion</span></div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#pragma region function</span></div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <span class="comment">// function</span></div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            </div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">#pragma endregion</span></div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#pragma region property</span></div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="comment">// property</span></div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <a class="code" href="_macro_8h.html#af91ade85d3959f385d58289670ffe536">PROPERTY_REF</a>(m_Detection, Value, <a class="code" href="namespace_pyramid_1_1_collision.html#a286e6cdf77862c21f79042c8a2ed6ef3">Detection</a>);</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <a class="code" href="_macro_8h.html#af91ade85d3959f385d58289670ffe536">PROPERTY_REF</a>(m_IsIgnoreRotateThenSVT,   IsIgnoreRotateThenSVT,  <span class="keywordtype">bool</span>);</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <a class="code" href="_macro_8h.html#af91ade85d3959f385d58289670ffe536">PROPERTY_REF</a>(m_IsIgnoreScaleThenSVT,    IsIgnoreScaleThenSVT,   <span class="keywordtype">bool</span>);</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor">#pragma endregion</span></div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">#pragma region value</span></div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="comment">// val</span></div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="class_pyramid_1_1_collision_1_1_collision_detection.html#a21a5fd08f5adf748358d3e90f5c00d37">   96</a></span>&#160;            <a class="code" href="namespace_pyramid_1_1_collision.html#a286e6cdf77862c21f79042c8a2ed6ef3">Detection</a>   <a class="code" href="class_pyramid_1_1_collision_1_1_collision_detection.html#a21a5fd08f5adf748358d3e90f5c00d37">m_Detection</a>;</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div><div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="class_pyramid_1_1_collision_1_1_collision_detection.html#ab8a72e73fc43df1ce9912fc5420379c6">   98</a></span>&#160;            <span class="keywordtype">bool</span>        <a class="code" href="class_pyramid_1_1_collision_1_1_collision_detection.html#ab8a72e73fc43df1ce9912fc5420379c6">m_IsIgnoreRotateThenSVT</a>;    </div><div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="class_pyramid_1_1_collision_1_1_collision_detection.html#a1994b770962d5aaa7a8715c4c39311d1">   99</a></span>&#160;            <span class="keywordtype">bool</span>        <a class="code" href="class_pyramid_1_1_collision_1_1_collision_detection.html#a1994b770962d5aaa7a8715c4c39311d1">m_IsIgnoreScaleThenSVT</a>;</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">#pragma endregion</span></div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        };</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    }</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;}</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="comment">// EOF</span></div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="ttc" id="class_pyramid_1_1_collision_1_1_collision_detection_html"><div class="ttname"><a href="class_pyramid_1_1_collision_1_1_collision_detection.html">Pyramid::Collision::CollisionDetection</a></div><div class="ttdoc">衝突判定の精度パラメータ </div><div class="ttdef"><b>Definition:</b> CollisionDetection.h:58</div></div>
+<div class="ttc" id="namespace_pyramid_1_1_collision_html_a286e6cdf77862c21f79042c8a2ed6ef3acebb140a48eabb833fcc8b81655243e0"><div class="ttname"><a href="namespace_pyramid_1_1_collision.html#a286e6cdf77862c21f79042c8a2ed6ef3acebb140a48eabb833fcc8b81655243e0">Pyramid::Collision::Detection::SVT</a></div><div class="ttdoc">Swept Volume Test 衝突図形のフレーム間ボリュームを生成し判定を行う 判定の際、フレーム間のどこで衝突し...</div></div>
+<div class="ttc" id="namespace_pyramid_html"><div class="ttname"><a href="namespace_pyramid.html">Pyramid</a></div><div class="ttdef"><b>Definition:</b> Constant.cpp:18</div></div>
+<div class="ttc" id="class_pyramid_1_1_collision_1_1_collision_detection_html_ab8a72e73fc43df1ce9912fc5420379c6"><div class="ttname"><a href="class_pyramid_1_1_collision_1_1_collision_detection.html#ab8a72e73fc43df1ce9912fc5420379c6">Pyramid::Collision::CollisionDetection::m_IsIgnoreRotateThenSVT</a></div><div class="ttdeci">bool m_IsIgnoreRotateThenSVT</div><div class="ttdef"><b>Definition:</b> CollisionDetection.h:98</div></div>
+<div class="ttc" id="_macro_8h_html_af91ade85d3959f385d58289670ffe536"><div class="ttname"><a href="_macro_8h.html#af91ade85d3959f385d58289670ffe536">PROPERTY_REF</a></div><div class="ttdeci">#define PROPERTY_REF(var, propertyName, type)</div><div class="ttdef"><b>Definition:</b> Macro.h:29</div></div>
+<div class="ttc" id="class_pyramid_1_1_collision_1_1_collision_detection_html_a21a5fd08f5adf748358d3e90f5c00d37"><div class="ttname"><a href="class_pyramid_1_1_collision_1_1_collision_detection.html#a21a5fd08f5adf748358d3e90f5c00d37">Pyramid::Collision::CollisionDetection::m_Detection</a></div><div class="ttdeci">Detection m_Detection</div><div class="ttdef"><b>Definition:</b> CollisionDetection.h:96</div></div>
+<div class="ttc" id="namespace_pyramid_1_1_collision_html_a286e6cdf77862c21f79042c8a2ed6ef3a4ed2f4da77491abd3b106b431579c9e3"><div class="ttname"><a href="namespace_pyramid_1_1_collision.html#a286e6cdf77862c21f79042c8a2ed6ef3a4ed2f4da77491abd3b106b431579c9e3">Pyramid::Collision::Detection::Discontinuity</a></div><div class="ttdoc">現在位置衝突判定を行う。 トンネリングは対策しない </div></div>
+<div class="ttc" id="namespace_pyramid_1_1_collision_html_a286e6cdf77862c21f79042c8a2ed6ef3ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="namespace_pyramid_1_1_collision.html#a286e6cdf77862c21f79042c8a2ed6ef3ae93f994f01c537c4e2f7d8528c3eb5e9">Pyramid::Collision::Detection::Count</a></div><div class="ttdoc">構造体のカウント 設定するとCollisionProviderでアサート </div></div>
+<div class="ttc" id="namespace_pyramid_1_1_collision_html_a286e6cdf77862c21f79042c8a2ed6ef3"><div class="ttname"><a href="namespace_pyramid_1_1_collision.html#a286e6cdf77862c21f79042c8a2ed6ef3">Pyramid::Collision::Detection</a></div><div class="ttdeci">Detection</div><div class="ttdoc">衝突判定の精度 </div><div class="ttdef"><b>Definition:</b> CollisionDetection.h:30</div></div>
+<div class="ttc" id="class_pyramid_1_1_collision_1_1_collision_detection_html_a1994b770962d5aaa7a8715c4c39311d1"><div class="ttname"><a href="class_pyramid_1_1_collision_1_1_collision_detection.html#a1994b770962d5aaa7a8715c4c39311d1">Pyramid::Collision::CollisionDetection::m_IsIgnoreScaleThenSVT</a></div><div class="ttdeci">bool m_IsIgnoreScaleThenSVT</div><div class="ttdef"><b>Definition:</b> CollisionDetection.h:99</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

@@ -1,0 +1,402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Planet9::Rendering::Materials::Material クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_planet9.html">Planet9</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_rendering.html">Rendering</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_rendering_1_1_materials.html">Materials</a></li><li class="navelem"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html">Material</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pub-static-methods">静的公開メンバ関数</a> &#124;
+<a href="class_planet9_1_1_rendering_1_1_materials_1_1_material-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Planet9::Rendering::Materials::Material クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>レンダリングマテリアル ホントはインターフェースがいいけど、 デフォルトあるからクラスにした  
+ <a href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_material_8h_source.html">Material.h</a>&gt;</code></p>
+<div class="dynheader">
+Planet9::Rendering::Materials::Material の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_planet9_1_1_rendering_1_1_materials_1_1_material.png" usemap="#Planet9::Rendering::Materials::Material_map" alt=""/>
+  <map id="Planet9::Rendering::Materials::Material_map" name="Planet9::Rendering::Materials::Material_map">
+<area href="class_planet9_1_1_rendering_1_1_materials_1_1_mesh_material.html" title="メッシュのレンダリングに必要な情報を持つ " alt="Planet9::Rendering::Materials::MeshMaterial" shape="rect" coords="0,56,327,80"/>
+<area href="class_planet9_1_1_rendering_1_1_materials_1_1_panel_material.html" alt="Planet9::Rendering::Materials::PanelMaterial" shape="rect" coords="337,56,664,80"/>
+<area href="class_planet9_1_1_rendering_1_1_materials_1_1_particle_materal.html" title="パーティクルのマテリアル " alt="Planet9::Rendering::Materials::ParticleMateral" shape="rect" coords="674,56,1001,80"/>
+<area href="class_planet9_1_1_rendering_1_1_materials_1_1_progressive_mesh_material.html" title="低レベルモデル用のマテリアル " alt="Planet9::Rendering::Materials::ProgressiveMeshMaterial" shape="rect" coords="1011,56,1338,80"/>
+<area href="class_planet9_1_1_rendering_1_1_materials_1_1_u_i_material.html" title="UIマテリアル " alt="Planet9::Rendering::Materials::UIMaterial" shape="rect" coords="1348,56,1675,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a3d291a2bf2a9f00c0a16d4bd752ee69d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html#a3d291a2bf2a9f00c0a16d4bd752ee69d">Material</a> ()=default</td></tr>
+<tr class="separator:a3d291a2bf2a9f00c0a16d4bd752ee69d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f0e21f59178de2fc6816325a93af5d5"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html#a0f0e21f59178de2fc6816325a93af5d5">~Material</a> ()=default</td></tr>
+<tr class="separator:a0f0e21f59178de2fc6816325a93af5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d4e8df6e954ed8612eb73df99d58f9e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html#a9d4e8df6e954ed8612eb73df99d58f9e">Material</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;)=default</td></tr>
+<tr class="separator:a9d4e8df6e954ed8612eb73df99d58f9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92f682da8f4ba0e5bcea360451bae316"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html#a92f682da8f4ba0e5bcea360451bae316">Material</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a92f682da8f4ba0e5bcea360451bae316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac444a77a49714a66296b8c15cdff5d0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html#ac444a77a49714a66296b8c15cdff5d0b">operator=</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;)=default</td></tr>
+<tr class="separator:ac444a77a49714a66296b8c15cdff5d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bee2cd07085997edaa853b40e78304b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html#a7bee2cd07085997edaa853b40e78304b">operator=</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a7bee2cd07085997edaa853b40e78304b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a932a5514c26f489f994d65b89a591703"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html#a932a5514c26f489f994d65b89a591703">SetMateral</a> ()</td></tr>
+<tr class="separator:a932a5514c26f489f994d65b89a591703"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a651bde1cf50e54b04798eb2bec7f7799"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html#a651bde1cf50e54b04798eb2bec7f7799">RiseMateral</a> ()</td></tr>
+<tr class="separator:a651bde1cf50e54b04798eb2bec7f7799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9d9cc42cb658919c50d21494bef3412"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html#af9d9cc42cb658919c50d21494bef3412">SetMatrix</a> (D3DXMATRIX &amp;)</td></tr>
+<tr class="separator:af9d9cc42cb658919c50d21494bef3412"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:a617f0c529d8eda867bf9b012ade7fb78"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html#a617f0c529d8eda867bf9b012ade7fb78">SetDefaultMaterial</a> ()</td></tr>
+<tr class="separator:a617f0c529d8eda867bf9b012ade7fb78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>レンダリングマテリアル ホントはインターフェースがいいけど、 デフォルトあるからクラスにした </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a3d291a2bf2a9f00c0a16d4bd752ee69d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::Materials::Material::Material </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0f0e21f59178de2fc6816325a93af5d5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Planet9::Rendering::Materials::Material::~Material </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9d4e8df6e954ed8612eb73df99d58f9e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::Materials::Material::Material </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a92f682da8f4ba0e5bcea360451bae316"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::Materials::Material::Material </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="ac444a77a49714a66296b8c15cdff5d0b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html">Material</a>&amp; Planet9::Rendering::Materials::Material::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7bee2cd07085997edaa853b40e78304b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html">Material</a>&amp; Planet9::Rendering::Materials::Material::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a651bde1cf50e54b04798eb2bec7f7799"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Planet9::Rendering::Materials::Material::RiseMateral </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_u_i_material.html#a69f519f0e08d4eb39fbace160c484968">Planet9::Rendering::Materials::UIMaterial</a>, <a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_progressive_mesh_material.html#a364aab115e02fbf5f975a4c1d006d403">Planet9::Rendering::Materials::ProgressiveMeshMaterial</a>, <a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_panel_material.html#ab363f207e821e39da11af78622c9d3ea">Planet9::Rendering::Materials::PanelMaterial</a>, <a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_mesh_material.html#a3f3a784a2fed7bcc78f9db304d8027d5">Planet9::Rendering::Materials::MeshMaterial</a>, <a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_particle_materal.html#a0c69d45691e8013296e66e0143f79998">Planet9::Rendering::Materials::ParticleMateral</a>で再実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a617f0c529d8eda867bf9b012ade7fb78"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Rendering::Materials::Material::SetDefaultMaterial </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a932a5514c26f489f994d65b89a591703"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Planet9::Rendering::Materials::Material::SetMateral </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_u_i_material.html#a39716f10ce24b4648621b8acab2e7f66">Planet9::Rendering::Materials::UIMaterial</a>, <a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_progressive_mesh_material.html#aa5c4007850c478750bc610efe0f03ab8">Planet9::Rendering::Materials::ProgressiveMeshMaterial</a>, <a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_panel_material.html#a3500943ab71d3b66add2c4f9c713c2ca">Planet9::Rendering::Materials::PanelMaterial</a>, <a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_mesh_material.html#a38d94db41b9d6a5e6a3349f2c1c6a656">Planet9::Rendering::Materials::MeshMaterial</a>, <a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_particle_materal.html#a4243bae3bc2d6ce3b5dd6e71825d6ac5">Planet9::Rendering::Materials::ParticleMateral</a>で再実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="af9d9cc42cb658919c50d21494bef3412"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Planet9::Rendering::Materials::Material::SetMatrix </td>
+          <td>(</td>
+          <td class="paramtype">D3DXMATRIX &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_u_i_material.html#af257cdbc7533899e8daea2f728b29de7">Planet9::Rendering::Materials::UIMaterial</a>, <a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_progressive_mesh_material.html#ae7048100ec6dfd95b0c146603c67ed3c">Planet9::Rendering::Materials::ProgressiveMeshMaterial</a>, <a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_panel_material.html#a7b01df14b4183d0822888c4ba14c2a31">Planet9::Rendering::Materials::PanelMaterial</a>, <a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_mesh_material.html#a33ccb600bb4003c4890730541f37b00e">Planet9::Rendering::Materials::MeshMaterial</a>, <a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_particle_materal.html#aa7b5ab8d74a07202f05911836c2764e5">Planet9::Rendering::Materials::ParticleMateral</a>で再実装されています。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Materials/<a class="el" href="_material_8h_source.html">Material.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Materials/<a class="el" href="_material_8cpp.html">Material.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

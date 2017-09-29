@@ -1,0 +1,402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::Rendering::Materials::Material クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_rendering.html">Rendering</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_rendering_1_1_materials.html">Materials</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html">Material</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pub-static-methods">静的公開メンバ関数</a> &#124;
+<a href="class_pyramid_1_1_rendering_1_1_materials_1_1_material-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::Rendering::Materials::Material クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>レンダリングマテリアル ホントはインターフェースがいいけど、 デフォルトあるからクラスにした  
+ <a href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_material_8h_source.html">Material.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::Rendering::Materials::Material の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_rendering_1_1_materials_1_1_material.png" usemap="#Pyramid::Rendering::Materials::Material_map" alt=""/>
+  <map id="Pyramid::Rendering::Materials::Material_map" name="Pyramid::Rendering::Materials::Material_map">
+<area href="class_pyramid_1_1_rendering_1_1_materials_1_1_mesh_material.html" title="メッシュのレンダリングに必要な情報を持つ " alt="Pyramid::Rendering::Materials::MeshMaterial" shape="rect" coords="0,56,331,80"/>
+<area href="class_pyramid_1_1_rendering_1_1_materials_1_1_panel_material.html" alt="Pyramid::Rendering::Materials::PanelMaterial" shape="rect" coords="341,56,672,80"/>
+<area href="class_pyramid_1_1_rendering_1_1_materials_1_1_particle_materal.html" title="パーティクルのマテリアル " alt="Pyramid::Rendering::Materials::ParticleMateral" shape="rect" coords="682,56,1013,80"/>
+<area href="class_pyramid_1_1_rendering_1_1_materials_1_1_progressive_mesh_material.html" title="低レベルモデル用のマテリアル " alt="Pyramid::Rendering::Materials::ProgressiveMeshMaterial" shape="rect" coords="1023,56,1354,80"/>
+<area href="class_pyramid_1_1_rendering_1_1_materials_1_1_u_i_material.html" title="UIマテリアル " alt="Pyramid::Rendering::Materials::UIMaterial" shape="rect" coords="1364,56,1695,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a2bc78ca4a7f3c4eda6ecf1a2ba894f17"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html#a2bc78ca4a7f3c4eda6ecf1a2ba894f17">Material</a> ()=default</td></tr>
+<tr class="separator:a2bc78ca4a7f3c4eda6ecf1a2ba894f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eea9db5252e320309f4ba6af56f54e9"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html#a2eea9db5252e320309f4ba6af56f54e9">~Material</a> ()=default</td></tr>
+<tr class="separator:a2eea9db5252e320309f4ba6af56f54e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ed6f492279ec28f5750ed5eeb2a0fb0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html#a7ed6f492279ec28f5750ed5eeb2a0fb0">Material</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;)=default</td></tr>
+<tr class="separator:a7ed6f492279ec28f5750ed5eeb2a0fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a376390dd05d9a8b8c84c79399abf8ab3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html#a376390dd05d9a8b8c84c79399abf8ab3">Material</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a376390dd05d9a8b8c84c79399abf8ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a253a0d79b14e563881747735a6325972"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html#a253a0d79b14e563881747735a6325972">operator=</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;)=default</td></tr>
+<tr class="separator:a253a0d79b14e563881747735a6325972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af625986f271f89456b0f31a2170023ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html#af625986f271f89456b0f31a2170023ea">operator=</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:af625986f271f89456b0f31a2170023ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae73c7a5aa01e267b0712b9dcdbace9d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html#aae73c7a5aa01e267b0712b9dcdbace9d">SetMateral</a> ()</td></tr>
+<tr class="separator:aae73c7a5aa01e267b0712b9dcdbace9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abef138ca7a021de748a65747e4160690"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html#abef138ca7a021de748a65747e4160690">RiseMateral</a> ()</td></tr>
+<tr class="separator:abef138ca7a021de748a65747e4160690"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac871239fe452c4b9291665c0150b93d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html#aac871239fe452c4b9291665c0150b93d">SetMatrix</a> (D3DXMATRIX &amp;)</td></tr>
+<tr class="separator:aac871239fe452c4b9291665c0150b93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:aa170683f7ca283272e0d4e723bd5a580"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html#aa170683f7ca283272e0d4e723bd5a580">SetDefaultMaterial</a> ()</td></tr>
+<tr class="separator:aa170683f7ca283272e0d4e723bd5a580"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>レンダリングマテリアル ホントはインターフェースがいいけど、 デフォルトあるからクラスにした </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a2bc78ca4a7f3c4eda6ecf1a2ba894f17"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Materials::Material::Material </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2eea9db5252e320309f4ba6af56f54e9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Pyramid::Rendering::Materials::Material::~Material </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7ed6f492279ec28f5750ed5eeb2a0fb0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Materials::Material::Material </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a376390dd05d9a8b8c84c79399abf8ab3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Materials::Material::Material </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a253a0d79b14e563881747735a6325972"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html">Material</a>&amp; Pyramid::Rendering::Materials::Material::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af625986f271f89456b0f31a2170023ea"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html">Material</a>&amp; Pyramid::Rendering::Materials::Material::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_material.html">Material</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abef138ca7a021de748a65747e4160690"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Pyramid::Rendering::Materials::Material::RiseMateral </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_u_i_material.html#ad9730a6e7ed0ad6f9c062e53f8bd9968">Pyramid::Rendering::Materials::UIMaterial</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_progressive_mesh_material.html#a3c9f221b71fe0bd8aa9818801833e7b6">Pyramid::Rendering::Materials::ProgressiveMeshMaterial</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_panel_material.html#ac2bf48295d6f77ddb6f1504cb468fab5">Pyramid::Rendering::Materials::PanelMaterial</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_mesh_material.html#a3b7e358ac32d149c77d75df5f1196476">Pyramid::Rendering::Materials::MeshMaterial</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_particle_materal.html#a8dece01f2ce2abaac8953987d9176843">Pyramid::Rendering::Materials::ParticleMateral</a>で再実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="aa170683f7ca283272e0d4e723bd5a580"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Rendering::Materials::Material::SetDefaultMaterial </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aae73c7a5aa01e267b0712b9dcdbace9d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Pyramid::Rendering::Materials::Material::SetMateral </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_u_i_material.html#a41cd2688a53a5c4beaa16b7a3399040b">Pyramid::Rendering::Materials::UIMaterial</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_progressive_mesh_material.html#a7998c1e66e24b7eb9608788c722a482c">Pyramid::Rendering::Materials::ProgressiveMeshMaterial</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_panel_material.html#a8d99a6ffaca7ca9e9b0dc4c1ff420001">Pyramid::Rendering::Materials::PanelMaterial</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_mesh_material.html#a7e0b59e0ac0dc064e769e4017a139f65">Pyramid::Rendering::Materials::MeshMaterial</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_particle_materal.html#a559102f321c64319c3848011012b909a">Pyramid::Rendering::Materials::ParticleMateral</a>で再実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="aac871239fe452c4b9291665c0150b93d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Pyramid::Rendering::Materials::Material::SetMatrix </td>
+          <td>(</td>
+          <td class="paramtype">D3DXMATRIX &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_u_i_material.html#a18eb71b1d54d02444d6034e6d68af5ec">Pyramid::Rendering::Materials::UIMaterial</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_progressive_mesh_material.html#a07b9f5562b1aac6c700ebc2ea2c86a50">Pyramid::Rendering::Materials::ProgressiveMeshMaterial</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_panel_material.html#a0e7aa6ad81d3f2d9f7884ef75a0989f5">Pyramid::Rendering::Materials::PanelMaterial</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_mesh_material.html#a3279fb681de6dddb609aef811e69b3e9">Pyramid::Rendering::Materials::MeshMaterial</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_particle_materal.html#a94c0f94a20bd95c38c4bf04805b6098e">Pyramid::Rendering::Materials::ParticleMateral</a>で再実装されています。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Materials/<a class="el" href="_material_8h_source.html">Material.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Materials/<a class="el" href="_material_8cpp.html">Material.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

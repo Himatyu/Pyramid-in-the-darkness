@@ -1,0 +1,535 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::Resources::Model::FbxFile クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_resources.html">Resources</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_resources_1_1_model.html">Model</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html">FbxFile</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pub-attribs">公開変数類</a> &#124;
+<a href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::Resources::Model::FbxFile クラス<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>ゲームに使用するFbxのリソース  
+ <a href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_resource_2_model_2_fbx_file_8h_source.html">FbxFile.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::Resources::Model::FbxFile の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.png" usemap="#Pyramid::Resources::Model::FbxFile_map" alt=""/>
+  <map id="Pyramid::Resources::Model::FbxFile_map" name="Pyramid::Resources::Model::FbxFile_map">
+<area href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html" title="モデルファイルが実装すべき機能と持つべき変数 " alt="Pyramid::Resources::Model::IModelFile" shape="rect" coords="0,112,230,136"/>
+<area href="class_pyramid_1_1_resources_1_1_i_resource.html" title="抽象リソース " alt="Pyramid::Resources::IResource" shape="rect" coords="0,56,230,80"/>
+<area href="class_utility_1_1_file.html" title="ファイルベースクラス. " alt="Utility::File" shape="rect" coords="0,0,230,24"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a37237b57e59476060a5dfc97390c7aa1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html#a37237b57e59476060a5dfc97390c7aa1">FbxFile</a> ()=default</td></tr>
+<tr class="separator:a37237b57e59476060a5dfc97390c7aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6120b04b4a268565d8d3a086063e4f8b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html#a6120b04b4a268565d8d3a086063e4f8b">~FbxFile</a> ()</td></tr>
+<tr class="separator:a6120b04b4a268565d8d3a086063e4f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71cd70c93e47a7f7557ed3241121efbb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html#a71cd70c93e47a7f7557ed3241121efbb">FbxFile</a> (const <a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html">FbxFile</a> &amp;)=default</td></tr>
+<tr class="separator:a71cd70c93e47a7f7557ed3241121efbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ecf464011f1bda5a6ff900635c48351"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html#a6ecf464011f1bda5a6ff900635c48351">FbxFile</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html">FbxFile</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a6ecf464011f1bda5a6ff900635c48351"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c00b954bab8d205af7c5cdf9b3447b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html">FbxFile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html#a2c00b954bab8d205af7c5cdf9b3447b3">operator=</a> (const <a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html">FbxFile</a> &amp;)=default</td></tr>
+<tr class="separator:a2c00b954bab8d205af7c5cdf9b3447b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa42c2cbf15952ded76372973c9727840"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html">FbxFile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html#aa42c2cbf15952ded76372973c9727840">operator=</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html">FbxFile</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:aa42c2cbf15952ded76372973c9727840"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41c66294ab20ea80589c6e11d5f29e6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html#a41c66294ab20ea80589c6e11d5f29e6a">Read</a> (std::string _path) override</td></tr>
+<tr class="memdesc:a41c66294ab20ea80589c6e11d5f29e6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイル読み込み.  <a href="#a41c66294ab20ea80589c6e11d5f29e6a">[詳解]</a><br /></td></tr>
+<tr class="separator:a41c66294ab20ea80589c6e11d5f29e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91e364b3f56a5ccecd5f223d07ebd521"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html#a91e364b3f56a5ccecd5f223d07ebd521">InitializeUseDaveice</a> () override</td></tr>
+<tr class="memdesc:a91e364b3f56a5ccecd5f223d07ebd521"><td class="mdescLeft">&#160;</td><td class="mdescRight">デバイス依存のデータ作成.  <a href="#a91e364b3f56a5ccecd5f223d07ebd521">[詳解]</a><br /></td></tr>
+<tr class="separator:a91e364b3f56a5ccecd5f223d07ebd521"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ad3bef0505d0d30db47d07bfa30d921"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html#a4ad3bef0505d0d30db47d07bfa30d921">Discard</a> () override</td></tr>
+<tr class="memdesc:a4ad3bef0505d0d30db47d07bfa30d921"><td class="mdescLeft">&#160;</td><td class="mdescRight">情報を破棄する.  <a href="#a4ad3bef0505d0d30db47d07bfa30d921">[詳解]</a><br /></td></tr>
+<tr class="separator:a4ad3bef0505d0d30db47d07bfa30d921"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fb193fc485b01108af739e78bb51c57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html#a3fb193fc485b01108af739e78bb51c57">SetMatrix</a> (D3DXMATRIX &amp;)</td></tr>
+<tr class="memdesc:a3fb193fc485b01108af739e78bb51c57"><td class="mdescLeft">&#160;</td><td class="mdescRight">ワールド行列を設定  <a href="#a3fb193fc485b01108af739e78bb51c57">[詳解]</a><br /></td></tr>
+<tr class="separator:a3fb193fc485b01108af739e78bb51c57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0f792f6e92db8dc772fd811f7b7f998"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html#ac0f792f6e92db8dc772fd811f7b7f998">PROPERTY_REF</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html#a60c3ccb7ea79eae98883ddc6a2f97cf8">m_pEntity</a>-&gt;Meshs, Meshs, std::vector&lt; <a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_inner_mesh.html">FbxInnerMesh</a> * &gt;)</td></tr>
+<tr class="separator:ac0f792f6e92db8dc772fd811f7b7f998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html">Pyramid::Resources::Model::IModelFile</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a91d4a9410a3a50a6ee8783e904121d0b inherit pub_methods_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html#a91d4a9410a3a50a6ee8783e904121d0b">IModelFile</a> ()=default</td></tr>
+<tr class="separator:a91d4a9410a3a50a6ee8783e904121d0b inherit pub_methods_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16667344f33e50f6855aeb37745ef6c6 inherit pub_methods_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html#a16667344f33e50f6855aeb37745ef6c6">~IModelFile</a> ()=default</td></tr>
+<tr class="separator:a16667344f33e50f6855aeb37745ef6c6 inherit pub_methods_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8d933b9f859d1b880e99b4855bc61d8 inherit pub_methods_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html#ac8d933b9f859d1b880e99b4855bc61d8">IModelFile</a> (const <a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html">IModelFile</a> &amp;)=default</td></tr>
+<tr class="separator:ac8d933b9f859d1b880e99b4855bc61d8 inherit pub_methods_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f4c7c32fd022c7f4643831301e9339a inherit pub_methods_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html#a0f4c7c32fd022c7f4643831301e9339a">IModelFile</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html">IModelFile</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a0f4c7c32fd022c7f4643831301e9339a inherit pub_methods_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46718d723859fe1b9e8d945e2e259ed7 inherit pub_methods_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html">IModelFile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html#a46718d723859fe1b9e8d945e2e259ed7">operator=</a> (const <a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html">IModelFile</a> &amp;)=default</td></tr>
+<tr class="separator:a46718d723859fe1b9e8d945e2e259ed7 inherit pub_methods_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91d3550fe61ef30df5a598d91b9b497e inherit pub_methods_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html">IModelFile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html#a91d3550fe61ef30df5a598d91b9b497e">operator=</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html">IModelFile</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a91d3550fe61ef30df5a598d91b9b497e inherit pub_methods_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d024f3ee23a25817407b441b61d1fe9 inherit pub_methods_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html#a3d024f3ee23a25817407b441b61d1fe9">PROPERTY_REF</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html#a33402c6ec4ebf68ec3f24eee69c94c1f">m_Volume</a>, Volume, <a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_a_a_b_b.html">Common::Diagram::AABB</a>)</td></tr>
+<tr class="separator:a3d024f3ee23a25817407b441b61d1fe9 inherit pub_methods_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_pyramid_1_1_resources_1_1_i_resource')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html">Pyramid::Resources::IResource</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:ac7cb736f662742a18d55be2f90798737 inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#ac7cb736f662742a18d55be2f90798737">IResource</a> ()=default</td></tr>
+<tr class="separator:ac7cb736f662742a18d55be2f90798737 inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71101bb2b5ee9a3bab2f1354cb42b96d inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#a71101bb2b5ee9a3bab2f1354cb42b96d">~IResource</a> ()=default</td></tr>
+<tr class="separator:a71101bb2b5ee9a3bab2f1354cb42b96d inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba515bf2c0164675bf39f9038849fe50 inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#aba515bf2c0164675bf39f9038849fe50">IResource</a> (const <a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html">IResource</a> &amp;)=default</td></tr>
+<tr class="separator:aba515bf2c0164675bf39f9038849fe50 inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cab340222cf83d70fc9cda81c853e8d inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#a3cab340222cf83d70fc9cda81c853e8d">IResource</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html">IResource</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a3cab340222cf83d70fc9cda81c853e8d inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a401e9fcd3fc9a7f31b0f2ec1214998bb inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html">IResource</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#a401e9fcd3fc9a7f31b0f2ec1214998bb">operator=</a> (const <a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html">IResource</a> &amp;)=default</td></tr>
+<tr class="separator:a401e9fcd3fc9a7f31b0f2ec1214998bb inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8660cfcf0f084baf540b24a8703f8e5b inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html">IResource</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#a8660cfcf0f084baf540b24a8703f8e5b">operator=</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html">IResource</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a8660cfcf0f084baf540b24a8703f8e5b inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d7f73537f71ec4919f65de9c70d9402 inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#a1d7f73537f71ec4919f65de9c70d9402">Write</a> (std::string _path=&quot;&quot;) override</td></tr>
+<tr class="memdesc:a1d7f73537f71ec4919f65de9c70d9402 inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">書き込み.  <a href="#a1d7f73537f71ec4919f65de9c70d9402">[詳解]</a><br /></td></tr>
+<tr class="separator:a1d7f73537f71ec4919f65de9c70d9402 inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_utility_1_1_file"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_utility_1_1_file')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_utility_1_1_file.html">Utility::File</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a02c3136c52ac8011a75136238d17739a inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a02c3136c52ac8011a75136238d17739a">File</a> ()=default</td></tr>
+<tr class="memdesc:a02c3136c52ac8011a75136238d17739a inherit pub_methods_class_utility_1_1_file"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタ  <a href="#a02c3136c52ac8011a75136238d17739a">[詳解]</a><br /></td></tr>
+<tr class="separator:a02c3136c52ac8011a75136238d17739a inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af04320e6d8d0dbe790d746f9ad6b48cc inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#af04320e6d8d0dbe790d746f9ad6b48cc">File</a> (std::string &amp;_filePath)</td></tr>
+<tr class="memdesc:af04320e6d8d0dbe790d746f9ad6b48cc inherit pub_methods_class_utility_1_1_file"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタ  <a href="#af04320e6d8d0dbe790d746f9ad6b48cc">[詳解]</a><br /></td></tr>
+<tr class="separator:af04320e6d8d0dbe790d746f9ad6b48cc inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdf997b6d6a61a1a4ecbb2e84153c9cf inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#acdf997b6d6a61a1a4ecbb2e84153c9cf">~File</a> ()=default</td></tr>
+<tr class="memdesc:acdf997b6d6a61a1a4ecbb2e84153c9cf inherit pub_methods_class_utility_1_1_file"><td class="mdescLeft">&#160;</td><td class="mdescRight">デストラクタ  <a href="#acdf997b6d6a61a1a4ecbb2e84153c9cf">[詳解]</a><br /></td></tr>
+<tr class="separator:acdf997b6d6a61a1a4ecbb2e84153c9cf inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a817e637c996f509872d9c2e40476d9ac inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a817e637c996f509872d9c2e40476d9ac">File</a> (const <a class="el" href="class_utility_1_1_file.html">File</a> &amp;)=default</td></tr>
+<tr class="separator:a817e637c996f509872d9c2e40476d9ac inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eacfa02285de4f6165e33b67247524e inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a5eacfa02285de4f6165e33b67247524e">File</a> (<a class="el" href="class_utility_1_1_file.html">File</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a5eacfa02285de4f6165e33b67247524e inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4281e1bf951805f5955cad2911b11aef inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_utility_1_1_file.html">File</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a4281e1bf951805f5955cad2911b11aef">operator=</a> (const <a class="el" href="class_utility_1_1_file.html">File</a> &amp;)=default</td></tr>
+<tr class="separator:a4281e1bf951805f5955cad2911b11aef inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a0fe6f0514c251d610072b2b7f5c3a8 inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_utility_1_1_file.html">File</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a3a0fe6f0514c251d610072b2b7f5c3a8">operator=</a> (<a class="el" href="class_utility_1_1_file.html">File</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a3a0fe6f0514c251d610072b2b7f5c3a8 inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9612a50672d0a88b0c6a02e6f8172848 inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a9612a50672d0a88b0c6a02e6f8172848">PROPERTY_CR_R_ONLY</a> (<a class="el" href="class_utility_1_1_file.html#a8fbe64e81f0843fc3b22ea8e3d65efda">m_FileName</a>, FileName, std::string)</td></tr>
+<tr class="separator:a9612a50672d0a88b0c6a02e6f8172848 inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5959c3a1e7191f06b4f31b450e7b7b26 inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a5959c3a1e7191f06b4f31b450e7b7b26">PROPERTY_CR_R_ONLY</a> (<a class="el" href="class_utility_1_1_file.html#a605debf399ada3dc28b7fb64d4741cd1">m_FilePath</a>, FilePath, std::string)</td></tr>
+<tr class="separator:a5959c3a1e7191f06b4f31b450e7b7b26 inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40d090a13bc64c641f651cba8d4d7750 inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a40d090a13bc64c641f651cba8d4d7750">PROPERTY_CR_R_ONLY</a> (<a class="el" href="class_utility_1_1_file.html#a61471e0b688e064f28929a4d51a02de2">m_FileDirectory</a>, FileDirectory, std::string)</td></tr>
+<tr class="separator:a40d090a13bc64c641f651cba8d4d7750 inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+公開変数類</h2></td></tr>
+<tr class="memitem:a60c3ccb7ea79eae98883ddc6a2f97cf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_data_object_1_1_entity_1_1_fbx_file.html">DataObject::Entity::FbxFile</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html#a60c3ccb7ea79eae98883ddc6a2f97cf8">m_pEntity</a></td></tr>
+<tr class="separator:a60c3ccb7ea79eae98883ddc6a2f97cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+その他の継承メンバ</h2></td></tr>
+<tr class="inherit_header pro_methods_class_utility_1_1_file"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_utility_1_1_file')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_utility_1_1_file.html">Utility::File</a> に属する継承限定公開メンバ関数</td></tr>
+<tr class="memitem:a267d93c696e8cba414caa702a7ea4906 inherit pro_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a267d93c696e8cba414caa702a7ea4906">SetFilePathInfo</a> (std::string _path)</td></tr>
+<tr class="memdesc:a267d93c696e8cba414caa702a7ea4906 inherit pro_methods_class_utility_1_1_file"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイル名とパスをセット.  <a href="#a267d93c696e8cba414caa702a7ea4906">[詳解]</a><br /></td></tr>
+<tr class="separator:a267d93c696e8cba414caa702a7ea4906 inherit pro_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html">Pyramid::Resources::Model::IModelFile</a> に属する継承限定公開変数類</td></tr>
+<tr class="memitem:a33402c6ec4ebf68ec3f24eee69c94c1f inherit pro_attribs_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_a_a_b_b.html">Common::Diagram::AABB</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html#a33402c6ec4ebf68ec3f24eee69c94c1f">m_Volume</a></td></tr>
+<tr class="separator:a33402c6ec4ebf68ec3f24eee69c94c1f inherit pro_attribs_class_pyramid_1_1_resources_1_1_model_1_1_i_model_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_utility_1_1_file"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_utility_1_1_file')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_utility_1_1_file.html">Utility::File</a> に属する継承限定公開変数類</td></tr>
+<tr class="memitem:a8fbe64e81f0843fc3b22ea8e3d65efda inherit pro_attribs_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a8fbe64e81f0843fc3b22ea8e3d65efda">m_FileName</a></td></tr>
+<tr class="separator:a8fbe64e81f0843fc3b22ea8e3d65efda inherit pro_attribs_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a605debf399ada3dc28b7fb64d4741cd1 inherit pro_attribs_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a605debf399ada3dc28b7fb64d4741cd1">m_FilePath</a></td></tr>
+<tr class="separator:a605debf399ada3dc28b7fb64d4741cd1 inherit pro_attribs_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61471e0b688e064f28929a4d51a02de2 inherit pro_attribs_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a61471e0b688e064f28929a4d51a02de2">m_FileDirectory</a></td></tr>
+<tr class="separator:a61471e0b688e064f28929a4d51a02de2 inherit pro_attribs_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>ゲームに使用するFbxのリソース </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a37237b57e59476060a5dfc97390c7aa1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Model::FbxFile::FbxFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6120b04b4a268565d8d3a086063e4f8b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Model::FbxFile::~FbxFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a71cd70c93e47a7f7557ed3241121efbb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Model::FbxFile::FbxFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html">FbxFile</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6ecf464011f1bda5a6ff900635c48351"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Model::FbxFile::FbxFile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html">FbxFile</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a4ad3bef0505d0d30db47d07bfa30d921"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Resources::Model::FbxFile::Discard </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>情報を破棄する. </p>
+
+<p><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#a538405ce7235a0fffe950b15e9be4b34">Pyramid::Resources::IResource</a>を再実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a91e364b3f56a5ccecd5f223d07ebd521"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Resources::Model::FbxFile::InitializeUseDaveice </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>デバイス依存のデータ作成. </p>
+
+<p><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html#ad20861cfef248fe36244f9bf8bb12a36">Pyramid::Resources::Model::IModelFile</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a2c00b954bab8d205af7c5cdf9b3447b3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html">FbxFile</a>&amp; Pyramid::Resources::Model::FbxFile::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html">FbxFile</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa42c2cbf15952ded76372973c9727840"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html">FbxFile</a>&amp; Pyramid::Resources::Model::FbxFile::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html">FbxFile</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac0f792f6e92db8dc772fd811f7b7f998"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Model::FbxFile::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_file.html#a60c3ccb7ea79eae98883ddc6a2f97cf8">m_pEntity</a>-&gt;&#160;</td>
+          <td class="paramname"><em>Meshs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Meshs&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_fbx_inner_mesh.html">FbxInnerMesh</a> * &gt;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a41c66294ab20ea80589c6e11d5f29e6a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Resources::Model::FbxFile::Read </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>_path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ファイル読み込み. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_path</td><td>ファイルパス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>読み込み成功判定</dd></dl>
+
+<p><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#a37f0152bc36d32cc5ead88b22ffc2ca9">Pyramid::Resources::IResource</a>を再実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a3fb193fc485b01108af739e78bb51c57"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Resources::Model::FbxFile::SetMatrix </td>
+          <td>(</td>
+          <td class="paramtype">D3DXMATRIX &amp;&#160;</td>
+          <td class="paramname"><em>_mat</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ワールド行列を設定 </p>
+
+<p><a class="el" href="class_pyramid_1_1_resources_1_1_model_1_1_i_model_file.html#a73078e462569cd7750a3a7debca07f33">Pyramid::Resources::Model::IModelFile</a>を実装しています。</p>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a class="anchor" id="a60c3ccb7ea79eae98883ddc6a2f97cf8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_data_object_1_1_entity_1_1_fbx_file.html">DataObject::Entity::FbxFile</a>* Pyramid::Resources::Model::FbxFile::m_pEntity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Resource/Model/<a class="el" href="_resource_2_model_2_fbx_file_8h_source.html">FbxFile.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Resource/Model/<a class="el" href="_resource_2_model_2_fbx_file_8cpp.html">FbxFile.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

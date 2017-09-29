@@ -1,0 +1,459 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::Components::Observers::ComponentStateSubject クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_components.html">Components</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_components_1_1_observers.html">Observers</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html">ComponentStateSubject</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pro-attribs">限定公開変数類</a> &#124;
+<a href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::Components::Observers::ComponentStateSubject クラス<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>コンポーネントの状態を通知.  
+ <a href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_component_state_subject_8h_source.html">ComponentStateSubject.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:abc713ec24b03b93f16ba34a3edc37ebd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#abc713ec24b03b93f16ba34a3edc37ebd">ComponentStateSubject</a> ()=default</td></tr>
+<tr class="separator:abc713ec24b03b93f16ba34a3edc37ebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a688a11cbeb5c1c5e21ca10b6cf957536"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#a688a11cbeb5c1c5e21ca10b6cf957536">~ComponentStateSubject</a> ()=default</td></tr>
+<tr class="separator:a688a11cbeb5c1c5e21ca10b6cf957536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed199d95a711c46ec115e676710ebd70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#aed199d95a711c46ec115e676710ebd70">ComponentStateSubject</a> (const <a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html">ComponentStateSubject</a> &amp;)=default</td></tr>
+<tr class="separator:aed199d95a711c46ec115e676710ebd70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f985f43c88cee6c06019fcf76f3dbcf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#a0f985f43c88cee6c06019fcf76f3dbcf">ComponentStateSubject</a> (<a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html">ComponentStateSubject</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a0f985f43c88cee6c06019fcf76f3dbcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21fe5853daca67bb7add8919ee6e7820"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html">ComponentStateSubject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#a21fe5853daca67bb7add8919ee6e7820">operator=</a> (const <a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html">ComponentStateSubject</a> &amp;)=default</td></tr>
+<tr class="separator:a21fe5853daca67bb7add8919ee6e7820"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd11a271c4c1434442a03315d7cbf430"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html">ComponentStateSubject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#afd11a271c4c1434442a03315d7cbf430">operator=</a> (<a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html">ComponentStateSubject</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:afd11a271c4c1434442a03315d7cbf430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a874acfeb4f950e295c8df0c1d2c832e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#a874acfeb4f950e295c8df0c1d2c832e6">Attach</a> (<a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_observer.html">ComponentStateObserver</a> *_obser)</td></tr>
+<tr class="memdesc:a874acfeb4f950e295c8df0c1d2c832e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">監視者登録 <a href="#a874acfeb4f950e295c8df0c1d2c832e6">[詳解]</a><br /></td></tr>
+<tr class="separator:a874acfeb4f950e295c8df0c1d2c832e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a272cfd7c2055ed2a26db35a8ea23b529"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#a272cfd7c2055ed2a26db35a8ea23b529">Detach</a> (<a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_observer.html">ComponentStateObserver</a> *_obser)</td></tr>
+<tr class="memdesc:a272cfd7c2055ed2a26db35a8ea23b529"><td class="mdescLeft">&#160;</td><td class="mdescRight">監視者削除 <a href="#a272cfd7c2055ed2a26db35a8ea23b529">[詳解]</a><br /></td></tr>
+<tr class="separator:a272cfd7c2055ed2a26db35a8ea23b529"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f617181dbf1564422ccaa06ebaa333f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#a0f617181dbf1564422ccaa06ebaa333f">Notify</a> ()</td></tr>
+<tr class="memdesc:a0f617181dbf1564422ccaa06ebaa333f"><td class="mdescLeft">&#160;</td><td class="mdescRight">通知 <a href="#a0f617181dbf1564422ccaa06ebaa333f">[詳解]</a><br /></td></tr>
+<tr class="separator:a0f617181dbf1564422ccaa06ebaa333f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d4dd535d3daae449ea18df9229abf78"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#a1d4dd535d3daae449ea18df9229abf78">PROPERTY</a> (<a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#a489f6b14b10613596074cc6ee14b3692">m_pOwner</a>, pOwner, Component *)</td></tr>
+<tr class="separator:a1d4dd535d3daae449ea18df9229abf78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f7b23612e98115ea88435e627686694"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#a5f7b23612e98115ea88435e627686694">PROPERTY_REF</a> (<a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#af83398ccd5d10e5fe0d39b373671f71a">m_Ovservers</a>, Ovservers, std::vector&lt; <a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_observer.html">ComponentStateObserver</a> * &gt;)</td></tr>
+<tr class="separator:a5f7b23612e98115ea88435e627686694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+限定公開変数類</h2></td></tr>
+<tr class="memitem:af83398ccd5d10e5fe0d39b373671f71a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_observer.html">ComponentStateObserver</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#af83398ccd5d10e5fe0d39b373671f71a">m_Ovservers</a></td></tr>
+<tr class="separator:af83398ccd5d10e5fe0d39b373671f71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a489f6b14b10613596074cc6ee14b3692"><td class="memItemLeft" align="right" valign="top">Component *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#a489f6b14b10613596074cc6ee14b3692">m_pOwner</a></td></tr>
+<tr class="separator:a489f6b14b10613596074cc6ee14b3692"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>コンポーネントの状態を通知. </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="abc713ec24b03b93f16ba34a3edc37ebd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Observers::ComponentStateSubject::ComponentStateSubject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a688a11cbeb5c1c5e21ca10b6cf957536"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Pyramid::Components::Observers::ComponentStateSubject::~ComponentStateSubject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aed199d95a711c46ec115e676710ebd70"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Observers::ComponentStateSubject::ComponentStateSubject </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html">ComponentStateSubject</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0f985f43c88cee6c06019fcf76f3dbcf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Observers::ComponentStateSubject::ComponentStateSubject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html">ComponentStateSubject</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a874acfeb4f950e295c8df0c1d2c832e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Components::Observers::ComponentStateSubject::Attach </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_observer.html">ComponentStateObserver</a> *&#160;</td>
+          <td class="paramname"><em>_obser</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>監視者登録</p>
+<p>param name="_obser"&gt;登録監視者</p>
+
+</div>
+</div>
+<a class="anchor" id="a272cfd7c2055ed2a26db35a8ea23b529"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Components::Observers::ComponentStateSubject::Detach </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_observer.html">ComponentStateObserver</a> *&#160;</td>
+          <td class="paramname"><em>_obser</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>監視者削除</p>
+<p>param name="_obser"&gt;削除監視者</p>
+
+</div>
+</div>
+<a class="anchor" id="a0f617181dbf1564422ccaa06ebaa333f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Components::Observers::ComponentStateSubject::Notify </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>通知</p>
+
+</div>
+</div>
+<a class="anchor" id="a21fe5853daca67bb7add8919ee6e7820"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html">ComponentStateSubject</a>&amp; Pyramid::Components::Observers::ComponentStateSubject::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html">ComponentStateSubject</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afd11a271c4c1434442a03315d7cbf430"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html">ComponentStateSubject</a>&amp; Pyramid::Components::Observers::ComponentStateSubject::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html">ComponentStateSubject</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1d4dd535d3daae449ea18df9229abf78"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Observers::ComponentStateSubject::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#a489f6b14b10613596074cc6ee14b3692">m_pOwner</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">pOwner&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Component *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5f7b23612e98115ea88435e627686694"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Observers::ComponentStateSubject::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_subject.html#af83398ccd5d10e5fe0d39b373671f71a">m_Ovservers</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Ovservers&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_observer.html">ComponentStateObserver</a> * &gt;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a class="anchor" id="af83398ccd5d10e5fe0d39b373671f71a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="class_pyramid_1_1_components_1_1_observers_1_1_component_state_observer.html">ComponentStateObserver</a>*&gt; Pyramid::Components::Observers::ComponentStateSubject::m_Ovservers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a489f6b14b10613596074cc6ee14b3692"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Component* Pyramid::Components::Observers::ComponentStateSubject::m_pOwner</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Components/Observers/<a class="el" href="_component_state_subject_8h_source.html">ComponentStateSubject.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Components/Observers/<a class="el" href="_component_state_subject_8cpp.html">ComponentStateSubject.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

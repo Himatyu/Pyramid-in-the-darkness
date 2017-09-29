@@ -1,0 +1,515 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::UI::IUI クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_u_i.html">UI</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html">IUI</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pro-attribs">限定公開変数類</a> &#124;
+<a href="class_pyramid_1_1_u_i_1_1_i_u_i-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::UI::IUI クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>抽象UI レンダリング、トランスフォーム、 親子関係を考慮した状態イベント発生のためのパラメータを持つ イベントの発生は親子の情報に依存するので Activate直後にOnActiveが発生するとは限らない IsActiveがフックプロパティじゃないのは自身のIsActiveだけで状態を判断できないから  
+ <a href="class_pyramid_1_1_u_i_1_1_i_u_i.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_i_u_i_8h_source.html">IUI.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::UI::IUI の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_u_i_1_1_i_u_i.png" usemap="#Pyramid::UI::IUI_map" alt=""/>
+  <map id="Pyramid::UI::IUI_map" name="Pyramid::UI::IUI_map">
+<area href="class_pyramid_1_1_components_1_1_u_i_button.html" title="ボタンUI " alt="Pyramid::Components::UIButton" shape="rect" coords="0,112,185,136"/>
+<area href="class_pyramid_1_1_components_1_1_u_i_image.html" title="UIイメージ " alt="Pyramid::Components::UIImage" shape="rect" coords="195,112,380,136"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:aecf21970cfa394a1bf0bef908efba87a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html#aecf21970cfa394a1bf0bef908efba87a">IUI</a> ()</td></tr>
+<tr class="separator:aecf21970cfa394a1bf0bef908efba87a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07d5e7842190ca4a7ec2495167e491f7"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html#a07d5e7842190ca4a7ec2495167e491f7">~IUI</a> ()=default</td></tr>
+<tr class="separator:a07d5e7842190ca4a7ec2495167e491f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b877cde6c57c0fb5836d44696f3c81e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html#a3b877cde6c57c0fb5836d44696f3c81e">IUI</a> (const <a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html">IUI</a> &amp;)=default</td></tr>
+<tr class="separator:a3b877cde6c57c0fb5836d44696f3c81e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a510981bb150225a24ffcbeac596cc60d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html#a510981bb150225a24ffcbeac596cc60d">IUI</a> (<a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html">IUI</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a510981bb150225a24ffcbeac596cc60d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92af31612e10fd3226f265d7a5fe39ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html">IUI</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html#a92af31612e10fd3226f265d7a5fe39ce">operator=</a> (const <a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html">IUI</a> &amp;)=default</td></tr>
+<tr class="separator:a92af31612e10fd3226f265d7a5fe39ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae118dbf00fd8d2d42acfe09312b5b2b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html">IUI</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html#ae118dbf00fd8d2d42acfe09312b5b2b7">operator=</a> (<a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html">IUI</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ae118dbf00fd8d2d42acfe09312b5b2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad65b3b7122969dfe06a6b3e7f9fe4da2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html#ad65b3b7122969dfe06a6b3e7f9fe4da2">Activate</a> ()</td></tr>
+<tr class="memdesc:ad65b3b7122969dfe06a6b3e7f9fe4da2"><td class="mdescLeft">&#160;</td><td class="mdescRight">有効化  <a href="#ad65b3b7122969dfe06a6b3e7f9fe4da2">[詳解]</a><br /></td></tr>
+<tr class="separator:ad65b3b7122969dfe06a6b3e7f9fe4da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a0c2bd824f05a596f973cc42fd9e76b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html#a1a0c2bd824f05a596f973cc42fd9e76b">Deactivate</a> ()</td></tr>
+<tr class="memdesc:a1a0c2bd824f05a596f973cc42fd9e76b"><td class="mdescLeft">&#160;</td><td class="mdescRight">無効化  <a href="#a1a0c2bd824f05a596f973cc42fd9e76b">[詳解]</a><br /></td></tr>
+<tr class="separator:a1a0c2bd824f05a596f973cc42fd9e76b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99558605994ee3a53c12bff1e1323fdc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html#a99558605994ee3a53c12bff1e1323fdc">Updata</a> () override</td></tr>
+<tr class="memdesc:a99558605994ee3a53c12bff1e1323fdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">トランスフォームの更新  <a href="#a99558605994ee3a53c12bff1e1323fdc">[詳解]</a><br /></td></tr>
+<tr class="separator:a99558605994ee3a53c12bff1e1323fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8464bcbf0d98bafa6658c34ba6383fd9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html#a8464bcbf0d98bafa6658c34ba6383fd9">PROPERTY_REF_R_ONLY</a> (<a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html#a8b61aa6a58b0e2d655c3c88ff1bc1ec7">m_Transform</a>, <a class="el" href="class_pyramid_1_1_components_1_1_transform.html">Transform</a>, <a class="el" href="class_pyramid_1_1_u_i_1_1_u_i_transform.html">UITransform</a>)</td></tr>
+<tr class="separator:a8464bcbf0d98bafa6658c34ba6383fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8df206abb4abc637bebf3bd7d0214b29"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html#a8df206abb4abc637bebf3bd7d0214b29">PROPERTY_REF</a> (m_Render.Texture, Texture, <a class="el" href="namespace_pyramid_1_1_resources.html#a6e4a9eb93c6e0513547a12ac45e529e4">Resources::TextureDx</a>)</td></tr>
+<tr class="separator:a8df206abb4abc637bebf3bd7d0214b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3979a32bd1d951de7158517641f5f082"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html#a3979a32bd1d951de7158517641f5f082">PROPERTY_REF</a> (m_Render.Overlap, Overlap, <a class="el" href="class_pyramid_1_1_rendering_1_1_color.html">Rendering::Color</a>)</td></tr>
+<tr class="separator:a3979a32bd1d951de7158517641f5f082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+限定公開変数類</h2></td></tr>
+<tr class="memitem:a00301ad05677f7ca6a957c60c768651e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_component_render_1_1_u_i_render.html">Rendering::ComponentRender::UIRender</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html#a00301ad05677f7ca6a957c60c768651e">m_Render</a></td></tr>
+<tr class="separator:a00301ad05677f7ca6a957c60c768651e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b61aa6a58b0e2d655c3c88ff1bc1ec7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_u_i_1_1_u_i_transform.html">UITransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html#a8b61aa6a58b0e2d655c3c88ff1bc1ec7">m_Transform</a></td></tr>
+<tr class="separator:a8b61aa6a58b0e2d655c3c88ff1bc1ec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>抽象UI レンダリング、トランスフォーム、 親子関係を考慮した状態イベント発生のためのパラメータを持つ イベントの発生は親子の情報に依存するので Activate直後にOnActiveが発生するとは限らない IsActiveがフックプロパティじゃないのは自身のIsActiveだけで状態を判断できないから </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="aecf21970cfa394a1bf0bef908efba87a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::UI::IUI::IUI </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a07d5e7842190ca4a7ec2495167e491f7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Pyramid::UI::IUI::~IUI </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3b877cde6c57c0fb5836d44696f3c81e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::UI::IUI::IUI </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html">IUI</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a510981bb150225a24ffcbeac596cc60d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::UI::IUI::IUI </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html">IUI</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="ad65b3b7122969dfe06a6b3e7f9fe4da2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::UI::IUI::Activate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>有効化 </p>
+
+</div>
+</div>
+<a class="anchor" id="a1a0c2bd824f05a596f973cc42fd9e76b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::UI::IUI::Deactivate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>無効化 </p>
+
+</div>
+</div>
+<a class="anchor" id="a92af31612e10fd3226f265d7a5fe39ce"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html">IUI</a>&amp; Pyramid::UI::IUI::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html">IUI</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae118dbf00fd8d2d42acfe09312b5b2b7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html">IUI</a>&amp; Pyramid::UI::IUI::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html">IUI</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8df206abb4abc637bebf3bd7d0214b29"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::UI::IUI::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Render.&#160;</td>
+          <td class="paramname"><em>Texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_pyramid_1_1_resources.html#a6e4a9eb93c6e0513547a12ac45e529e4">Resources::TextureDx</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3979a32bd1d951de7158517641f5f082"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::UI::IUI::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Render.&#160;</td>
+          <td class="paramname"><em>Overlap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Overlap&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_color.html">Rendering::Color</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8464bcbf0d98bafa6658c34ba6383fd9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::UI::IUI::PROPERTY_REF_R_ONLY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_u_i_1_1_i_u_i.html#a8b61aa6a58b0e2d655c3c88ff1bc1ec7">m_Transform</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_components_1_1_transform.html">Transform</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_u_i_1_1_u_i_transform.html">UITransform</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a99558605994ee3a53c12bff1e1323fdc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::UI::IUI::Updata </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>トランスフォームの更新 </p>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a class="anchor" id="a00301ad05677f7ca6a957c60c768651e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_rendering_1_1_component_render_1_1_u_i_render.html">Rendering::ComponentRender::UIRender</a> Pyramid::UI::IUI::m_Render</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8b61aa6a58b0e2d655c3c88ff1bc1ec7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_u_i_1_1_u_i_transform.html">UITransform</a> Pyramid::UI::IUI::m_Transform</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/UI/<a class="el" href="_i_u_i_8h_source.html">IUI.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/UI/<a class="el" href="_i_u_i_8cpp.html">IUI.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

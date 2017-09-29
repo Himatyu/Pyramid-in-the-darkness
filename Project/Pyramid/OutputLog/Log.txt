@@ -1,0 +1,4 @@
+Release
+
+Err : Key‚Ì“ü—ÍŠJŽn‚ÉŽ¸”s function : SetUp line : 123 file : Common\InputDevice\Key.cpp
+

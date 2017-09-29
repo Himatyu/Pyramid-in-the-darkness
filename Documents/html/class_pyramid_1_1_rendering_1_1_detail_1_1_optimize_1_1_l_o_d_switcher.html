@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::Rendering::Detail::Optimize::LODSwitcher クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_rendering.html">Rendering</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_rendering_1_1_detail.html">Detail</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_rendering_1_1_detail_1_1_optimize.html">Optimize</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html">LODSwitcher</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pub-attribs">公開変数類</a> &#124;
+<a href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::Rendering::Detail::Optimize::LODSwitcher クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>レベルに応じてパイプラインを組み替える ハイレベルとローレベルで切り分ける 閾値の初期値は1000  
+ <a href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_l_o_d_switcher_8h_source.html">LODSwitcher.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::Rendering::Detail::Optimize::LODSwitcher の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.png" usemap="#Pyramid::Rendering::Detail::Optimize::LODSwitcher_map" alt=""/>
+  <map id="Pyramid::Rendering::Detail::Optimize::LODSwitcher_map" name="Pyramid::Rendering::Detail::Optimize::LODSwitcher_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:ac54ba939a316af3ffd4f420dbbaa8606"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html#ac54ba939a316af3ffd4f420dbbaa8606">LODSwitcher</a> (<a class="el" href="class_pyramid_1_1_common_1_1_world_volume.html">Common::WorldVolume</a> &amp;)</td></tr>
+<tr class="separator:ac54ba939a316af3ffd4f420dbbaa8606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76f6012efa642e64022bd202be9e8f2d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html#a76f6012efa642e64022bd202be9e8f2d">~LODSwitcher</a> ()=default</td></tr>
+<tr class="separator:a76f6012efa642e64022bd202be9e8f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a895243f2dea4db40d63be053668ef1c4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html#a895243f2dea4db40d63be053668ef1c4">LODSwitcher</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html">LODSwitcher</a> &amp;)</td></tr>
+<tr class="separator:a895243f2dea4db40d63be053668ef1c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57fc9e678970c21c67f8d2144a11327e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html#a57fc9e678970c21c67f8d2144a11327e">LODSwitcher</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html">LODSwitcher</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a57fc9e678970c21c67f8d2144a11327e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76c194fc48e17a786527c182dd7171c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html">LODSwitcher</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html#a76c194fc48e17a786527c182dd7171c2">operator=</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html">LODSwitcher</a> &amp;)=default</td></tr>
+<tr class="separator:a76c194fc48e17a786527c182dd7171c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59cac510517c440e8d775d4fe1fadea7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html">LODSwitcher</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html#a59cac510517c440e8d775d4fe1fadea7">operator=</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html">LODSwitcher</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a59cac510517c440e8d775d4fe1fadea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7a47cb9bd49da4407c5b8e3bb21f46f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html#af7a47cb9bd49da4407c5b8e3bb21f46f">Run</a> (<a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;_cameraPos)</td></tr>
+<tr class="memdesc:af7a47cb9bd49da4407c5b8e3bb21f46f"><td class="mdescLeft">&#160;</td><td class="mdescRight">カメラとの距離から自身のレベルを算出しイベントを発行  <a href="#af7a47cb9bd49da4407c5b8e3bb21f46f">[詳解]</a><br /></td></tr>
+<tr class="separator:af7a47cb9bd49da4407c5b8e3bb21f46f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4239a6ce56f7d53755878edb3a7ac4c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html#a4239a6ce56f7d53755878edb3a7ac4c9">PROPERTY_R_ONLY</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html#af5833f67a94d7eba7170fe3f709ecbf8">m_DistanceToCamera</a>, DistanceToCamera, float)</td></tr>
+<tr class="separator:a4239a6ce56f7d53755878edb3a7ac4c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+公開変数類</h2></td></tr>
+<tr class="memitem:ac862a6683ea27b52dc4dd955f00f2ecc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_common_1_1_world_volume.html">Common::WorldVolume</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html#ac862a6683ea27b52dc4dd955f00f2ecc">m_RefRenderingVolume</a></td></tr>
+<tr class="separator:ac862a6683ea27b52dc4dd955f00f2ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e8c9ccea2f8465c171a2ee93ec038a0"><td class="memItemLeft" align="right" valign="top">Utility::Range&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html#a2e8c9ccea2f8465c171a2ee93ec038a0">m_Cash</a></td></tr>
+<tr class="separator:a2e8c9ccea2f8465c171a2ee93ec038a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5833f67a94d7eba7170fe3f709ecbf8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html#af5833f67a94d7eba7170fe3f709ecbf8">m_DistanceToCamera</a></td></tr>
+<tr class="separator:af5833f67a94d7eba7170fe3f709ecbf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>レベルに応じてパイプラインを組み替える ハイレベルとローレベルで切り分ける 閾値の初期値は1000 </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="ac54ba939a316af3ffd4f420dbbaa8606"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Detail::Optimize::LODSwitcher::LODSwitcher </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_common_1_1_world_volume.html">Common::WorldVolume</a> &amp;&#160;</td>
+          <td class="paramname"><em>_refVolume</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a76f6012efa642e64022bd202be9e8f2d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Detail::Optimize::LODSwitcher::~LODSwitcher </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a895243f2dea4db40d63be053668ef1c4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Detail::Optimize::LODSwitcher::LODSwitcher </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html">LODSwitcher</a> &amp;&#160;</td>
+          <td class="paramname"><em>_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a57fc9e678970c21c67f8d2144a11327e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Detail::Optimize::LODSwitcher::LODSwitcher </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html">LODSwitcher</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a76c194fc48e17a786527c182dd7171c2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html">LODSwitcher</a>&amp; Pyramid::Rendering::Detail::Optimize::LODSwitcher::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html">LODSwitcher</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a59cac510517c440e8d775d4fe1fadea7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html">LODSwitcher</a>&amp; Pyramid::Rendering::Detail::Optimize::LODSwitcher::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html">LODSwitcher</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4239a6ce56f7d53755878edb3a7ac4c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Detail::Optimize::LODSwitcher::PROPERTY_R_ONLY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_l_o_d_switcher.html#af5833f67a94d7eba7170fe3f709ecbf8">m_DistanceToCamera</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DistanceToCamera&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af7a47cb9bd49da4407c5b8e3bb21f46f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Rendering::Detail::Optimize::LODSwitcher::Run </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>_cameraPos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>カメラとの距離から自身のレベルを算出しイベントを発行 </p>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a class="anchor" id="a2e8c9ccea2f8465c171a2ee93ec038a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Utility::Range&lt;float&gt; Pyramid::Rendering::Detail::Optimize::LODSwitcher::m_Cash</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af5833f67a94d7eba7170fe3f709ecbf8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Pyramid::Rendering::Detail::Optimize::LODSwitcher::m_DistanceToCamera</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac862a6683ea27b52dc4dd955f00f2ecc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_common_1_1_world_volume.html">Common::WorldVolume</a>&amp; Pyramid::Rendering::Detail::Optimize::LODSwitcher::m_RefRenderingVolume</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Detail/Optimize/<a class="el" href="_l_o_d_switcher_8h_source.html">LODSwitcher.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Detail/Optimize/<a class="el" href="_l_o_d_switcher_8cpp.html">LODSwitcher.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

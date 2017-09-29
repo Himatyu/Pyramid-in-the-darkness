@@ -1,0 +1,427 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::Components::Detail::ParticleBlaster クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_components.html">Components</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_components_1_1_detail.html">Detail</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html">ParticleBlaster</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::Components::Detail::ParticleBlaster クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>パーティクルの放射  
+ <a href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_particle_blaster_8h_source.html">ParticleBlaster.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::Components::Detail::ParticleBlaster の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.png" usemap="#Pyramid::Components::Detail::ParticleBlaster_map" alt=""/>
+  <map id="Pyramid::Components::Detail::ParticleBlaster_map" name="Pyramid::Components::Detail::ParticleBlaster_map">
+<area href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html" title="パーティクルシステムを構成するモジュール " alt="Pyramid::Components::Detail::ParticleSystemModule" shape="rect" coords="0,56,400,80"/>
+<area href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_judgment_same_space_of_frustum.html" title="視錐台と同空間か判定する " alt="Pyramid::Rendering::Detail::Optimize::JudgmentSameSpaceOfFrustum" shape="rect" coords="0,0,400,24"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:af48c8d6898153a9fc1f46a8a0a0a357e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html#af48c8d6898153a9fc1f46a8a0a0a357e">ParticleBlaster</a> (<a class="el" href="class_pyramid_1_1_components_1_1_particle_system.html">ParticleSystem</a> *, UINT _poolCount)</td></tr>
+<tr class="separator:af48c8d6898153a9fc1f46a8a0a0a357e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89c9874e03a682b590c8f29c03035a3a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html#a89c9874e03a682b590c8f29c03035a3a">~ParticleBlaster</a> ()</td></tr>
+<tr class="separator:a89c9874e03a682b590c8f29c03035a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c3ae7cc3ddd89e560712b0d14fb5d88"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html#a5c3ae7cc3ddd89e560712b0d14fb5d88">ParticleBlaster</a> (const <a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html">ParticleBlaster</a> &amp;)=default</td></tr>
+<tr class="separator:a5c3ae7cc3ddd89e560712b0d14fb5d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86dd450d8a0d6a6f8de8eb18aa1f0ab5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html#a86dd450d8a0d6a6f8de8eb18aa1f0ab5">ParticleBlaster</a> (<a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html">ParticleBlaster</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a86dd450d8a0d6a6f8de8eb18aa1f0ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f951b0ef4635b170160eb975fef7763"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html">ParticleBlaster</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html#a7f951b0ef4635b170160eb975fef7763">operator=</a> (const <a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html">ParticleBlaster</a> &amp;)=default</td></tr>
+<tr class="separator:a7f951b0ef4635b170160eb975fef7763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ba1430e1f6830444462c9b2dce30d7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html">ParticleBlaster</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html#a7ba1430e1f6830444462c9b2dce30d7e">operator=</a> (<a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html">ParticleBlaster</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a7ba1430e1f6830444462c9b2dce30d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98bbf48f974f5def9303440d633101d9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html#a98bbf48f974f5def9303440d633101d9">Activate</a> () override</td></tr>
+<tr class="memdesc:a98bbf48f974f5def9303440d633101d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">モジュールのアクティベート  <a href="#a98bbf48f974f5def9303440d633101d9">[詳解]</a><br /></td></tr>
+<tr class="separator:a98bbf48f974f5def9303440d633101d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab54801d3edac00e3ab134e0795abf341"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html#ab54801d3edac00e3ab134e0795abf341">Emit</a> () override</td></tr>
+<tr class="memdesc:ab54801d3edac00e3ab134e0795abf341"><td class="mdescLeft">&#160;</td><td class="mdescRight">パーティクルを放出する  <a href="#ab54801d3edac00e3ab134e0795abf341">[詳解]</a><br /></td></tr>
+<tr class="separator:ab54801d3edac00e3ab134e0795abf341"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfb35266b1390b23ca426ce22afc9674"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html#abfb35266b1390b23ca426ce22afc9674">Reserve</a> (float, unsigned int)</td></tr>
+<tr class="memdesc:abfb35266b1390b23ca426ce22afc9674"><td class="mdescLeft">&#160;</td><td class="mdescRight">放出予約を行う  <a href="#abfb35266b1390b23ca426ce22afc9674">[詳解]</a><br /></td></tr>
+<tr class="separator:abfb35266b1390b23ca426ce22afc9674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html">Pyramid::Components::Detail::ParticleSystemModule</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a3b2b79f98129110a5a9c0f1566bc7a99 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a3b2b79f98129110a5a9c0f1566bc7a99">ParticleSystemModule</a> (<a class="el" href="class_pyramid_1_1_components_1_1_particle_system.html">ParticleSystem</a> *, UINT)</td></tr>
+<tr class="separator:a3b2b79f98129110a5a9c0f1566bc7a99 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc6b8ced6bd343f008289c78b1b357b3 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#adc6b8ced6bd343f008289c78b1b357b3">~ParticleSystemModule</a> ()</td></tr>
+<tr class="separator:adc6b8ced6bd343f008289c78b1b357b3 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7af9dcc745ce5eb60be48400c4269233 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a7af9dcc745ce5eb60be48400c4269233">ParticleSystemModule</a> (const <a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html">ParticleSystemModule</a> &amp;)=default</td></tr>
+<tr class="separator:a7af9dcc745ce5eb60be48400c4269233 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac72a244c1c276e709899d62977bef02b inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#ac72a244c1c276e709899d62977bef02b">ParticleSystemModule</a> (<a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html">ParticleSystemModule</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ac72a244c1c276e709899d62977bef02b inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0537d7524dcc852d99bcbfa5ff578413 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html">ParticleSystemModule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a0537d7524dcc852d99bcbfa5ff578413">operator=</a> (const <a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html">ParticleSystemModule</a> &amp;)=default</td></tr>
+<tr class="separator:a0537d7524dcc852d99bcbfa5ff578413 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9339f5ae03697fdc32b5713fc75eb361 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html">ParticleSystemModule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a9339f5ae03697fdc32b5713fc75eb361">operator=</a> (<a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html">ParticleSystemModule</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a9339f5ae03697fdc32b5713fc75eb361 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad859b09ec9be85dc2628ccff0e7e2424 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#ad859b09ec9be85dc2628ccff0e7e2424">Updata</a> ()</td></tr>
+<tr class="memdesc:ad859b09ec9be85dc2628ccff0e7e2424 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="mdescLeft">&#160;</td><td class="mdescRight">モジュール更新  <a href="#ad859b09ec9be85dc2628ccff0e7e2424">[詳解]</a><br /></td></tr>
+<tr class="separator:ad859b09ec9be85dc2628ccff0e7e2424 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78dbbcbaf8d66af3a4fcd335aeb4139f inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_pyramid_1_1_common.html#af482909ff1d8e19663498db9a89c5c90">Common::NullableSp</a>&lt; <a class="el" href="class_pyramid_1_1_components_1_1_transform.html">Transform</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a78dbbcbaf8d66af3a4fcd335aeb4139f">SerchSystemTransfrom</a> ()</td></tr>
+<tr class="memdesc:a78dbbcbaf8d66af3a4fcd335aeb4139f inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="mdescLeft">&#160;</td><td class="mdescRight">システムのトランスフォーム取得  <a href="#a78dbbcbaf8d66af3a4fcd335aeb4139f">[詳解]</a><br /></td></tr>
+<tr class="separator:a78dbbcbaf8d66af3a4fcd335aeb4139f inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a2e5f30549847cad86de0f5e5bc308c inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a8a2e5f30549847cad86de0f5e5bc308c">PROPERTY_REF</a> (m_AdditionalInitialize, AdditionalInitialize, std::function&lt; void(<a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html">Detail::Particle</a> &amp;)&gt;)</td></tr>
+<tr class="separator:a8a2e5f30549847cad86de0f5e5bc308c inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55165e8545dc381aa516d56dd785e4f7 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a55165e8545dc381aa516d56dd785e4f7">PROPERTY_REF</a> (m_AdditionalUpdata, AdditionalUpdata, std::function&lt; void(<a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html">Detail::Particle</a> &amp;)&gt;)</td></tr>
+<tr class="separator:a55165e8545dc381aa516d56dd785e4f7 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ee25907848f3b8807a60823a6dfbf38 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a6ee25907848f3b8807a60823a6dfbf38">PROPERTY_REF</a> (m_TextureUV, TextureUV, <a class="el" href="class_pyramid_1_1_common_1_1_texture_anim_u_v.html">Common::TextureAnimUV</a>)</td></tr>
+<tr class="separator:a6ee25907848f3b8807a60823a6dfbf38 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fad02502a5daa0dfc8d3bb63f8a7ca5 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a6fad02502a5daa0dfc8d3bb63f8a7ca5">PROPERTY_REF</a> (m_Material, Material, <a class="el" href="class_pyramid_1_1_rendering_1_1_materials_1_1_particle_materal.html">Rendering::Materials::ParticleMateral</a>)</td></tr>
+<tr class="separator:a6fad02502a5daa0dfc8d3bb63f8a7ca5 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14bbb579474108e6e890da5a53a0e3b7 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a14bbb579474108e6e890da5a53a0e3b7">PROPERTY_REF</a> (m_StartColor, StartColor, <a class="el" href="class_pyramid_1_1_rendering_1_1_color.html">Rendering::Color</a>)</td></tr>
+<tr class="separator:a14bbb579474108e6e890da5a53a0e3b7 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8155bf65c41fbed01b67f855389efcfb inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a8155bf65c41fbed01b67f855389efcfb">PROPERTY_REF</a> (m_StartPosition, StartPosition, <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>)</td></tr>
+<tr class="separator:a8155bf65c41fbed01b67f855389efcfb inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa880790280dfcdd9431ccc59a0e6a454 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#aa880790280dfcdd9431ccc59a0e6a454">PROPERTY_REF</a> (m_StartAccel, StartAccel, <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>)</td></tr>
+<tr class="separator:aa880790280dfcdd9431ccc59a0e6a454 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9da323bd8783c398052f0352469a3f4 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#ac9da323bd8783c398052f0352469a3f4">PROPERTY_REF</a> (m_Delay, Delay, float)</td></tr>
+<tr class="separator:ac9da323bd8783c398052f0352469a3f4 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93b479ada8c4fc0ef6e640ae7621d5f5 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a93b479ada8c4fc0ef6e640ae7621d5f5">PROPERTY_REF</a> (m_StartSpeed, StartSpeed, float)</td></tr>
+<tr class="separator:a93b479ada8c4fc0ef6e640ae7621d5f5 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9af4c6804065ab83de396c4e82e06c60 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a9af4c6804065ab83de396c4e82e06c60">PROPERTY_REF</a> (m_StartSize, StartSize, float)</td></tr>
+<tr class="separator:a9af4c6804065ab83de396c4e82e06c60 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51968a75c02aa8af2b74c6ec2f48a5b6 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a51968a75c02aa8af2b74c6ec2f48a5b6">PROPERTY_REF</a> (m_StartRotation, StartRotation, float)</td></tr>
+<tr class="separator:a51968a75c02aa8af2b74c6ec2f48a5b6 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b9f85e15ee1d3a23b32e51342bcaa1c inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a1b9f85e15ee1d3a23b32e51342bcaa1c">PROPERTY_REF</a> (m_Lifetime, Lifetime, float)</td></tr>
+<tr class="separator:a1b9f85e15ee1d3a23b32e51342bcaa1c inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f5db14f2664e0aa1a3acd4ce18f3bb0 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a1f5db14f2664e0aa1a3acd4ce18f3bb0">PROPERTY_REF</a> (m_InheritVelocit, InheritVelocit, float)</td></tr>
+<tr class="separator:a1f5db14f2664e0aa1a3acd4ce18f3bb0 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc3964e1f8e32e86c582805f52f057e9 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#acc3964e1f8e32e86c582805f52f057e9">PROPERTY_REF</a> (m_GravityMultiplier, GravityMultiplier, float)</td></tr>
+<tr class="separator:acc3964e1f8e32e86c582805f52f057e9 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae24018d61c6ea33423c395e8f8cf8d3c inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#ae24018d61c6ea33423c395e8f8cf8d3c">PROPERTY_REF</a> (m_Duration, Duration, float)</td></tr>
+<tr class="separator:ae24018d61c6ea33423c395e8f8cf8d3c inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68e299236bdada20ce2f36587aab6329 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a68e299236bdada20ce2f36587aab6329">PROPERTY_REF</a> (m_IsLooping, IsLooping, bool)</td></tr>
+<tr class="separator:a68e299236bdada20ce2f36587aab6329 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b43938604cb7a5685f4674bbb3fd363 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#a1b43938604cb7a5685f4674bbb3fd363">PROPERTY_REF</a> (m_IsEmitt, IsEmitt, bool)</td></tr>
+<tr class="separator:a1b43938604cb7a5685f4674bbb3fd363 inherit pub_methods_class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>パーティクルの放射 </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="af48c8d6898153a9fc1f46a8a0a0a357e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::ParticleBlaster::ParticleBlaster </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_components_1_1_particle_system.html">ParticleSystem</a> *&#160;</td>
+          <td class="paramname"><em>_pSystem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UINT&#160;</td>
+          <td class="paramname"><em>_poolCount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a89c9874e03a682b590c8f29c03035a3a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::ParticleBlaster::~ParticleBlaster </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5c3ae7cc3ddd89e560712b0d14fb5d88"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::ParticleBlaster::ParticleBlaster </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html">ParticleBlaster</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a86dd450d8a0d6a6f8de8eb18aa1f0ab5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::ParticleBlaster::ParticleBlaster </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html">ParticleBlaster</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a98bbf48f974f5def9303440d633101d9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Components::Detail::ParticleBlaster::Activate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>モジュールのアクティベート </p>
+
+<p><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#ac5e4f02c4a2bd1ee9e01f6175cfa9ef8">Pyramid::Components::Detail::ParticleSystemModule</a>を再実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="ab54801d3edac00e3ab134e0795abf341"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Components::Detail::ParticleBlaster::Emit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>パーティクルを放出する </p>
+
+<p><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html#ae651bb905643c46373c251263af6f206">Pyramid::Components::Detail::ParticleSystemModule</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a7f951b0ef4635b170160eb975fef7763"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html">ParticleBlaster</a>&amp; Pyramid::Components::Detail::ParticleBlaster::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html">ParticleBlaster</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7ba1430e1f6830444462c9b2dce30d7e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html">ParticleBlaster</a>&amp; Pyramid::Components::Detail::ParticleBlaster::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_blaster.html">ParticleBlaster</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abfb35266b1390b23ca426ce22afc9674"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Components::Detail::ParticleBlaster::Reserve </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>_count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>放出予約を行う </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Components/Detail/<a class="el" href="_particle_blaster_8h_source.html">ParticleBlaster.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Components/Detail/<a class="el" href="_particle_blaster_8cpp.html">ParticleBlaster.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

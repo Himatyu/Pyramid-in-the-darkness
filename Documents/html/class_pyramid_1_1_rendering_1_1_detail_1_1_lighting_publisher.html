@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::Rendering::Detail::LightingPublisher クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_rendering.html">Rendering</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_rendering_1_1_detail.html">Detail</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html">LightingPublisher</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::Rendering::Detail::LightingPublisher クラス<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>ライト情報をデバイスにプッシュする  
+ <a href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_lighting_publisher_8h_source.html">LightingPublisher.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a4c249c45cad9be2dc5c29cdc121eae89"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html#a4c249c45cad9be2dc5c29cdc121eae89">LightingPublisher</a> ()=default</td></tr>
+<tr class="separator:a4c249c45cad9be2dc5c29cdc121eae89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1950f3e31eb3bcc82df6321fc882695"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html#ab1950f3e31eb3bcc82df6321fc882695">~LightingPublisher</a> ()=default</td></tr>
+<tr class="separator:ab1950f3e31eb3bcc82df6321fc882695"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad06c1cbfde13e5927ba7db781dee047b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html#ad06c1cbfde13e5927ba7db781dee047b">LightingPublisher</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html">LightingPublisher</a> &amp;)=default</td></tr>
+<tr class="separator:ad06c1cbfde13e5927ba7db781dee047b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa35ce3508c433840da1f5e82ee1f84dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html#aa35ce3508c433840da1f5e82ee1f84dd">LightingPublisher</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html">LightingPublisher</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:aa35ce3508c433840da1f5e82ee1f84dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08062eba4707e57dc3fd11d831746bd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html">LightingPublisher</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html#a08062eba4707e57dc3fd11d831746bd6">operator=</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html">LightingPublisher</a> &amp;)=default</td></tr>
+<tr class="separator:a08062eba4707e57dc3fd11d831746bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83491dd17556866789c31ac991779231"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html">LightingPublisher</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html#a83491dd17556866789c31ac991779231">operator=</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html">LightingPublisher</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a83491dd17556866789c31ac991779231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4907e096491e1ddbfdb459990541aefe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html#a4907e096491e1ddbfdb459990541aefe">SetLights</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html">Shaders::Shader</a> *)</td></tr>
+<tr class="memdesc:a4907e096491e1ddbfdb459990541aefe"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンテキストのライト情報をデバイスにプッシュする.  <a href="#a4907e096491e1ddbfdb459990541aefe">[詳解]</a><br /></td></tr>
+<tr class="separator:a4907e096491e1ddbfdb459990541aefe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>ライト情報をデバイスにプッシュする </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a4c249c45cad9be2dc5c29cdc121eae89"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Detail::LightingPublisher::LightingPublisher </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab1950f3e31eb3bcc82df6321fc882695"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Detail::LightingPublisher::~LightingPublisher </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad06c1cbfde13e5927ba7db781dee047b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Detail::LightingPublisher::LightingPublisher </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html">LightingPublisher</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa35ce3508c433840da1f5e82ee1f84dd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Detail::LightingPublisher::LightingPublisher </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html">LightingPublisher</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a08062eba4707e57dc3fd11d831746bd6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html">LightingPublisher</a>&amp; Pyramid::Rendering::Detail::LightingPublisher::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html">LightingPublisher</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a83491dd17556866789c31ac991779231"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html">LightingPublisher</a>&amp; Pyramid::Rendering::Detail::LightingPublisher::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_lighting_publisher.html">LightingPublisher</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4907e096491e1ddbfdb459990541aefe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Rendering::Detail::LightingPublisher::SetLights </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html">Shaders::Shader</a> *&#160;</td>
+          <td class="paramname"><em>_pShader</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>コンテキストのライト情報をデバイスにプッシュする. </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Detail/<a class="el" href="_lighting_publisher_8h_source.html">LightingPublisher.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Detail/<a class="el" href="_lighting_publisher_8cpp.html">LightingPublisher.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

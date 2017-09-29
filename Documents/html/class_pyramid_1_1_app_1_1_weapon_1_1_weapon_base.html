@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::App::Weapon::WeaponBase クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_app.html">App</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_app_1_1_weapon.html">Weapon</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html">WeaponBase</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pro-attribs">限定公開変数類</a> &#124;
+<a href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::App::Weapon::WeaponBase クラス<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>武器の基本機能  
+ <a href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_weapon_base_8h_source.html">WeaponBase.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::App::Weapon::WeaponBase の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.png" usemap="#Pyramid::App::Weapon::WeaponBase_map" alt=""/>
+  <map id="Pyramid::App::Weapon::WeaponBase_map" name="Pyramid::App::Weapon::WeaponBase_map">
+<area href="class_pyramid_1_1_app_1_1_weapon_1_1_vulcan.html" title="バルカン砲 " alt="Pyramid::App::Weapon::Vulcan" shape="rect" coords="0,56,219,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:aca61cd1341a6c161d8fcff0b5ba1451c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html#aca61cd1341a6c161d8fcff0b5ba1451c">WeaponBase</a> (<a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_object_1_1_actor.html">Extension::Object::Actor</a> *)</td></tr>
+<tr class="separator:aca61cd1341a6c161d8fcff0b5ba1451c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd634abd43a5bf5dae929e9e19f7dfd3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html#acd634abd43a5bf5dae929e9e19f7dfd3">~WeaponBase</a> ()=default</td></tr>
+<tr class="separator:acd634abd43a5bf5dae929e9e19f7dfd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3123a759e67dfb133dac2df55e205aeb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html#a3123a759e67dfb133dac2df55e205aeb">WeaponBase</a> (const <a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html">WeaponBase</a> &amp;)=default</td></tr>
+<tr class="separator:a3123a759e67dfb133dac2df55e205aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ce9130839b5d56556f77d1159108049"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html#a0ce9130839b5d56556f77d1159108049">WeaponBase</a> (<a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html">WeaponBase</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a0ce9130839b5d56556f77d1159108049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea6362382c609f26e12927e35034c11a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html">WeaponBase</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html#aea6362382c609f26e12927e35034c11a">operator=</a> (const <a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html">WeaponBase</a> &amp;)=default</td></tr>
+<tr class="separator:aea6362382c609f26e12927e35034c11a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad14439d29f4a59840111003d30a42605"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html">WeaponBase</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html#ad14439d29f4a59840111003d30a42605">operator=</a> (<a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html">WeaponBase</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ad14439d29f4a59840111003d30a42605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e728288aa2387e837a75c75ffeae614"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html#a3e728288aa2387e837a75c75ffeae614">Fire</a> ()=0</td></tr>
+<tr class="separator:a3e728288aa2387e837a75c75ffeae614"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+限定公開変数類</h2></td></tr>
+<tr class="memitem:a21b73f5f4dd86e83b8b7db77a2a38662"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_object_1_1_actor.html">Extension::Object::Actor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html#a21b73f5f4dd86e83b8b7db77a2a38662">m_pPlayer</a></td></tr>
+<tr class="separator:a21b73f5f4dd86e83b8b7db77a2a38662"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>武器の基本機能 </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="aca61cd1341a6c161d8fcff0b5ba1451c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::App::Weapon::WeaponBase::WeaponBase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_object_1_1_actor.html">Extension::Object::Actor</a> *&#160;</td>
+          <td class="paramname"><em>_pPlayer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acd634abd43a5bf5dae929e9e19f7dfd3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Pyramid::App::Weapon::WeaponBase::~WeaponBase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3123a759e67dfb133dac2df55e205aeb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::App::Weapon::WeaponBase::WeaponBase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html">WeaponBase</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0ce9130839b5d56556f77d1159108049"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::App::Weapon::WeaponBase::WeaponBase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html">WeaponBase</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a3e728288aa2387e837a75c75ffeae614"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Pyramid::App::Weapon::WeaponBase::Fire </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_vulcan.html#aad371e9ad4bdafffa31e5d6adc15a2ae">Pyramid::App::Weapon::Vulcan</a>で実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="aea6362382c609f26e12927e35034c11a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html">WeaponBase</a>&amp; Pyramid::App::Weapon::WeaponBase::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html">WeaponBase</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad14439d29f4a59840111003d30a42605"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html">WeaponBase</a>&amp; Pyramid::App::Weapon::WeaponBase::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_app_1_1_weapon_1_1_weapon_base.html">WeaponBase</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a class="anchor" id="a21b73f5f4dd86e83b8b7db77a2a38662"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_object_1_1_actor.html">Extension::Object::Actor</a>* Pyramid::App::Weapon::WeaponBase::m_pPlayer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/App/Weapon/<a class="el" href="_weapon_base_8h_source.html">WeaponBase.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/App/Weapon/<a class="el" href="_weapon_base_8cpp.html">WeaponBase.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

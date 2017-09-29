@@ -1,0 +1,682 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::Components::Detail::Particle クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_components.html">Components</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_components_1_1_detail.html">Detail</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html">Particle</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#friends">フレンド</a> &#124;
+<a href="class_pyramid_1_1_components_1_1_detail_1_1_particle-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::Components::Detail::Particle クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>最小パーティクル  
+ <a href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_components_2_detail_2_particle_8h_source.html">Particle.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::Components::Detail::Particle の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_components_1_1_detail_1_1_particle.png" usemap="#Pyramid::Components::Detail::Particle_map" alt=""/>
+  <map id="Pyramid::Components::Detail::Particle_map" name="Pyramid::Components::Detail::Particle_map">
+<area href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html" title="可視判定を行い、必要であればコマンドの発行を行う OptimizationRender対応なのはMTで最適化を行うのが前提..." alt="Pyramid::Rendering::Detail::Optimize::MLRCPublisher" shape="rect" coords="318,56,626,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a2e38482d8b27a738818d7f9190b94a36"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#a2e38482d8b27a738818d7f9190b94a36">Particle</a> (<a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html">ParticleSystemModule</a> *)</td></tr>
+<tr class="separator:a2e38482d8b27a738818d7f9190b94a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cb9ac38c2998655078b37af9627b1d4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#a5cb9ac38c2998655078b37af9627b1d4">~Particle</a> ()</td></tr>
+<tr class="separator:a5cb9ac38c2998655078b37af9627b1d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47fa42e63c456219f47d5132dabd3617"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#a47fa42e63c456219f47d5132dabd3617">Particle</a> (const <a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;)=default</td></tr>
+<tr class="separator:a47fa42e63c456219f47d5132dabd3617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac90da2bc0cb1a8311836d11eccd7be35"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#ac90da2bc0cb1a8311836d11eccd7be35">Particle</a> (<a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ac90da2bc0cb1a8311836d11eccd7be35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29f33073521787b1814d6469ac884039"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#a29f33073521787b1814d6469ac884039">operator=</a> (const <a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;)=default</td></tr>
+<tr class="separator:a29f33073521787b1814d6469ac884039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef8405542cdd4a88116b840feae50bdc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#aef8405542cdd4a88116b840feae50bdc">operator=</a> (<a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:aef8405542cdd4a88116b840feae50bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f657b02fbc77b7b29c8321d54b802a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#a7f657b02fbc77b7b29c8321d54b802a2">Init</a> ()</td></tr>
+<tr class="memdesc:a7f657b02fbc77b7b29c8321d54b802a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化. Emitterからの呼び出しを想定  <a href="#a7f657b02fbc77b7b29c8321d54b802a2">[詳解]</a><br /></td></tr>
+<tr class="separator:a7f657b02fbc77b7b29c8321d54b802a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21578076d10e9d98ae51ad8204f50972"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#a21578076d10e9d98ae51ad8204f50972">PROPERTY_REF</a> (m_Color, <a class="el" href="class_pyramid_1_1_rendering_1_1_color.html">Color</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_color.html">Rendering::Color</a>)</td></tr>
+<tr class="separator:a21578076d10e9d98ae51ad8204f50972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2132994d780d4dffb497080752a21269"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#a2132994d780d4dffb497080752a21269">PROPERTY_REF</a> (m_Position, Position, <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>)</td></tr>
+<tr class="separator:a2132994d780d4dffb497080752a21269"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a860c878d4d0fbbee0119f5e92d81f783"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#a860c878d4d0fbbee0119f5e92d81f783">PROPERTY_REF</a> (m_Accel, Accel, <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>)</td></tr>
+<tr class="separator:a860c878d4d0fbbee0119f5e92d81f783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52b9e9241e008460672bdcbf1f4d3314"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#a52b9e9241e008460672bdcbf1f4d3314">PROPERTY_REF</a> (m_Speed, Speed, float)</td></tr>
+<tr class="separator:a52b9e9241e008460672bdcbf1f4d3314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d095625b891cfc8eba8902c81551a3c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#a6d095625b891cfc8eba8902c81551a3c">PROPERTY_REF</a> (m_Size, Size, float)</td></tr>
+<tr class="separator:a6d095625b891cfc8eba8902c81551a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac84991f75c4b14f4ed2d30ce31ddbbcf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#ac84991f75c4b14f4ed2d30ce31ddbbcf">PROPERTY_REF</a> (m_Rotation, Rotation, float)</td></tr>
+<tr class="separator:ac84991f75c4b14f4ed2d30ce31ddbbcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d9f355eb184e310fe3dd7a4c095c937"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#a7d9f355eb184e310fe3dd7a4c095c937">PROPERTY_REF</a> (m_Lifetime, Lifetime, float)</td></tr>
+<tr class="separator:a7d9f355eb184e310fe3dd7a4c095c937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dbee2c74e66eed5be00696e57ede142"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#a9dbee2c74e66eed5be00696e57ede142">PROPERTY_REF</a> (m_IsBillboard, IsBillboard, bool)</td></tr>
+<tr class="separator:a9dbee2c74e66eed5be00696e57ede142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a045de6cf11c83814337fffcbc73cdacd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#a045de6cf11c83814337fffcbc73cdacd">PROPERTY_REF_R_ONLY</a> (m_TimeProgress, TimeProgress, float)</td></tr>
+<tr class="separator:a045de6cf11c83814337fffcbc73cdacd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a434f58bd9c469166162b45d5b980388f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#a434f58bd9c469166162b45d5b980388f">PROPERTY_REF</a> (m_IsEmmit, IsEmmit, bool)</td></tr>
+<tr class="separator:a434f58bd9c469166162b45d5b980388f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">Pyramid::Rendering::Detail::Optimize::MLRCPublisher</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a83a9129ebc1d7323b1c3d31db8d11321 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#a83a9129ebc1d7323b1c3d31db8d11321">MLRCPublisher</a> (<a class="el" href="class_pyramid_1_1_common_1_1_world_volume.html">Common::WorldVolume</a> &amp;, <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> *)</td></tr>
+<tr class="separator:a83a9129ebc1d7323b1c3d31db8d11321 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8f06da33b6fb70783184cd9509d1bf0 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#af8f06da33b6fb70783184cd9509d1bf0">~MLRCPublisher</a> ()=default</td></tr>
+<tr class="separator:af8f06da33b6fb70783184cd9509d1bf0 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a239a271691d9e6f0bcdec02fa9f06aae inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#a239a271691d9e6f0bcdec02fa9f06aae">MLRCPublisher</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;)</td></tr>
+<tr class="separator:a239a271691d9e6f0bcdec02fa9f06aae inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8f49b263045dcbe208d39822e77048d inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#aa8f49b263045dcbe208d39822e77048d">MLRCPublisher</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:aa8f49b263045dcbe208d39822e77048d inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84ea8306f04ae930161dc8f1ecf88198 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#a84ea8306f04ae930161dc8f1ecf88198">operator=</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;)</td></tr>
+<tr class="separator:a84ea8306f04ae930161dc8f1ecf88198 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dbce5c17e68b110df78c6026fa0f62c inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#a8dbce5c17e68b110df78c6026fa0f62c">operator=</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html">MLRCPublisher</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a8dbce5c17e68b110df78c6026fa0f62c inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21de76c49233482fb61eb33dd8de4811 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#a21de76c49233482fb61eb33dd8de4811">IsPublish</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_frustum.html">Frustum</a> &amp;)</td></tr>
+<tr class="memdesc:a21de76c49233482fb61eb33dd8de4811 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="mdescLeft">&#160;</td><td class="mdescRight">コマンド発行の有無を確認する  <a href="#a21de76c49233482fb61eb33dd8de4811">[詳解]</a><br /></td></tr>
+<tr class="separator:a21de76c49233482fb61eb33dd8de4811 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11cc4bc7318aef50ec2739d0b6469de8 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#a11cc4bc7318aef50ec2739d0b6469de8">SetMLRCommand</a> (UINT)</td></tr>
+<tr class="memdesc:a11cc4bc7318aef50ec2739d0b6469de8 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="mdescLeft">&#160;</td><td class="mdescRight">MLRCのコマンドを設定する  <a href="#a11cc4bc7318aef50ec2739d0b6469de8">[詳解]</a><br /></td></tr>
+<tr class="separator:a11cc4bc7318aef50ec2739d0b6469de8 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5c79b1763237a6238e89acfe8275b1e inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c.html">MLRC</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#af5c79b1763237a6238e89acfe8275b1e">PublishMLRC</a> () override</td></tr>
+<tr class="separator:af5c79b1763237a6238e89acfe8275b1e inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6b27309318124d1cadd819770c33ee6 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher.html#aa6b27309318124d1cadd819770c33ee6">PROPERTY_REF</a> (m_IsCommandPublish, IsCommandPublish, bool)</td></tr>
+<tr class="separator:aa6b27309318124d1cadd819770c33ee6 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_m_l_r_c_publisher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+フレンド</h2></td></tr>
+<tr class="memitem:aeffe3d71be2604e79a441beccf97c016"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html#aeffe3d71be2604e79a441beccf97c016">Rendering::ComponentRender::ParticleRender</a></td></tr>
+<tr class="separator:aeffe3d71be2604e79a441beccf97c016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>最小パーティクル </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a2e38482d8b27a738818d7f9190b94a36"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::Particle::Particle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle_system_module.html">ParticleSystemModule</a> *&#160;</td>
+          <td class="paramname"><em>_pModule</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5cb9ac38c2998655078b37af9627b1d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::Particle::~Particle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a47fa42e63c456219f47d5132dabd3617"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::Particle::Particle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac90da2bc0cb1a8311836d11eccd7be35"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::Particle::Particle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a7f657b02fbc77b7b29c8321d54b802a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Components::Detail::Particle::Init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初期化. Emitterからの呼び出しを想定 </p>
+
+</div>
+</div>
+<a class="anchor" id="a29f33073521787b1814d6469ac884039"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html">Particle</a>&amp; Pyramid::Components::Detail::Particle::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aef8405542cdd4a88116b840feae50bdc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html">Particle</a>&amp; Pyramid::Components::Detail::Particle::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_components_1_1_detail_1_1_particle.html">Particle</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a21578076d10e9d98ae51ad8204f50972"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Color&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_color.html">Color</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_color.html">Rendering::Color</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2132994d780d4dffb497080752a21269"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Position&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Position&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a860c878d4d0fbbee0119f5e92d81f783"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Accel&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Accel&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a52b9e9241e008460672bdcbf1f4d3314"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Speed&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Speed&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6d095625b891cfc8eba8902c81551a3c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Size&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Size&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac84991f75c4b14f4ed2d30ce31ddbbcf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Rotation&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rotation&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7d9f355eb184e310fe3dd7a4c095c937"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Lifetime&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Lifetime&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9dbee2c74e66eed5be00696e57ede142"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_IsBillboard&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IsBillboard&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a434f58bd9c469166162b45d5b980388f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::Particle::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_IsEmmit&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IsEmmit&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a045de6cf11c83814337fffcbc73cdacd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Components::Detail::Particle::PROPERTY_REF_R_ONLY </td>
+          <td>(</td>
+          <td class="paramtype">m_TimeProgress&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TimeProgress&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">フレンドと関連関数の詳解</h2>
+<a class="anchor" id="aeffe3d71be2604e79a441beccf97c016"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_pyramid_1_1_rendering_1_1_component_render_1_1_particle_render.html">Rendering::ComponentRender::ParticleRender</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Components/Detail/<a class="el" href="_components_2_detail_2_particle_8h_source.html">Particle.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Components/Detail/<a class="el" href="_components_2_detail_2_particle_8cpp.html">Particle.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

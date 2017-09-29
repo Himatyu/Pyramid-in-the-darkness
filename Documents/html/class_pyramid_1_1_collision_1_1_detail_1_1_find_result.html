@@ -1,0 +1,437 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::Collision::Detail::FindResult クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_collision.html">Collision</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_collision_1_1_detail.html">Detail</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html">FindResult</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">公開型</a> &#124;
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::Collision::Detail::FindResult クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>ColliderManagerの検索結果  
+ <a href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_find_result_8h_source.html">FindResult.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+公開型</h2></td></tr>
+<tr class="memitem:aabacf22c8d2d4c2fec8ec9065ea2664d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html#aabacf22c8d2d4c2fec8ec9065ea2664d">ForLog</a> = std::tuple&lt; <a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_collider_1_1_i_collider.html">Collider::ICollider</a> *, <a class="el" href="namespace_pyramid_1_1_common.html#a52e399c9e8a98ff4a01ae01ab090b3c5">Common::Wp</a>&lt; <a class="el" href="class_pyramid_1_1_collision_1_1_i_volume.html">IVolume</a> &gt;, <a class="el" href="namespace_pyramid_1_1_common.html#a52e399c9e8a98ff4a01ae01ab090b3c5">Common::Wp</a>&lt; <a class="el" href="class_pyramid_1_1_collision_1_1_i_volume.html">IVolume</a> &gt;&gt;</td></tr>
+<tr class="separator:aabacf22c8d2d4c2fec8ec9065ea2664d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a82b2197d25c4fa1efae9fb3c54004e64"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html#a82b2197d25c4fa1efae9fb3c54004e64">FindResult</a> ()=default</td></tr>
+<tr class="separator:a82b2197d25c4fa1efae9fb3c54004e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11643cfcd63da37b37118ee0583e9cbf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html#a11643cfcd63da37b37118ee0583e9cbf">FindResult</a> (<a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_collider_1_1_i_collider.html">Collider::ICollider</a> *, <a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_collision_1_1_i_volume.html">IVolume</a> &gt; &amp;, <a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_collision_1_1_i_volume.html">IVolume</a> &gt; &amp;)</td></tr>
+<tr class="separator:a11643cfcd63da37b37118ee0583e9cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62b12425192da229f2d48f142f3ab8da"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html#a62b12425192da229f2d48f142f3ab8da">~FindResult</a> ()=default</td></tr>
+<tr class="separator:a62b12425192da229f2d48f142f3ab8da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a512a0bdc73f77b81e8ba270f10f2eb2f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html#a512a0bdc73f77b81e8ba270f10f2eb2f">FindResult</a> (const <a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html">FindResult</a> &amp;)</td></tr>
+<tr class="separator:a512a0bdc73f77b81e8ba270f10f2eb2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb16a234d96be55d88f871bf3186455c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html#afb16a234d96be55d88f871bf3186455c">FindResult</a> (<a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html">FindResult</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:afb16a234d96be55d88f871bf3186455c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86bfcc536c1f6e4cc69425d47db275e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html">FindResult</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html#a86bfcc536c1f6e4cc69425d47db275e8">operator=</a> (const <a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html">FindResult</a> &amp;)</td></tr>
+<tr class="separator:a86bfcc536c1f6e4cc69425d47db275e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a049163382023596e411aab7d2dfa3002"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html">FindResult</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html#a049163382023596e411aab7d2dfa3002">operator=</a> (<a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html">FindResult</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a049163382023596e411aab7d2dfa3002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae895a37a465dcc1d20445b6691e96e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html#aabacf22c8d2d4c2fec8ec9065ea2664d">ForLog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html#a1ae895a37a465dcc1d20445b6691e96e">ConvertItForRegistration</a> ()</td></tr>
+<tr class="memdesc:a1ae895a37a465dcc1d20445b6691e96e"><td class="mdescLeft">&#160;</td><td class="mdescRight">弱参照にキャストする  <a href="#a1ae895a37a465dcc1d20445b6691e96e">[詳解]</a><br /></td></tr>
+<tr class="separator:a1ae895a37a465dcc1d20445b6691e96e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55cd3d8ee179a842d3b3914476c9f1c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html#a55cd3d8ee179a842d3b3914476c9f1c9">PROPERTY_R_ONLY</a> (m_pCollider, pCollider, <a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_collider_1_1_i_collider.html">Collider::ICollider</a> *)</td></tr>
+<tr class="separator:a55cd3d8ee179a842d3b3914476c9f1c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea0c242787125305c0129684fa8f97ea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html#aea0c242787125305c0129684fa8f97ea">PROPERTY_REF_R_ONLY</a> (m_spIVolumeL, spVolumeL, <a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_collision_1_1_i_volume.html">IVolume</a> &gt;)</td></tr>
+<tr class="separator:aea0c242787125305c0129684fa8f97ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a649ec89932d9623fd1b614a1a56d4076"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html#a649ec89932d9623fd1b614a1a56d4076">PROPERTY_REF_R_ONLY</a> (m_spIVolumeR, spVolumeR, <a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_collision_1_1_i_volume.html">IVolume</a> &gt;)</td></tr>
+<tr class="separator:a649ec89932d9623fd1b614a1a56d4076"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>ColliderManagerの検索結果 </p>
+</div><h2 class="groupheader">型定義メンバ詳解</h2>
+<a class="anchor" id="aabacf22c8d2d4c2fec8ec9065ea2664d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html#aabacf22c8d2d4c2fec8ec9065ea2664d">Pyramid::Collision::Detail::FindResult::ForLog</a> =  std::tuple&lt;<a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_collider_1_1_i_collider.html">Collider::ICollider</a>*, <a class="el" href="namespace_pyramid_1_1_common.html#a52e399c9e8a98ff4a01ae01ab090b3c5">Common::Wp</a>&lt;<a class="el" href="class_pyramid_1_1_collision_1_1_i_volume.html">IVolume</a>&gt;, <a class="el" href="namespace_pyramid_1_1_common.html#a52e399c9e8a98ff4a01ae01ab090b3c5">Common::Wp</a>&lt;<a class="el" href="class_pyramid_1_1_collision_1_1_i_volume.html">IVolume</a>&gt;&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a82b2197d25c4fa1efae9fb3c54004e64"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::FindResult::FindResult </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a11643cfcd63da37b37118ee0583e9cbf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::FindResult::FindResult </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_collider_1_1_i_collider.html">Collider::ICollider</a> *&#160;</td>
+          <td class="paramname"><em>_pCollider</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_collision_1_1_i_volume.html">IVolume</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>_spLVolume</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_collision_1_1_i_volume.html">IVolume</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>_spRVolume</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a62b12425192da229f2d48f142f3ab8da"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::FindResult::~FindResult </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a512a0bdc73f77b81e8ba270f10f2eb2f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::FindResult::FindResult </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html">FindResult</a> &amp;&#160;</td>
+          <td class="paramname"><em>_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afb16a234d96be55d88f871bf3186455c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::FindResult::FindResult </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html">FindResult</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a1ae895a37a465dcc1d20445b6691e96e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html#aabacf22c8d2d4c2fec8ec9065ea2664d">FindResult::ForLog</a> Pyramid::Collision::Detail::FindResult::ConvertItForRegistration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>弱参照にキャストする </p>
+
+</div>
+</div>
+<a class="anchor" id="a86bfcc536c1f6e4cc69425d47db275e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html">FindResult</a> &amp; Pyramid::Collision::Detail::FindResult::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html">FindResult</a> &amp;&#160;</td>
+          <td class="paramname"><em>_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a049163382023596e411aab7d2dfa3002"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html">FindResult</a>&amp; Pyramid::Collision::Detail::FindResult::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_find_result.html">FindResult</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a55cd3d8ee179a842d3b3914476c9f1c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::FindResult::PROPERTY_R_ONLY </td>
+          <td>(</td>
+          <td class="paramtype">m_pCollider&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">pCollider&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_collider_1_1_i_collider.html">Collider::ICollider</a> *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aea0c242787125305c0129684fa8f97ea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::FindResult::PROPERTY_REF_R_ONLY </td>
+          <td>(</td>
+          <td class="paramtype">m_spIVolumeL&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">spVolumeL&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_collision_1_1_i_volume.html">IVolume</a> &gt;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a649ec89932d9623fd1b614a1a56d4076"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::FindResult::PROPERTY_REF_R_ONLY </td>
+          <td>(</td>
+          <td class="paramtype">m_spIVolumeR&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">spVolumeR&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_collision_1_1_i_volume.html">IVolume</a> &gt;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Collision/Detail/<a class="el" href="_find_result_8h_source.html">FindResult.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Collision/Detail/<a class="el" href="_find_result_8cpp.html">FindResult.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

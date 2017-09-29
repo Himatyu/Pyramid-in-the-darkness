@@ -1,0 +1,676 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Planet9::Common::Diagram::AABB クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_planet9.html">Planet9</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_common.html">Common</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_common_1_1_diagram.html">Diagram</a></li><li class="navelem"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">AABB</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Planet9::Common::Diagram::AABB クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>3DのAABB  
+ <a href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_a_a_b_b_8h_source.html">AABB.h</a>&gt;</code></p>
+<div class="dynheader">
+Planet9::Common::Diagram::AABB の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.png" usemap="#Planet9::Common::Diagram::AABB_map" alt=""/>
+  <map id="Planet9::Common::Diagram::AABB_map" name="Planet9::Common::Diagram::AABB_map">
+<area href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html" title="図形共通処理 " alt="Planet9::Common::Diagram::IDiagram" shape="rect" coords="0,56,217,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a1d58b08692e38de318636de82f044979"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#a1d58b08692e38de318636de82f044979">AABB</a> ()</td></tr>
+<tr class="separator:a1d58b08692e38de318636de82f044979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac28c9e94efa2ed6a845a398e7b78ee8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#ac28c9e94efa2ed6a845a398e7b78ee8c">AABB</a> (const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;_Min, const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;_Max)</td></tr>
+<tr class="separator:ac28c9e94efa2ed6a845a398e7b78ee8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b7a649ec2bee690cfad2d1c7f20c2a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#a1b7a649ec2bee690cfad2d1c7f20c2a8">~AABB</a> ()=default</td></tr>
+<tr class="separator:a1b7a649ec2bee690cfad2d1c7f20c2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51121c9aa1abc453e471306a45b7d497"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#a51121c9aa1abc453e471306a45b7d497">AABB</a> (const <a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">AABB</a> &amp;)=default</td></tr>
+<tr class="separator:a51121c9aa1abc453e471306a45b7d497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af10aaa28a0b5c9d19c88e009707d7524"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#af10aaa28a0b5c9d19c88e009707d7524">AABB</a> (<a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">AABB</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:af10aaa28a0b5c9d19c88e009707d7524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74790e345d81c90fa500709d5302913f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">AABB</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#a74790e345d81c90fa500709d5302913f">operator=</a> (const <a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">AABB</a> &amp;)=default</td></tr>
+<tr class="separator:a74790e345d81c90fa500709d5302913f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe3f6e7954750318bede8268cc65f499"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">AABB</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#afe3f6e7954750318bede8268cc65f499">operator=</a> (<a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">AABB</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:afe3f6e7954750318bede8268cc65f499"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a649c63dc159cf639d30eedc3b9139a02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#a649c63dc159cf639d30eedc3b9139a02">GetNearByNormal</a> (const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;)</td></tr>
+<tr class="separator:a649c63dc159cf639d30eedc3b9139a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0766750251cd2061db26436f2772d103"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#a0766750251cd2061db26436f2772d103">GetFarByNormal</a> (const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;)</td></tr>
+<tr class="separator:a0766750251cd2061db26436f2772d103"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80b2e0516b40fc884bf594413592a077"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#a80b2e0516b40fc884bf594413592a077">ReflectionOfTransfrom</a> (<a class="el" href="namespace_planet9_1_1_common.html#a3afddc25e7003868fe9f44962c55f7ec">Common::Sp</a>&lt; <a class="el" href="class_planet9_1_1_components_1_1_transform.html">Components::Transform</a> &gt; &amp;) override</td></tr>
+<tr class="memdesc:a80b2e0516b40fc884bf594413592a077"><td class="mdescLeft">&#160;</td><td class="mdescRight">中心座標更新  <a href="#a80b2e0516b40fc884bf594413592a077">[詳解]</a><br /></td></tr>
+<tr class="separator:a80b2e0516b40fc884bf594413592a077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a068547bd78e2b23860386a633f4af645"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#a068547bd78e2b23860386a633f4af645">ScaleTo</a> (const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;) override</td></tr>
+<tr class="memdesc:a068547bd78e2b23860386a633f4af645"><td class="mdescLeft">&#160;</td><td class="mdescRight">拡縮  <a href="#a068547bd78e2b23860386a633f4af645">[詳解]</a><br /></td></tr>
+<tr class="separator:a068547bd78e2b23860386a633f4af645"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7c6400bf048ff34457881a9c81c2067"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#aa7c6400bf048ff34457881a9c81c2067">MoveTo</a> (const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;) override</td></tr>
+<tr class="memdesc:aa7c6400bf048ff34457881a9c81c2067"><td class="mdescLeft">&#160;</td><td class="mdescRight">移動  <a href="#aa7c6400bf048ff34457881a9c81c2067">[詳解]</a><br /></td></tr>
+<tr class="separator:aa7c6400bf048ff34457881a9c81c2067"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a056eaf958fc0878ba2c3d8fd35611364"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_utility_1_1_nullable.html">Utility::Nullable</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#a056eaf958fc0878ba2c3d8fd35611364">IsInside</a> (const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;)</td></tr>
+<tr class="memdesc:a056eaf958fc0878ba2c3d8fd35611364"><td class="mdescLeft">&#160;</td><td class="mdescRight">内外判定 値を持っていれば外 持っていなければ内  <a href="#a056eaf958fc0878ba2c3d8fd35611364">[詳解]</a><br /></td></tr>
+<tr class="separator:a056eaf958fc0878ba2c3d8fd35611364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82727957cad9fda839701d6e9f0e36bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#a82727957cad9fda839701d6e9f0e36bf">CalculateOfCenter</a> ()</td></tr>
+<tr class="memdesc:a82727957cad9fda839701d6e9f0e36bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">中心座標を演算する  <a href="#a82727957cad9fda839701d6e9f0e36bf">[詳解]</a><br /></td></tr>
+<tr class="separator:a82727957cad9fda839701d6e9f0e36bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ee0a40d3894677a2afba32ddb586658"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#a2ee0a40d3894677a2afba32ddb586658">Initialize</a> () override</td></tr>
+<tr class="memdesc:a2ee0a40d3894677a2afba32ddb586658"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期状態に戻す 領域(-1-1-1~1,1,1)  <a href="#a2ee0a40d3894677a2afba32ddb586658">[詳解]</a><br /></td></tr>
+<tr class="separator:a2ee0a40d3894677a2afba32ddb586658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a953adde80a9af65d953c68c1d73b6d20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">AABB</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#a953adde80a9af65d953c68c1d73b6d20">operator+</a> (const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;) const </td></tr>
+<tr class="separator:a953adde80a9af65d953c68c1d73b6d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95e302586b1ad36ac80e6a56952b6c67"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#a95e302586b1ad36ac80e6a56952b6c67">PROPERTY_REF</a> (m_Min, Min, <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>)</td></tr>
+<tr class="separator:a95e302586b1ad36ac80e6a56952b6c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3e6dcb88a410531cca4e6c84faa6ad7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#ac3e6dcb88a410531cca4e6c84faa6ad7">PROPERTY_REF</a> (m_Max, Max, <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>)</td></tr>
+<tr class="separator:ac3e6dcb88a410531cca4e6c84faa6ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdd1b87cdcd3cdf6bb18ce8426807cda"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#abdd1b87cdcd3cdf6bb18ce8426807cda">PROPERTY_CR_R_ONLY</a> (m_Min, Min, <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>)</td></tr>
+<tr class="separator:abdd1b87cdcd3cdf6bb18ce8426807cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa82d20868807a3770c3b6d4b9f0f40d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html#aa82d20868807a3770c3b6d4b9f0f40d0">PROPERTY_CR_R_ONLY</a> (m_Max, Max, <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>)</td></tr>
+<tr class="separator:aa82d20868807a3770c3b6d4b9f0f40d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_planet9_1_1_common_1_1_diagram_1_1_i_diagram"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_planet9_1_1_common_1_1_diagram_1_1_i_diagram')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html">Planet9::Common::Diagram::IDiagram</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a7dc8b8733b17374d2917d7e32ed13650 inherit pub_methods_class_planet9_1_1_common_1_1_diagram_1_1_i_diagram"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html#a7dc8b8733b17374d2917d7e32ed13650">IDiagram</a> ()=default</td></tr>
+<tr class="separator:a7dc8b8733b17374d2917d7e32ed13650 inherit pub_methods_class_planet9_1_1_common_1_1_diagram_1_1_i_diagram"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad69fa9009ba012ddfafba1cafe59c5bd inherit pub_methods_class_planet9_1_1_common_1_1_diagram_1_1_i_diagram"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html#ad69fa9009ba012ddfafba1cafe59c5bd">~IDiagram</a> ()=default</td></tr>
+<tr class="separator:ad69fa9009ba012ddfafba1cafe59c5bd inherit pub_methods_class_planet9_1_1_common_1_1_diagram_1_1_i_diagram"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92cfb38880e3a7c058a8609f71c122d8 inherit pub_methods_class_planet9_1_1_common_1_1_diagram_1_1_i_diagram"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html#a92cfb38880e3a7c058a8609f71c122d8">IDiagram</a> (const <a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &amp;)=default</td></tr>
+<tr class="separator:a92cfb38880e3a7c058a8609f71c122d8 inherit pub_methods_class_planet9_1_1_common_1_1_diagram_1_1_i_diagram"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae057a13038af9af0373f05ae4861107a inherit pub_methods_class_planet9_1_1_common_1_1_diagram_1_1_i_diagram"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html#ae057a13038af9af0373f05ae4861107a">IDiagram</a> (<a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ae057a13038af9af0373f05ae4861107a inherit pub_methods_class_planet9_1_1_common_1_1_diagram_1_1_i_diagram"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a542a902c7dcef0a5a1fee2fbd921fbc7 inherit pub_methods_class_planet9_1_1_common_1_1_diagram_1_1_i_diagram"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html#a542a902c7dcef0a5a1fee2fbd921fbc7">operator=</a> (const <a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &amp;)=default</td></tr>
+<tr class="separator:a542a902c7dcef0a5a1fee2fbd921fbc7 inherit pub_methods_class_planet9_1_1_common_1_1_diagram_1_1_i_diagram"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a80e43ee7d0ca444308387fa8f0fc39 inherit pub_methods_class_planet9_1_1_common_1_1_diagram_1_1_i_diagram"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html#a0a80e43ee7d0ca444308387fa8f0fc39">operator=</a> (<a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html">IDiagram</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a0a80e43ee7d0ca444308387fa8f0fc39 inherit pub_methods_class_planet9_1_1_common_1_1_diagram_1_1_i_diagram"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ed4ad852be4169820d63d306c7d9d92 inherit pub_methods_class_planet9_1_1_common_1_1_diagram_1_1_i_diagram"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html#a0ed4ad852be4169820d63d306c7d9d92">RotateTo</a> (const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;)</td></tr>
+<tr class="separator:a0ed4ad852be4169820d63d306c7d9d92 inherit pub_methods_class_planet9_1_1_common_1_1_diagram_1_1_i_diagram"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>3DのAABB </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a1d58b08692e38de318636de82f044979"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Common::Diagram::AABB::AABB </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac28c9e94efa2ed6a845a398e7b78ee8c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Common::Diagram::AABB::AABB </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>_Min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>_Max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1b7a649ec2bee690cfad2d1c7f20c2a8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Common::Diagram::AABB::~AABB </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a51121c9aa1abc453e471306a45b7d497"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Common::Diagram::AABB::AABB </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">AABB</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af10aaa28a0b5c9d19c88e009707d7524"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Common::Diagram::AABB::AABB </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">AABB</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a82727957cad9fda839701d6e9f0e36bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> Planet9::Common::Diagram::AABB::CalculateOfCenter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>中心座標を演算する </p>
+
+</div>
+</div>
+<a class="anchor" id="a0766750251cd2061db26436f2772d103"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> Planet9::Common::Diagram::AABB::GetFarByNormal </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>_normal</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a649c63dc159cf639d30eedc3b9139a02"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> Planet9::Common::Diagram::AABB::GetNearByNormal </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>_normal</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2ee0a40d3894677a2afba32ddb586658"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Common::Diagram::AABB::Initialize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>初期状態に戻す 領域(-1-1-1~1,1,1) </p>
+
+<p><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html#ac2e85b2246a990f0b533082ad1ea2166">Planet9::Common::Diagram::IDiagram</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a056eaf958fc0878ba2c3d8fd35611364"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_utility_1_1_nullable.html">Utility::Nullable</a>&lt; float &gt; Planet9::Common::Diagram::AABB::IsInside </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>_dist</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>内外判定 値を持っていれば外 持っていなければ内 </p>
+
+</div>
+</div>
+<a class="anchor" id="aa7c6400bf048ff34457881a9c81c2067"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Common::Diagram::AABB::MoveTo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>_moved</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>移動 </p>
+
+<p><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html#a4cae051981d07db0bb3ead47b558bf18">Planet9::Common::Diagram::IDiagram</a>を再実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a953adde80a9af65d953c68c1d73b6d20"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">AABB</a> Planet9::Common::Diagram::AABB::operator+ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>_pos</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a74790e345d81c90fa500709d5302913f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">AABB</a>&amp; Planet9::Common::Diagram::AABB::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">AABB</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afe3f6e7954750318bede8268cc65f499"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">AABB</a>&amp; Planet9::Common::Diagram::AABB::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">AABB</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abdd1b87cdcd3cdf6bb18ce8426807cda"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Common::Diagram::AABB::PROPERTY_CR_R_ONLY </td>
+          <td>(</td>
+          <td class="paramtype">m_Min&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Min&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa82d20868807a3770c3b6d4b9f0f40d0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Common::Diagram::AABB::PROPERTY_CR_R_ONLY </td>
+          <td>(</td>
+          <td class="paramtype">m_Max&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Max&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a95e302586b1ad36ac80e6a56952b6c67"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Common::Diagram::AABB::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Min&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Min&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac3e6dcb88a410531cca4e6c84faa6ad7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Common::Diagram::AABB::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Max&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Max&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a80b2e0516b40fc884bf594413592a077"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Common::Diagram::AABB::ReflectionOfTransfrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_planet9_1_1_common.html#a3afddc25e7003868fe9f44962c55f7ec">Common::Sp</a>&lt; <a class="el" href="class_planet9_1_1_components_1_1_transform.html">Components::Transform</a> &gt; &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>中心座標更新 </p>
+
+<p><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html#ae2148387cf7a304d8e0af975ca739a0a">Planet9::Common::Diagram::IDiagram</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a068547bd78e2b23860386a633f4af645"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Common::Diagram::AABB::ScaleTo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>_scale</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>拡縮 </p>
+
+<p><a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_i_diagram.html#a66be4d22d84174a62df33b0a2017d147">Planet9::Common::Diagram::IDiagram</a>を再実装しています。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Common/Diagram/<a class="el" href="_a_a_b_b_8h_source.html">AABB.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Common/Diagram/<a class="el" href="_a_a_b_b_8cpp.html">AABB.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

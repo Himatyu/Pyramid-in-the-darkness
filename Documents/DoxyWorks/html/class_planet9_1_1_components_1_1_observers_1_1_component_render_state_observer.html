@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Planet9::Components::Observers::ComponentRenderStateObserver クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_planet9.html">Planet9</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_components.html">Components</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_components_1_1_observers.html">Observers</a></li><li class="navelem"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html">ComponentRenderStateObserver</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Planet9::Components::Observers::ComponentRenderStateObserver クラス<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>コンポーネントの描画状態を監視.  
+ <a href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_component_render_state_observer_8h_source.html">ComponentRenderStateObserver.h</a>&gt;</code></p>
+<div class="dynheader">
+Planet9::Components::Observers::ComponentRenderStateObserver の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.png" usemap="#Planet9::Components::Observers::ComponentRenderStateObserver_map" alt=""/>
+  <map id="Planet9::Components::Observers::ComponentRenderStateObserver_map" name="Planet9::Components::Observers::ComponentRenderStateObserver_map">
+<area href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html" title="コンポーネントの状態を監視する " alt="Planet9::Components::Observers::ComponentStateObserver" shape="rect" coords="0,0,387,24"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a1df85f7ade64d0d34d35e26a7812ae80"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html#a1df85f7ade64d0d34d35e26a7812ae80">ComponentRenderStateObserver</a> (GameObject::Object &amp;)</td></tr>
+<tr class="separator:a1df85f7ade64d0d34d35e26a7812ae80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add909373610fed0d425bec00ee53573f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html#add909373610fed0d425bec00ee53573f">~ComponentRenderStateObserver</a> ()=default</td></tr>
+<tr class="separator:add909373610fed0d425bec00ee53573f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9467e8094106b8c8104e057363f111f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html#ae9467e8094106b8c8104e057363f111f">ComponentRenderStateObserver</a> (const <a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html">ComponentRenderStateObserver</a> &amp;)=default</td></tr>
+<tr class="separator:ae9467e8094106b8c8104e057363f111f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad31caf6c6b478a1824c80d9677eb7428"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html#ad31caf6c6b478a1824c80d9677eb7428">ComponentRenderStateObserver</a> (<a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html">ComponentRenderStateObserver</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ad31caf6c6b478a1824c80d9677eb7428"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0da476d496234c2a793359d2c4089d5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html">ComponentRenderStateObserver</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html#a0da476d496234c2a793359d2c4089d5b">operator=</a> (const <a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html">ComponentRenderStateObserver</a> &amp;)=default</td></tr>
+<tr class="separator:a0da476d496234c2a793359d2c4089d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4966101cc3b4ac154b0ce86eaa1a6c9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html">ComponentRenderStateObserver</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html#a4966101cc3b4ac154b0ce86eaa1a6c9d">operator=</a> (<a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html">ComponentRenderStateObserver</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a4966101cc3b4ac154b0ce86eaa1a6c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64bd8a86d99847ff881a3456158e75b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html#a64bd8a86d99847ff881a3456158e75b1">OnEvent</a> (<a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_subject.html">ComponentStateSubject</a> *_ChangedSubject) override</td></tr>
+<tr class="memdesc:a64bd8a86d99847ff881a3456158e75b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drawableリスト更新.  <a href="#a64bd8a86d99847ff881a3456158e75b1">[詳解]</a><br /></td></tr>
+<tr class="separator:a64bd8a86d99847ff881a3456158e75b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html">Planet9::Components::Observers::ComponentStateObserver</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:aaadc2a0abb03ec60e4fb36ba7de66100 inherit pub_methods_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html#aaadc2a0abb03ec60e4fb36ba7de66100">ComponentStateObserver</a> (GameObject::Object &amp;)</td></tr>
+<tr class="separator:aaadc2a0abb03ec60e4fb36ba7de66100 inherit pub_methods_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2124a763cf63384cea416c588d7c6b5 inherit pub_methods_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html#ab2124a763cf63384cea416c588d7c6b5">~ComponentStateObserver</a> ()=default</td></tr>
+<tr class="separator:ab2124a763cf63384cea416c588d7c6b5 inherit pub_methods_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af01c26d7a691373558a1a74a1ef42b8f inherit pub_methods_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html#af01c26d7a691373558a1a74a1ef42b8f">ComponentStateObserver</a> (const <a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html">ComponentStateObserver</a> &amp;)=default</td></tr>
+<tr class="separator:af01c26d7a691373558a1a74a1ef42b8f inherit pub_methods_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b41d75558f3c6aad70f30a242c37b92 inherit pub_methods_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html#a8b41d75558f3c6aad70f30a242c37b92">ComponentStateObserver</a> (<a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html">ComponentStateObserver</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a8b41d75558f3c6aad70f30a242c37b92 inherit pub_methods_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f49c9eabddacef5a450bb326d30793d inherit pub_methods_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html">ComponentStateObserver</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html#a0f49c9eabddacef5a450bb326d30793d">operator=</a> (const <a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html">ComponentStateObserver</a> &amp;)=default</td></tr>
+<tr class="separator:a0f49c9eabddacef5a450bb326d30793d inherit pub_methods_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4fd97c2d85aeb1d7734926221fe112a inherit pub_methods_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html">ComponentStateObserver</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html#ae4fd97c2d85aeb1d7734926221fe112a">operator=</a> (<a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html">ComponentStateObserver</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ae4fd97c2d85aeb1d7734926221fe112a inherit pub_methods_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0640155220e26e85a79f8bc6e2ab1cea inherit pub_methods_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html#a0640155220e26e85a79f8bc6e2ab1cea">PROPERTY</a> (<a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html#a9611ad5c3b7e4102927104dbca04ce38">m_pOwner</a>, pOwner, GameObject::Object *)</td></tr>
+<tr class="separator:a0640155220e26e85a79f8bc6e2ab1cea inherit pub_methods_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+その他の継承メンバ</h2></td></tr>
+<tr class="inherit_header pro_attribs_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html">Planet9::Components::Observers::ComponentStateObserver</a> に属する継承限定公開変数類</td></tr>
+<tr class="memitem:a9611ad5c3b7e4102927104dbca04ce38 inherit pro_attribs_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td class="memItemLeft" align="right" valign="top">GameObject::Object *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html#a9611ad5c3b7e4102927104dbca04ce38">m_pOwner</a></td></tr>
+<tr class="separator:a9611ad5c3b7e4102927104dbca04ce38 inherit pro_attribs_class_planet9_1_1_components_1_1_observers_1_1_component_state_observer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>コンポーネントの描画状態を監視. </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a1df85f7ade64d0d34d35e26a7812ae80"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Observers::ComponentRenderStateObserver::ComponentRenderStateObserver </td>
+          <td>(</td>
+          <td class="paramtype">GameObject::Object &amp;&#160;</td>
+          <td class="paramname"><em>_obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="add909373610fed0d425bec00ee53573f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Observers::ComponentRenderStateObserver::~ComponentRenderStateObserver </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae9467e8094106b8c8104e057363f111f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Observers::ComponentRenderStateObserver::ComponentRenderStateObserver </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html">ComponentRenderStateObserver</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad31caf6c6b478a1824c80d9677eb7428"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Components::Observers::ComponentRenderStateObserver::ComponentRenderStateObserver </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html">ComponentRenderStateObserver</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a64bd8a86d99847ff881a3456158e75b1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Components::Observers::ComponentRenderStateObserver::OnEvent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_subject.html">ComponentStateSubject</a> *&#160;</td>
+          <td class="paramname"><em>_ChangedSubject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Drawableリスト更新. </p>
+
+<p><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_state_observer.html#a6554241e85d62522135a6ad603e768cb">Planet9::Components::Observers::ComponentStateObserver</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a0da476d496234c2a793359d2c4089d5b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html">ComponentRenderStateObserver</a>&amp; Planet9::Components::Observers::ComponentRenderStateObserver::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html">ComponentRenderStateObserver</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4966101cc3b4ac154b0ce86eaa1a6c9d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html">ComponentRenderStateObserver</a>&amp; Planet9::Components::Observers::ComponentRenderStateObserver::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_components_1_1_observers_1_1_component_render_state_observer.html">ComponentRenderStateObserver</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Components/Observers/<a class="el" href="_component_render_state_observer_8h_source.html">ComponentRenderStateObserver.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Components/Observers/<a class="el" href="_component_render_state_observer_8cpp.html">ComponentRenderStateObserver.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

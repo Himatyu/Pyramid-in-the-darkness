@@ -1,0 +1,348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::MT::Jobs::ThreadJob クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_m_t.html">MT</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_m_t_1_1_jobs.html">Jobs</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html">ThreadJob</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::MT::Jobs::ThreadJob クラス<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>非同期で実行されるオブジェクト更新  
+ <a href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_thread_job_8h_source.html">ThreadJob.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::MT::Jobs::ThreadJob の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.png" usemap="#Pyramid::MT::Jobs::ThreadJob_map" alt=""/>
+  <map id="Pyramid::MT::Jobs::ThreadJob_map" name="Pyramid::MT::Jobs::ThreadJob_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:aafeea4f60020fbebeda32a9871b1697f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html#aafeea4f60020fbebeda32a9871b1697f">ThreadJob</a> ()=default</td></tr>
+<tr class="separator:aafeea4f60020fbebeda32a9871b1697f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae93bcf7349ea3a63fbdf18136553c131"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html#ae93bcf7349ea3a63fbdf18136553c131">~ThreadJob</a> ()=default</td></tr>
+<tr class="separator:ae93bcf7349ea3a63fbdf18136553c131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dd866255b30e0be3fa2a84fe8e5853c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html#a0dd866255b30e0be3fa2a84fe8e5853c">ThreadJob</a> (const <a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html">ThreadJob</a> &amp;)=default</td></tr>
+<tr class="separator:a0dd866255b30e0be3fa2a84fe8e5853c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a947d4f712c363270405178ff40fbb962"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html#a947d4f712c363270405178ff40fbb962">ThreadJob</a> (<a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html">ThreadJob</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a947d4f712c363270405178ff40fbb962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a249706f5f1cc51ed0caf7cbcde651339"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html">ThreadJob</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html#a249706f5f1cc51ed0caf7cbcde651339">operator=</a> (const <a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html">ThreadJob</a> &amp;)=default</td></tr>
+<tr class="separator:a249706f5f1cc51ed0caf7cbcde651339"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44618856f108d9822d5e37c78284e9a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html">ThreadJob</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html#a44618856f108d9822d5e37c78284e9a1">operator=</a> (<a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html">ThreadJob</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a44618856f108d9822d5e37c78284e9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cda12bba6b117a5c6f882d353263615"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html#a5cda12bba6b117a5c6f882d353263615">Job</a> () override</td></tr>
+<tr class="memdesc:a5cda12bba6b117a5c6f882d353263615"><td class="mdescLeft">&#160;</td><td class="mdescRight">オブジェクト更新  <a href="#a5cda12bba6b117a5c6f882d353263615">[詳解]</a><br /></td></tr>
+<tr class="separator:a5cda12bba6b117a5c6f882d353263615"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7a4a956e8798c62b0287dab9d8c2dd3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html#af7a4a956e8798c62b0287dab9d8c2dd3">PROPERTY_REF</a> (m_pJobs, pJobs, std::vector&lt; <a class="el" href="class_utility_1_1_i_executeable.html">Utility::IExecuteable</a> * &gt;)</td></tr>
+<tr class="separator:af7a4a956e8798c62b0287dab9d8c2dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>非同期で実行されるオブジェクト更新 </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="aafeea4f60020fbebeda32a9871b1697f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::MT::Jobs::ThreadJob::ThreadJob </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae93bcf7349ea3a63fbdf18136553c131"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Pyramid::MT::Jobs::ThreadJob::~ThreadJob </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0dd866255b30e0be3fa2a84fe8e5853c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::MT::Jobs::ThreadJob::ThreadJob </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html">ThreadJob</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a947d4f712c363270405178ff40fbb962"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::MT::Jobs::ThreadJob::ThreadJob </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html">ThreadJob</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a5cda12bba6b117a5c6f882d353263615"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::MT::Jobs::ThreadJob::Job </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>オブジェクト更新 </p>
+
+</div>
+</div>
+<a class="anchor" id="a249706f5f1cc51ed0caf7cbcde651339"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html">ThreadJob</a>&amp; Pyramid::MT::Jobs::ThreadJob::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html">ThreadJob</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a44618856f108d9822d5e37c78284e9a1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html">ThreadJob</a>&amp; Pyramid::MT::Jobs::ThreadJob::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_m_t_1_1_jobs_1_1_thread_job.html">ThreadJob</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af7a4a956e8798c62b0287dab9d8c2dd3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::MT::Jobs::ThreadJob::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_pJobs&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">pJobs&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="class_utility_1_1_i_executeable.html">Utility::IExecuteable</a> * &gt;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/MT/Jobs/<a class="el" href="_thread_job_8h_source.html">ThreadJob.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/MT/Jobs/<a class="el" href="_thread_job_8cpp.html">ThreadJob.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

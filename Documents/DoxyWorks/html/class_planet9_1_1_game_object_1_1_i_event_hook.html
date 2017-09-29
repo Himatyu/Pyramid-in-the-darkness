@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Planet9::GameObject::IEventHook クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_planet9.html">Planet9</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_game_object.html">GameObject</a></li><li class="navelem"><a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html">IEventHook</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_planet9_1_1_game_object_1_1_i_event_hook-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Planet9::GameObject::IEventHook クラス<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>オブジェクト・コンポーネントの追加イベント.  
+ <a href="class_planet9_1_1_game_object_1_1_i_event_hook.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_i_event_hook_8h_source.html">IEventHook.h</a>&gt;</code></p>
+<div class="dynheader">
+Planet9::GameObject::IEventHook の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_planet9_1_1_game_object_1_1_i_event_hook.png" usemap="#Planet9::GameObject::IEventHook_map" alt=""/>
+  <map id="Planet9::GameObject::IEventHook_map" name="Planet9::GameObject::IEventHook_map">
+<area href="class_planet9_1_1_game_object_1_1_i_common_behavior.html" title="Planet9における共通動作 " alt="Planet9::GameObject::ICommonBehavior" shape="rect" coords="0,0,237,24"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a8c0470dda3d2c09d8c6c9f6cb8b6b6f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html#a8c0470dda3d2c09d8c6c9f6cb8b6b6f2">IEventHook</a> ()=default</td></tr>
+<tr class="separator:a8c0470dda3d2c09d8c6c9f6cb8b6b6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8535974688391309aac3bb1464cc67f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html#ab8535974688391309aac3bb1464cc67f">~IEventHook</a> ()=default</td></tr>
+<tr class="separator:ab8535974688391309aac3bb1464cc67f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52896aac6db8b27c658c313ed9509853"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html#a52896aac6db8b27c658c313ed9509853">IEventHook</a> (const <a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html">IEventHook</a> &amp;)=default</td></tr>
+<tr class="separator:a52896aac6db8b27c658c313ed9509853"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0381cd7197813d23e20f2d6e907c758a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html#a0381cd7197813d23e20f2d6e907c758a">IEventHook</a> (<a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html">IEventHook</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a0381cd7197813d23e20f2d6e907c758a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee9f750cb0943e175ccaf09bd53fcdb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html">IEventHook</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html#aee9f750cb0943e175ccaf09bd53fcdb4">operator=</a> (const <a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html">IEventHook</a> &amp;)=default</td></tr>
+<tr class="separator:aee9f750cb0943e175ccaf09bd53fcdb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbbf3ad113d8a0cb59902919701f86ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html">IEventHook</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html#afbbf3ad113d8a0cb59902919701f86ef">operator=</a> (<a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html">IEventHook</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:afbbf3ad113d8a0cb59902919701f86ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8939f2cd4e31e1942cecc69816aa98bb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html#a8939f2cd4e31e1942cecc69816aa98bb">FastUpdata</a> ()=0</td></tr>
+<tr class="memdesc:a8939f2cd4e31e1942cecc69816aa98bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">アップデートの前にコールされる.  <a href="#a8939f2cd4e31e1942cecc69816aa98bb">[詳解]</a><br /></td></tr>
+<tr class="separator:a8939f2cd4e31e1942cecc69816aa98bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd9ab04f8e90506ca162b75d14d3a8d0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html#abd9ab04f8e90506ca162b75d14d3a8d0">LateUpdata</a> ()=0</td></tr>
+<tr class="memdesc:abd9ab04f8e90506ca162b75d14d3a8d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">アップデートの後にコールされる.  <a href="#abd9ab04f8e90506ca162b75d14d3a8d0">[詳解]</a><br /></td></tr>
+<tr class="separator:abd9ab04f8e90506ca162b75d14d3a8d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_game_object_1_1_i_common_behavior.html">Planet9::GameObject::ICommonBehavior</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:aa65de47d0b143d3b0f1273da29ac5aeb inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_common_behavior.html#aa65de47d0b143d3b0f1273da29ac5aeb">ICommonBehavior</a> ()=default</td></tr>
+<tr class="separator:aa65de47d0b143d3b0f1273da29ac5aeb inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeb8f71f9e1c093699354137f6eab3e0 inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_common_behavior.html#abeb8f71f9e1c093699354137f6eab3e0">~ICommonBehavior</a> ()=default</td></tr>
+<tr class="separator:abeb8f71f9e1c093699354137f6eab3e0 inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67c56916515fc9e0c03abc91424bf993 inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_common_behavior.html#a67c56916515fc9e0c03abc91424bf993">ICommonBehavior</a> (const <a class="el" href="class_planet9_1_1_game_object_1_1_i_common_behavior.html">ICommonBehavior</a> &amp;)=default</td></tr>
+<tr class="separator:a67c56916515fc9e0c03abc91424bf993 inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a776be75c1a83386b5e0271d3eef57c59 inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_common_behavior.html#a776be75c1a83386b5e0271d3eef57c59">ICommonBehavior</a> (<a class="el" href="class_planet9_1_1_game_object_1_1_i_common_behavior.html">ICommonBehavior</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a776be75c1a83386b5e0271d3eef57c59 inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05626f06810ce377986ec8f7e5a8f777 inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_game_object_1_1_i_common_behavior.html">ICommonBehavior</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_common_behavior.html#a05626f06810ce377986ec8f7e5a8f777">operator=</a> (const <a class="el" href="class_planet9_1_1_game_object_1_1_i_common_behavior.html">ICommonBehavior</a> &amp;)=default</td></tr>
+<tr class="separator:a05626f06810ce377986ec8f7e5a8f777 inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a973b57422d9eec590a04757056b7fc8e inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_game_object_1_1_i_common_behavior.html">ICommonBehavior</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_common_behavior.html#a973b57422d9eec590a04757056b7fc8e">operator=</a> (<a class="el" href="class_planet9_1_1_game_object_1_1_i_common_behavior.html">ICommonBehavior</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a973b57422d9eec590a04757056b7fc8e inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e62a26b462ba3f6379426aaa6ad43c5 inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_common_behavior.html#a2e62a26b462ba3f6379426aaa6ad43c5">Init</a> ()=0</td></tr>
+<tr class="memdesc:a2e62a26b462ba3f6379426aaa6ad43c5 inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化.  <a href="#a2e62a26b462ba3f6379426aaa6ad43c5">[詳解]</a><br /></td></tr>
+<tr class="separator:a2e62a26b462ba3f6379426aaa6ad43c5 inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb2b40a53d86fa44c0bdf6e60568cf25 inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_common_behavior.html#abb2b40a53d86fa44c0bdf6e60568cf25">Finit</a> ()=0</td></tr>
+<tr class="memdesc:abb2b40a53d86fa44c0bdf6e60568cf25 inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="mdescLeft">&#160;</td><td class="mdescRight">終了処理.  <a href="#abb2b40a53d86fa44c0bdf6e60568cf25">[詳解]</a><br /></td></tr>
+<tr class="separator:abb2b40a53d86fa44c0bdf6e60568cf25 inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6366ef4d6e593e9c8a20b8c67bdcbfc0 inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_common_behavior.html#a6366ef4d6e593e9c8a20b8c67bdcbfc0">Updata</a> ()=0</td></tr>
+<tr class="memdesc:a6366ef4d6e593e9c8a20b8c67bdcbfc0 inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="mdescLeft">&#160;</td><td class="mdescRight">更新.  <a href="#a6366ef4d6e593e9c8a20b8c67bdcbfc0">[詳解]</a><br /></td></tr>
+<tr class="separator:a6366ef4d6e593e9c8a20b8c67bdcbfc0 inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf832c7fe10552394e85e976f760943c inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_game_object_1_1_i_common_behavior.html#acf832c7fe10552394e85e976f760943c">PreDraw</a> ()=0</td></tr>
+<tr class="memdesc:acf832c7fe10552394e85e976f760943c inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="mdescLeft">&#160;</td><td class="mdescRight">描画.  <a href="#acf832c7fe10552394e85e976f760943c">[詳解]</a><br /></td></tr>
+<tr class="separator:acf832c7fe10552394e85e976f760943c inherit pub_methods_class_planet9_1_1_game_object_1_1_i_common_behavior"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>オブジェクト・コンポーネントの追加イベント. </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a8c0470dda3d2c09d8c6c9f6cb8b6b6f2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::GameObject::IEventHook::IEventHook </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab8535974688391309aac3bb1464cc67f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::GameObject::IEventHook::~IEventHook </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a52896aac6db8b27c658c313ed9509853"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::GameObject::IEventHook::IEventHook </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html">IEventHook</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0381cd7197813d23e20f2d6e907c758a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::GameObject::IEventHook::IEventHook </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html">IEventHook</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a8939f2cd4e31e1942cecc69816aa98bb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Planet9::GameObject::IEventHook::FastUpdata </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>アップデートの前にコールされる. </p>
+
+</div>
+</div>
+<a class="anchor" id="abd9ab04f8e90506ca162b75d14d3a8d0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Planet9::GameObject::IEventHook::LateUpdata </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>アップデートの後にコールされる. </p>
+
+</div>
+</div>
+<a class="anchor" id="aee9f750cb0943e175ccaf09bd53fcdb4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html">IEventHook</a>&amp; Planet9::GameObject::IEventHook::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html">IEventHook</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afbbf3ad113d8a0cb59902919701f86ef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html">IEventHook</a>&amp; Planet9::GameObject::IEventHook::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_game_object_1_1_i_event_hook.html">IEventHook</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/GameObject/Detail/<a class="el" href="_i_event_hook_8h_source.html">IEventHook.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

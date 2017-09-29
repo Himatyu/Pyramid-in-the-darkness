@@ -1,0 +1,363 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::Common::InputDevice::Device クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_common.html">Common</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_common_1_1_input_device.html">InputDevice</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html">Device</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pro-attribs">限定公開変数類</a> &#124;
+<a href="class_pyramid_1_1_common_1_1_input_device_1_1_device-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::Common::InputDevice::Device クラス<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>入力デバイスの機能を定義  
+ <a href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_device_8h_source.html">Device.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::Common::InputDevice::Device の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_common_1_1_input_device_1_1_device.png" usemap="#Pyramid::Common::InputDevice::Device_map" alt=""/>
+  <map id="Pyramid::Common::InputDevice::Device_map" name="Pyramid::Common::InputDevice::Device_map">
+<area href="class_pyramid_1_1_common_1_1_input_device_1_1_mouse.html" title="マウスの入力を扱う " alt="Pyramid::Common::InputDevice::Mouse" shape="rect" coords="0,56,231,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a0a3cc08cefd55aa033f22fc525968c13"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html#a0a3cc08cefd55aa033f22fc525968c13">Device</a> ()=default</td></tr>
+<tr class="separator:a0a3cc08cefd55aa033f22fc525968c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3dd1c2f2a906bb254adced5a74b0b37"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html#ad3dd1c2f2a906bb254adced5a74b0b37">~Device</a> ()=default</td></tr>
+<tr class="separator:ad3dd1c2f2a906bb254adced5a74b0b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f571a483cc992c02e277f0cba3ca69"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html#a40f571a483cc992c02e277f0cba3ca69">Device</a> (const <a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html">Device</a> &amp;)=default</td></tr>
+<tr class="separator:a40f571a483cc992c02e277f0cba3ca69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add831e69416bee157f0b16d5b6535c07"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html#add831e69416bee157f0b16d5b6535c07">Device</a> (<a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html">Device</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:add831e69416bee157f0b16d5b6535c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89ab6421480945303aa3fb22635e7eda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html">Device</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html#a89ab6421480945303aa3fb22635e7eda">operator=</a> (const <a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html">Device</a> &amp;)=default</td></tr>
+<tr class="separator:a89ab6421480945303aa3fb22635e7eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e1d92961540f81a642497f8d62d9bd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html">Device</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html#a9e1d92961540f81a642497f8d62d9bd6">operator=</a> (<a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html">Device</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a9e1d92961540f81a642497f8d62d9bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83f6a4b23c80d0b2e8ec289c68555846"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html#a83f6a4b23c80d0b2e8ec289c68555846">SetUp</a> ()=0</td></tr>
+<tr class="separator:a83f6a4b23c80d0b2e8ec289c68555846"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0db4ad86b59cd4bfb7d0afbfef9f5fde"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html#a0db4ad86b59cd4bfb7d0afbfef9f5fde">Updata</a> ()=0</td></tr>
+<tr class="separator:a0db4ad86b59cd4bfb7d0afbfef9f5fde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+限定公開変数類</h2></td></tr>
+<tr class="memitem:a8ab700d6ee51e32b948b7e789973bf67"><td class="memItemLeft" align="right" valign="top">LPDIRECTINPUTDEVICE8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html#a8ab700d6ee51e32b948b7e789973bf67">m_pDevice</a></td></tr>
+<tr class="separator:a8ab700d6ee51e32b948b7e789973bf67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>入力デバイスの機能を定義 </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a0a3cc08cefd55aa033f22fc525968c13"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Common::InputDevice::Device::Device </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad3dd1c2f2a906bb254adced5a74b0b37"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Common::InputDevice::Device::~Device </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a40f571a483cc992c02e277f0cba3ca69"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Common::InputDevice::Device::Device </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html">Device</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="add831e69416bee157f0b16d5b6535c07"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Common::InputDevice::Device::Device </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html">Device</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a89ab6421480945303aa3fb22635e7eda"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html">Device</a>&amp; Pyramid::Common::InputDevice::Device::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html">Device</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9e1d92961540f81a642497f8d62d9bd6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html">Device</a>&amp; Pyramid::Common::InputDevice::Device::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_common_1_1_input_device_1_1_device.html">Device</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a83f6a4b23c80d0b2e8ec289c68555846"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Pyramid::Common::InputDevice::Device::SetUp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0db4ad86b59cd4bfb7d0afbfef9f5fde"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Pyramid::Common::InputDevice::Device::Updata </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a class="anchor" id="a8ab700d6ee51e32b948b7e789973bf67"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LPDIRECTINPUTDEVICE8 Pyramid::Common::InputDevice::Device::m_pDevice</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Common/InputDevice/<a class="el" href="_device_8h_source.html">Device.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

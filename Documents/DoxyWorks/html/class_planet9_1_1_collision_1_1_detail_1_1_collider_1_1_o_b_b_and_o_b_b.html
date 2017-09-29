@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Planet9::Collision::Detail::Collider::OBBAndOBB クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_planet9.html">Planet9</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_collision.html">Collision</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_collision_1_1_detail.html">Detail</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_collision_1_1_detail_1_1_collider.html">Collider</a></li><li class="navelem"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html">OBBAndOBB</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Planet9::Collision::Detail::Collider::OBBAndOBB クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>OBB対OBBの衝突判定  
+ <a href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_o_b_b_and_o_b_b_8h_source.html">OBBAndOBB.h</a>&gt;</code></p>
+<div class="dynheader">
+Planet9::Collision::Detail::Collider::OBBAndOBB の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.png" usemap="#Planet9::Collision::Detail::Collider::OBBAndOBB_map" alt=""/>
+  <map id="Planet9::Collision::Detail::Collider::OBBAndOBB_map" name="Planet9::Collision::Detail::Collider::OBBAndOBB_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a1367f4ed5586ba2aac425f1e72b15f48"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html#a1367f4ed5586ba2aac425f1e72b15f48">OBBAndOBB</a> ()=default</td></tr>
+<tr class="separator:a1367f4ed5586ba2aac425f1e72b15f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2f9eed4100ca294540e2078de31395b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html#ac2f9eed4100ca294540e2078de31395b">~OBBAndOBB</a> ()=default</td></tr>
+<tr class="separator:ac2f9eed4100ca294540e2078de31395b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef4eb3a205c313b838c75ce98dab3713"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html#aef4eb3a205c313b838c75ce98dab3713">OBBAndOBB</a> (const <a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html">OBBAndOBB</a> &amp;)=default</td></tr>
+<tr class="separator:aef4eb3a205c313b838c75ce98dab3713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ac985df13549b89d7abe2bb80019307"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html#a3ac985df13549b89d7abe2bb80019307">OBBAndOBB</a> (<a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html">OBBAndOBB</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a3ac985df13549b89d7abe2bb80019307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf3021baf5743688944cd7829715cc6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html">OBBAndOBB</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html#adf3021baf5743688944cd7829715cc6b">operator=</a> (const <a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html">OBBAndOBB</a> &amp;)=default</td></tr>
+<tr class="separator:adf3021baf5743688944cd7829715cc6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad51d426732312283e50c69d0cb53e153"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html">OBBAndOBB</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html#ad51d426732312283e50c69d0cb53e153">operator=</a> (<a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html">OBBAndOBB</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ad51d426732312283e50c69d0cb53e153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a094a284367ea437b62aef4bd3fdaf0bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_utility_1_1_nullable.html">Utility::Nullable</a>&lt; <a class="el" href="namespace_planet9_1_1_collision_1_1_detail.html#afc3c47ce283e8182d1b177751bf4a010">ResultPair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html#a094a284367ea437b62aef4bd3fdaf0bc">IsCollision</a> (<a class="el" href="class_planet9_1_1_collision_1_1_i_volume.html">IVolume</a> *_pOBB1, <a class="el" href="class_planet9_1_1_collision_1_1_i_volume.html">IVolume</a> *_pOBB2) override</td></tr>
+<tr class="memdesc:a094a284367ea437b62aef4bd3fdaf0bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">衝突  <a href="#a094a284367ea437b62aef4bd3fdaf0bc">[詳解]</a><br /></td></tr>
+<tr class="separator:a094a284367ea437b62aef4bd3fdaf0bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>OBB対OBBの衝突判定 </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a1367f4ed5586ba2aac425f1e72b15f48"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Collision::Detail::Collider::OBBAndOBB::OBBAndOBB </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac2f9eed4100ca294540e2078de31395b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Collision::Detail::Collider::OBBAndOBB::~OBBAndOBB </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aef4eb3a205c313b838c75ce98dab3713"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Collision::Detail::Collider::OBBAndOBB::OBBAndOBB </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html">OBBAndOBB</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3ac985df13549b89d7abe2bb80019307"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Collision::Detail::Collider::OBBAndOBB::OBBAndOBB </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html">OBBAndOBB</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a094a284367ea437b62aef4bd3fdaf0bc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_utility_1_1_nullable.html">Utility::Nullable</a>&lt; <a class="el" href="namespace_planet9_1_1_collision_1_1_detail.html#afc3c47ce283e8182d1b177751bf4a010">ResultPair</a> &gt; Planet9::Collision::Detail::Collider::OBBAndOBB::IsCollision </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_collision_1_1_i_volume.html">IVolume</a> *&#160;</td>
+          <td class="paramname"><em>_pOBB1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_collision_1_1_i_volume.html">IVolume</a> *&#160;</td>
+          <td class="paramname"><em>_pOBB2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>衝突 </p>
+
+</div>
+</div>
+<a class="anchor" id="adf3021baf5743688944cd7829715cc6b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html">OBBAndOBB</a>&amp; Planet9::Collision::Detail::Collider::OBBAndOBB::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html">OBBAndOBB</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad51d426732312283e50c69d0cb53e153"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html">OBBAndOBB</a>&amp; Planet9::Collision::Detail::Collider::OBBAndOBB::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_collider_1_1_o_b_b_and_o_b_b.html">OBBAndOBB</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Collision/Detail/Collider/<a class="el" href="_o_b_b_and_o_b_b_8h_source.html">OBBAndOBB.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Collision/Detail/Collider/<a class="el" href="_o_b_b_and_o_b_b_8cpp.html">OBBAndOBB.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

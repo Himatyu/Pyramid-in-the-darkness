@@ -1,0 +1,421 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Planet9::Rendering::Shaders::MeshShader クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_planet9.html">Planet9</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_rendering.html">Rendering</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_rendering_1_1_shaders.html">Shaders</a></li><li class="navelem"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html">MeshShader</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Planet9::Rendering::Shaders::MeshShader クラス<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Meshに使用するシェーダ  
+ <a href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_mesh_shader_8h_source.html">MeshShader.h</a>&gt;</code></p>
+<div class="dynheader">
+Planet9::Rendering::Shaders::MeshShader の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.png" usemap="#Planet9::Rendering::Shaders::MeshShader_map" alt=""/>
+  <map id="Planet9::Rendering::Shaders::MeshShader_map" name="Planet9::Rendering::Shaders::MeshShader_map">
+<area href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html" title="シェーダの基本インターフェース " alt="Planet9::Rendering::Shaders::Shader" shape="rect" coords="0,0,249,24"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a659c5d4246cbce98300cbd8ae88688a3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html#a659c5d4246cbce98300cbd8ae88688a3">MeshShader</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_mesh_material.html">Materials::MeshMaterial</a> *, std::string)</td></tr>
+<tr class="separator:a659c5d4246cbce98300cbd8ae88688a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7e7b52c2456edc02e34f49a341ad387"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html#ad7e7b52c2456edc02e34f49a341ad387">~MeshShader</a> ()=default</td></tr>
+<tr class="separator:ad7e7b52c2456edc02e34f49a341ad387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407e182ebba9bf7474116c2250f15496"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html#a407e182ebba9bf7474116c2250f15496">MeshShader</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html">MeshShader</a> &amp;)</td></tr>
+<tr class="separator:a407e182ebba9bf7474116c2250f15496"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaecb10d77caefcb099ad6eb8e22575d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html#aeaecb10d77caefcb099ad6eb8e22575d">MeshShader</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html">MeshShader</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:aeaecb10d77caefcb099ad6eb8e22575d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41fa5ea9c431bd260036925634c231f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html">MeshShader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html#a41fa5ea9c431bd260036925634c231f1">operator=</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html">MeshShader</a> &amp;)=default</td></tr>
+<tr class="separator:a41fa5ea9c431bd260036925634c231f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abed0e283728d5e0c4cca75fc6343ad41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html">MeshShader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html#abed0e283728d5e0c4cca75fc6343ad41">operator=</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html">MeshShader</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:abed0e283728d5e0c4cca75fc6343ad41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedfedf6e43ef4c44c5db96d639e3f55e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html#aedfedf6e43ef4c44c5db96d639e3f55e">SetColorFromMaterial</a> ()</td></tr>
+<tr class="memdesc:aedfedf6e43ef4c44c5db96d639e3f55e"><td class="mdescLeft">&#160;</td><td class="mdescRight">マテリアルの色情報をデバイスに送る  <a href="#aedfedf6e43ef4c44c5db96d639e3f55e">[詳解]</a><br /></td></tr>
+<tr class="separator:aedfedf6e43ef4c44c5db96d639e3f55e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb26ff1c5c53d31ba6b0ee6b82563012"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html#abb26ff1c5c53d31ba6b0ee6b82563012">SetTextureFromMaterial</a> ()</td></tr>
+<tr class="memdesc:abb26ff1c5c53d31ba6b0ee6b82563012"><td class="mdescLeft">&#160;</td><td class="mdescRight">テクスチャをデバイスに送信する  <a href="#abb26ff1c5c53d31ba6b0ee6b82563012">[詳解]</a><br /></td></tr>
+<tr class="separator:abb26ff1c5c53d31ba6b0ee6b82563012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac49f16a09ac253df8f651e4c83dd34a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html#ac49f16a09ac253df8f651e4c83dd34a2">Begin</a> () override</td></tr>
+<tr class="memdesc:ac49f16a09ac253df8f651e4c83dd34a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェーダパスを開始する  <a href="#ac49f16a09ac253df8f651e4c83dd34a2">[詳解]</a><br /></td></tr>
+<tr class="separator:ac49f16a09ac253df8f651e4c83dd34a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32834eef91b33a651f55ca87821ad17d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html#a32834eef91b33a651f55ca87821ad17d">Eed</a> () override</td></tr>
+<tr class="memdesc:a32834eef91b33a651f55ca87821ad17d"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェーダパスを終了する  <a href="#a32834eef91b33a651f55ca87821ad17d">[詳解]</a><br /></td></tr>
+<tr class="separator:a32834eef91b33a651f55ca87821ad17d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html">Planet9::Rendering::Shaders::Shader</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:af1149f22e1553e073062d55de9bade76 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#af1149f22e1553e073062d55de9bade76">Shader</a> (std::string filePath)</td></tr>
+<tr class="separator:af1149f22e1553e073062d55de9bade76 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9116c349a447cc5156b65572e372e8d1 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#a9116c349a447cc5156b65572e372e8d1">~Shader</a> ()</td></tr>
+<tr class="separator:a9116c349a447cc5156b65572e372e8d1 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad42d68468f3be176466323e062738a59 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#ad42d68468f3be176466323e062738a59">Shader</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a> &amp;)</td></tr>
+<tr class="separator:ad42d68468f3be176466323e062738a59 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1a3bfe174541a3556b861d4b8dd2885 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#ab1a3bfe174541a3556b861d4b8dd2885">Shader</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ab1a3bfe174541a3556b861d4b8dd2885 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a2f87fb383c805ace4672b8daf81768 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#a1a2f87fb383c805ace4672b8daf81768">operator=</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a> &amp;)=default</td></tr>
+<tr class="separator:a1a2f87fb383c805ace4672b8daf81768 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a304376ab598bc9f661cd80e20b102d36 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#a304376ab598bc9f661cd80e20b102d36">operator=</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a304376ab598bc9f661cd80e20b102d36 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23ad9fb172af02f501d0965c4afce137 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#a23ad9fb172af02f501d0965c4afce137">SetMatrix</a> ()</td></tr>
+<tr class="memdesc:a23ad9fb172af02f501d0965c4afce137 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">M(W)VPをデバイスに送信する. VPはレイヤーに依存する  <a href="#a23ad9fb172af02f501d0965c4afce137">[詳解]</a><br /></td></tr>
+<tr class="separator:a23ad9fb172af02f501d0965c4afce137 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60608a5cd5c1610b9717680cb5d85550 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#a60608a5cd5c1610b9717680cb5d85550">SetLight</a> ()</td></tr>
+<tr class="memdesc:a60608a5cd5c1610b9717680cb5d85550 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">RebderContextのライト情報をセットする  <a href="#a60608a5cd5c1610b9717680cb5d85550">[詳解]</a><br /></td></tr>
+<tr class="separator:a60608a5cd5c1610b9717680cb5d85550 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04c6f9d3234d24bb54021deb442290fb inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#a04c6f9d3234d24bb54021deb442290fb">PROPERTY</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#a361798b257f93e1eaf08bbcc254a6aae">m_pMatrix</a>, pMatrix, D3DXMATRIX *)</td></tr>
+<tr class="separator:a04c6f9d3234d24bb54021deb442290fb inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cbb4917be01a5ffd7d1dd64443fe2dc inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#a4cbb4917be01a5ffd7d1dd64443fe2dc">PROPERTY</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#a5bea606f5760704b3533ed46210d9099">m_pEffect</a>, pEffect, LPD3DXEFFECT)</td></tr>
+<tr class="separator:a4cbb4917be01a5ffd7d1dd64443fe2dc inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99ecabd12759fe46add511aefbf21400 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#a99ecabd12759fe46add511aefbf21400">PROPERTY_REF</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#a21f7dfad3460f5c074bacdb64aa755bb">m_FilePath</a>, FilePath, std::string)</td></tr>
+<tr class="separator:a99ecabd12759fe46add511aefbf21400 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36d1ab430a760afafd816e466943ca52 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#a36d1ab430a760afafd816e466943ca52">PROPERTY_CR_R_ONLY</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#a21f7dfad3460f5c074bacdb64aa755bb">m_FilePath</a>, FilePath, std::string)</td></tr>
+<tr class="separator:a36d1ab430a760afafd816e466943ca52 inherit pub_methods_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+その他の継承メンバ</h2></td></tr>
+<tr class="inherit_header pro_attribs_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_planet9_1_1_rendering_1_1_shaders_1_1_shader')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html">Planet9::Rendering::Shaders::Shader</a> に属する継承限定公開変数類</td></tr>
+<tr class="memitem:a5bea606f5760704b3533ed46210d9099 inherit pro_attribs_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memItemLeft" align="right" valign="top">LPD3DXEFFECT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#a5bea606f5760704b3533ed46210d9099">m_pEffect</a> = nullptr</td></tr>
+<tr class="separator:a5bea606f5760704b3533ed46210d9099 inherit pro_attribs_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3b40af69bf8acc8aaedb53dd4198fb9 inherit pro_attribs_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memItemLeft" align="right" valign="top">D3DXHANDLE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#aa3b40af69bf8acc8aaedb53dd4198fb9">m_hMVP</a></td></tr>
+<tr class="separator:aa3b40af69bf8acc8aaedb53dd4198fb9 inherit pro_attribs_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a361798b257f93e1eaf08bbcc254a6aae inherit pro_attribs_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memItemLeft" align="right" valign="top">D3DXMATRIX *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#a361798b257f93e1eaf08bbcc254a6aae">m_pMatrix</a></td></tr>
+<tr class="separator:a361798b257f93e1eaf08bbcc254a6aae inherit pro_attribs_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21f7dfad3460f5c074bacdb64aa755bb inherit pro_attribs_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#a21f7dfad3460f5c074bacdb64aa755bb">m_FilePath</a></td></tr>
+<tr class="separator:a21f7dfad3460f5c074bacdb64aa755bb inherit pro_attribs_class_planet9_1_1_rendering_1_1_shaders_1_1_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>Meshに使用するシェーダ </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a659c5d4246cbce98300cbd8ae88688a3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::Shaders::MeshShader::MeshShader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_mesh_material.html">Materials::MeshMaterial</a> *&#160;</td>
+          <td class="paramname"><em>_pMaterial</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>_path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad7e7b52c2456edc02e34f49a341ad387"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::Shaders::MeshShader::~MeshShader </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a407e182ebba9bf7474116c2250f15496"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::Shaders::MeshShader::MeshShader </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html">MeshShader</a> &amp;&#160;</td>
+          <td class="paramname"><em>_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aeaecb10d77caefcb099ad6eb8e22575d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::Shaders::MeshShader::MeshShader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html">MeshShader</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="ac49f16a09ac253df8f651e4c83dd34a2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Rendering::Shaders::MeshShader::Begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>シェーダパスを開始する </p>
+
+<p><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#a7214a4d06e888224287c14307e5f03f0">Planet9::Rendering::Shaders::Shader</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a32834eef91b33a651f55ca87821ad17d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Rendering::Shaders::MeshShader::Eed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>シェーダパスを終了する </p>
+
+<p><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_shader.html#aee0a07e9338754adf7882449976c5425">Planet9::Rendering::Shaders::Shader</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a41fa5ea9c431bd260036925634c231f1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html">MeshShader</a>&amp; Planet9::Rendering::Shaders::MeshShader::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html">MeshShader</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abed0e283728d5e0c4cca75fc6343ad41"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html">MeshShader</a>&amp; Planet9::Rendering::Shaders::MeshShader::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_rendering_1_1_shaders_1_1_mesh_shader.html">MeshShader</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aedfedf6e43ef4c44c5db96d639e3f55e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Rendering::Shaders::MeshShader::SetColorFromMaterial </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>マテリアルの色情報をデバイスに送る </p>
+
+</div>
+</div>
+<a class="anchor" id="abb26ff1c5c53d31ba6b0ee6b82563012"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Rendering::Shaders::MeshShader::SetTextureFromMaterial </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>テクスチャをデバイスに送信する </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Shaders/<a class="el" href="_mesh_shader_8h_source.html">MeshShader.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Shaders/<a class="el" href="_mesh_shader_8cpp.html">MeshShader.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

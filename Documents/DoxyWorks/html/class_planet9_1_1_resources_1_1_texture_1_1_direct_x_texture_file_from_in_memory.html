@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Planet9::Resources::Texture::DirectXTextureFileFromInMemory クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_planet9.html">Planet9</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_resources.html">Resources</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_resources_1_1_texture.html">Texture</a></li><li class="navelem"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html">DirectXTextureFileFromInMemory</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Planet9::Resources::Texture::DirectXTextureFileFromInMemory クラス<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>オンメモリなテクスチャからDirectX用のテクスチャを生成する  
+ <a href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_direct_x_texture_file_from_in_memory_8h_source.html">DirectXTextureFileFromInMemory.h</a>&gt;</code></p>
+<div class="dynheader">
+Planet9::Resources::Texture::DirectXTextureFileFromInMemory の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.png" usemap="#Planet9::Resources::Texture::DirectXTextureFileFromInMemory_map" alt=""/>
+  <map id="Planet9::Resources::Texture::DirectXTextureFileFromInMemory_map" name="Planet9::Resources::Texture::DirectXTextureFileFromInMemory_map">
+<area href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html" title="DirectX形式のテクスチャを扱う. " alt="Planet9::Resources::Texture::DirectXTextureFile" shape="rect" coords="0,168,365,192"/>
+<area href="class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file.html" title="テクスチャファイルAPI. " alt="Planet9::Resources::Texture::ITextureFile" shape="rect" coords="0,112,365,136"/>
+<area href="class_planet9_1_1_resources_1_1_i_resource.html" title="抽象リソース " alt="Planet9::Resources::IResource" shape="rect" coords="0,56,365,80"/>
+<area href="class_utility_1_1_file.html" title="ファイルベースクラス. " alt="Utility::File" shape="rect" coords="0,0,365,24"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:ae2cf6cf49e447db0a6c9a8a106fb1d4f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html#ae2cf6cf49e447db0a6c9a8a106fb1d4f">DirectXTextureFileFromInMemory</a> (std::pair&lt; std::string, std::vector&lt; char &gt;&gt; &amp;&amp;)</td></tr>
+<tr class="separator:ae2cf6cf49e447db0a6c9a8a106fb1d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a324d55c102af950e61a42d9a97145a97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html#a324d55c102af950e61a42d9a97145a97">~DirectXTextureFileFromInMemory</a> ()=default</td></tr>
+<tr class="separator:a324d55c102af950e61a42d9a97145a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5099c56b70495ad9ac1d4421cf462070"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html#a5099c56b70495ad9ac1d4421cf462070">DirectXTextureFileFromInMemory</a> (const <a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html">DirectXTextureFileFromInMemory</a> &amp;)=default</td></tr>
+<tr class="separator:a5099c56b70495ad9ac1d4421cf462070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a895d1c56ac6846eda2ce6d9cfba5c498"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html#a895d1c56ac6846eda2ce6d9cfba5c498">DirectXTextureFileFromInMemory</a> (<a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html">DirectXTextureFileFromInMemory</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a895d1c56ac6846eda2ce6d9cfba5c498"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad300fc41c7b033822ccfe2015fe6b1c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html">DirectXTextureFileFromInMemory</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html#ad300fc41c7b033822ccfe2015fe6b1c6">operator=</a> (const <a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html">DirectXTextureFileFromInMemory</a> &amp;)=default</td></tr>
+<tr class="separator:ad300fc41c7b033822ccfe2015fe6b1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59a8315c630b268c96675a10020f7788"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html">DirectXTextureFileFromInMemory</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html#a59a8315c630b268c96675a10020f7788">operator=</a> (<a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html">DirectXTextureFileFromInMemory</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a59a8315c630b268c96675a10020f7788"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76682ef11854de1f9216bdc3fc091b25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html#a76682ef11854de1f9216bdc3fc091b25">CreateTexture</a> ()</td></tr>
+<tr class="memdesc:a76682ef11854de1f9216bdc3fc091b25"><td class="mdescLeft">&#160;</td><td class="mdescRight">テクスチャを生成する  <a href="#a76682ef11854de1f9216bdc3fc091b25">[詳解]</a><br /></td></tr>
+<tr class="separator:a76682ef11854de1f9216bdc3fc091b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">Planet9::Resources::Texture::DirectXTextureFile</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a52aa1eb8db1e13459c91882d2ddfebf1 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a52aa1eb8db1e13459c91882d2ddfebf1">DirectXTextureFile</a> ()=default</td></tr>
+<tr class="separator:a52aa1eb8db1e13459c91882d2ddfebf1 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accc87358e38ccfaf1b20c11a8ab4e6dc inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#accc87358e38ccfaf1b20c11a8ab4e6dc">~DirectXTextureFile</a> ()</td></tr>
+<tr class="separator:accc87358e38ccfaf1b20c11a8ab4e6dc inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9da0c1982836d9b550c9de5f0ecec1e9 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a9da0c1982836d9b550c9de5f0ecec1e9">DirectXTextureFile</a> (const <a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a> &amp;)=default</td></tr>
+<tr class="separator:a9da0c1982836d9b550c9de5f0ecec1e9 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57e4d8f1f10da4c59d4c539d9712e784 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a57e4d8f1f10da4c59d4c539d9712e784">DirectXTextureFile</a> (<a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a57e4d8f1f10da4c59d4c539d9712e784 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a692bd67344245103af22dd1ac8b7b999 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a692bd67344245103af22dd1ac8b7b999">operator=</a> (const <a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a> &amp;)=default</td></tr>
+<tr class="separator:a692bd67344245103af22dd1ac8b7b999 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a788a1d864b43e08f59bf38a189a51a07 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a788a1d864b43e08f59bf38a189a51a07">operator=</a> (<a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a788a1d864b43e08f59bf38a189a51a07 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f2357b94bc27605a74f619bb751fcad inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a7f2357b94bc27605a74f619bb751fcad">Read</a> (std::string _path) override</td></tr>
+<tr class="memdesc:a7f2357b94bc27605a74f619bb751fcad inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイル読み込み.  <a href="#a7f2357b94bc27605a74f619bb751fcad">[詳解]</a><br /></td></tr>
+<tr class="separator:a7f2357b94bc27605a74f619bb751fcad inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8411d36d00a16e9afcef2a9ac511f0c7 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a8411d36d00a16e9afcef2a9ac511f0c7">Discard</a> () override</td></tr>
+<tr class="memdesc:a8411d36d00a16e9afcef2a9ac511f0c7 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="mdescLeft">&#160;</td><td class="mdescRight">情報を破棄する.  <a href="#a8411d36d00a16e9afcef2a9ac511f0c7">[詳解]</a><br /></td></tr>
+<tr class="separator:a8411d36d00a16e9afcef2a9ac511f0c7 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb0d3d9d30d7e8a98e113019cec0583b inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#afb0d3d9d30d7e8a98e113019cec0583b">PROPERTY</a> (<a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a0d0cc12c7e608a23deaaf96fa05a21f4">m_ImageInfo</a>, Info, D3DXIMAGE_INFO)</td></tr>
+<tr class="separator:afb0d3d9d30d7e8a98e113019cec0583b inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a623896f09968a4626438511e460a6cd4 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a623896f09968a4626438511e460a6cd4">PROPERTY</a> (<a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a2e2f5f8db34a0f6e1cce16faf7bf209e">m_ColorKey</a>, ColorKey, D3DCOLOR)</td></tr>
+<tr class="separator:a623896f09968a4626438511e460a6cd4 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f9f208282e5181fe6f3357f9e9ce182 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a9f9f208282e5181fe6f3357f9e9ce182">PROPERTY</a> (<a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a7d0228100cf64e2a60020aadba0436fa">m_Usage</a>, Usage, DWORD)</td></tr>
+<tr class="separator:a9f9f208282e5181fe6f3357f9e9ce182 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48279049d96ac4ef1676eea925267c07 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a48279049d96ac4ef1676eea925267c07">PROPERTY</a> (<a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a1e597c5bddf131194ba2020b50581d77">m_Filter</a>, Filter, DWORD)</td></tr>
+<tr class="separator:a48279049d96ac4ef1676eea925267c07 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63c9e1c1e9d2a228a8eb718bd779f49a inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a63c9e1c1e9d2a228a8eb718bd779f49a">PROPERTY</a> (<a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a711f8e8561499c10aa7be7027c8561b7">m_MipFilter</a>, MipFilter, DWORD)</td></tr>
+<tr class="separator:a63c9e1c1e9d2a228a8eb718bd779f49a inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1249eb8ba98c33e0e3a2e36c28c49bda inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a1249eb8ba98c33e0e3a2e36c28c49bda">PROPERTY</a> (<a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#ac9cfd4fa2eb8d78ed09079b3d8111a26">m_MipLevels</a>, MipLevels, UINT)</td></tr>
+<tr class="separator:a1249eb8ba98c33e0e3a2e36c28c49bda inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a055fb02b307059725b83b6e3197b73ec inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a055fb02b307059725b83b6e3197b73ec">PROPERTY</a> (<a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#ab13b6f8c81e6e0ba64caeddedac7db58">m_Format</a>, Format, D3DFORMAT)</td></tr>
+<tr class="separator:a055fb02b307059725b83b6e3197b73ec inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7faad94e30d417368808bf810c2fe97 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#af7faad94e30d417368808bf810c2fe97">PROPERTY</a> (<a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#abb4dc8f4dd3825ea98cd402cafe8e465">m_Pool</a>, Pool, D3DPOOL)</td></tr>
+<tr class="separator:af7faad94e30d417368808bf810c2fe97 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32335a7cf92238347ec52d7b6f48ef2d inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a32335a7cf92238347ec52d7b6f48ef2d">PROPERTY</a> (<a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#afdf2c5ec6262c886728e6fd2f7acc72b">m_pTexture</a>, pTexture, IDirect3DTexture9 *)</td></tr>
+<tr class="separator:a32335a7cf92238347ec52d7b6f48ef2d inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file.html">Planet9::Resources::Texture::ITextureFile</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:ad5e0d1c3697ac96d8f04eafd5b8b1e1c inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file.html#ad5e0d1c3697ac96d8f04eafd5b8b1e1c">ITextureFile</a> ()=default</td></tr>
+<tr class="separator:ad5e0d1c3697ac96d8f04eafd5b8b1e1c inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19756ca1112ab63ce9f9cc1b9cfed7dc inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file.html#a19756ca1112ab63ce9f9cc1b9cfed7dc">~ITextureFile</a> ()=default</td></tr>
+<tr class="separator:a19756ca1112ab63ce9f9cc1b9cfed7dc inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b7b4f3252fd864ba9c101eef819b228 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file.html#a4b7b4f3252fd864ba9c101eef819b228">ITextureFile</a> (const <a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file.html">ITextureFile</a> &amp;)=default</td></tr>
+<tr class="separator:a4b7b4f3252fd864ba9c101eef819b228 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4245ae14ec9e55c0ca25715c107b03b2 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file.html#a4245ae14ec9e55c0ca25715c107b03b2">ITextureFile</a> (<a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file.html">ITextureFile</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a4245ae14ec9e55c0ca25715c107b03b2 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58cfe845220abf73a9b95a39985b517a inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file.html">ITextureFile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file.html#a58cfe845220abf73a9b95a39985b517a">operator=</a> (const <a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file.html">ITextureFile</a> &amp;)=default</td></tr>
+<tr class="separator:a58cfe845220abf73a9b95a39985b517a inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6a1bd9836c068ffe20d1e31f37ac697 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file.html">ITextureFile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file.html#af6a1bd9836c068ffe20d1e31f37ac697">operator=</a> (<a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file.html">ITextureFile</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:af6a1bd9836c068ffe20d1e31f37ac697 inherit pub_methods_class_planet9_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_planet9_1_1_resources_1_1_i_resource"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_planet9_1_1_resources_1_1_i_resource')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_resources_1_1_i_resource.html">Planet9::Resources::IResource</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:afe97411d861089e23266d864c307f41f inherit pub_methods_class_planet9_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_i_resource.html#afe97411d861089e23266d864c307f41f">IResource</a> ()=default</td></tr>
+<tr class="separator:afe97411d861089e23266d864c307f41f inherit pub_methods_class_planet9_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade3503d25232c31d797868cb05d00f96 inherit pub_methods_class_planet9_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_i_resource.html#ade3503d25232c31d797868cb05d00f96">~IResource</a> ()=default</td></tr>
+<tr class="separator:ade3503d25232c31d797868cb05d00f96 inherit pub_methods_class_planet9_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8ac725ff0257b983ce581389d27f89c inherit pub_methods_class_planet9_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_i_resource.html#ab8ac725ff0257b983ce581389d27f89c">IResource</a> (const <a class="el" href="class_planet9_1_1_resources_1_1_i_resource.html">IResource</a> &amp;)=default</td></tr>
+<tr class="separator:ab8ac725ff0257b983ce581389d27f89c inherit pub_methods_class_planet9_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b6a64cede4bc53d9bf47da9e5b88e4f inherit pub_methods_class_planet9_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_i_resource.html#a0b6a64cede4bc53d9bf47da9e5b88e4f">IResource</a> (<a class="el" href="class_planet9_1_1_resources_1_1_i_resource.html">IResource</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a0b6a64cede4bc53d9bf47da9e5b88e4f inherit pub_methods_class_planet9_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70d1b7c2fbe2a870033e9c8c3fdb1089 inherit pub_methods_class_planet9_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_resources_1_1_i_resource.html">IResource</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_i_resource.html#a70d1b7c2fbe2a870033e9c8c3fdb1089">operator=</a> (const <a class="el" href="class_planet9_1_1_resources_1_1_i_resource.html">IResource</a> &amp;)=default</td></tr>
+<tr class="separator:a70d1b7c2fbe2a870033e9c8c3fdb1089 inherit pub_methods_class_planet9_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ab840f75a16cdb7ffc6d3b30f1fb7d5 inherit pub_methods_class_planet9_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_resources_1_1_i_resource.html">IResource</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_i_resource.html#a5ab840f75a16cdb7ffc6d3b30f1fb7d5">operator=</a> (<a class="el" href="class_planet9_1_1_resources_1_1_i_resource.html">IResource</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a5ab840f75a16cdb7ffc6d3b30f1fb7d5 inherit pub_methods_class_planet9_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96841da5b16c4ca5d7467256e90df9da inherit pub_methods_class_planet9_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_i_resource.html#a96841da5b16c4ca5d7467256e90df9da">Write</a> (std::string _path=&quot;&quot;) override</td></tr>
+<tr class="memdesc:a96841da5b16c4ca5d7467256e90df9da inherit pub_methods_class_planet9_1_1_resources_1_1_i_resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">書き込み.  <a href="#a96841da5b16c4ca5d7467256e90df9da">[詳解]</a><br /></td></tr>
+<tr class="separator:a96841da5b16c4ca5d7467256e90df9da inherit pub_methods_class_planet9_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_utility_1_1_file"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_utility_1_1_file')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_utility_1_1_file.html">Utility::File</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a02c3136c52ac8011a75136238d17739a inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a02c3136c52ac8011a75136238d17739a">File</a> ()=default</td></tr>
+<tr class="memdesc:a02c3136c52ac8011a75136238d17739a inherit pub_methods_class_utility_1_1_file"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタ  <a href="#a02c3136c52ac8011a75136238d17739a">[詳解]</a><br /></td></tr>
+<tr class="separator:a02c3136c52ac8011a75136238d17739a inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af04320e6d8d0dbe790d746f9ad6b48cc inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#af04320e6d8d0dbe790d746f9ad6b48cc">File</a> (std::string &amp;_filePath)</td></tr>
+<tr class="memdesc:af04320e6d8d0dbe790d746f9ad6b48cc inherit pub_methods_class_utility_1_1_file"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタ  <a href="#af04320e6d8d0dbe790d746f9ad6b48cc">[詳解]</a><br /></td></tr>
+<tr class="separator:af04320e6d8d0dbe790d746f9ad6b48cc inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdf997b6d6a61a1a4ecbb2e84153c9cf inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#acdf997b6d6a61a1a4ecbb2e84153c9cf">~File</a> ()=default</td></tr>
+<tr class="memdesc:acdf997b6d6a61a1a4ecbb2e84153c9cf inherit pub_methods_class_utility_1_1_file"><td class="mdescLeft">&#160;</td><td class="mdescRight">デストラクタ  <a href="#acdf997b6d6a61a1a4ecbb2e84153c9cf">[詳解]</a><br /></td></tr>
+<tr class="separator:acdf997b6d6a61a1a4ecbb2e84153c9cf inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a817e637c996f509872d9c2e40476d9ac inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a817e637c996f509872d9c2e40476d9ac">File</a> (const <a class="el" href="class_utility_1_1_file.html">File</a> &amp;)=default</td></tr>
+<tr class="separator:a817e637c996f509872d9c2e40476d9ac inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eacfa02285de4f6165e33b67247524e inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a5eacfa02285de4f6165e33b67247524e">File</a> (<a class="el" href="class_utility_1_1_file.html">File</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a5eacfa02285de4f6165e33b67247524e inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4281e1bf951805f5955cad2911b11aef inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_utility_1_1_file.html">File</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a4281e1bf951805f5955cad2911b11aef">operator=</a> (const <a class="el" href="class_utility_1_1_file.html">File</a> &amp;)=default</td></tr>
+<tr class="separator:a4281e1bf951805f5955cad2911b11aef inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a0fe6f0514c251d610072b2b7f5c3a8 inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_utility_1_1_file.html">File</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a3a0fe6f0514c251d610072b2b7f5c3a8">operator=</a> (<a class="el" href="class_utility_1_1_file.html">File</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a3a0fe6f0514c251d610072b2b7f5c3a8 inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9612a50672d0a88b0c6a02e6f8172848 inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a9612a50672d0a88b0c6a02e6f8172848">PROPERTY_CR_R_ONLY</a> (<a class="el" href="class_utility_1_1_file.html#a8fbe64e81f0843fc3b22ea8e3d65efda">m_FileName</a>, FileName, std::string)</td></tr>
+<tr class="separator:a9612a50672d0a88b0c6a02e6f8172848 inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5959c3a1e7191f06b4f31b450e7b7b26 inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a5959c3a1e7191f06b4f31b450e7b7b26">PROPERTY_CR_R_ONLY</a> (<a class="el" href="class_utility_1_1_file.html#a605debf399ada3dc28b7fb64d4741cd1">m_FilePath</a>, FilePath, std::string)</td></tr>
+<tr class="separator:a5959c3a1e7191f06b4f31b450e7b7b26 inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40d090a13bc64c641f651cba8d4d7750 inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a40d090a13bc64c641f651cba8d4d7750">PROPERTY_CR_R_ONLY</a> (<a class="el" href="class_utility_1_1_file.html#a61471e0b688e064f28929a4d51a02de2">m_FileDirectory</a>, FileDirectory, std::string)</td></tr>
+<tr class="separator:a40d090a13bc64c641f651cba8d4d7750 inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+その他の継承メンバ</h2></td></tr>
+<tr class="inherit_header pro_methods_class_utility_1_1_file"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_utility_1_1_file')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_utility_1_1_file.html">Utility::File</a> に属する継承限定公開メンバ関数</td></tr>
+<tr class="memitem:a267d93c696e8cba414caa702a7ea4906 inherit pro_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a267d93c696e8cba414caa702a7ea4906">SetFilePathInfo</a> (std::string _path)</td></tr>
+<tr class="memdesc:a267d93c696e8cba414caa702a7ea4906 inherit pro_methods_class_utility_1_1_file"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイル名とパスをセット.  <a href="#a267d93c696e8cba414caa702a7ea4906">[詳解]</a><br /></td></tr>
+<tr class="separator:a267d93c696e8cba414caa702a7ea4906 inherit pro_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">Planet9::Resources::Texture::DirectXTextureFile</a> に属する継承限定公開変数類</td></tr>
+<tr class="memitem:a0d0cc12c7e608a23deaaf96fa05a21f4 inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">D3DXIMAGE_INFO&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a0d0cc12c7e608a23deaaf96fa05a21f4">m_ImageInfo</a></td></tr>
+<tr class="separator:a0d0cc12c7e608a23deaaf96fa05a21f4 inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e2f5f8db34a0f6e1cce16faf7bf209e inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">D3DCOLOR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a2e2f5f8db34a0f6e1cce16faf7bf209e">m_ColorKey</a> = 0</td></tr>
+<tr class="separator:a2e2f5f8db34a0f6e1cce16faf7bf209e inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d0228100cf64e2a60020aadba0436fa inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">DWORD&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a7d0228100cf64e2a60020aadba0436fa">m_Usage</a> = 0</td></tr>
+<tr class="separator:a7d0228100cf64e2a60020aadba0436fa inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e597c5bddf131194ba2020b50581d77 inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">DWORD&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a1e597c5bddf131194ba2020b50581d77">m_Filter</a> = D3DX_DEFAULT</td></tr>
+<tr class="separator:a1e597c5bddf131194ba2020b50581d77 inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a711f8e8561499c10aa7be7027c8561b7 inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">DWORD&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a711f8e8561499c10aa7be7027c8561b7">m_MipFilter</a> = D3DX_DEFAULT</td></tr>
+<tr class="separator:a711f8e8561499c10aa7be7027c8561b7 inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9cfd4fa2eb8d78ed09079b3d8111a26 inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">UINT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#ac9cfd4fa2eb8d78ed09079b3d8111a26">m_MipLevels</a> = 1</td></tr>
+<tr class="separator:ac9cfd4fa2eb8d78ed09079b3d8111a26 inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab13b6f8c81e6e0ba64caeddedac7db58 inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">D3DFORMAT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#ab13b6f8c81e6e0ba64caeddedac7db58">m_Format</a> = D3DFMT_A8R8G8B8</td></tr>
+<tr class="separator:ab13b6f8c81e6e0ba64caeddedac7db58 inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb4dc8f4dd3825ea98cd402cafe8e465 inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">D3DPOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#abb4dc8f4dd3825ea98cd402cafe8e465">m_Pool</a> = D3DPOOL_DEFAULT</td></tr>
+<tr class="separator:abb4dc8f4dd3825ea98cd402cafe8e465 inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdf2c5ec6262c886728e6fd2f7acc72b inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memItemLeft" align="right" valign="top">IDirect3DTexture9 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#afdf2c5ec6262c886728e6fd2f7acc72b">m_pTexture</a> = nullptr</td></tr>
+<tr class="separator:afdf2c5ec6262c886728e6fd2f7acc72b inherit pro_attribs_class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_utility_1_1_file"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_utility_1_1_file')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_utility_1_1_file.html">Utility::File</a> に属する継承限定公開変数類</td></tr>
+<tr class="memitem:a8fbe64e81f0843fc3b22ea8e3d65efda inherit pro_attribs_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a8fbe64e81f0843fc3b22ea8e3d65efda">m_FileName</a></td></tr>
+<tr class="separator:a8fbe64e81f0843fc3b22ea8e3d65efda inherit pro_attribs_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a605debf399ada3dc28b7fb64d4741cd1 inherit pro_attribs_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a605debf399ada3dc28b7fb64d4741cd1">m_FilePath</a></td></tr>
+<tr class="separator:a605debf399ada3dc28b7fb64d4741cd1 inherit pro_attribs_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61471e0b688e064f28929a4d51a02de2 inherit pro_attribs_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a61471e0b688e064f28929a4d51a02de2">m_FileDirectory</a></td></tr>
+<tr class="separator:a61471e0b688e064f28929a4d51a02de2 inherit pro_attribs_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>オンメモリなテクスチャからDirectX用のテクスチャを生成する </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="ae2cf6cf49e447db0a6c9a8a106fb1d4f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Resources::Texture::DirectXTextureFileFromInMemory::DirectXTextureFileFromInMemory </td>
+          <td>(</td>
+          <td class="paramtype">std::pair&lt; std::string, std::vector&lt; char &gt;&gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>_data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a324d55c102af950e61a42d9a97145a97"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Resources::Texture::DirectXTextureFileFromInMemory::~DirectXTextureFileFromInMemory </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5099c56b70495ad9ac1d4421cf462070"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Resources::Texture::DirectXTextureFileFromInMemory::DirectXTextureFileFromInMemory </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html">DirectXTextureFileFromInMemory</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a895d1c56ac6846eda2ce6d9cfba5c498"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Resources::Texture::DirectXTextureFileFromInMemory::DirectXTextureFileFromInMemory </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html">DirectXTextureFileFromInMemory</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a76682ef11854de1f9216bdc3fc091b25"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Resources::Texture::DirectXTextureFileFromInMemory::CreateTexture </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>テクスチャを生成する </p>
+
+</div>
+</div>
+<a class="anchor" id="ad300fc41c7b033822ccfe2015fe6b1c6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html">DirectXTextureFileFromInMemory</a>&amp; Planet9::Resources::Texture::DirectXTextureFileFromInMemory::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html">DirectXTextureFileFromInMemory</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a59a8315c630b268c96675a10020f7788"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html">DirectXTextureFileFromInMemory</a>&amp; Planet9::Resources::Texture::DirectXTextureFileFromInMemory::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html">DirectXTextureFileFromInMemory</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Resource/Texture/<a class="el" href="_direct_x_texture_file_from_in_memory_8h_source.html">DirectXTextureFileFromInMemory.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Resource/Texture/<a class="el" href="_direct_x_texture_file_from_in_memory_8cpp.html">DirectXTextureFileFromInMemory.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

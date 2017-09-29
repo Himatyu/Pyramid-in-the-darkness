@@ -1,0 +1,934 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::Resources::Texture::DirectXTextureFile クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_resources.html">Resources</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_resources_1_1_texture.html">Texture</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pro-attribs">限定公開変数類</a> &#124;
+<a href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::Resources::Texture::DirectXTextureFile クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>DirectX形式のテクスチャを扱う.  
+ <a href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_direct_x_texture_file_8h_source.html">DirectXTextureFile.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::Resources::Texture::DirectXTextureFile の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.png" usemap="#Pyramid::Resources::Texture::DirectXTextureFile_map" alt=""/>
+  <map id="Pyramid::Resources::Texture::DirectXTextureFile_map" name="Pyramid::Resources::Texture::DirectXTextureFile_map">
+<area href="class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file.html" title="テクスチャファイルAPI. " alt="Pyramid::Resources::Texture::ITextureFile" shape="rect" coords="0,112,369,136"/>
+<area href="class_pyramid_1_1_resources_1_1_i_resource.html" title="抽象リソース " alt="Pyramid::Resources::IResource" shape="rect" coords="0,56,369,80"/>
+<area href="class_utility_1_1_file.html" title="ファイルベースクラス. " alt="Utility::File" shape="rect" coords="0,0,369,24"/>
+<area href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file_from_in_memory.html" title="オンメモリなテクスチャからDirectX用のテクスチャを生成する " alt="Pyramid::Resources::Texture::DirectXTextureFileFromInMemory" shape="rect" coords="0,224,369,248"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a8779280fc5494160721402b918be0700"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a8779280fc5494160721402b918be0700">DirectXTextureFile</a> ()=default</td></tr>
+<tr class="separator:a8779280fc5494160721402b918be0700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c56cb0cbd02bc3c1f6c7c5cb4f02e9f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a0c56cb0cbd02bc3c1f6c7c5cb4f02e9f">~DirectXTextureFile</a> ()</td></tr>
+<tr class="separator:a0c56cb0cbd02bc3c1f6c7c5cb4f02e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae06a92c564ab814921f57955ed585092"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#ae06a92c564ab814921f57955ed585092">DirectXTextureFile</a> (const <a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a> &amp;)=default</td></tr>
+<tr class="separator:ae06a92c564ab814921f57955ed585092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a095a962d55c9bbf7e02c06d2dd95dfa9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a095a962d55c9bbf7e02c06d2dd95dfa9">DirectXTextureFile</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a095a962d55c9bbf7e02c06d2dd95dfa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab824a1a0aa86662d77701dd009486092"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#ab824a1a0aa86662d77701dd009486092">operator=</a> (const <a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a> &amp;)=default</td></tr>
+<tr class="separator:ab824a1a0aa86662d77701dd009486092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a735d21eba58044be3e6ddcc1bfe16869"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a735d21eba58044be3e6ddcc1bfe16869">operator=</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a735d21eba58044be3e6ddcc1bfe16869"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae716b2df59eee22292e7bc44d3c6b075"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#ae716b2df59eee22292e7bc44d3c6b075">Read</a> (std::string _path) override</td></tr>
+<tr class="memdesc:ae716b2df59eee22292e7bc44d3c6b075"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイル読み込み.  <a href="#ae716b2df59eee22292e7bc44d3c6b075">[詳解]</a><br /></td></tr>
+<tr class="separator:ae716b2df59eee22292e7bc44d3c6b075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b2a9ff9114f6454b591bb08819fedce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a4b2a9ff9114f6454b591bb08819fedce">Discard</a> () override</td></tr>
+<tr class="memdesc:a4b2a9ff9114f6454b591bb08819fedce"><td class="mdescLeft">&#160;</td><td class="mdescRight">情報を破棄する.  <a href="#a4b2a9ff9114f6454b591bb08819fedce">[詳解]</a><br /></td></tr>
+<tr class="separator:a4b2a9ff9114f6454b591bb08819fedce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ceb40a0be6e677d9b862d869d12263d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a8ceb40a0be6e677d9b862d869d12263d">PROPERTY</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a275d4993f0fc8377a053a59e415db3f9">m_ImageInfo</a>, Info, D3DXIMAGE_INFO)</td></tr>
+<tr class="separator:a8ceb40a0be6e677d9b862d869d12263d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50b9820ce9cc8dc8e13e6142f1dab757"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a50b9820ce9cc8dc8e13e6142f1dab757">PROPERTY</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#aafb3a25cc1ec3f7fac8f2c73e101f58d">m_ColorKey</a>, ColorKey, D3DCOLOR)</td></tr>
+<tr class="separator:a50b9820ce9cc8dc8e13e6142f1dab757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62d965ce0d2fba0803e3a3463ac9323d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a62d965ce0d2fba0803e3a3463ac9323d">PROPERTY</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#add4b8eaf2258cbe85b23710797b4ea92">m_Usage</a>, Usage, DWORD)</td></tr>
+<tr class="separator:a62d965ce0d2fba0803e3a3463ac9323d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a067804fa30284c0c67ef758ab14d9a79"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a067804fa30284c0c67ef758ab14d9a79">PROPERTY</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#acb571c2f86e590080906ddefe412542c">m_Filter</a>, Filter, DWORD)</td></tr>
+<tr class="separator:a067804fa30284c0c67ef758ab14d9a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57b171ed0360abf961988a6cb718444e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a57b171ed0360abf961988a6cb718444e">PROPERTY</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#ab538f3109704dfc9def9a48048293689">m_MipFilter</a>, MipFilter, DWORD)</td></tr>
+<tr class="separator:a57b171ed0360abf961988a6cb718444e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08f6b0555cacf06e6810e0a88acffac2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a08f6b0555cacf06e6810e0a88acffac2">PROPERTY</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#af6fa228f882ace569cd421362319ee40">m_MipLevels</a>, MipLevels, UINT)</td></tr>
+<tr class="separator:a08f6b0555cacf06e6810e0a88acffac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a845f9cf5790a4216ddffc6a40e307902"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a845f9cf5790a4216ddffc6a40e307902">PROPERTY</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a5530737d8d495813a7739bba6e9994cb">m_Format</a>, Format, D3DFORMAT)</td></tr>
+<tr class="separator:a845f9cf5790a4216ddffc6a40e307902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c0027d009d1c9e84e323eef96a25bf1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a8c0027d009d1c9e84e323eef96a25bf1">PROPERTY</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a5311ca52924b49bf1c311a7b88a4cdbe">m_Pool</a>, Pool, D3DPOOL)</td></tr>
+<tr class="separator:a8c0027d009d1c9e84e323eef96a25bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb8bf8eaaa52ef63132b3a6a3717c820"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#adb8bf8eaaa52ef63132b3a6a3717c820">PROPERTY</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a40da16253d80ccf96c8bcba0dcc121fa">m_pTexture</a>, pTexture, IDirect3DTexture9 *)</td></tr>
+<tr class="separator:adb8bf8eaaa52ef63132b3a6a3717c820"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file.html">Pyramid::Resources::Texture::ITextureFile</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a174e2c66d8b5bce8d9cf25ddc5962656 inherit pub_methods_class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file.html#a174e2c66d8b5bce8d9cf25ddc5962656">ITextureFile</a> ()=default</td></tr>
+<tr class="separator:a174e2c66d8b5bce8d9cf25ddc5962656 inherit pub_methods_class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacc328c964a83f4cd575a4ce247c8425 inherit pub_methods_class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file.html#aacc328c964a83f4cd575a4ce247c8425">~ITextureFile</a> ()=default</td></tr>
+<tr class="separator:aacc328c964a83f4cd575a4ce247c8425 inherit pub_methods_class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb26df7dbe19ac7e321f688ac24dba38 inherit pub_methods_class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file.html#acb26df7dbe19ac7e321f688ac24dba38">ITextureFile</a> (const <a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file.html">ITextureFile</a> &amp;)=default</td></tr>
+<tr class="separator:acb26df7dbe19ac7e321f688ac24dba38 inherit pub_methods_class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdcdaae3553126b8e46c4bc708d508e5 inherit pub_methods_class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file.html#afdcdaae3553126b8e46c4bc708d508e5">ITextureFile</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file.html">ITextureFile</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:afdcdaae3553126b8e46c4bc708d508e5 inherit pub_methods_class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa49b231b5fc61d277997dc87720454c inherit pub_methods_class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file.html">ITextureFile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file.html#afa49b231b5fc61d277997dc87720454c">operator=</a> (const <a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file.html">ITextureFile</a> &amp;)=default</td></tr>
+<tr class="separator:afa49b231b5fc61d277997dc87720454c inherit pub_methods_class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab114911487c742f1e67012d2e62f7213 inherit pub_methods_class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file.html">ITextureFile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file.html#ab114911487c742f1e67012d2e62f7213">operator=</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file.html">ITextureFile</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ab114911487c742f1e67012d2e62f7213 inherit pub_methods_class_pyramid_1_1_resources_1_1_texture_1_1_i_texture_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_pyramid_1_1_resources_1_1_i_resource')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html">Pyramid::Resources::IResource</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:ac7cb736f662742a18d55be2f90798737 inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#ac7cb736f662742a18d55be2f90798737">IResource</a> ()=default</td></tr>
+<tr class="separator:ac7cb736f662742a18d55be2f90798737 inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71101bb2b5ee9a3bab2f1354cb42b96d inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#a71101bb2b5ee9a3bab2f1354cb42b96d">~IResource</a> ()=default</td></tr>
+<tr class="separator:a71101bb2b5ee9a3bab2f1354cb42b96d inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba515bf2c0164675bf39f9038849fe50 inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#aba515bf2c0164675bf39f9038849fe50">IResource</a> (const <a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html">IResource</a> &amp;)=default</td></tr>
+<tr class="separator:aba515bf2c0164675bf39f9038849fe50 inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cab340222cf83d70fc9cda81c853e8d inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#a3cab340222cf83d70fc9cda81c853e8d">IResource</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html">IResource</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a3cab340222cf83d70fc9cda81c853e8d inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a401e9fcd3fc9a7f31b0f2ec1214998bb inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html">IResource</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#a401e9fcd3fc9a7f31b0f2ec1214998bb">operator=</a> (const <a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html">IResource</a> &amp;)=default</td></tr>
+<tr class="separator:a401e9fcd3fc9a7f31b0f2ec1214998bb inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8660cfcf0f084baf540b24a8703f8e5b inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html">IResource</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#a8660cfcf0f084baf540b24a8703f8e5b">operator=</a> (<a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html">IResource</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a8660cfcf0f084baf540b24a8703f8e5b inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d7f73537f71ec4919f65de9c70d9402 inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#a1d7f73537f71ec4919f65de9c70d9402">Write</a> (std::string _path=&quot;&quot;) override</td></tr>
+<tr class="memdesc:a1d7f73537f71ec4919f65de9c70d9402 inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">書き込み.  <a href="#a1d7f73537f71ec4919f65de9c70d9402">[詳解]</a><br /></td></tr>
+<tr class="separator:a1d7f73537f71ec4919f65de9c70d9402 inherit pub_methods_class_pyramid_1_1_resources_1_1_i_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_utility_1_1_file"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_utility_1_1_file')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_utility_1_1_file.html">Utility::File</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a02c3136c52ac8011a75136238d17739a inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a02c3136c52ac8011a75136238d17739a">File</a> ()=default</td></tr>
+<tr class="memdesc:a02c3136c52ac8011a75136238d17739a inherit pub_methods_class_utility_1_1_file"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタ  <a href="#a02c3136c52ac8011a75136238d17739a">[詳解]</a><br /></td></tr>
+<tr class="separator:a02c3136c52ac8011a75136238d17739a inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af04320e6d8d0dbe790d746f9ad6b48cc inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#af04320e6d8d0dbe790d746f9ad6b48cc">File</a> (std::string &amp;_filePath)</td></tr>
+<tr class="memdesc:af04320e6d8d0dbe790d746f9ad6b48cc inherit pub_methods_class_utility_1_1_file"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタ  <a href="#af04320e6d8d0dbe790d746f9ad6b48cc">[詳解]</a><br /></td></tr>
+<tr class="separator:af04320e6d8d0dbe790d746f9ad6b48cc inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdf997b6d6a61a1a4ecbb2e84153c9cf inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#acdf997b6d6a61a1a4ecbb2e84153c9cf">~File</a> ()=default</td></tr>
+<tr class="memdesc:acdf997b6d6a61a1a4ecbb2e84153c9cf inherit pub_methods_class_utility_1_1_file"><td class="mdescLeft">&#160;</td><td class="mdescRight">デストラクタ  <a href="#acdf997b6d6a61a1a4ecbb2e84153c9cf">[詳解]</a><br /></td></tr>
+<tr class="separator:acdf997b6d6a61a1a4ecbb2e84153c9cf inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a817e637c996f509872d9c2e40476d9ac inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a817e637c996f509872d9c2e40476d9ac">File</a> (const <a class="el" href="class_utility_1_1_file.html">File</a> &amp;)=default</td></tr>
+<tr class="separator:a817e637c996f509872d9c2e40476d9ac inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eacfa02285de4f6165e33b67247524e inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a5eacfa02285de4f6165e33b67247524e">File</a> (<a class="el" href="class_utility_1_1_file.html">File</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a5eacfa02285de4f6165e33b67247524e inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4281e1bf951805f5955cad2911b11aef inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_utility_1_1_file.html">File</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a4281e1bf951805f5955cad2911b11aef">operator=</a> (const <a class="el" href="class_utility_1_1_file.html">File</a> &amp;)=default</td></tr>
+<tr class="separator:a4281e1bf951805f5955cad2911b11aef inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a0fe6f0514c251d610072b2b7f5c3a8 inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_utility_1_1_file.html">File</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a3a0fe6f0514c251d610072b2b7f5c3a8">operator=</a> (<a class="el" href="class_utility_1_1_file.html">File</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a3a0fe6f0514c251d610072b2b7f5c3a8 inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9612a50672d0a88b0c6a02e6f8172848 inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a9612a50672d0a88b0c6a02e6f8172848">PROPERTY_CR_R_ONLY</a> (<a class="el" href="class_utility_1_1_file.html#a8fbe64e81f0843fc3b22ea8e3d65efda">m_FileName</a>, FileName, std::string)</td></tr>
+<tr class="separator:a9612a50672d0a88b0c6a02e6f8172848 inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5959c3a1e7191f06b4f31b450e7b7b26 inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a5959c3a1e7191f06b4f31b450e7b7b26">PROPERTY_CR_R_ONLY</a> (<a class="el" href="class_utility_1_1_file.html#a605debf399ada3dc28b7fb64d4741cd1">m_FilePath</a>, FilePath, std::string)</td></tr>
+<tr class="separator:a5959c3a1e7191f06b4f31b450e7b7b26 inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40d090a13bc64c641f651cba8d4d7750 inherit pub_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a40d090a13bc64c641f651cba8d4d7750">PROPERTY_CR_R_ONLY</a> (<a class="el" href="class_utility_1_1_file.html#a61471e0b688e064f28929a4d51a02de2">m_FileDirectory</a>, FileDirectory, std::string)</td></tr>
+<tr class="separator:a40d090a13bc64c641f651cba8d4d7750 inherit pub_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+限定公開変数類</h2></td></tr>
+<tr class="memitem:a275d4993f0fc8377a053a59e415db3f9"><td class="memItemLeft" align="right" valign="top">D3DXIMAGE_INFO&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a275d4993f0fc8377a053a59e415db3f9">m_ImageInfo</a></td></tr>
+<tr class="separator:a275d4993f0fc8377a053a59e415db3f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafb3a25cc1ec3f7fac8f2c73e101f58d"><td class="memItemLeft" align="right" valign="top">D3DCOLOR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#aafb3a25cc1ec3f7fac8f2c73e101f58d">m_ColorKey</a> = 0</td></tr>
+<tr class="separator:aafb3a25cc1ec3f7fac8f2c73e101f58d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add4b8eaf2258cbe85b23710797b4ea92"><td class="memItemLeft" align="right" valign="top">DWORD&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#add4b8eaf2258cbe85b23710797b4ea92">m_Usage</a> = 0</td></tr>
+<tr class="separator:add4b8eaf2258cbe85b23710797b4ea92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb571c2f86e590080906ddefe412542c"><td class="memItemLeft" align="right" valign="top">DWORD&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#acb571c2f86e590080906ddefe412542c">m_Filter</a> = D3DX_DEFAULT</td></tr>
+<tr class="separator:acb571c2f86e590080906ddefe412542c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab538f3109704dfc9def9a48048293689"><td class="memItemLeft" align="right" valign="top">DWORD&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#ab538f3109704dfc9def9a48048293689">m_MipFilter</a> = D3DX_DEFAULT</td></tr>
+<tr class="separator:ab538f3109704dfc9def9a48048293689"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6fa228f882ace569cd421362319ee40"><td class="memItemLeft" align="right" valign="top">UINT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#af6fa228f882ace569cd421362319ee40">m_MipLevels</a> = 1</td></tr>
+<tr class="separator:af6fa228f882ace569cd421362319ee40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5530737d8d495813a7739bba6e9994cb"><td class="memItemLeft" align="right" valign="top">D3DFORMAT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a5530737d8d495813a7739bba6e9994cb">m_Format</a> = D3DFMT_A8R8G8B8</td></tr>
+<tr class="separator:a5530737d8d495813a7739bba6e9994cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5311ca52924b49bf1c311a7b88a4cdbe"><td class="memItemLeft" align="right" valign="top">D3DPOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a5311ca52924b49bf1c311a7b88a4cdbe">m_Pool</a> = D3DPOOL_DEFAULT</td></tr>
+<tr class="separator:a5311ca52924b49bf1c311a7b88a4cdbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40da16253d80ccf96c8bcba0dcc121fa"><td class="memItemLeft" align="right" valign="top">IDirect3DTexture9 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a40da16253d80ccf96c8bcba0dcc121fa">m_pTexture</a> = nullptr</td></tr>
+<tr class="separator:a40da16253d80ccf96c8bcba0dcc121fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_utility_1_1_file"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_utility_1_1_file')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_utility_1_1_file.html">Utility::File</a> に属する継承限定公開変数類</td></tr>
+<tr class="memitem:a8fbe64e81f0843fc3b22ea8e3d65efda inherit pro_attribs_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a8fbe64e81f0843fc3b22ea8e3d65efda">m_FileName</a></td></tr>
+<tr class="separator:a8fbe64e81f0843fc3b22ea8e3d65efda inherit pro_attribs_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a605debf399ada3dc28b7fb64d4741cd1 inherit pro_attribs_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a605debf399ada3dc28b7fb64d4741cd1">m_FilePath</a></td></tr>
+<tr class="separator:a605debf399ada3dc28b7fb64d4741cd1 inherit pro_attribs_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61471e0b688e064f28929a4d51a02de2 inherit pro_attribs_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a61471e0b688e064f28929a4d51a02de2">m_FileDirectory</a></td></tr>
+<tr class="separator:a61471e0b688e064f28929a4d51a02de2 inherit pro_attribs_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+その他の継承メンバ</h2></td></tr>
+<tr class="inherit_header pro_methods_class_utility_1_1_file"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_utility_1_1_file')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_utility_1_1_file.html">Utility::File</a> に属する継承限定公開メンバ関数</td></tr>
+<tr class="memitem:a267d93c696e8cba414caa702a7ea4906 inherit pro_methods_class_utility_1_1_file"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_file.html#a267d93c696e8cba414caa702a7ea4906">SetFilePathInfo</a> (std::string _path)</td></tr>
+<tr class="memdesc:a267d93c696e8cba414caa702a7ea4906 inherit pro_methods_class_utility_1_1_file"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイル名とパスをセット.  <a href="#a267d93c696e8cba414caa702a7ea4906">[詳解]</a><br /></td></tr>
+<tr class="separator:a267d93c696e8cba414caa702a7ea4906 inherit pro_methods_class_utility_1_1_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>DirectX形式のテクスチャを扱う. </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a8779280fc5494160721402b918be0700"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Texture::DirectXTextureFile::DirectXTextureFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0c56cb0cbd02bc3c1f6c7c5cb4f02e9f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Texture::DirectXTextureFile::~DirectXTextureFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae06a92c564ab814921f57955ed585092"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Texture::DirectXTextureFile::DirectXTextureFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a095a962d55c9bbf7e02c06d2dd95dfa9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Texture::DirectXTextureFile::DirectXTextureFile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a4b2a9ff9114f6454b591bb08819fedce"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Resources::Texture::DirectXTextureFile::Discard </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>情報を破棄する. </p>
+
+<p><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#a538405ce7235a0fffe950b15e9be4b34">Pyramid::Resources::IResource</a>を再実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="ab824a1a0aa86662d77701dd009486092"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a>&amp; Pyramid::Resources::Texture::DirectXTextureFile::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a735d21eba58044be3e6ddcc1bfe16869"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a>&amp; Pyramid::Resources::Texture::DirectXTextureFile::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html">DirectXTextureFile</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8ceb40a0be6e677d9b862d869d12263d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Texture::DirectXTextureFile::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a275d4993f0fc8377a053a59e415db3f9">m_ImageInfo</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Info&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">D3DXIMAGE_INFO&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a50b9820ce9cc8dc8e13e6142f1dab757"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Texture::DirectXTextureFile::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#aafb3a25cc1ec3f7fac8f2c73e101f58d">m_ColorKey</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ColorKey&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">D3DCOLOR&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a62d965ce0d2fba0803e3a3463ac9323d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Texture::DirectXTextureFile::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#add4b8eaf2258cbe85b23710797b4ea92">m_Usage</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Usage&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DWORD&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a067804fa30284c0c67ef758ab14d9a79"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Texture::DirectXTextureFile::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#acb571c2f86e590080906ddefe412542c">m_Filter</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Filter&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DWORD&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a57b171ed0360abf961988a6cb718444e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Texture::DirectXTextureFile::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#ab538f3109704dfc9def9a48048293689">m_MipFilter</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MipFilter&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DWORD&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a08f6b0555cacf06e6810e0a88acffac2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Texture::DirectXTextureFile::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#af6fa228f882ace569cd421362319ee40">m_MipLevels</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MipLevels&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UINT&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a845f9cf5790a4216ddffc6a40e307902"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Texture::DirectXTextureFile::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a5530737d8d495813a7739bba6e9994cb">m_Format</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Format&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">D3DFORMAT&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8c0027d009d1c9e84e323eef96a25bf1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Texture::DirectXTextureFile::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a5311ca52924b49bf1c311a7b88a4cdbe">m_Pool</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Pool&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">D3DPOOL&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adb8bf8eaaa52ef63132b3a6a3717c820"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Resources::Texture::DirectXTextureFile::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_resources_1_1_texture_1_1_direct_x_texture_file.html#a40da16253d80ccf96c8bcba0dcc121fa">m_pTexture</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">pTexture&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IDirect3DTexture9 *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae716b2df59eee22292e7bc44d3c6b075"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Resources::Texture::DirectXTextureFile::Read </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>_path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ファイル読み込み. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_path</td><td>ファイルパス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>読み込み成功是非</dd></dl>
+
+<p><a class="el" href="class_pyramid_1_1_resources_1_1_i_resource.html#a37f0152bc36d32cc5ead88b22ffc2ca9">Pyramid::Resources::IResource</a>を再実装しています。</p>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a class="anchor" id="aafb3a25cc1ec3f7fac8f2c73e101f58d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">D3DCOLOR Pyramid::Resources::Texture::DirectXTextureFile::m_ColorKey = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acb571c2f86e590080906ddefe412542c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DWORD Pyramid::Resources::Texture::DirectXTextureFile::m_Filter = D3DX_DEFAULT</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5530737d8d495813a7739bba6e9994cb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">D3DFORMAT Pyramid::Resources::Texture::DirectXTextureFile::m_Format = D3DFMT_A8R8G8B8</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a275d4993f0fc8377a053a59e415db3f9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">D3DXIMAGE_INFO Pyramid::Resources::Texture::DirectXTextureFile::m_ImageInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab538f3109704dfc9def9a48048293689"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DWORD Pyramid::Resources::Texture::DirectXTextureFile::m_MipFilter = D3DX_DEFAULT</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af6fa228f882ace569cd421362319ee40"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UINT Pyramid::Resources::Texture::DirectXTextureFile::m_MipLevels = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5311ca52924b49bf1c311a7b88a4cdbe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">D3DPOOL Pyramid::Resources::Texture::DirectXTextureFile::m_Pool = D3DPOOL_DEFAULT</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a40da16253d80ccf96c8bcba0dcc121fa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IDirect3DTexture9* Pyramid::Resources::Texture::DirectXTextureFile::m_pTexture = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="add4b8eaf2258cbe85b23710797b4ea92"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DWORD Pyramid::Resources::Texture::DirectXTextureFile::m_Usage = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Resource/Texture/<a class="el" href="_direct_x_texture_file_8h_source.html">DirectXTextureFile.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Resource/Texture/<a class="el" href="_direct_x_texture_file_8cpp.html">DirectXTextureFile.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

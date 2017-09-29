@@ -1,0 +1,1320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A198B6FD-9C05-471F-ABF3-585E8700A8FA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Planet9</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>Pyramid</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>NativeMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <ForcedIncludeFiles>"Debug.h";"Macro.h";"stdafx.h";%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>for %%1 in ($(InputDir)Assets/Shaders/*.hlsl) do fxc.exe $(InputDir)Assets/Shaders/%%~n1.hlsl /T fx_2_0 /Fo $(InputDir)Assets/Shaders/%%~n1.bsf</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <ForcedIncludeFiles>"Debug.h";"Macro.h";"stdafx.h";%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnablePREfast>true</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>DebugFastLink</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="App\Constant.cpp" />
+    <ClCompile Include="App\Extension\Component\BackJetEffector.cpp" />
+    <ClCompile Include="App\Extension\Component\FirearmsControler.cpp" />
+    <ClCompile Include="App\Extension\Component\LifeManeger.cpp" />
+    <ClCompile Include="App\Extension\Component\MovementControl.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="App\Extension\Component\PlayerModule.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="App\Extension\Component\PlayerTrackingCamara.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="App\Extension\Component\VulcanBulletControler.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="App\Extension\Component\VulcanBulletInvalidater.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="App\Extension\Object\Actor.cpp" />
+    <ClCompile Include="App\Extension\Object\VulcanBullet.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="App\Level\TestLevel.cpp" />
+    <ClCompile Include="App\Player.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="App\Weapon\Vulcan.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="App\Weapon\WeaponBase.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Blueprint\Application.cpp" />
+    <ClCompile Include="Blueprint\Constant.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Blueprint\GameWindow.cpp" />
+    <ClCompile Include="Blueprint\Level.cpp" />
+    <ClCompile Include="Blueprint\LevelStream.cpp" />
+    <ClCompile Include="Blueprint\window.cpp" />
+    <ClCompile Include="Collision\CollisionDetection.cpp" />
+    <ClCompile Include="Collision\Constant.cpp" />
+    <ClCompile Include="Collision\Detail\CacheableTransform.cpp" />
+    <ClCompile Include="Collision\Detail\ColliderManager.cpp" />
+    <ClCompile Include="Collision\Detail\Collider\AABBAndAABB.cpp" />
+    <ClCompile Include="Collision\Detail\Collider\AABBAndOBB.cpp" />
+    <ClCompile Include="Collision\Detail\Collider\ICollider.cpp" />
+    <ClCompile Include="Collision\Detail\Collider\OBBAndOBB.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Collision\Detail\Collider\OBBAndSphere.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Collision\Detail\Collider\SphereAndAABB.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Collision\Detail\Collider\SphereAndSphere.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Collision\Detail\CollisionInformation.cpp" />
+    <ClCompile Include="Collision\Detail\CollisionProvider.cpp" />
+    <ClCompile Include="Collision\Detail\CollisionSystem.cpp" />
+    <ClCompile Include="Collision\Detail\DelayEvent.cpp" />
+    <ClCompile Include="Collision\Detail\FindResult.cpp" />
+    <ClCompile Include="Collision\Detail\HitEventPublisher.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Collision\Detail\ICollidee.cpp" />
+    <ClCompile Include="Collision\Detail\JudgmentSameSpaceOfCollidee.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Collision\Detail\Tester\ITester.cpp" />
+    <ClCompile Include="Collision\Detail\Tester\TesterOfDiscreet.cpp" />
+    <ClCompile Include="Collision\Detail\Tester\TesterOfSVT.cpp" />
+    <ClCompile Include="Collision\HitResult.cpp" />
+    <ClCompile Include="Collision\IVolume.cpp" />
+    <ClCompile Include="Common\Constant.cpp" />
+    <ClCompile Include="Common\Diagram\AABB.cpp" />
+    <ClCompile Include="Common\Diagram\Constant.cpp" />
+    <ClCompile Include="Common\Diagram\Converter\AABBToOBB.cpp" />
+    <ClCompile Include="Common\Diagram\Converter\AABBToSphere.cpp" />
+    <ClCompile Include="Common\Diagram\Converter\ConvertProvider.cpp" />
+    <ClCompile Include="Common\Diagram\Converter\OBBToAABB.cpp" />
+    <ClCompile Include="Common\Diagram\Converter\OBBToSphere.cpp" />
+    <ClCompile Include="Common\Diagram\Converter\SphereToAABB.cpp" />
+    <ClCompile Include="Common\Diagram\Converter\SphereToOBB.cpp" />
+    <ClCompile Include="Common\Diagram\OBB.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Common\Diagram\Plane.cpp" />
+    <ClCompile Include="Common\Diagram\Sphere.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Common\InputDevice\Constant.cpp" />
+    <ClCompile Include="Common\InputDevice\DeviceManager.cpp" />
+    <ClCompile Include="Common\InputDevice\Key.cpp" />
+    <ClCompile Include="Common\InputDevice\Mouse.cpp" />
+    <ClCompile Include="Common\SpaceDivide\Cell.cpp" />
+    <ClCompile Include="Common\SpaceDivide\Octree.cpp" />
+    <ClCompile Include="Common\SpaceDivide\OctreeRegistrableObject.cpp" />
+    <ClCompile Include="Common\TextureAnimFream.cpp" />
+    <ClCompile Include="Common\TextureAnimUV.cpp" />
+    <ClCompile Include="Common\Timer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Common\TimerServer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Common\WorldVolume.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Components\Camera.cpp" />
+    <ClCompile Include="Components\Component.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Components\Constant.cpp" />
+    <ClCompile Include="Components\Detail\Particle.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Components\Detail\ParticleBlaster.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Components\Detail\ParticleEmitter.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Components\Detail\ParticleSystemModule.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Components\DirectionalLight.cpp" />
+    <ClCompile Include="Components\Mesh.cpp" />
+    <ClCompile Include="Components\MorphableMesh.cpp" />
+    <ClCompile Include="Components\Observers\ComponentEffectiveStateObserver.cpp" />
+    <ClCompile Include="Components\Observers\ComponentPriorityStateObserver.cpp" />
+    <ClCompile Include="Components\Observers\ComponentRenderStateObserver.cpp" />
+    <ClCompile Include="Components\Observers\ComponentStateObserver.cpp" />
+    <ClCompile Include="Components\Observers\ComponentStateSubject.cpp" />
+    <ClCompile Include="Components\Observers\ComponentUpdataStateObserver.cpp" />
+    <ClCompile Include="Components\Panel.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Components\ParticleSystem.cpp" />
+    <ClCompile Include="Components\Transform.cpp" />
+    <ClCompile Include="Components\UIButton.cpp" />
+    <ClCompile Include="Components\UIImage.cpp" />
+    <ClCompile Include="DataObject\DAO\ColorChannel.cpp" />
+    <ClCompile Include="DataObject\DAO\FbxFile.cpp" />
+    <ClCompile Include="DataObject\Deserialize\ColorChannel.cpp" />
+    <ClCompile Include="DataObject\Deserialize\FbxFile.cpp" />
+    <ClCompile Include="DataObject\Deserialize\FbxInnerMesh.cpp" />
+    <ClCompile Include="DataObject\Deserialize\FbxMateria.cpp" />
+    <ClCompile Include="DataObject\Deserialize\FbxTextureFile.cpp" />
+    <ClCompile Include="DataObject\Entity\ColorChannel.cpp" />
+    <ClCompile Include="DataObject\Entity\FbxFile.cpp" />
+    <ClCompile Include="DataObject\FileDataObjectChild.cpp" />
+    <ClCompile Include="DataObject\FileDataObjectRoot.cpp" />
+    <ClCompile Include="DataObject\Serialize\ColorChannel.cpp" />
+    <ClCompile Include="DataObject\Serialize\FbxFile.cpp" />
+    <ClCompile Include="DataObject\Serialize\FbxInnerMesh.cpp" />
+    <ClCompile Include="DataObject\Serialize\FbxMateria.cpp" />
+    <ClCompile Include="DataObject\Serialize\FbxTextureFile.cpp" />
+    <ClCompile Include="GameObject\Detail\ComponentsPossession.cpp" />
+    <ClCompile Include="GameObject\Detail\StateQueryable.cpp" />
+    <ClCompile Include="GameObject\Object.cpp" />
+    <ClCompile Include="GameObject\ObjectManager.cpp" />
+    <ClCompile Include="GameObject\Observers\ObjectEffectiveStateObserver.cpp" />
+    <ClCompile Include="GameObject\Observers\ObjectPriorityStateObserver.cpp" />
+    <ClCompile Include="GameObject\Observers\ObjectRenderStateObserver.cpp" />
+    <ClCompile Include="GameObject\Observers\ObjectStateObserver.cpp" />
+    <ClCompile Include="GameObject\Observers\ObjectStateSubject.cpp" />
+    <ClCompile Include="GameObject\Observers\ObjectUpdataStateObserver.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MT\Constant.cpp" />
+    <ClCompile Include="MT\Jobs\AsyncLoadLevel.cpp" />
+    <ClCompile Include="MT\Jobs\PublishMLRC.cpp" />
+    <ClCompile Include="MT\Jobs\ThreadJob.cpp" />
+    <ClCompile Include="MT\Order\TaskContainer.cpp" />
+    <ClCompile Include="MT\Order\TaskLine.cpp" />
+    <ClCompile Include="MT\Order\OrderedJobExcuter.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="MT\Order\OrderedJobReserver.cpp" />
+    <ClCompile Include="MT\Order\OrderData.cpp" />
+    <ClCompile Include="MT\Thread.cpp" />
+    <ClCompile Include="MT\ThreadSystem.cpp" />
+    <ClCompile Include="MT\Worker\JobExecuterBase.cpp" />
+    <ClCompile Include="MT\Worker\JobExecuter.cpp" />
+    <ClCompile Include="MT\Worker\MLRCPublisher.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\Color.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\ComponentRender\AABBRender.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\ComponentRender\FbxRender.cpp" />
+    <ClCompile Include="Rendering\ComponentRender\PanelRender.cpp" />
+    <ClCompile Include="Rendering\ComponentRender\ParticleRender.cpp" />
+    <ClCompile Include="Rendering\ComponentRender\UIRender.cpp" />
+    <ClCompile Include="Rendering\Constant.cpp" />
+    <ClCompile Include="Rendering\Detail\Frustum.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\Detail\LightingPublisher.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\Detail\OptimizationRender.cpp" />
+    <ClCompile Include="Rendering\Detail\Optimize\CommandFinalizer.cpp" />
+    <ClCompile Include="Rendering\Detail\Optimize\CommandOptimizer.cpp" />
+    <ClCompile Include="Rendering\Detail\Optimize\Context.cpp" />
+    <ClCompile Include="Rendering\Detail\Optimize\ContinuityOptimizate.cpp" />
+    <ClCompile Include="Rendering\Detail\Optimize\JudgmentSameSpaceOfFrustum.cpp" />
+    <ClCompile Include="Rendering\Detail\Optimize\LODSwitcher.cpp" />
+    <ClCompile Include="Rendering\Detail\Optimize\MLRC.cpp" />
+    <ClCompile Include="Rendering\Detail\Optimize\MLRCPublisher.cpp" />
+    <ClCompile Include="Rendering\Detail\Optimize\ObjectOptimizer.cpp" />
+    <ClCompile Include="Rendering\Detail\Optimize\VisibleDeterminer.cpp" />
+    <ClCompile Include="Rendering\Detail\Provider\UIRendering.cpp" />
+    <ClCompile Include="Rendering\Detail\Provider\WolrdRendering.cpp" />
+    <ClCompile Include="Rendering\Detail\Render.cpp" />
+    <ClCompile Include="Rendering\Detail\StaticResource\Panel.cpp" />
+    <ClCompile Include="Rendering\Detail\StaticResource\Particle.cpp" />
+    <ClCompile Include="Rendering\Detail\StaticResource\Quad.cpp" />
+    <ClCompile Include="Rendering\Detail\StaticResource\UI.cpp" />
+    <ClCompile Include="Rendering\Detail\WorldObjectRender.cpp" />
+    <ClCompile Include="Rendering\Graphics.cpp" />
+    <ClCompile Include="Rendering\HLRCommand\BeginScene.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\HLRCommand\Default\BeginScene.cpp" />
+    <ClCompile Include="Rendering\HLRCommand\Default\Draw.cpp" />
+    <ClCompile Include="Rendering\HLRCommand\Default\EndScene.cpp" />
+    <ClCompile Include="Rendering\HLRCommand\Default\RiseMateral.cpp" />
+    <ClCompile Include="Rendering\HLRCommand\Default\SetVertexDeclaration.cpp" />
+    <ClCompile Include="Rendering\HLRCommand\Default\SetIndex.cpp" />
+    <ClCompile Include="Rendering\HLRCommand\Default\SetMaterial.cpp" />
+    <ClCompile Include="Rendering\HLRCommand\Default\SetVertex.cpp" />
+    <ClCompile Include="Rendering\HLRCommand\Default\StaticDefaultCommand.cpp" />
+    <ClCompile Include="Rendering\HLRCommand\DrawIndexedPrimitive.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\HLRCommand\DrawPrimitive.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\HLRCommand\EndScene.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\HLRCommand\HLRCommandPipeline.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\HLRCommand\RiseMateral.cpp" />
+    <ClCompile Include="Rendering\HLRCommand\SetDeclaration.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\HLRCommand\SetFVF.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\HLRCommand\SetIndex.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\HLRCommand\SetMaterial.cpp" />
+    <ClCompile Include="Rendering\HLRCommand\SetVertex.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\Materials\ColorChannel.cpp" />
+    <ClCompile Include="Rendering\Materials\Material.cpp" />
+    <ClCompile Include="Rendering\Materials\MeshMaterial.cpp" />
+    <ClCompile Include="Rendering\Materials\PanelMaterial.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\Materials\ParticleMaterial.cpp" />
+    <ClCompile Include="Rendering\Materials\ProgressiveMeshMaterial.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\Materials\UIMaterial.cpp" />
+    <ClCompile Include="Rendering\RenderProvider.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\Shaders\MeshShader.cpp" />
+    <ClCompile Include="Rendering\Shaders\PanelShader.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\Shaders\ParticleShader.cpp" />
+    <ClCompile Include="Rendering\Shaders\ProgressiveMeshShader.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Rendering\Shaders\Shader.cpp" />
+    <ClCompile Include="Rendering\Shaders\UIShader.cpp" />
+    <ClCompile Include="Rendering\Target\RenderingTexture.cpp" />
+    <ClCompile Include="Rendering\Target\Screen.cpp" />
+    <ClCompile Include="Rendering\Viewer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Resource\Audio\MCIAudioFile.cpp" />
+    <ClCompile Include="Resource\Audio\MCIMessageDispatcher.cpp" />
+    <ClCompile Include="Resource\Constant.cpp" />
+    <ClCompile Include="Resource\DataObject\IDataObjectFile.cpp" />
+    <ClCompile Include="Resource\Model\FbxFile.cpp" />
+    <ClCompile Include="Resource\Texture\DirectXTextureFile.cpp" />
+    <ClCompile Include="Resource\Texture\DirectXTextureFileFromInMemory.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UI\Constant.cpp" />
+    <ClCompile Include="UI\Event\Publisher\UIChangeState.cpp" />
+    <ClCompile Include="UI\Event\Publisher\UICursor.cpp" />
+    <ClCompile Include="UI\Event\UIPublishSystem.cpp" />
+    <ClCompile Include="UI\IUI.cpp" />
+    <ClCompile Include="UI\UITransform.cpp" />
+    <ClCompile Include="Utility\CommandExecutor.cpp" />
+    <ClCompile Include="Utility\CommandListener.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Utility\Debug.cpp" />
+    <ClCompile Include="Utility\Exception.cpp" />
+    <ClCompile Include="Utility\File.cpp" />
+    <ClCompile Include="Utility\FPSCounter.cpp" />
+    <ClCompile Include="Utility\HavingChildType.cpp" />
+    <ClCompile Include="Utility\Mathf.cpp" />
+    <ClCompile Include="Utility\MultiTypeMap.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Utility\Profiler.cpp" />
+    <ClCompile Include="Utility\singleton.cpp" />
+    <ClCompile Include="Utility\StaticValue.cpp" />
+    <ClCompile Include="Utility\Subject.cpp" />
+    <ClCompile Include="Utility\TextFile.cpp" />
+    <ClCompile Include="Utility\TimerClient.cpp" />
+    <ClCompile Include="Utility\TimerServer.cpp" />
+    <ClCompile Include="Utility\TypeComparable.cpp" />
+    <ClCompile Include="Utility\TypePossession.cpp" />
+    <ClCompile Include="Utility\TypeStringConvertible.cpp" />
+    <ClCompile Include="Utility\Vector2.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Utility\Vector3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\Constant.h" />
+    <ClInclude Include="App\Extension\Component\BackJetEffector.h" />
+    <ClInclude Include="App\Extension\Component\FirearmsControler.h" />
+    <ClInclude Include="App\Extension\Component\LifeManeger.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="App\Extension\Component\MovementControl.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="App\Extension\Component\PlayerModule.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="App\Extension\Component\PlayerTrackingCamara.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="App\Extension\Component\VulcanBulletControler.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="App\Extension\Component\VulcanBulletInvalidater.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="App\Extension\Object\Actor.h" />
+    <ClInclude Include="App\Extension\Object\VulcanBullet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="App\Level\TestLevel.h" />
+    <ClInclude Include="App\Player.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="App\Weapon\Vulcan.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="App\Weapon\WeaponBase.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Blueprint\Application.h" />
+    <ClInclude Include="Blueprint\Constant.h" />
+    <ClInclude Include="Blueprint\Creators\LevelCreator.h" />
+    <ClInclude Include="Blueprint\GameWindow.h" />
+    <ClInclude Include="Blueprint\Level.h" />
+    <ClInclude Include="Blueprint\LevelStream.h" />
+    <ClInclude Include="Blueprint\window.h" />
+    <ClInclude Include="Collision\CollisionDetection.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Collision\Constant.h" />
+    <ClInclude Include="Collision\Detail\CacheableTransform.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Collision\Detail\ColliderManager.h" />
+    <ClInclude Include="Collision\Detail\Collider\AABBAndAABB.h" />
+    <ClInclude Include="Collision\Detail\Collider\AABBAndOBB.h" />
+    <ClInclude Include="Collision\Detail\Collider\ICollider.h" />
+    <ClInclude Include="Collision\Detail\Collider\IDiagramCollider.h" />
+    <ClInclude Include="Collision\Detail\Collider\OBBAndOBB.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Collision\Detail\Collider\OBBAndSphere.h" />
+    <ClInclude Include="Collision\Detail\Collider\SphereAndAABB.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Collision\Detail\Collider\SphereAndSphere.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Collision\Detail\CollisionEventListener.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Collision\Detail\CollisionInformation.h" />
+    <ClInclude Include="Collision\Detail\CollisionProvider.h" />
+    <ClInclude Include="Collision\Detail\CollisionSystem.h" />
+    <ClInclude Include="Collision\Detail\Defines.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Collision\Detail\DelayEvent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Collision\Detail\FindResult.h" />
+    <ClInclude Include="Collision\Detail\HitEventPublisher.h" />
+    <ClInclude Include="Collision\Detail\ICollidee.h" />
+    <ClInclude Include="Collision\Detail\JudgmentSameSpaceOfCollidee.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Collision\Detail\Tester\ITester.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Collision\Detail\Tester\TesterOfDiscreet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Collision\Detail\Tester\TesterOfSVT.h" />
+    <ClInclude Include="Collision\HitResult.h" />
+    <ClInclude Include="Collision\IHitEvent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Collision\IVolume.h" />
+    <ClInclude Include="Collision\Volume.h" />
+    <ClInclude Include="Common\Constant.h" />
+    <ClInclude Include="Common\Defines.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Common\Diagram\AABB.h" />
+    <ClInclude Include="Common\Diagram\Constant.h" />
+    <ClInclude Include="Common\Diagram\Converter\AABBToOBB.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Common\Diagram\Converter\AABBToSphere.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Common\Diagram\Converter\IConverter.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Common\Diagram\Converter\ConvertProvider.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Common\Diagram\Converter\OBBToAABB.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Common\Diagram\Converter\OBBToSphere.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Common\Diagram\Converter\SphereToAABB.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Common\Diagram\Converter\SphereToOBB.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Common\Diagram\IDiagram.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Common\Diagram\OBB.h" />
+    <ClInclude Include="Common\Diagram\Plane.h" />
+    <ClInclude Include="Common\Diagram\Sphere.h" />
+    <ClInclude Include="Common\InputDevice\Constant.h" />
+    <ClInclude Include="Common\InputDevice\Device.h" />
+    <ClInclude Include="Common\InputDevice\DeviceManager.h" />
+    <ClInclude Include="Common\InputDevice\Key.h" />
+    <ClInclude Include="Common\InputDevice\Mouse.h" />
+    <ClInclude Include="Common\Policy\DirectXCreate.h" />
+    <ClInclude Include="Common\Policy\DirectXDelete.h" />
+    <ClInclude Include="Common\Policy\NonCreate.h" />
+    <ClInclude Include="Common\Policy\NonDelete.h" />
+    <ClInclude Include="Common\Policy\StdCreate.h" />
+    <ClInclude Include="Common\Policy\StdDelete.h" />
+    <ClInclude Include="Common\SpaceDivide\Cell.h" />
+    <ClInclude Include="Common\SpaceDivide\Octree.h" />
+    <ClInclude Include="Common\SpaceDivide\OctreeRegistrableObject.h" />
+    <ClInclude Include="Common\TextureAnimFream.h" />
+    <ClInclude Include="Common\TextureAnimUV.h" />
+    <ClInclude Include="Common\Timer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Common\TimerServer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Common\WorldSpaceDivider.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Common\WorldVolume.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Components\Camera.h" />
+    <ClInclude Include="Components\Collidee.h" />
+    <ClInclude Include="Components\Component.h" />
+    <ClInclude Include="Components\Constant.h" />
+    <ClInclude Include="Components\Creators\ComponentCreator.h" />
+    <ClInclude Include="Components\Defines.h" />
+    <ClInclude Include="Components\Detail\ILight.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Components\Detail\Particle.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Components\Detail\ParticleBlaster.h" />
+    <ClInclude Include="Components\Detail\ParticleEmitter.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Components\Detail\ParticleSystemModule.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Components\DirectionalLight.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Components\Mesh.h" />
+    <ClInclude Include="Components\MorphableMesh.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Components\Observers\ComponentEffectiveStateObserver.h" />
+    <ClInclude Include="Components\Observers\ComponentPriorityStateObserver.h" />
+    <ClInclude Include="Components\Observers\ComponentRenderStateObserver.h" />
+    <ClInclude Include="Components\Observers\ComponentStateObserver.h" />
+    <ClInclude Include="Components\Observers\ComponentStateSubject.h" />
+    <ClInclude Include="Components\Observers\ComponentUpdataStateObserver.h" />
+    <ClInclude Include="Components\Panel.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Components\ParticleSystem.h" />
+    <ClInclude Include="Components\Transform.h" />
+    <ClInclude Include="Components\UIButton.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Components\UIImage.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="DataObject\DAO\ColorChannel.h" />
+    <ClInclude Include="DataObject\DAO\DaoBase.h" />
+    <ClInclude Include="DataObject\DAO\FbxFile.h" />
+    <ClInclude Include="DataObject\DateType.h" />
+    <ClInclude Include="DataObject\Deserialize\ColorChannel.h" />
+    <ClInclude Include="DataObject\Deserialize\FbxFile.h" />
+    <ClInclude Include="DataObject\Deserialize\FbxInnerMesh.h" />
+    <ClInclude Include="DataObject\Deserialize\FbxMateria.h" />
+    <ClInclude Include="DataObject\Deserialize\FbxTextureFile.h" />
+    <ClInclude Include="DataObject\Deserialize\IDeserializable.h" />
+    <ClInclude Include="DataObject\DTO\ColorChannel.h" />
+    <ClInclude Include="DataObject\DTO\DTOAccess.h" />
+    <ClInclude Include="DataObject\DTO\FbxFile.h" />
+    <ClInclude Include="DataObject\DTO\FbxInnerMesh.h" />
+    <ClInclude Include="DataObject\DTO\FbxMateria.h" />
+    <ClInclude Include="DataObject\DTO\FbxTextureFile.h" />
+    <ClInclude Include="DataObject\Entity\ColorChannel.h" />
+    <ClInclude Include="DataObject\Entity\FbxFile.h" />
+    <ClInclude Include="DataObject\FileDataObjectChild.h" />
+    <ClInclude Include="DataObject\FileDataObjectRoot.h" />
+    <ClInclude Include="DataObject\Serialize\ColorChannel.h" />
+    <ClInclude Include="DataObject\Serialize\FbxFile.h" />
+    <ClInclude Include="DataObject\Serialize\FbxInnerMesh.h" />
+    <ClInclude Include="DataObject\Serialize\FbxMateria.h" />
+    <ClInclude Include="DataObject\Serialize\FbxTextureFile.h" />
+    <ClInclude Include="DataObject\Serialize\ISerializable.h" />
+    <ClInclude Include="DataObject\Service.h" />
+    <ClInclude Include="GameObject\Detail\ComponentsPossession.h" />
+    <ClInclude Include="GameObject\Detail\ICommonBehavior.h" />
+    <ClInclude Include="GameObject\Detail\IEventHook.h" />
+    <ClInclude Include="GameObject\Detail\StateQueryable.h" />
+    <ClInclude Include="GameObject\Object.h" />
+    <ClInclude Include="GameObject\ObjectManager.h" />
+    <ClInclude Include="GameObject\Observers\ObjectEffectiveStateObserver.h" />
+    <ClInclude Include="GameObject\Observers\ObjectPriorityStateObserver.h" />
+    <ClInclude Include="GameObject\Observers\ObjectRenderStateObserver.h" />
+    <ClInclude Include="GameObject\Observers\ObjectStateObserver.h" />
+    <ClInclude Include="GameObject\Observers\ObjectStateSubject.h" />
+    <ClInclude Include="GameObject\Observers\ObjectUpdataStateObserver.h" />
+    <ClInclude Include="Includer.h" />
+    <ClInclude Include="Includer\BlueprintIncluder.h" />
+    <ClInclude Include="Includer\CollisionIncluder.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Includer\CommonIncluder.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="includer\ComponentIncluder.h" />
+    <ClInclude Include="Includer\DataObjectIncluder.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Includer\GameObjectIncluder.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Includer\MTIncluder.h" />
+    <ClInclude Include="Includer\RenderingIncluder.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="includer\ResourceIncluder.h" />
+    <ClInclude Include="Includer\UIIncluder.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Includer\UtilityIncluder.h" />
+    <ClInclude Include="Rendering\ComponentRender\AABBRender.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\ComponentRender\FbxRender.h" />
+    <ClInclude Include="Rendering\ComponentRender\PanelRender.h" />
+    <ClInclude Include="Rendering\ComponentRender\ParticleRender.h" />
+    <ClInclude Include="Rendering\ComponentRender\UIRender.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Defines.h" />
+    <ClInclude Include="Rendering\Detail\OptimizationRender.h" />
+    <ClInclude Include="Rendering\Detail\Optimize\CommandFinalizer.h" />
+    <ClInclude Include="Rendering\Detail\Optimize\CommandOptimizer.h" />
+    <ClInclude Include="Rendering\Detail\Optimize\Context.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Detail\Optimize\Continuity.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Detail\Optimize\ContinuityOptimizate.h" />
+    <ClInclude Include="Rendering\Detail\Optimize\IOptimize.h" />
+    <ClInclude Include="Rendering\Detail\Optimize\IOptimizer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Detail\Optimize\JudgmentSameSpaceOfFrustum.h" />
+    <ClInclude Include="Rendering\Detail\Optimize\LODSwitcher.h" />
+    <ClInclude Include="Rendering\Detail\Optimize\MLRC.h" />
+    <ClInclude Include="Rendering\Detail\Optimize\MLRCPublisher.h" />
+    <ClInclude Include="Rendering\Detail\Optimize\ObjectOptimizer.h" />
+    <ClInclude Include="Rendering\Detail\Optimize\Optimizer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Detail\Optimize\VisibleDeterminer.h" />
+    <ClInclude Include="Rendering\Detail\Provider\Interface.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Detail\Provider\UIRendering.h" />
+    <ClInclude Include="Rendering\Detail\Provider\WolrdRendering.h" />
+    <ClInclude Include="Rendering\Detail\RenderingContext.h" />
+    <ClInclude Include="Rendering\Detail\StaticResource\Panel.h" />
+    <ClInclude Include="Rendering\Detail\StaticResource\Particle.h" />
+    <ClInclude Include="Rendering\Detail\StaticResource\Quad.h" />
+    <ClInclude Include="Rendering\Detail\StaticResource\UI.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Detail\WorldObjectRender.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Detail\Frustum.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Detail\IRenderable.h" />
+    <ClInclude Include="Rendering\Detail\Render.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\HLRCommand\Default\StaticDefaultCommand.h" />
+    <ClInclude Include="Rendering\HLRCommand\HLRCPipelineStage.h" />
+    <ClInclude Include="Rendering\Materials\PanelMaterial.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Materials\ProgressiveMeshMaterial.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Materials\UIMaterial.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Shaders\ProgressiveMeshShader.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Shaders\PanelShader.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Shaders\UIShader.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Target\RenderingTexture.h" />
+    <ClInclude Include="Rendering\Target\RenderTarget.h" />
+    <ClInclude Include="Rendering\Target\Screen.h" />
+    <ClInclude Include="Resource\API\Audio.h" />
+    <ClInclude Include="Resource\API\IResourceAPI.h" />
+    <ClInclude Include="Resource\API\LostResourceAPI.h" />
+    <ClInclude Include="Resource\API\Model.h" />
+    <ClInclude Include="Resource\API\DataObject.h" />
+    <ClInclude Include="Resource\API\Texture.h" />
+    <ClInclude Include="Resource\Audio\IAudioFile.h" />
+    <ClInclude Include="Resource\Audio\MCIAudioFile.h" />
+    <ClInclude Include="Resource\Audio\MCIMessageDispatcher.h" />
+    <ClInclude Include="Resource\Constant.h" />
+    <ClInclude Include="Resource\DataObject\IDataObjectFile.h" />
+    <ClInclude Include="Resource\DataObject\ParticleSystemDataObject.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Resource\DataObject\ScriptableObject.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Resource\Model\FbxFile.h" />
+    <ClInclude Include="Resource\Model\IModelFile.h" />
+    <ClInclude Include="Resource\IResource.h" />
+    <ClInclude Include="Resource\ResourceManager.h" />
+    <ClInclude Include="Resource\ResourceType.h" />
+    <ClInclude Include="Resource\Texture\DirectXTextureFile.h" />
+    <ClInclude Include="Resource\Texture\DirectXTextureFileFromInMemory.h" />
+    <ClInclude Include="Resource\Texture\ITextureFile.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="MT\Constant.h" />
+    <ClInclude Include="MT\Jobs\AsyncLoadLevel.h" />
+    <ClInclude Include="MT\Jobs\PublishMLRC.h" />
+    <ClInclude Include="MT\Jobs\ThreadJob.h" />
+    <ClInclude Include="MT\Jobs\IThreadJob.h" />
+    <ClInclude Include="MT\Order\IMLRCPublishable.h" />
+    <ClInclude Include="MT\Order\TaskContainer.h" />
+    <ClInclude Include="MT\Order\TaskLine.h" />
+    <ClInclude Include="MT\Order\TaskOrder.h" />
+    <ClInclude Include="MT\Order\MLRCPublisher.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MT\Order\OrderedJobExcuter.h" />
+    <ClInclude Include="MT\Order\OrderedJobReserver.h" />
+    <ClInclude Include="MT\Order\OrderData.h" />
+    <ClInclude Include="MT\Thread.h" />
+    <ClInclude Include="MT\ThreadSystem.h" />
+    <ClInclude Include="MT\Worker\IOrderedJobExecutable.h" />
+    <ClInclude Include="MT\Worker\JobExecuterBase.h" />
+    <ClInclude Include="MT\Worker\JobExecuter.h" />
+    <ClInclude Include="MT\Worker\MLRCPublisher.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Buffer.h" />
+    <ClInclude Include="Rendering\Color.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Constant.h" />
+    <ClInclude Include="Rendering\CameraLayer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Detail\LightingPublisher.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\Graphics.h" />
+    <ClInclude Include="Rendering\HLRCommand\BeginScene.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\HLRCommand\Default\BeginScene.h" />
+    <ClInclude Include="Rendering\HLRCommand\Default\Draw.h" />
+    <ClInclude Include="Rendering\HLRCommand\Default\EndScene.h" />
+    <ClInclude Include="Rendering\HLRCommand\Default\RiseMateral.h" />
+    <ClInclude Include="Rendering\HLRCommand\Default\SetVertexDeclaration.h" />
+    <ClInclude Include="Rendering\HLRCommand\Default\SetIndex.h" />
+    <ClInclude Include="Rendering\HLRCommand\Default\SetMaterial.h" />
+    <ClInclude Include="Rendering\HLRCommand\Default\SetVertex.h" />
+    <ClInclude Include="Rendering\HLRCommand\DrawIndexedPrimitive.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\HLRCommand\DrawPrimitive.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\HLRCommand\EndScene.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\HLRCommand\HLRCommandBase.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\HLRCommand\HLRCommandPipeline.h" />
+    <ClInclude Include="Rendering\HLRCommand\RiseMateral.h" />
+    <ClInclude Include="Rendering\HLRCommand\SetDeclaration.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\HLRCommand\SetFVF.h" />
+    <ClInclude Include="Rendering\HLRCommand\SetIndex.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Rendering\HLRCommand\SetMaterial.h" />
+    <ClInclude Include="Rendering\HLRCommand\SetVertex.h" />
+    <ClInclude Include="Rendering\Materials\ColorChannel.h" />
+    <ClInclude Include="Rendering\Materials\Material.h" />
+    <ClInclude Include="Rendering\Materials\MeshMaterial.h" />
+    <ClInclude Include="Rendering\Materials\ParticleMaterial.h" />
+    <ClInclude Include="Rendering\RenderProvider.h" />
+    <ClInclude Include="Rendering\RendringPriority.h" />
+    <ClInclude Include="Rendering\Shaders\MeshShader.h" />
+    <ClInclude Include="Rendering\Shaders\ParticleShader.h" />
+    <ClInclude Include="Rendering\Shaders\Shader.h" />
+    <ClInclude Include="Rendering\Viewer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="UI\Constant.h" />
+    <ClInclude Include="UI\Event\Listener\Holder.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="UI\Event\Listener\IUICursor.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="UI\Event\Listener\IUIChangeState.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="UI\Event\Listener\Abstract.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="UI\Event\Publisher\Abstract.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="UI\Event\Publisher\Base.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="UI\Event\Publisher\UICursor.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="UI\Event\Publisher\UIChangeState.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="UI\Event\UIPublishSystem.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="UI\IUI.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="UI\UITransform.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\Builder.h" />
+    <ClInclude Include="Utility\CommandExecutor.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\CommandListener.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\Creator.h" />
+    <ClInclude Include="Utility\Debug.h" />
+    <ClInclude Include="Utility\Estd.h" />
+    <ClInclude Include="Utility\Exception.h" />
+    <ClInclude Include="Utility\Executer.h" />
+    <ClInclude Include="Utility\Factory.h" />
+    <ClInclude Include="Utility\File.h" />
+    <ClInclude Include="Utility\FPSCounter.h" />
+    <ClInclude Include="Utility\HavingChildType.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\ICastable.h" />
+    <ClInclude Include="Utility\ICommand.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\IExecuteable.h" />
+    <ClInclude Include="Utility\InterfaceCoordinator.h" />
+    <ClInclude Include="Utility\IStringConvertible.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\IUnknown.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\Layer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\Macro.h" />
+    <ClInclude Include="Utility\Manager.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\Mathf.h" />
+    <ClInclude Include="Utility\MultiTypeMap.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\Noncopyable.h" />
+    <ClInclude Include="Utility\Nullable.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\NullType.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\Observer.h" />
+    <ClInclude Include="Utility\Priority.hpp" />
+    <ClInclude Include="Utility\Profiler.h" />
+    <ClInclude Include="Utility\Range.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\SafetyIterate.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\singleton.h" />
+    <ClInclude Include="Utility\SingleTypeMap.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\StaticValue.h" />
+    <ClInclude Include="Utility\Subject.h" />
+    <ClInclude Include="Utility\TextFile.h" />
+    <ClInclude Include="Utility\TimerClient.h" />
+    <ClInclude Include="Utility\TimerServer.h" />
+    <ClInclude Include="Utility\TypeComparable.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\TypeHolder.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\TypeList.h" />
+    <ClInclude Include="Utility\TypePossession.h" />
+    <ClInclude Include="Utility\TypeStringConvertible.h" />
+    <ClInclude Include="Utility\Vector2.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Utility\Vector3.h" />
+    <ClInclude Include="Utility\VectorExtension.hpp" />
+    <ClInclude Include="Utility\VO.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Blueprint\Application.inl" />
+    <None Include="Blueprint\Creators\LevelCreator.inl" />
+    <None Include="Blueprint\Level.inl" />
+    <None Include="Blueprint\LevelStream.inl" />
+    <None Include="Collision\Detail\ColliderManager.inl" />
+    <None Include="Collision\Detail\Collider\IDiagramCollider.inl" />
+    <None Include="Collision\Volume.inl" />
+    <None Include="Common\Diagram\Converter\ConvertProvider.inl" />
+    <None Include="Common\InputDevice\Key.inl" />
+    <None Include="Components\Collidee.inl" />
+    <None Include="Components\Component.inl">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Components\Creators\ComponentCreator.inl" />
+    <None Include="DataObject\FileDataObjectChild.inl" />
+    <None Include="DataObject\Service.inl" />
+    <None Include="GameObject\Detail\ComponentsPossession.inl" />
+    <None Include="GameObject\Object.inl">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="MT\Jobs\AsyncLoadLevel.inl" />
+    <None Include="MT\Order\TaskOrder.inl" />
+    <None Include="MT\Order\OrderedJobExcuter.inl" />
+    <None Include="MT\ThreadSystem.inl" />
+    <None Include="MT\Worker\JobExecuterBase.inl" />
+    <None Include="Rendering\Buffer.inl" />
+    <None Include="Rendering\Detail\Optimize\Optimizer.inl" />
+    <None Include="Rendering\HLRCommand\HLRCommandBase.inl">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Rendering\HLRCommand\HLRCommandPipeline.inl">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Resource\API\Audio.inl" />
+    <None Include="Resource\API\IResourceAPI.inl" />
+    <None Include="Resource\API\LostResourceAPI.inl" />
+    <None Include="Resource\API\Model.inl" />
+    <None Include="Resource\API\Texture.inl" />
+    <None Include="Resource\DataObject\ScriptableObject.inl" />
+    <None Include="Resource\ResourceManager.inl" />
+    <None Include="UI\Event\Listener\Holder.inl" />
+    <None Include="UI\Event\Listener\Abstract.inl" />
+    <None Include="UI\Event\UIPublishSystem.inl" />
+    <None Include="Utility\Executer.inl" />
+    <None Include="Utility\Factory.inl" />
+    <None Include="Utility\HavingChildType.inl" />
+    <None Include="Utility\ICastable.inl" />
+    <None Include="Utility\InterfaceCoordinator.inl" />
+    <None Include="Utility\IStringConvertible.inl" />
+    <None Include="Utility\Layer.inl">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Utility\Manager.inl">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Utility\MultiTypeMap.inl" />
+    <None Include="Utility\Nullable.inl" />
+    <None Include="Utility\Range.inl" />
+    <None Include="Utility\SafetyIterate.inl">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Utility\singleton.inl" />
+    <None Include="Utility\SingleTypeMap.inl" />
+    <None Include="Utility\StaticValue.inl" />
+    <None Include="Utility\TypeComparable.inl" />
+    <None Include="Utility\TypePossession.inl" />
+    <None Include="Utility\VO.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

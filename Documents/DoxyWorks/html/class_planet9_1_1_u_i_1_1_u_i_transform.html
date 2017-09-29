@@ -1,0 +1,676 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Planet9::UI::UITransform クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_planet9.html">Planet9</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_u_i.html">UI</a></li><li class="navelem"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html">UITransform</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#friends">フレンド</a> &#124;
+<a href="class_planet9_1_1_u_i_1_1_u_i_transform-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Planet9::UI::UITransform クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>UIの座標・サイズ・回転と親子関係を持つ  
+ <a href="class_planet9_1_1_u_i_1_1_u_i_transform.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_u_i_transform_8h_source.html">UITransform.h</a>&gt;</code></p>
+<div class="dynheader">
+Planet9::UI::UITransform の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_planet9_1_1_u_i_1_1_u_i_transform.png" usemap="#Planet9::UI::UITransform_map" alt=""/>
+  <map id="Planet9::UI::UITransform_map" name="Planet9::UI::UITransform_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a5ba4949ff74e1772585ae26dc50f6e8d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#a5ba4949ff74e1772585ae26dc50f6e8d">UITransform</a> (<a class="el" href="class_planet9_1_1_u_i_1_1_i_u_i.html">IUI</a> &amp;)</td></tr>
+<tr class="separator:a5ba4949ff74e1772585ae26dc50f6e8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac92b34be484c5798fcb8ff0eec3db5ad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#ac92b34be484c5798fcb8ff0eec3db5ad">~UITransform</a> ()=default</td></tr>
+<tr class="separator:ac92b34be484c5798fcb8ff0eec3db5ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6098b7c77fddceeec1beef8cd268045f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#a6098b7c77fddceeec1beef8cd268045f">UITransform</a> (const <a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html">UITransform</a> &amp;)=default</td></tr>
+<tr class="separator:a6098b7c77fddceeec1beef8cd268045f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3af84ed40c372bb107ec0e2fa9d3863b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#a3af84ed40c372bb107ec0e2fa9d3863b">UITransform</a> (<a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html">UITransform</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a3af84ed40c372bb107ec0e2fa9d3863b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33f7ca31dc86caa65c08d064778cabf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html">UITransform</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#a33f7ca31dc86caa65c08d064778cabf4">operator=</a> (const <a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html">UITransform</a> &amp;)=default</td></tr>
+<tr class="separator:a33f7ca31dc86caa65c08d064778cabf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafd1ca761af4067ba9c8e03d324666b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html">UITransform</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#aafd1ca761af4067ba9c8e03d324666b2">operator=</a> (<a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html">UITransform</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:aafd1ca761af4067ba9c8e03d324666b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a290b435a828434fe5c3edae890b17d4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#a290b435a828434fe5c3edae890b17d4b">AddChild</a> (<a class="el" href="class_planet9_1_1_u_i_1_1_i_u_i.html">IUI</a> &amp;)</td></tr>
+<tr class="memdesc:a290b435a828434fe5c3edae890b17d4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">追加  <a href="#a290b435a828434fe5c3edae890b17d4b">[詳解]</a><br /></td></tr>
+<tr class="separator:a290b435a828434fe5c3edae890b17d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84a78c55908bea0600724f429a5678c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#a84a78c55908bea0600724f429a5678c4">RemoveChild</a> (<a class="el" href="class_planet9_1_1_u_i_1_1_i_u_i.html">IUI</a> &amp;)</td></tr>
+<tr class="memdesc:a84a78c55908bea0600724f429a5678c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">削除 開放は行わない  <a href="#a84a78c55908bea0600724f429a5678c4">[詳解]</a><br /></td></tr>
+<tr class="separator:a84a78c55908bea0600724f429a5678c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90548b0e1990eaeb0d004c3d5d4b5dc1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#a90548b0e1990eaeb0d004c3d5d4b5dc1">PROPERTY_REF</a> (m_Position, Position,::<a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>)</td></tr>
+<tr class="separator:a90548b0e1990eaeb0d004c3d5d4b5dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ad56ef8934e61e0d65f37427417ae2a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#a5ad56ef8934e61e0d65f37427417ae2a">PROPERTY_REF</a> (m_Size, Size,::<a class="el" href="class_utility_1_1_vector2.html">Utility::Vector2</a>)</td></tr>
+<tr class="separator:a5ad56ef8934e61e0d65f37427417ae2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97e1e9b4a70aee5db89254b08125c8d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#a97e1e9b4a70aee5db89254b08125c8d1">PROPERTY_REF</a> (m_Scale, Scale,::<a class="el" href="class_utility_1_1_vector2.html">Utility::Vector2</a>)</td></tr>
+<tr class="separator:a97e1e9b4a70aee5db89254b08125c8d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacec6407f298d51ff8fbce7e2f5aa48a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#aacec6407f298d51ff8fbce7e2f5aa48a">PROPERTY</a> (m_RotateZ, RotateZ, float)</td></tr>
+<tr class="separator:aacec6407f298d51ff8fbce7e2f5aa48a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace71cdd5856faaff74376d7a09544fd7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#ace71cdd5856faaff74376d7a09544fd7">PROPERTY_REF</a> (m_ParentsPosition, ParentsPosition,::<a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>)</td></tr>
+<tr class="separator:ace71cdd5856faaff74376d7a09544fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a6bd98b743377f43a49c597eff6a1c0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#a9a6bd98b743377f43a49c597eff6a1c0">PROPERTY_REF</a> (m_ParentsSize, ParentsSize,::<a class="el" href="class_utility_1_1_vector2.html">Utility::Vector2</a>)</td></tr>
+<tr class="separator:a9a6bd98b743377f43a49c597eff6a1c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9a4b3e3f16eadb4e632d8ea57f21a9d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#af9a4b3e3f16eadb4e632d8ea57f21a9d">PROPERTY_REF</a> (m_ParentsScale, ParentsScale,::<a class="el" href="class_utility_1_1_vector2.html">Utility::Vector2</a>)</td></tr>
+<tr class="separator:af9a4b3e3f16eadb4e632d8ea57f21a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a8f7e5da511f33fc4eb5fda18c0db18"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#a7a8f7e5da511f33fc4eb5fda18c0db18">PROPERTY</a> (m_ParentsRotateZ, ParentsRotateZ, float)</td></tr>
+<tr class="separator:a7a8f7e5da511f33fc4eb5fda18c0db18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b1fdeaa057ad3ed7b0e24d40214fc47"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#a7b1fdeaa057ad3ed7b0e24d40214fc47">PROPERTY</a> (m_pParent, <a class="el" href="namespace_planet9.html#a730866d7b6592599acdcd2a587369641">pParent</a>, <a class="el" href="class_planet9_1_1_u_i_1_1_i_u_i.html">IUI</a> *)</td></tr>
+<tr class="separator:a7b1fdeaa057ad3ed7b0e24d40214fc47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+フレンド</h2></td></tr>
+<tr class="memitem:a9f8eb887daf953ace12efb037c63fbfd"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#a9f8eb887daf953ace12efb037c63fbfd">IUI</a></td></tr>
+<tr class="separator:a9f8eb887daf953ace12efb037c63fbfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a1bc521f2f5f2734210c400707d241b"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html#a9a1bc521f2f5f2734210c400707d241b">Rendering::ComponentRender::UIRender</a></td></tr>
+<tr class="separator:a9a1bc521f2f5f2734210c400707d241b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>UIの座標・サイズ・回転と親子関係を持つ </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a5ba4949ff74e1772585ae26dc50f6e8d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::UI::UITransform::UITransform </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_u_i_1_1_i_u_i.html">IUI</a> &amp;&#160;</td>
+          <td class="paramname"><em>_ui</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac92b34be484c5798fcb8ff0eec3db5ad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::UI::UITransform::~UITransform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6098b7c77fddceeec1beef8cd268045f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::UI::UITransform::UITransform </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html">UITransform</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3af84ed40c372bb107ec0e2fa9d3863b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::UI::UITransform::UITransform </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html">UITransform</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a290b435a828434fe5c3edae890b17d4b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::UI::UITransform::AddChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_u_i_1_1_i_u_i.html">IUI</a> &amp;&#160;</td>
+          <td class="paramname"><em>_ui</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>追加 </p>
+
+</div>
+</div>
+<a class="anchor" id="a33f7ca31dc86caa65c08d064778cabf4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html">UITransform</a>&amp; Planet9::UI::UITransform::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html">UITransform</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aafd1ca761af4067ba9c8e03d324666b2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html">UITransform</a>&amp; Planet9::UI::UITransform::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_u_i_1_1_u_i_transform.html">UITransform</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aacec6407f298d51ff8fbce7e2f5aa48a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::UI::UITransform::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype">m_RotateZ&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RotateZ&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7a8f7e5da511f33fc4eb5fda18c0db18"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::UI::UITransform::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype">m_ParentsRotateZ&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ParentsRotateZ&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7b1fdeaa057ad3ed7b0e24d40214fc47"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::UI::UITransform::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype">m_pParent&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_planet9.html#a730866d7b6592599acdcd2a587369641">pParent</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_u_i_1_1_i_u_i.html">IUI</a> *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a90548b0e1990eaeb0d004c3d5d4b5dc1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::UI::UITransform::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Position&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Position&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">::<a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5ad56ef8934e61e0d65f37427417ae2a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::UI::UITransform::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Size&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Size&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">::<a class="el" href="class_utility_1_1_vector2.html">Utility::Vector2</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a97e1e9b4a70aee5db89254b08125c8d1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::UI::UITransform::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Scale&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Scale&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">::<a class="el" href="class_utility_1_1_vector2.html">Utility::Vector2</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ace71cdd5856faaff74376d7a09544fd7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::UI::UITransform::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_ParentsPosition&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ParentsPosition&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">::<a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9a6bd98b743377f43a49c597eff6a1c0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::UI::UITransform::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_ParentsSize&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ParentsSize&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">::<a class="el" href="class_utility_1_1_vector2.html">Utility::Vector2</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af9a4b3e3f16eadb4e632d8ea57f21a9d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::UI::UITransform::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_ParentsScale&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ParentsScale&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">::<a class="el" href="class_utility_1_1_vector2.html">Utility::Vector2</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a84a78c55908bea0600724f429a5678c4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::UI::UITransform::RemoveChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_u_i_1_1_i_u_i.html">IUI</a> &amp;&#160;</td>
+          <td class="paramname"><em>_ui</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>削除 開放は行わない </p>
+
+</div>
+</div>
+<h2 class="groupheader">フレンドと関連関数の詳解</h2>
+<a class="anchor" id="a9f8eb887daf953ace12efb037c63fbfd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_planet9_1_1_u_i_1_1_i_u_i.html">IUI</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9a1bc521f2f5f2734210c400707d241b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_u_i_render.html">Rendering::ComponentRender::UIRender</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/UI/<a class="el" href="_u_i_transform_8h_source.html">UITransform.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/UI/<a class="el" href="_u_i_transform_8cpp.html">UITransform.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

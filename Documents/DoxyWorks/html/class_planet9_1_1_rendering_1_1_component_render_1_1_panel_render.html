@@ -1,0 +1,507 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Planet9::Rendering::ComponentRender::PanelRender クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_planet9.html">Planet9</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_rendering.html">Rendering</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_rendering_1_1_component_render.html">ComponentRender</a></li><li class="navelem"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html">PanelRender</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Planet9::Rendering::ComponentRender::PanelRender クラス<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>パネルをレンダリングする  
+ <a href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_panel_render_8h_source.html">PanelRender.h</a>&gt;</code></p>
+<div class="dynheader">
+Planet9::Rendering::ComponentRender::PanelRender の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.png" usemap="#Planet9::Rendering::ComponentRender::PanelRender_map" alt=""/>
+  <map id="Planet9::Rendering::ComponentRender::PanelRender_map" name="Planet9::Rendering::ComponentRender::PanelRender_map">
+<area href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html" title="最適化後にレンダリングを行う " alt="Planet9::Rendering::Detail::OptimizationRender" shape="rect" coords="291,168,863,192"/>
+<area href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html" title="ワールド空間のオブジェクトをレンダリングする " alt="Planet9::Rendering::Detail::WorldObjectRender" shape="rect" coords="0,112,572,136"/>
+<area href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html" title="最適化インターフェース " alt="Planet9::Rendering::Detail::Optimize::IOptimize" shape="rect" coords="582,112,1154,136"/>
+<area href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html" title="レンダリングを行う " alt="Planet9::Rendering::Detail::Render" shape="rect" coords="0,56,572,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a231b1c7aae29b0cabc4b403ee0049982"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html#a231b1c7aae29b0cabc4b403ee0049982">PanelRender</a> ()</td></tr>
+<tr class="separator:a231b1c7aae29b0cabc4b403ee0049982"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1632a39f87ef94254f815e7aa0e3b04"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html#ab1632a39f87ef94254f815e7aa0e3b04">~PanelRender</a> ()=default</td></tr>
+<tr class="separator:ab1632a39f87ef94254f815e7aa0e3b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29bb6000cd4ada353a6f9a3eeab4fd19"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html#a29bb6000cd4ada353a6f9a3eeab4fd19">PanelRender</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html">PanelRender</a> &amp;)=default</td></tr>
+<tr class="separator:a29bb6000cd4ada353a6f9a3eeab4fd19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cfb97ff925c70928d8ea94bf1310b1b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html#a2cfb97ff925c70928d8ea94bf1310b1b">PanelRender</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html">PanelRender</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a2cfb97ff925c70928d8ea94bf1310b1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a094807df6820ea278c9e6ff31603fb0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html">PanelRender</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html#a094807df6820ea278c9e6ff31603fb0d">operator=</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html">PanelRender</a> &amp;)=default</td></tr>
+<tr class="separator:a094807df6820ea278c9e6ff31603fb0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ca6c11df27c488ca4087138ac8c41ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html">PanelRender</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html#a1ca6c11df27c488ca4087138ac8c41ee">operator=</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html">PanelRender</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a1ca6c11df27c488ca4087138ac8c41ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedaf6a2585f7c9bf656070ba377ef145"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html#aedaf6a2585f7c9bf656070ba377ef145">Init</a> (<a class="el" href="class_planet9_1_1_common_1_1_world_volume.html">Common::WorldVolume</a> &amp;, <a class="el" href="namespace_planet9_1_1_common.html#a3afddc25e7003868fe9f44962c55f7ec">Common::Sp</a>&lt; <a class="el" href="class_planet9_1_1_components_1_1_transform.html">Components::Transform</a> &gt;, UINT, <a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_panel_material.html">Materials::PanelMaterial</a> *)</td></tr>
+<tr class="separator:aedaf6a2585f7c9bf656070ba377ef145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85ce9d5720e597cd95726d63ee09102b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html#a85ce9d5720e597cd95726d63ee09102b">OptimizerUpdate</a> ()</td></tr>
+<tr class="memdesc:a85ce9d5720e597cd95726d63ee09102b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimizerの更新  <a href="#a85ce9d5720e597cd95726d63ee09102b">[詳解]</a><br /></td></tr>
+<tr class="separator:a85ce9d5720e597cd95726d63ee09102b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a933f70759777da9f2383ce060cf4ffc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html#a933f70759777da9f2383ce060cf4ffc8">PrepareToOptimize</a> () override</td></tr>
+<tr class="memdesc:a933f70759777da9f2383ce060cf4ffc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">最適化準備  <a href="#a933f70759777da9f2383ce060cf4ffc8">[詳解]</a><br /></td></tr>
+<tr class="separator:a933f70759777da9f2383ce060cf4ffc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef5395cae0523895a375f990ee33874a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html#aef5395cae0523895a375f990ee33874a">Optimize</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_context.html">Detail::Optimize::Context</a> &amp;) override</td></tr>
+<tr class="memdesc:aef5395cae0523895a375f990ee33874a"><td class="mdescLeft">&#160;</td><td class="mdescRight">最適化  <a href="#aef5395cae0523895a375f990ee33874a">[詳解]</a><br /></td></tr>
+<tr class="separator:aef5395cae0523895a375f990ee33874a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abed289f674ea4d138019c53928ee0228"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html#abed289f674ea4d138019c53928ee0228">PrepareToRendering</a> () override</td></tr>
+<tr class="memdesc:abed289f674ea4d138019c53928ee0228"><td class="mdescLeft">&#160;</td><td class="mdescRight">描画準備  <a href="#abed289f674ea4d138019c53928ee0228">[詳解]</a><br /></td></tr>
+<tr class="separator:abed289f674ea4d138019c53928ee0228"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html">Planet9::Rendering::Detail::OptimizationRender</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a796ce63d981193336d841de6dc8f6636 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html#a796ce63d981193336d841de6dc8f6636">OptimizationRender</a> (HLRCommand::HLRCommandPipeline &amp;)</td></tr>
+<tr class="separator:a796ce63d981193336d841de6dc8f6636 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95fd8254f1ce0401180e405ae85eebf6 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html#a95fd8254f1ce0401180e405ae85eebf6">~OptimizationRender</a> ()</td></tr>
+<tr class="separator:a95fd8254f1ce0401180e405ae85eebf6 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedb4eaf9c9df128b8ce4a6c73282e286 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html#aedb4eaf9c9df128b8ce4a6c73282e286">OptimizationRender</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> &amp;)=default</td></tr>
+<tr class="separator:aedb4eaf9c9df128b8ce4a6c73282e286 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac43118ea7e118f352c176b3399bbed23 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html#ac43118ea7e118f352c176b3399bbed23">OptimizationRender</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ac43118ea7e118f352c176b3399bbed23 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9c2fe40e717b720caed11a054cd6f4c inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html#ae9c2fe40e717b720caed11a054cd6f4c">operator=</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> &amp;)=default</td></tr>
+<tr class="separator:ae9c2fe40e717b720caed11a054cd6f4c inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af93d93674d306133f6d1c8fc96cb1664 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html#af93d93674d306133f6d1c8fc96cb1664">operator=</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:af93d93674d306133f6d1c8fc96cb1664 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimization_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">Planet9::Rendering::Detail::WorldObjectRender</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a3c040d7ab56aba9a3d278a0f0f3fbfb2 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a3c040d7ab56aba9a3d278a0f0f3fbfb2">WorldObjectRender</a> (HLRCommand::HLRCommandPipeline &amp;)</td></tr>
+<tr class="separator:a3c040d7ab56aba9a3d278a0f0f3fbfb2 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ad57422e2a4ca9043f4dbd67cf97e3b inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a6ad57422e2a4ca9043f4dbd67cf97e3b">~WorldObjectRender</a> ()=default</td></tr>
+<tr class="separator:a6ad57422e2a4ca9043f4dbd67cf97e3b inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25b2cdcdecc4fa1c70cebeef20c634f8 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a25b2cdcdecc4fa1c70cebeef20c634f8">WorldObjectRender</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;)=default</td></tr>
+<tr class="separator:a25b2cdcdecc4fa1c70cebeef20c634f8 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a779ddf42fffc107a7244c043a6cff0c7 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a779ddf42fffc107a7244c043a6cff0c7">WorldObjectRender</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a779ddf42fffc107a7244c043a6cff0c7 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82ce9e7d4118dddc48e0077baada31e9 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a82ce9e7d4118dddc48e0077baada31e9">operator=</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;)=default</td></tr>
+<tr class="separator:a82ce9e7d4118dddc48e0077baada31e9 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae35b98c3bcff35c90e7c833445e03827 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#ae35b98c3bcff35c90e7c833445e03827">operator=</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ae35b98c3bcff35c90e7c833445e03827 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8506a43b4c99bb5fa07ab45d0ad9f34e inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a8506a43b4c99bb5fa07ab45d0ad9f34e">Init</a> (<a class="el" href="class_planet9_1_1_common_1_1_diagram_1_1_a_a_b_b.html">Common::Diagram::AABB</a> &amp;, <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> *)</td></tr>
+<tr class="memdesc:a8506a43b4c99bb5fa07ab45d0ad9f34e inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="mdescLeft">&#160;</td><td class="mdescRight">WorldVolumeを初期化する 初期化を継承先のInitで行うよう推奨 継承先のInitがない際Initを生成しないように公開関数  <a href="#a8506a43b4c99bb5fa07ab45d0ad9f34e">[詳解]</a><br /></td></tr>
+<tr class="separator:a8506a43b4c99bb5fa07ab45d0ad9f34e inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a824348677e94da27ed3ab1391ff0fe5c inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a824348677e94da27ed3ab1391ff0fe5c">PROPERTY_REF</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a79f40dd3fa81c6812c985616435fe7ef">m_RenderVolume</a>, RenderVolume, <a class="el" href="class_planet9_1_1_common_1_1_world_volume.html">Common::WorldVolume</a>)</td></tr>
+<tr class="separator:a824348677e94da27ed3ab1391ff0fe5c inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html">Planet9::Rendering::Detail::Render</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:aba21948a6fcfa5e84cc956738f767d73 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#aba21948a6fcfa5e84cc956738f767d73">Render</a> (HLRCommand::HLRCommandPipeline &amp;)</td></tr>
+<tr class="separator:aba21948a6fcfa5e84cc956738f767d73 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd6f73ac28db4a7fccc859a91c253f7d inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#acd6f73ac28db4a7fccc859a91c253f7d">~Render</a> ()=default</td></tr>
+<tr class="separator:acd6f73ac28db4a7fccc859a91c253f7d inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad51e4254ce1012800276febee594f024 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#ad51e4254ce1012800276febee594f024">Render</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;)=default</td></tr>
+<tr class="separator:ad51e4254ce1012800276febee594f024 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e81ba7bfc284ff5d49802869c88b245 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#a4e81ba7bfc284ff5d49802869c88b245">Render</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a4e81ba7bfc284ff5d49802869c88b245 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd418305d1d40b58ab4dc368145a8849 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#abd418305d1d40b58ab4dc368145a8849">operator=</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;)=default</td></tr>
+<tr class="separator:abd418305d1d40b58ab4dc368145a8849 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34743c7c839e03b1cb3536cf5f98083e inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#a34743c7c839e03b1cb3536cf5f98083e">operator=</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a34743c7c839e03b1cb3536cf5f98083e inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00aa2fed6c3187f1d9d2fe9adf85882a inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#a00aa2fed6c3187f1d9d2fe9adf85882a">Rendering</a> () override</td></tr>
+<tr class="memdesc:a00aa2fed6c3187f1d9d2fe9adf85882a inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preparationの直後に呼ばれレンダリングを行う  <a href="#a00aa2fed6c3187f1d9d2fe9adf85882a">[詳解]</a><br /></td></tr>
+<tr class="separator:a00aa2fed6c3187f1d9d2fe9adf85882a inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">Planet9::Rendering::Detail::Optimize::IOptimize</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:ad93dc3a7e98e54fdf177ad77ecc6ae80 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#ad93dc3a7e98e54fdf177ad77ecc6ae80">IOptimize</a> ()=default</td></tr>
+<tr class="separator:ad93dc3a7e98e54fdf177ad77ecc6ae80 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83fc8ec43296fc4bc2ab7250ad259b42 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a83fc8ec43296fc4bc2ab7250ad259b42">~IOptimize</a> ()=default</td></tr>
+<tr class="separator:a83fc8ec43296fc4bc2ab7250ad259b42 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21520a1b421fc9a8fb0152867d77fe18 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a21520a1b421fc9a8fb0152867d77fe18">IOptimize</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;)=default</td></tr>
+<tr class="separator:a21520a1b421fc9a8fb0152867d77fe18 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5d2034064e0644d1441de6c2afa80e0 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#af5d2034064e0644d1441de6c2afa80e0">IOptimize</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:af5d2034064e0644d1441de6c2afa80e0 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f87ea9e2d66d870b1cf4e08354be6e3 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a0f87ea9e2d66d870b1cf4e08354be6e3">operator=</a> (const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;)=default</td></tr>
+<tr class="separator:a0f87ea9e2d66d870b1cf4e08354be6e3 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff1e07cf20eacd83c666ef52b2b2bc18 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#aff1e07cf20eacd83c666ef52b2b2bc18">operator=</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:aff1e07cf20eacd83c666ef52b2b2bc18 inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a013b89bd83c35a125592b078cc0d098b inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a013b89bd83c35a125592b078cc0d098b">PROPERTY</a> (<a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a35a1963b7532458482c15f687537ceb1">m_RenderID</a>, RenderID, unsigned)</td></tr>
+<tr class="separator:a013b89bd83c35a125592b078cc0d098b inherit pub_methods_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+その他の継承メンバ</h2></td></tr>
+<tr class="inherit_header pro_attribs_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html">Planet9::Rendering::Detail::WorldObjectRender</a> に属する継承限定公開変数類</td></tr>
+<tr class="memitem:a79f40dd3fa81c6812c985616435fe7ef inherit pro_attribs_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_common_1_1_world_volume.html">Common::WorldVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render.html#a79f40dd3fa81c6812c985616435fe7ef">m_RenderVolume</a></td></tr>
+<tr class="separator:a79f40dd3fa81c6812c985616435fe7ef inherit pro_attribs_class_planet9_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_planet9_1_1_rendering_1_1_detail_1_1_render')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html">Planet9::Rendering::Detail::Render</a> に属する継承限定公開変数類</td></tr>
+<tr class="memitem:a743f9e31023184550d73359f786a3deb inherit pro_attribs_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">HLRCommand::HLRCommandPipeline &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#a743f9e31023184550d73359f786a3deb">m_Pipeline</a></td></tr>
+<tr class="separator:a743f9e31023184550d73359f786a3deb inherit pro_attribs_class_planet9_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">Planet9::Rendering::Detail::Optimize::IOptimize</a> に属する継承限定公開変数類</td></tr>
+<tr class="memitem:a35a1963b7532458482c15f687537ceb1 inherit pro_attribs_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a35a1963b7532458482c15f687537ceb1">m_RenderID</a></td></tr>
+<tr class="separator:a35a1963b7532458482c15f687537ceb1 inherit pro_attribs_class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>パネルをレンダリングする </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a231b1c7aae29b0cabc4b403ee0049982"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::ComponentRender::PanelRender::PanelRender </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab1632a39f87ef94254f815e7aa0e3b04"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::ComponentRender::PanelRender::~PanelRender </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a29bb6000cd4ada353a6f9a3eeab4fd19"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::ComponentRender::PanelRender::PanelRender </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html">PanelRender</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2cfb97ff925c70928d8ea94bf1310b1b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Rendering::ComponentRender::PanelRender::PanelRender </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html">PanelRender</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="aedaf6a2585f7c9bf656070ba377ef145"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Rendering::ComponentRender::PanelRender::Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_common_1_1_world_volume.html">Common::WorldVolume</a> &amp;&#160;</td>
+          <td class="paramname"><em>_vol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_planet9_1_1_common.html#a3afddc25e7003868fe9f44962c55f7ec">Common::Sp</a>&lt; <a class="el" href="class_planet9_1_1_components_1_1_transform.html">Components::Transform</a> &gt;&#160;</td>
+          <td class="paramname"><em>_spTrans</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UINT&#160;</td>
+          <td class="paramname"><em>_priorty</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_rendering_1_1_materials_1_1_panel_material.html">Materials::PanelMaterial</a> *&#160;</td>
+          <td class="paramname"><em>_pMat</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a094807df6820ea278c9e6ff31603fb0d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html">PanelRender</a>&amp; Planet9::Rendering::ComponentRender::PanelRender::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html">PanelRender</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1ca6c11df27c488ca4087138ac8c41ee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html">PanelRender</a>&amp; Planet9::Rendering::ComponentRender::PanelRender::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_rendering_1_1_component_render_1_1_panel_render.html">PanelRender</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aef5395cae0523895a375f990ee33874a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Rendering::ComponentRender::PanelRender::Optimize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_context.html">Detail::Optimize::Context</a> &amp;&#160;</td>
+          <td class="paramname"><em>_context</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>最適化 </p>
+
+<p><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a27f49f0bff97ad6337164fb9988778dd">Planet9::Rendering::Detail::Optimize::IOptimize</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a85ce9d5720e597cd95726d63ee09102b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Rendering::ComponentRender::PanelRender::OptimizerUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Optimizerの更新 </p>
+
+</div>
+</div>
+<a class="anchor" id="a933f70759777da9f2383ce060cf4ffc8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Rendering::ComponentRender::PanelRender::PrepareToOptimize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>最適化準備 </p>
+
+<p><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#adff68bd12f5676d2d50d09c4b5982fef">Planet9::Rendering::Detail::Optimize::IOptimize</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="abed289f674ea4d138019c53928ee0228"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Planet9::Rendering::ComponentRender::PanelRender::PrepareToRendering </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>描画準備 </p>
+
+<p><a class="el" href="class_planet9_1_1_rendering_1_1_detail_1_1_render.html#a570a970eaf27cd763f57998891981d2a">Planet9::Rendering::Detail::Render</a>を再実装しています。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/ComponentRender/<a class="el" href="_panel_render_8h_source.html">PanelRender.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/ComponentRender/<a class="el" href="_panel_render_8cpp.html">PanelRender.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

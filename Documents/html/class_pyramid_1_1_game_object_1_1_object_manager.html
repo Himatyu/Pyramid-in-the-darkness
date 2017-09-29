@@ -1,0 +1,542 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::GameObject::ObjectManager クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_game_object.html">GameObject</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html">ObjectManager</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_pyramid_1_1_game_object_1_1_object_manager-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::GameObject::ObjectManager クラス<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>オブジェクト管理用クラス. オブジェクトの開放責任はない. Updata,Draw中のイテレータ変更が危惧されるのでSafetyIterate  
+ <a href="class_pyramid_1_1_game_object_1_1_object_manager.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_object_manager_8h_source.html">ObjectManager.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a9240b30ed28269ec851fa80e8a616afd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html#a9240b30ed28269ec851fa80e8a616afd">ObjectManager</a> ()</td></tr>
+<tr class="separator:a9240b30ed28269ec851fa80e8a616afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36ea171e21b4b4a36771feb2f0ae1410"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html#a36ea171e21b4b4a36771feb2f0ae1410">~ObjectManager</a> ()</td></tr>
+<tr class="separator:a36ea171e21b4b4a36771feb2f0ae1410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aace7b4870d8423ddf0743f9dcc269be4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html#aace7b4870d8423ddf0743f9dcc269be4">ObjectManager</a> (const <a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html">ObjectManager</a> &amp;)=delete</td></tr>
+<tr class="separator:aace7b4870d8423ddf0743f9dcc269be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa74929e28164733c50475df737e98032"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html#aa74929e28164733c50475df737e98032">ObjectManager</a> (<a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html">ObjectManager</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:aa74929e28164733c50475df737e98032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17b64f2f68ae555c09fe31c300ceb64f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html">ObjectManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html#a17b64f2f68ae555c09fe31c300ceb64f">operator=</a> (const <a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html">ObjectManager</a> &amp;)=delete</td></tr>
+<tr class="separator:a17b64f2f68ae555c09fe31c300ceb64f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4423712913b67d4a22179fb098762303"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html">ObjectManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html#a4423712913b67d4a22179fb098762303">operator=</a> (<a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html">ObjectManager</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a4423712913b67d4a22179fb098762303"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86bd33edc308b48e452fbb96d7e3fdf1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html#a86bd33edc308b48e452fbb96d7e3fdf1">Register</a> (Object *_pObj, bool _isDynamic=false)</td></tr>
+<tr class="memdesc:a86bd33edc308b48e452fbb96d7e3fdf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">オブジェクトの登録. 多重登録しない.  <a href="#a86bd33edc308b48e452fbb96d7e3fdf1">[詳解]</a><br /></td></tr>
+<tr class="separator:a86bd33edc308b48e452fbb96d7e3fdf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e7de94a972b5fc785b3afb571517c2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html#a8e7de94a972b5fc785b3afb571517c2e">UnRegist</a> (Object *_pObj)</td></tr>
+<tr class="memdesc:a8e7de94a972b5fc785b3afb571517c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">登録解除.  <a href="#a8e7de94a972b5fc785b3afb571517c2e">[詳解]</a><br /></td></tr>
+<tr class="separator:a8e7de94a972b5fc785b3afb571517c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6626990b0002f02ab2351b3d5f0938b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html#ac6626990b0002f02ab2351b3d5f0938b">CallUpdatas</a> ()</td></tr>
+<tr class="memdesc:ac6626990b0002f02ab2351b3d5f0938b"><td class="mdescLeft">&#160;</td><td class="mdescRight">オブジェクト更新.  <a href="#ac6626990b0002f02ab2351b3d5f0938b">[詳解]</a><br /></td></tr>
+<tr class="separator:ac6626990b0002f02ab2351b3d5f0938b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a46cdf98e6b2f4f00e4414d74aff7f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html#a9a46cdf98e6b2f4f00e4414d74aff7f2">CallPreDraw</a> ()</td></tr>
+<tr class="memdesc:a9a46cdf98e6b2f4f00e4414d74aff7f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">オブジェクト描画  <a href="#a9a46cdf98e6b2f4f00e4414d74aff7f2">[詳解]</a><br /></td></tr>
+<tr class="separator:a9a46cdf98e6b2f4f00e4414d74aff7f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455634aeeddaa229b512b4cdd222a115"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html#a455634aeeddaa229b512b4cdd222a115">___DEBUG_DEFINE</a> (private:void DebugUpdata(std::vector&lt; Object * &gt;);public:)</td></tr>
+<tr class="separator:a455634aeeddaa229b512b4cdd222a115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a7438defeca9699741460c7ffcb9f3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html#a3a7438defeca9699741460c7ffcb9f3f">PROPERTY_REF</a> (m_AllObjects, AllObjects, std::list&lt; Object * &gt;)</td></tr>
+<tr class="separator:a3a7438defeca9699741460c7ffcb9f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06c4b9aaf55ff2528391a2571fca50ae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html#a06c4b9aaf55ff2528391a2571fca50ae">PROPERTY_REF</a> (m_DynamicObjects, DynamicObjects, std::list&lt; Object * &gt;)</td></tr>
+<tr class="separator:a06c4b9aaf55ff2528391a2571fca50ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b594832208c5fc105ceace3fa37f284"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html#a9b594832208c5fc105ceace3fa37f284">PROPERTY_REF</a> (m_UpdatableObjects, UpdatableObjects, Utility::SafetyIterate&lt; Object * &gt;)</td></tr>
+<tr class="separator:a9b594832208c5fc105ceace3fa37f284"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5941d049091cc17b884d5cede10e4c30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html#a5941d049091cc17b884d5cede10e4c30">PROPERTY_REF</a> (m_DrawbleObjects, DrawbleObjects, Utility::SafetyIterate&lt; Object * &gt;)</td></tr>
+<tr class="separator:a5941d049091cc17b884d5cede10e4c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04d40b18b0bbdca93a5eee45a3b8029b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html#a04d40b18b0bbdca93a5eee45a3b8029b">PROPERTY_REF</a> (m_ObjectStateObservers, ObjectStateObservers, <a class="el" href="namespace_pyramid_1_1_game_object_1_1_observers.html#afb03e13d43a6822c700aa4809ede3f4e">Observers::ObjectObservers</a>)</td></tr>
+<tr class="separator:a04d40b18b0bbdca93a5eee45a3b8029b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>オブジェクト管理用クラス. オブジェクトの開放責任はない. Updata,Draw中のイテレータ変更が危惧されるのでSafetyIterate </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a9240b30ed28269ec851fa80e8a616afd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::GameObject::ObjectManager::ObjectManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a36ea171e21b4b4a36771feb2f0ae1410"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::GameObject::ObjectManager::~ObjectManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aace7b4870d8423ddf0743f9dcc269be4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::GameObject::ObjectManager::ObjectManager </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html">ObjectManager</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa74929e28164733c50475df737e98032"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::GameObject::ObjectManager::ObjectManager </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html">ObjectManager</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a455634aeeddaa229b512b4cdd222a115"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::GameObject::ObjectManager::___DEBUG_DEFINE </td>
+          <td>(</td>
+          <td class="paramtype">private:void DebugUpdata(std::vector&lt; Object * &gt;);public:&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9a46cdf98e6b2f4f00e4414d74aff7f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::GameObject::ObjectManager::CallPreDraw </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>オブジェクト描画 </p>
+
+</div>
+</div>
+<a class="anchor" id="ac6626990b0002f02ab2351b3d5f0938b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::GameObject::ObjectManager::CallUpdatas </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>オブジェクト更新. </p>
+
+</div>
+</div>
+<a class="anchor" id="a17b64f2f68ae555c09fe31c300ceb64f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html">ObjectManager</a>&amp; Pyramid::GameObject::ObjectManager::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html">ObjectManager</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4423712913b67d4a22179fb098762303"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html">ObjectManager</a>&amp; Pyramid::GameObject::ObjectManager::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_game_object_1_1_object_manager.html">ObjectManager</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3a7438defeca9699741460c7ffcb9f3f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::GameObject::ObjectManager::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_AllObjects&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AllObjects&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::list&lt; Object * &gt;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a06c4b9aaf55ff2528391a2571fca50ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::GameObject::ObjectManager::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_DynamicObjects&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DynamicObjects&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::list&lt; Object * &gt;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9b594832208c5fc105ceace3fa37f284"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::GameObject::ObjectManager::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_UpdatableObjects&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UpdatableObjects&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Utility::SafetyIterate&lt; Object * &gt;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5941d049091cc17b884d5cede10e4c30"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::GameObject::ObjectManager::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_DrawbleObjects&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DrawbleObjects&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Utility::SafetyIterate&lt; Object * &gt;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a04d40b18b0bbdca93a5eee45a3b8029b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::GameObject::ObjectManager::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_ObjectStateObservers&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ObjectStateObservers&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_pyramid_1_1_game_object_1_1_observers.html#afb03e13d43a6822c700aa4809ede3f4e">Observers::ObjectObservers</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a86bd33edc308b48e452fbb96d7e3fdf1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::GameObject::ObjectManager::Register </td>
+          <td>(</td>
+          <td class="paramtype">Object *&#160;</td>
+          <td class="paramname"><em>_pObj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>_isDynamic</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>オブジェクトの登録. 多重登録しない. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8e7de94a972b5fc785b3afb571517c2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::GameObject::ObjectManager::UnRegist </td>
+          <td>(</td>
+          <td class="paramtype">Object *&#160;</td>
+          <td class="paramname"><em>_pObj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>登録解除. </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/GameObject/<a class="el" href="_object_manager_8h_source.html">ObjectManager.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/GameObject/<a class="el" href="_object_manager_8cpp.html">ObjectManager.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

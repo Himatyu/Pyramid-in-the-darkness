@@ -1,0 +1,416 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Planet9::Collision::Detail::CacheableTransform クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_planet9.html">Planet9</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_collision.html">Collision</a></li><li class="navelem"><a class="el" href="namespace_planet9_1_1_collision_1_1_detail.html">Detail</a></li><li class="navelem"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Planet9::Collision::Detail::CacheableTransform クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>キャッシュ用にデータを削ったトランスフォーム トンネリング対策に使用する  
+ <a href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_cacheable_transform_8h_source.html">CacheableTransform.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a0cfa1a7410a18c6d02560b1d13e8c384"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html#a0cfa1a7410a18c6d02560b1d13e8c384">CacheableTransform</a> (<a class="el" href="class_planet9_1_1_components_1_1_transform.html">Components::Transform</a> *)</td></tr>
+<tr class="separator:a0cfa1a7410a18c6d02560b1d13e8c384"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4bf1d5fc2537cd5345679302019056b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html#af4bf1d5fc2537cd5345679302019056b">CacheableTransform</a> ()=default</td></tr>
+<tr class="separator:af4bf1d5fc2537cd5345679302019056b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05dc97b1a76eadee55d48b67f11b97dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html#a05dc97b1a76eadee55d48b67f11b97dd">~CacheableTransform</a> ()=default</td></tr>
+<tr class="separator:a05dc97b1a76eadee55d48b67f11b97dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1fa30b649007ae41aa6e2a2429dcd5c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html#ad1fa30b649007ae41aa6e2a2429dcd5c">CacheableTransform</a> (const <a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a> &amp;)=default</td></tr>
+<tr class="separator:ad1fa30b649007ae41aa6e2a2429dcd5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae808a30c9bdf0686d6f1cde29ceca13b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html#ae808a30c9bdf0686d6f1cde29ceca13b">CacheableTransform</a> (<a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ae808a30c9bdf0686d6f1cde29ceca13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa540ee6c1169227be8fe3184310a4129"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html#aa540ee6c1169227be8fe3184310a4129">operator=</a> (<a class="el" href="namespace_planet9_1_1_common.html#a3afddc25e7003868fe9f44962c55f7ec">Common::Sp</a>&lt; <a class="el" href="class_planet9_1_1_components_1_1_transform.html">Components::Transform</a> &gt; &amp;)</td></tr>
+<tr class="separator:aa540ee6c1169227be8fe3184310a4129"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec346e131d50ad9df553e77ca391ffc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html#aec346e131d50ad9df553e77ca391ffc0">operator=</a> (const <a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a> &amp;)=default</td></tr>
+<tr class="separator:aec346e131d50ad9df553e77ca391ffc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae31bbb06f7e6d440e57d1465b4d1362e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html#ae31bbb06f7e6d440e57d1465b4d1362e">operator=</a> (<a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ae31bbb06f7e6d440e57d1465b4d1362e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d25edc97f5db6c60440ff15c0514027"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html#a3d25edc97f5db6c60440ff15c0514027">PROPERTY_REF</a> (m_Position, Position, <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>)</td></tr>
+<tr class="separator:a3d25edc97f5db6c60440ff15c0514027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecad8e2e67afab2fedd809905829debe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html#aecad8e2e67afab2fedd809905829debe">PROPERTY_REF</a> (m_Scale, Scale, <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>)</td></tr>
+<tr class="separator:aecad8e2e67afab2fedd809905829debe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad25fe94f26fc35006abfd92eb0fb62d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html#ad25fe94f26fc35006abfd92eb0fb62d5">PROPERTY_REF</a> (m_Rotate, Rotation, <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>)</td></tr>
+<tr class="separator:ad25fe94f26fc35006abfd92eb0fb62d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>キャッシュ用にデータを削ったトランスフォーム トンネリング対策に使用する </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a0cfa1a7410a18c6d02560b1d13e8c384"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Collision::Detail::CacheableTransform::CacheableTransform </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_components_1_1_transform.html">Components::Transform</a> *&#160;</td>
+          <td class="paramname"><em>_pTransform</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af4bf1d5fc2537cd5345679302019056b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Collision::Detail::CacheableTransform::CacheableTransform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a05dc97b1a76eadee55d48b67f11b97dd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Collision::Detail::CacheableTransform::~CacheableTransform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad1fa30b649007ae41aa6e2a2429dcd5c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Collision::Detail::CacheableTransform::CacheableTransform </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae808a30c9bdf0686d6f1cde29ceca13b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Collision::Detail::CacheableTransform::CacheableTransform </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="aa540ee6c1169227be8fe3184310a4129"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a> &amp; Planet9::Collision::Detail::CacheableTransform::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_planet9_1_1_common.html#a3afddc25e7003868fe9f44962c55f7ec">Common::Sp</a>&lt; <a class="el" href="class_planet9_1_1_components_1_1_transform.html">Components::Transform</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>_spTransform</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aec346e131d50ad9df553e77ca391ffc0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a>&amp; Planet9::Collision::Detail::CacheableTransform::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae31bbb06f7e6d440e57d1465b4d1362e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a>&amp; Planet9::Collision::Detail::CacheableTransform::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_planet9_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3d25edc97f5db6c60440ff15c0514027"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Collision::Detail::CacheableTransform::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Position&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Position&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aecad8e2e67afab2fedd809905829debe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Collision::Detail::CacheableTransform::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Scale&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Scale&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad25fe94f26fc35006abfd92eb0fb62d5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Planet9::Collision::Detail::CacheableTransform::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype">m_Rotate&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rotation&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Collision/Detail/<a class="el" href="_cacheable_transform_8h_source.html">CacheableTransform.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Collision/Detail/<a class="el" href="_cacheable_transform_8cpp.html">CacheableTransform.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

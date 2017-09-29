@@ -1,0 +1,609 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::Rendering::Shaders::Shader クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_rendering.html">Rendering</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_rendering_1_1_shaders.html">Shaders</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pro-attribs">限定公開変数類</a> &#124;
+<a href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::Rendering::Shaders::Shader クラス<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>シェーダの基本インターフェース  
+ <a href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_shader_8h_source.html">Shader.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::Rendering::Shaders::Shader の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.png" usemap="#Pyramid::Rendering::Shaders::Shader_map" alt=""/>
+  <map id="Pyramid::Rendering::Shaders::Shader_map" name="Pyramid::Rendering::Shaders::Shader_map">
+<area href="class_pyramid_1_1_rendering_1_1_shaders_1_1_mesh_shader.html" title="Meshに使用するシェーダ " alt="Pyramid::Rendering::Shaders::MeshShader" shape="rect" coords="0,56,321,80"/>
+<area href="class_pyramid_1_1_rendering_1_1_shaders_1_1_panel_shader.html" alt="Pyramid::Rendering::Shaders::PanelShader" shape="rect" coords="331,56,652,80"/>
+<area href="class_pyramid_1_1_rendering_1_1_shaders_1_1_particle_shader.html" title="パーティクルに使用するシェーダ " alt="Pyramid::Rendering::Shaders::ParticleShader" shape="rect" coords="662,56,983,80"/>
+<area href="class_pyramid_1_1_rendering_1_1_shaders_1_1_progressive_mesh_shader.html" title="低レベル用のモデルを代替するビルボードのシェーダー " alt="Pyramid::Rendering::Shaders::ProgressiveMeshShader" shape="rect" coords="993,56,1314,80"/>
+<area href="class_pyramid_1_1_rendering_1_1_shaders_1_1_u_i_shader.html" title="UIのShader 基本的に半透明 " alt="Pyramid::Rendering::Shaders::UIShader" shape="rect" coords="1324,56,1645,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:aade2f6558c33f264e4d47c4480d9037b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#aade2f6558c33f264e4d47c4480d9037b">Shader</a> (std::string filePath)</td></tr>
+<tr class="separator:aade2f6558c33f264e4d47c4480d9037b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc6a201be03c352b03cf0cc5236fc06a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#abc6a201be03c352b03cf0cc5236fc06a">~Shader</a> ()</td></tr>
+<tr class="separator:abc6a201be03c352b03cf0cc5236fc06a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c6d94c3c2602861229034cc89f4f13b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#a1c6d94c3c2602861229034cc89f4f13b">Shader</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a> &amp;)</td></tr>
+<tr class="separator:a1c6d94c3c2602861229034cc89f4f13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a7d1a259e6c3b0cf00c76563edd4efa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#a9a7d1a259e6c3b0cf00c76563edd4efa">Shader</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a9a7d1a259e6c3b0cf00c76563edd4efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2334e53fe4fae5cd859aac7639886d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#af2334e53fe4fae5cd859aac7639886d3">operator=</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a> &amp;)=default</td></tr>
+<tr class="separator:af2334e53fe4fae5cd859aac7639886d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7f0e5d87d9ca3e629f1624046e46255"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#ad7f0e5d87d9ca3e629f1624046e46255">operator=</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ad7f0e5d87d9ca3e629f1624046e46255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaa8fe205a6dd79d64c0a82bbe57fbda"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#afaa8fe205a6dd79d64c0a82bbe57fbda">Begin</a> ()=0</td></tr>
+<tr class="separator:afaa8fe205a6dd79d64c0a82bbe57fbda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a340d216250f03b90aeecc0ddea450956"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#a340d216250f03b90aeecc0ddea450956">Eed</a> ()=0</td></tr>
+<tr class="separator:a340d216250f03b90aeecc0ddea450956"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dc1600354a831cf60c64198c3c40e3f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#a7dc1600354a831cf60c64198c3c40e3f">SetMatrix</a> ()</td></tr>
+<tr class="memdesc:a7dc1600354a831cf60c64198c3c40e3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">M(W)VPをデバイスに送信する. VPはレイヤーに依存する  <a href="#a7dc1600354a831cf60c64198c3c40e3f">[詳解]</a><br /></td></tr>
+<tr class="separator:a7dc1600354a831cf60c64198c3c40e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa636a7ebb1156fed43d29af8d1b3a352"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#aa636a7ebb1156fed43d29af8d1b3a352">SetLight</a> ()</td></tr>
+<tr class="memdesc:aa636a7ebb1156fed43d29af8d1b3a352"><td class="mdescLeft">&#160;</td><td class="mdescRight">RebderContextのライト情報をセットする  <a href="#aa636a7ebb1156fed43d29af8d1b3a352">[詳解]</a><br /></td></tr>
+<tr class="separator:aa636a7ebb1156fed43d29af8d1b3a352"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2b0a9e1985580bc6d10495544e5b657"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#af2b0a9e1985580bc6d10495544e5b657">PROPERTY</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#ab252054858cf716b6b215b850c8a509f">m_pMatrix</a>, pMatrix, D3DXMATRIX *)</td></tr>
+<tr class="separator:af2b0a9e1985580bc6d10495544e5b657"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0365e9a0a71c40473b0a6afbadb45f02"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#a0365e9a0a71c40473b0a6afbadb45f02">PROPERTY</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#ab3e2f7c1be82bcb161e5a9fe3f59934d">m_pEffect</a>, pEffect, LPD3DXEFFECT)</td></tr>
+<tr class="separator:a0365e9a0a71c40473b0a6afbadb45f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9466145978a1e70319e93a5db2ef626"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#af9466145978a1e70319e93a5db2ef626">PROPERTY_REF</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#a0d11ce1b22fe5f04b07faddd23334e23">m_FilePath</a>, FilePath, std::string)</td></tr>
+<tr class="separator:af9466145978a1e70319e93a5db2ef626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a566920b82ee975fe65641af999208bc2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#a566920b82ee975fe65641af999208bc2">PROPERTY_CR_R_ONLY</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#a0d11ce1b22fe5f04b07faddd23334e23">m_FilePath</a>, FilePath, std::string)</td></tr>
+<tr class="separator:a566920b82ee975fe65641af999208bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+限定公開変数類</h2></td></tr>
+<tr class="memitem:ab3e2f7c1be82bcb161e5a9fe3f59934d"><td class="memItemLeft" align="right" valign="top">LPD3DXEFFECT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#ab3e2f7c1be82bcb161e5a9fe3f59934d">m_pEffect</a> = nullptr</td></tr>
+<tr class="separator:ab3e2f7c1be82bcb161e5a9fe3f59934d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb65acbf10b46fd171510ebc6a8c33cc"><td class="memItemLeft" align="right" valign="top">D3DXHANDLE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#adb65acbf10b46fd171510ebc6a8c33cc">m_hMVP</a></td></tr>
+<tr class="separator:adb65acbf10b46fd171510ebc6a8c33cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab252054858cf716b6b215b850c8a509f"><td class="memItemLeft" align="right" valign="top">D3DXMATRIX *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#ab252054858cf716b6b215b850c8a509f">m_pMatrix</a></td></tr>
+<tr class="separator:ab252054858cf716b6b215b850c8a509f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d11ce1b22fe5f04b07faddd23334e23"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#a0d11ce1b22fe5f04b07faddd23334e23">m_FilePath</a></td></tr>
+<tr class="separator:a0d11ce1b22fe5f04b07faddd23334e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>シェーダの基本インターフェース </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="aade2f6558c33f264e4d47c4480d9037b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Shaders::Shader::Shader </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>filePath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abc6a201be03c352b03cf0cc5236fc06a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Shaders::Shader::~Shader </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1c6d94c3c2602861229034cc89f4f13b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Shaders::Shader::Shader </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a> &amp;&#160;</td>
+          <td class="paramname"><em>_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9a7d1a259e6c3b0cf00c76563edd4efa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Shaders::Shader::Shader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="afaa8fe205a6dd79d64c0a82bbe57fbda"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Pyramid::Rendering::Shaders::Shader::Begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_mesh_shader.html#adc435d04c9e82bf4f98c7aec34508dad">Pyramid::Rendering::Shaders::MeshShader</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_u_i_shader.html#a9fa75edbc88ac4a047c1d2135904a26c">Pyramid::Rendering::Shaders::UIShader</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_progressive_mesh_shader.html#aeb8b2efe358751fd67e5ab9c7e066b7d">Pyramid::Rendering::Shaders::ProgressiveMeshShader</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_particle_shader.html#a4ffa6dbddaec8c8fed8807b155ae8ee9">Pyramid::Rendering::Shaders::ParticleShader</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_panel_shader.html#a9f15110f9063db07269ec804a253affb">Pyramid::Rendering::Shaders::PanelShader</a>で実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a340d216250f03b90aeecc0ddea450956"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Pyramid::Rendering::Shaders::Shader::Eed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_mesh_shader.html#aa30d44845f48fad7587e588fccc7ea63">Pyramid::Rendering::Shaders::MeshShader</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_u_i_shader.html#ab8759e4e96dbd3f11d6a402706ac1091">Pyramid::Rendering::Shaders::UIShader</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_progressive_mesh_shader.html#a2d5211571c722821dec9148fef02554c">Pyramid::Rendering::Shaders::ProgressiveMeshShader</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_particle_shader.html#aef78cc4f793ece608155d240243434e3">Pyramid::Rendering::Shaders::ParticleShader</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_panel_shader.html#a25009ae3d4a358cea11dac116309a053">Pyramid::Rendering::Shaders::PanelShader</a>で実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="af2334e53fe4fae5cd859aac7639886d3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a>&amp; Pyramid::Rendering::Shaders::Shader::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad7f0e5d87d9ca3e629f1624046e46255"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a>&amp; Pyramid::Rendering::Shaders::Shader::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html">Shader</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af2b0a9e1985580bc6d10495544e5b657"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Shaders::Shader::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#ab252054858cf716b6b215b850c8a509f">m_pMatrix</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">pMatrix&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">D3DXMATRIX *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0365e9a0a71c40473b0a6afbadb45f02"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Shaders::Shader::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#ab3e2f7c1be82bcb161e5a9fe3f59934d">m_pEffect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">pEffect&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LPD3DXEFFECT&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a566920b82ee975fe65641af999208bc2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Shaders::Shader::PROPERTY_CR_R_ONLY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#a0d11ce1b22fe5f04b07faddd23334e23">m_FilePath</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FilePath&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af9466145978a1e70319e93a5db2ef626"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Shaders::Shader::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_shader.html#a0d11ce1b22fe5f04b07faddd23334e23">m_FilePath</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FilePath&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa636a7ebb1156fed43d29af8d1b3a352"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Rendering::Shaders::Shader::SetLight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>RebderContextのライト情報をセットする </p>
+
+</div>
+</div>
+<a class="anchor" id="a7dc1600354a831cf60c64198c3c40e3f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Rendering::Shaders::Shader::SetMatrix </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>M(W)VPをデバイスに送信する. VPはレイヤーに依存する </p>
+
+<p><a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_u_i_shader.html#aea82a02810a835e0470f2682bcfe6a5f">Pyramid::Rendering::Shaders::UIShader</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_progressive_mesh_shader.html#a090674022aaddd45baeeb71ddad3f2cf">Pyramid::Rendering::Shaders::ProgressiveMeshShader</a>, <a class="el" href="class_pyramid_1_1_rendering_1_1_shaders_1_1_particle_shader.html#afca2ec3e517bf5fe6d224748d750a420">Pyramid::Rendering::Shaders::ParticleShader</a>で再実装されています。</p>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a class="anchor" id="a0d11ce1b22fe5f04b07faddd23334e23"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Pyramid::Rendering::Shaders::Shader::m_FilePath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adb65acbf10b46fd171510ebc6a8c33cc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">D3DXHANDLE Pyramid::Rendering::Shaders::Shader::m_hMVP</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab3e2f7c1be82bcb161e5a9fe3f59934d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LPD3DXEFFECT Pyramid::Rendering::Shaders::Shader::m_pEffect = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab252054858cf716b6b215b850c8a509f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">D3DXMATRIX* Pyramid::Rendering::Shaders::Shader::m_pMatrix</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Shaders/<a class="el" href="_shader_8h_source.html">Shader.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Shaders/<a class="el" href="_shader_8cpp.html">Shader.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

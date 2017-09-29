@@ -1,0 +1,349 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Utility/Profiler.h ファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li><a href="annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="dir_ff63a2891cf0d86b615320d999c7b9f1.html">Pyramid</a></li><li class="navelem"><a class="el" href="dir_d84630185f94088ee054a1950dd75796.html">Utility</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">クラス</a> &#124;
+<a href="#namespaces">名前空間</a> &#124;
+<a href="#define-members">マクロ定義</a>  </div>
+  <div class="headertitle">
+<div class="title">Profiler.h ファイル</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>プロファイル機能を提供  
+<a href="#details">[詳解]</a></p>
+<div class="textblock"><code>#include &lt;string&gt;</code><br />
+<code>#include &lt;map&gt;</code><br />
+<code>#include &lt;time.h&gt;</code><br />
+<code>#include &lt;list&gt;</code><br />
+<code>#include &quot;<a class="el" href="_text_file_8h_source.html">TextFile.h</a>&quot;</code><br />
+</div>
+<p><a href="_profiler_8h_source.html">[ソースコード]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+クラス</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utility_1_1_profiler.html">Utility::Profiler</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">計測クラス  <a href="class_utility_1_1_profiler.html#details">[詳解]</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+名前空間</h2></td></tr>
+<tr class="memitem:namespace_utility"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utility.html">Utility</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+マクロ定義</h2></td></tr>
+<tr class="memitem:a0c85631ffa32a56b3699107e7ab1d175"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#a0c85631ffa32a56b3699107e7ab1d175">___D_PROFILE_BEGIN</a>(category,  name)</td></tr>
+<tr class="memdesc:a0c85631ffa32a56b3699107e7ab1d175"><td class="mdescLeft">&#160;</td><td class="mdescRight">リリース時に呼び出しごと消える関数  <a href="#a0c85631ffa32a56b3699107e7ab1d175">[詳解]</a><br /></td></tr>
+<tr class="separator:a0c85631ffa32a56b3699107e7ab1d175"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a0bed85919b4d69dc8eaf1f8ff23e5b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#a9a0bed85919b4d69dc8eaf1f8ff23e5b">___D_PROFILE_END</a>(category,  name)</td></tr>
+<tr class="separator:a9a0bed85919b4d69dc8eaf1f8ff23e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c85631ffa32a56b3699107e7ab1d175"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#a0c85631ffa32a56b3699107e7ab1d175">___D_PROFILE_BEGIN</a>(category,  name)</td></tr>
+<tr class="memdesc:a0c85631ffa32a56b3699107e7ab1d175"><td class="mdescLeft">&#160;</td><td class="mdescRight">リリース時に呼び出しごと消える関数  <a href="#a0c85631ffa32a56b3699107e7ab1d175">[詳解]</a><br /></td></tr>
+<tr class="separator:a0c85631ffa32a56b3699107e7ab1d175"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a0bed85919b4d69dc8eaf1f8ff23e5b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#a9a0bed85919b4d69dc8eaf1f8ff23e5b">___D_PROFILE_END</a>(category,  name)</td></tr>
+<tr class="separator:a9a0bed85919b4d69dc8eaf1f8ff23e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b5c049ac0b34a7fb5a0453c9b7cef28"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#a1b5c049ac0b34a7fb5a0453c9b7cef28">___PROFILE_BEGIN</a>(category,  name)</td></tr>
+<tr class="memdesc:a1b5c049ac0b34a7fb5a0453c9b7cef28"><td class="mdescLeft">&#160;</td><td class="mdescRight">リリース時に残る関数  <a href="#a1b5c049ac0b34a7fb5a0453c9b7cef28">[詳解]</a><br /></td></tr>
+<tr class="separator:a1b5c049ac0b34a7fb5a0453c9b7cef28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1b0c82959b6117849a0e19db61548db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#aa1b0c82959b6117849a0e19db61548db">___PROFILE_END</a>(category,  name)</td></tr>
+<tr class="separator:aa1b0c82959b6117849a0e19db61548db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf9f0a2b21175c8d44cb0919eb3bfa11"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#aaf9f0a2b21175c8d44cb0919eb3bfa11">___PROFILE_BEGIN_IN_CATEGORY</a>(name)</td></tr>
+<tr class="separator:aaf9f0a2b21175c8d44cb0919eb3bfa11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f75b6e64437b0add698cfbf4397c4b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#a40f75b6e64437b0add698cfbf4397c4b">___PROFILE_END_IN_CATEGORY</a>(name)</td></tr>
+<tr class="separator:a40f75b6e64437b0add698cfbf4397c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>プロファイル機能を提供 </p>
+<dl class="section author"><dt>著者</dt><dd>SOIKAWA </dd></dl>
+<dl class="section date"><dt>日付</dt><dd>2016.05.23 </dd></dl>
+</div><h2 class="groupheader">マクロ定義詳解</h2>
+<a class="anchor" id="a0c85631ffa32a56b3699107e7ab1d175"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ___D_PROFILE_BEGIN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">category, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>リリース時に呼び出しごと消える関数 </p>
+
+</div>
+</div>
+<a class="anchor" id="a0c85631ffa32a56b3699107e7ab1d175"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ___D_PROFILE_BEGIN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">category, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>リリース時に呼び出しごと消える関数 </p>
+
+</div>
+</div>
+<a class="anchor" id="a9a0bed85919b4d69dc8eaf1f8ff23e5b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ___D_PROFILE_END</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">category, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9a0bed85919b4d69dc8eaf1f8ff23e5b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ___D_PROFILE_END</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">category, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1b5c049ac0b34a7fb5a0453c9b7cef28"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ___PROFILE_BEGIN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">category, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>リリース時に残る関数 </p>
+
+</div>
+</div>
+<a class="anchor" id="aaf9f0a2b21175c8d44cb0919eb3bfa11"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ___PROFILE_BEGIN_IN_CATEGORY</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa1b0c82959b6117849a0e19db61548db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ___PROFILE_END</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">category, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a40f75b6e64437b0add698cfbf4397c4b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ___PROFILE_END_IN_CATEGORY</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

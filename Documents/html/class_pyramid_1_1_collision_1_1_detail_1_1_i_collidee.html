@@ -1,0 +1,808 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::Collision::Detail::ICollidee クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_collision.html">Collision</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_collision_1_1_detail.html">Detail</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html">ICollidee</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pro-attribs">限定公開変数類</a> &#124;
+<a href="#friends">フレンド</a> &#124;
+<a href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::Collision::Detail::ICollidee クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>抽象衝突対象クラス イベントの発生に必要なパラメータを持つ  
+ <a href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_i_collidee_8h_source.html">ICollidee.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::Collision::Detail::ICollidee の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.png" usemap="#Pyramid::Collision::Detail::ICollidee_map" alt=""/>
+  <map id="Pyramid::Collision::Detail::ICollidee_map" name="Pyramid::Collision::Detail::ICollidee_map">
+<area href="class_pyramid_1_1_collision_1_1_i_hit_event.html" title="衝突イベント " alt="Pyramid::Collision::IHitEvent" shape="rect" coords="0,0,205,24"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a21da3f6500e49dec501ecee52b9e827b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a21da3f6500e49dec501ecee52b9e827b">ICollidee</a> ()=default</td></tr>
+<tr class="separator:a21da3f6500e49dec501ecee52b9e827b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebd282d6ef4a08cec839254acac431e4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#aebd282d6ef4a08cec839254acac431e4">~ICollidee</a> ()=default</td></tr>
+<tr class="separator:aebd282d6ef4a08cec839254acac431e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9861ec74eca2d45671b882d27c769eee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a9861ec74eca2d45671b882d27c769eee">ICollidee</a> (const <a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html">ICollidee</a> &amp;)=default</td></tr>
+<tr class="separator:a9861ec74eca2d45671b882d27c769eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac863e1b9620bf9c13c3638a90588bebe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#ac863e1b9620bf9c13c3638a90588bebe">ICollidee</a> (<a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html">ICollidee</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ac863e1b9620bf9c13c3638a90588bebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13ff3b35963a800f77eb54f91005924a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html">ICollidee</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a13ff3b35963a800f77eb54f91005924a">operator=</a> (const <a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html">ICollidee</a> &amp;)=default</td></tr>
+<tr class="separator:a13ff3b35963a800f77eb54f91005924a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaccc88c7f7793f7a7de4bb991c1b224"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html">ICollidee</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#afaccc88c7f7793f7a7de4bb991c1b224">operator=</a> (<a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html">ICollidee</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:afaccc88c7f7793f7a7de4bb991c1b224"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71e10354d9ef7a6b3cfe8fe66b33bd15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a71e10354d9ef7a6b3cfe8fe66b33bd15">UpdateTransform</a> (<a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_components_1_1_transform.html">Components::Transform</a> &gt; &amp;)</td></tr>
+<tr class="memdesc:a71e10354d9ef7a6b3cfe8fe66b33bd15"><td class="mdescLeft">&#160;</td><td class="mdescRight">トランスフォームの更新・キャッシュ  <a href="#a71e10354d9ef7a6b3cfe8fe66b33bd15">[詳解]</a><br /></td></tr>
+<tr class="separator:a71e10354d9ef7a6b3cfe8fe66b33bd15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af43242aaffd07d62f1cd09a5641f32a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#af43242aaffd07d62f1cd09a5641f32a9">PROPERTY_REF</a> (<a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#ab16e1be0c4d96abb24fe42fadc9c0a86">m_IsPreparatdForEventPublish</a>, IsPreparatdForEventPublish, bool)</td></tr>
+<tr class="separator:af43242aaffd07d62f1cd09a5641f32a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3df248d23f8c2cf626643d987dd2843"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#af3df248d23f8c2cf626643d987dd2843">PROPERTY_REF</a> (<a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#aab55d033344eedc6599ea9b92beff805">m_IsPublishedEventOfExit</a>, IsPublishedEventOfExit, bool)</td></tr>
+<tr class="separator:af3df248d23f8c2cf626643d987dd2843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa566acb9ff1d58546614fa8ab23d31bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#aa566acb9ff1d58546614fa8ab23d31bf">PROPERTY_REF</a> (<a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a2758c680594fcc8c9bc81cb197978813">m_CollisionDetection</a>, Precision, <a class="el" href="class_pyramid_1_1_collision_1_1_collision_detection.html">CollisionDetection</a>)</td></tr>
+<tr class="separator:aa566acb9ff1d58546614fa8ab23d31bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab30031da89a6ab3fb38f85e56620b6d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#ab30031da89a6ab3fb38f85e56620b6d1">PROPERTY_REF_R_ONLY</a> (<a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a345e9505b29ccc2216555df28410a006">m_BVList</a>, BVList, std::vector&lt; <a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_collision_1_1_i_volume.html">IVolume</a> &gt;&gt;)</td></tr>
+<tr class="separator:ab30031da89a6ab3fb38f85e56620b6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb36f04b5917545e5b30adb45e67de83"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#acb36f04b5917545e5b30adb45e67de83">PROPERTY_REF_R_ONLY</a> (<a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#ad1bd88c81109e237451094f19c16cd97">m_spTransform</a>, spTransform, <a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_components_1_1_transform.html">Components::Transform</a> &gt;)</td></tr>
+<tr class="separator:acb36f04b5917545e5b30adb45e67de83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc8744e31322812834b0c342ee3e6d5b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#abc8744e31322812834b0c342ee3e6d5b">PROPERTY_REF_R_ONLY</a> (<a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a48ecbedada2430160ae36eebb02112d7">m_DataOfTheCollisionPartners</a>, Partners, <a class="el" href="namespace_pyramid_1_1_collision_1_1_detail.html#a1ec0992311c1e61fc26c7ac930248989">CollisionPartners</a>)</td></tr>
+<tr class="separator:abc8744e31322812834b0c342ee3e6d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_pyramid_1_1_collision_1_1_i_hit_event.html">Pyramid::Collision::IHitEvent</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a9bda61afea2818c5b48033ba68bc14bc inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_i_hit_event.html#a9bda61afea2818c5b48033ba68bc14bc">IHitEvent</a> ()=default</td></tr>
+<tr class="separator:a9bda61afea2818c5b48033ba68bc14bc inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e6c55932514bb64525b8795e7982e15 inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_i_hit_event.html#a9e6c55932514bb64525b8795e7982e15">~IHitEvent</a> ()=default</td></tr>
+<tr class="separator:a9e6c55932514bb64525b8795e7982e15 inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12e0ef3206bb87ccf0333b2b212d35fb inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_i_hit_event.html#a12e0ef3206bb87ccf0333b2b212d35fb">IHitEvent</a> (const <a class="el" href="class_pyramid_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;)=default</td></tr>
+<tr class="separator:a12e0ef3206bb87ccf0333b2b212d35fb inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8305f1cbd0e83661df8650226a15ba63 inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_i_hit_event.html#a8305f1cbd0e83661df8650226a15ba63">IHitEvent</a> (<a class="el" href="class_pyramid_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a8305f1cbd0e83661df8650226a15ba63 inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ed1ba1f5699169cfa51c65b1ad61acf inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_i_hit_event.html#a7ed1ba1f5699169cfa51c65b1ad61acf">operator=</a> (const <a class="el" href="class_pyramid_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;)=default</td></tr>
+<tr class="separator:a7ed1ba1f5699169cfa51c65b1ad61acf inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bc83e87580cf5bf426abef848a7e924 inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_i_hit_event.html#a2bc83e87580cf5bf426abef848a7e924">operator=</a> (<a class="el" href="class_pyramid_1_1_collision_1_1_i_hit_event.html">IHitEvent</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a2bc83e87580cf5bf426abef848a7e924 inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf07e62bfdbe845d7364d834dfc558d1 inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_i_hit_event.html#aaf07e62bfdbe845d7364d834dfc558d1">OnCollisionEnter</a> (<a class="el" href="class_pyramid_1_1_collision_1_1_hit_result.html">HitResult</a>)=0</td></tr>
+<tr class="memdesc:aaf07e62bfdbe845d7364d834dfc558d1 inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="mdescLeft">&#160;</td><td class="mdescRight">衝突した瞬間にmap登録して発行  <a href="#aaf07e62bfdbe845d7364d834dfc558d1">[詳解]</a><br /></td></tr>
+<tr class="separator:aaf07e62bfdbe845d7364d834dfc558d1 inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a676924e2c8a4649aeb3853153a97ee4f inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_i_hit_event.html#a676924e2c8a4649aeb3853153a97ee4f">OnCollisionStay</a> (<a class="el" href="class_pyramid_1_1_collision_1_1_hit_result.html">HitResult</a>)=0</td></tr>
+<tr class="memdesc:a676924e2c8a4649aeb3853153a97ee4f inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="mdescLeft">&#160;</td><td class="mdescRight">登録された状態で衝突で発行  <a href="#a676924e2c8a4649aeb3853153a97ee4f">[詳解]</a><br /></td></tr>
+<tr class="separator:a676924e2c8a4649aeb3853153a97ee4f inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38bee9f82d6fdaf2a963408e206d266e inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_i_hit_event.html#a38bee9f82d6fdaf2a963408e206d266e">OnCollisionExit</a> (<a class="el" href="class_pyramid_1_1_collision_1_1_hit_result.html">HitResult</a>)=0</td></tr>
+<tr class="memdesc:a38bee9f82d6fdaf2a963408e206d266e inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="mdescLeft">&#160;</td><td class="mdescRight">登録された状態で衝突がなければ発行  <a href="#a38bee9f82d6fdaf2a963408e206d266e">[詳解]</a><br /></td></tr>
+<tr class="separator:a38bee9f82d6fdaf2a963408e206d266e inherit pub_methods_class_pyramid_1_1_collision_1_1_i_hit_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+限定公開変数類</h2></td></tr>
+<tr class="memitem:ab16e1be0c4d96abb24fe42fadc9c0a86"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#ab16e1be0c4d96abb24fe42fadc9c0a86">m_IsPreparatdForEventPublish</a> = false</td></tr>
+<tr class="separator:ab16e1be0c4d96abb24fe42fadc9c0a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab55d033344eedc6599ea9b92beff805"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#aab55d033344eedc6599ea9b92beff805">m_IsPublishedEventOfExit</a> = false</td></tr>
+<tr class="separator:aab55d033344eedc6599ea9b92beff805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2758c680594fcc8c9bc81cb197978813"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_collision_1_1_collision_detection.html">CollisionDetection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a2758c680594fcc8c9bc81cb197978813">m_CollisionDetection</a></td></tr>
+<tr class="separator:a2758c680594fcc8c9bc81cb197978813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48ecbedada2430160ae36eebb02112d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_pyramid_1_1_collision_1_1_detail.html#a1ec0992311c1e61fc26c7ac930248989">CollisionPartners</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a48ecbedada2430160ae36eebb02112d7">m_DataOfTheCollisionPartners</a></td></tr>
+<tr class="separator:a48ecbedada2430160ae36eebb02112d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1bd88c81109e237451094f19c16cd97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_components_1_1_transform.html">Components::Transform</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#ad1bd88c81109e237451094f19c16cd97">m_spTransform</a></td></tr>
+<tr class="separator:ad1bd88c81109e237451094f19c16cd97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a345e9505b29ccc2216555df28410a006"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_collision_1_1_i_volume.html">IVolume</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a345e9505b29ccc2216555df28410a006">m_BVList</a></td></tr>
+<tr class="separator:a345e9505b29ccc2216555df28410a006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a288c303c3515cdf1af921768f1f026f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a288c303c3515cdf1af921768f1f026f5">m_CacheOfThisFream</a></td></tr>
+<tr class="separator:a288c303c3515cdf1af921768f1f026f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84f1d72f949a83bbb4a6726a12dbcc57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a84f1d72f949a83bbb4a6726a12dbcc57">m_CacheOfPrevFream</a></td></tr>
+<tr class="separator:a84f1d72f949a83bbb4a6726a12dbcc57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+フレンド</h2></td></tr>
+<tr class="memitem:a864ce6d5b6900b1a7eb179d5f1891078"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a864ce6d5b6900b1a7eb179d5f1891078">HitEventPublisher</a></td></tr>
+<tr class="separator:a864ce6d5b6900b1a7eb179d5f1891078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52de8b985e25033759c4eba874e642ec"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a52de8b985e25033759c4eba874e642ec">CollisionProvider</a></td></tr>
+<tr class="separator:a52de8b985e25033759c4eba874e642ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fb5ef0bd394ff807ef279be7c24f6d9"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a5fb5ef0bd394ff807ef279be7c24f6d9">Tester::TesterOfDiscreet</a></td></tr>
+<tr class="separator:a5fb5ef0bd394ff807ef279be7c24f6d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85cbeca996d081d7a6d48eae8623fc4d"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a85cbeca996d081d7a6d48eae8623fc4d">Tester::TesterOfSVT</a></td></tr>
+<tr class="separator:a85cbeca996d081d7a6d48eae8623fc4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>抽象衝突対象クラス イベントの発生に必要なパラメータを持つ </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a21da3f6500e49dec501ecee52b9e827b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::ICollidee::ICollidee </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aebd282d6ef4a08cec839254acac431e4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::ICollidee::~ICollidee </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9861ec74eca2d45671b882d27c769eee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::ICollidee::ICollidee </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html">ICollidee</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac863e1b9620bf9c13c3638a90588bebe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::ICollidee::ICollidee </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html">ICollidee</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a13ff3b35963a800f77eb54f91005924a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html">ICollidee</a>&amp; Pyramid::Collision::Detail::ICollidee::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html">ICollidee</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afaccc88c7f7793f7a7de4bb991c1b224"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html">ICollidee</a>&amp; Pyramid::Collision::Detail::ICollidee::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html">ICollidee</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af43242aaffd07d62f1cd09a5641f32a9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::ICollidee::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#ab16e1be0c4d96abb24fe42fadc9c0a86">m_IsPreparatdForEventPublish</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IsPreparatdForEventPublish&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af3df248d23f8c2cf626643d987dd2843"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::ICollidee::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#aab55d033344eedc6599ea9b92beff805">m_IsPublishedEventOfExit</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IsPublishedEventOfExit&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa566acb9ff1d58546614fa8ab23d31bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::ICollidee::PROPERTY_REF </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a2758c680594fcc8c9bc81cb197978813">m_CollisionDetection</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Precision&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_collision_1_1_collision_detection.html">CollisionDetection</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab30031da89a6ab3fb38f85e56620b6d1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::ICollidee::PROPERTY_REF_R_ONLY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a345e9505b29ccc2216555df28410a006">m_BVList</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BVList&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_collision_1_1_i_volume.html">IVolume</a> &gt;&gt;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acb36f04b5917545e5b30adb45e67de83"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::ICollidee::PROPERTY_REF_R_ONLY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#ad1bd88c81109e237451094f19c16cd97">m_spTransform</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">spTransform&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_components_1_1_transform.html">Components::Transform</a> &gt;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abc8744e31322812834b0c342ee3e6d5b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Collision::Detail::ICollidee::PROPERTY_REF_R_ONLY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_i_collidee.html#a48ecbedada2430160ae36eebb02112d7">m_DataOfTheCollisionPartners</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Partners&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_pyramid_1_1_collision_1_1_detail.html#a1ec0992311c1e61fc26c7ac930248989">CollisionPartners</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a71e10354d9ef7a6b3cfe8fe66b33bd15"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::Collision::Detail::ICollidee::UpdateTransform </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt; <a class="el" href="class_pyramid_1_1_components_1_1_transform.html">Components::Transform</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>_spTrans</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>トランスフォームの更新・キャッシュ </p>
+
+</div>
+</div>
+<h2 class="groupheader">フレンドと関連関数の詳解</h2>
+<a class="anchor" id="a52de8b985e25033759c4eba874e642ec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_collision_provider.html">CollisionProvider</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a864ce6d5b6900b1a7eb179d5f1891078"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_hit_event_publisher.html">HitEventPublisher</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5fb5ef0bd394ff807ef279be7c24f6d9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_tester_1_1_tester_of_discreet.html">Tester::TesterOfDiscreet</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a85cbeca996d081d7a6d48eae8623fc4d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_tester_1_1_tester_of_s_v_t.html">Tester::TesterOfSVT</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a class="anchor" id="a345e9505b29ccc2216555df28410a006"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt;<a class="el" href="class_pyramid_1_1_collision_1_1_i_volume.html">IVolume</a>&gt; &gt; Pyramid::Collision::Detail::ICollidee::m_BVList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a84f1d72f949a83bbb4a6726a12dbcc57"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a> Pyramid::Collision::Detail::ICollidee::m_CacheOfPrevFream</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a288c303c3515cdf1af921768f1f026f5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_collision_1_1_detail_1_1_cacheable_transform.html">CacheableTransform</a> Pyramid::Collision::Detail::ICollidee::m_CacheOfThisFream</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2758c680594fcc8c9bc81cb197978813"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_collision_1_1_collision_detection.html">CollisionDetection</a> Pyramid::Collision::Detail::ICollidee::m_CollisionDetection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a48ecbedada2430160ae36eebb02112d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_pyramid_1_1_collision_1_1_detail.html#a1ec0992311c1e61fc26c7ac930248989">CollisionPartners</a> Pyramid::Collision::Detail::ICollidee::m_DataOfTheCollisionPartners</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab16e1be0c4d96abb24fe42fadc9c0a86"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Pyramid::Collision::Detail::ICollidee::m_IsPreparatdForEventPublish = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aab55d033344eedc6599ea9b92beff805"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Pyramid::Collision::Detail::ICollidee::m_IsPublishedEventOfExit = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad1bd88c81109e237451094f19c16cd97"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_pyramid_1_1_common.html#a7264034b8c564e4739d92c97f981d605">Common::Sp</a>&lt;<a class="el" href="class_pyramid_1_1_components_1_1_transform.html">Components::Transform</a>&gt; Pyramid::Collision::Detail::ICollidee::m_spTransform</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Collision/Detail/<a class="el" href="_i_collidee_8h_source.html">ICollidee.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Collision/Detail/<a class="el" href="_i_collidee_8cpp.html">ICollidee.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::Rendering::Detail::OptimizationRender クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_rendering.html">Rendering</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_rendering_1_1_detail.html">Detail</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#friends">フレンド</a> &#124;
+<a href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::Rendering::Detail::OptimizationRender クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>最適化後にレンダリングを行う  
+ <a href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_optimization_render_8h_source.html">OptimizationRender.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::Rendering::Detail::OptimizationRender の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.png" usemap="#Pyramid::Rendering::Detail::OptimizationRender_map" alt=""/>
+  <map id="Pyramid::Rendering::Detail::OptimizationRender_map" name="Pyramid::Rendering::Detail::OptimizationRender_map">
+<area href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html" title="ワールド空間のオブジェクトをレンダリングする " alt="Pyramid::Rendering::Detail::WorldObjectRender" shape="rect" coords="332,112,654,136"/>
+<area href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html" title="最適化インターフェース " alt="Pyramid::Rendering::Detail::Optimize::IOptimize" shape="rect" coords="664,112,986,136"/>
+<area href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html" title="レンダリングを行う " alt="Pyramid::Rendering::Detail::Render" shape="rect" coords="332,56,654,80"/>
+<area href="class_pyramid_1_1_rendering_1_1_component_render_1_1_a_a_b_b_render.html" title="AABBをレンダリングする " alt="Pyramid::Rendering::ComponentRender::AABBRender" shape="rect" coords="0,224,322,248"/>
+<area href="class_pyramid_1_1_rendering_1_1_component_render_1_1_fbx_render.html" title="Fbxのレンダリングを行う. " alt="Pyramid::Rendering::ComponentRender::FbxRender" shape="rect" coords="332,224,654,248"/>
+<area href="class_pyramid_1_1_rendering_1_1_component_render_1_1_panel_render.html" title="パネルをレンダリングする " alt="Pyramid::Rendering::ComponentRender::PanelRender" shape="rect" coords="664,224,986,248"/>
+<area href="class_pyramid_1_1_rendering_1_1_component_render_1_1_particle_render.html" title="パーティクルのレンダリングを行う " alt="Pyramid::Rendering::ComponentRender::ParticleRender" shape="rect" coords="996,224,1318,248"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a5e4490e2d2f2772c4d23c387e7155cc1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html#a5e4490e2d2f2772c4d23c387e7155cc1">OptimizationRender</a> (HLRCommand::HLRCommandPipeline &amp;)</td></tr>
+<tr class="separator:a5e4490e2d2f2772c4d23c387e7155cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2075305e4d85b1073b0473773e09eeca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html#a2075305e4d85b1073b0473773e09eeca">~OptimizationRender</a> ()</td></tr>
+<tr class="separator:a2075305e4d85b1073b0473773e09eeca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a698ff17a0c217dc5824f3f178dff3a73"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html#a698ff17a0c217dc5824f3f178dff3a73">OptimizationRender</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> &amp;)=default</td></tr>
+<tr class="separator:a698ff17a0c217dc5824f3f178dff3a73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52f877380fc95031ab34c77c4542fcb1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html#a52f877380fc95031ab34c77c4542fcb1">OptimizationRender</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a52f877380fc95031ab34c77c4542fcb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99b53a5bd7d33a2e99df4e0b69eeef9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html#a99b53a5bd7d33a2e99df4e0b69eeef9c">operator=</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> &amp;)=default</td></tr>
+<tr class="separator:a99b53a5bd7d33a2e99df4e0b69eeef9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28e038c784c39d622bfee64e88a6e738"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html#a28e038c784c39d622bfee64e88a6e738">operator=</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a28e038c784c39d622bfee64e88a6e738"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html">Pyramid::Rendering::Detail::WorldObjectRender</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a16f2c6f4d0c1f2a2b2003610573cc7df inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html#a16f2c6f4d0c1f2a2b2003610573cc7df">WorldObjectRender</a> (HLRCommand::HLRCommandPipeline &amp;)</td></tr>
+<tr class="separator:a16f2c6f4d0c1f2a2b2003610573cc7df inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47dcf380b3d30f4ee704bb13fb7b185b inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html#a47dcf380b3d30f4ee704bb13fb7b185b">~WorldObjectRender</a> ()=default</td></tr>
+<tr class="separator:a47dcf380b3d30f4ee704bb13fb7b185b inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a954e65a356ba5b021b40bcf86eac1beb inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html#a954e65a356ba5b021b40bcf86eac1beb">WorldObjectRender</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;)=default</td></tr>
+<tr class="separator:a954e65a356ba5b021b40bcf86eac1beb inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3331daeb999677ff2f6bbe718ea79096 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html#a3331daeb999677ff2f6bbe718ea79096">WorldObjectRender</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a3331daeb999677ff2f6bbe718ea79096 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92bec04e32615c5e2dbd27507686d7f3 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html#a92bec04e32615c5e2dbd27507686d7f3">operator=</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;)=default</td></tr>
+<tr class="separator:a92bec04e32615c5e2dbd27507686d7f3 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48dde8687bd4e2fb1d0a123c202fe139 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html#a48dde8687bd4e2fb1d0a123c202fe139">operator=</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html">WorldObjectRender</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a48dde8687bd4e2fb1d0a123c202fe139 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a607b1132423dbec171e1fc015c41eef6 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html#a607b1132423dbec171e1fc015c41eef6">Init</a> (<a class="el" href="class_pyramid_1_1_common_1_1_diagram_1_1_a_a_b_b.html">Common::Diagram::AABB</a> &amp;, <a class="el" href="class_utility_1_1_vector3.html">Utility::Vector3</a> *)</td></tr>
+<tr class="memdesc:a607b1132423dbec171e1fc015c41eef6 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="mdescLeft">&#160;</td><td class="mdescRight">WorldVolumeを初期化する 初期化を継承先のInitで行うよう推奨 継承先のInitがない際Initを生成しないように公開関数  <a href="#a607b1132423dbec171e1fc015c41eef6">[詳解]</a><br /></td></tr>
+<tr class="separator:a607b1132423dbec171e1fc015c41eef6 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8152da5b8903879e99ba7ea70dac6082 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html#a8152da5b8903879e99ba7ea70dac6082">PROPERTY_REF</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html#a450a7f3e51afc1d060ae8be22bdde8a5">m_RenderVolume</a>, RenderVolume, <a class="el" href="class_pyramid_1_1_common_1_1_world_volume.html">Common::WorldVolume</a>)</td></tr>
+<tr class="separator:a8152da5b8903879e99ba7ea70dac6082 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html">Pyramid::Rendering::Detail::Render</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a26cbecce97cb5764a0e8ac48f8a1d215 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html#a26cbecce97cb5764a0e8ac48f8a1d215">Render</a> (HLRCommand::HLRCommandPipeline &amp;)</td></tr>
+<tr class="separator:a26cbecce97cb5764a0e8ac48f8a1d215 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dc4a5c88a627e74fc3504ee36bc19a5 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html#a6dc4a5c88a627e74fc3504ee36bc19a5">~Render</a> ()=default</td></tr>
+<tr class="separator:a6dc4a5c88a627e74fc3504ee36bc19a5 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8842f0f74777666832be3f406c20833b inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html#a8842f0f74777666832be3f406c20833b">Render</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;)=default</td></tr>
+<tr class="separator:a8842f0f74777666832be3f406c20833b inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5639fb6bbf667288fb34deb054b1b959 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html#a5639fb6bbf667288fb34deb054b1b959">Render</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a5639fb6bbf667288fb34deb054b1b959 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab77d9a549a05542b55757b4c9b8098af inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html#ab77d9a549a05542b55757b4c9b8098af">operator=</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;)=default</td></tr>
+<tr class="separator:ab77d9a549a05542b55757b4c9b8098af inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31a5cbbd39a8c6ac46ea4bf8c3f21c34 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html#a31a5cbbd39a8c6ac46ea4bf8c3f21c34">operator=</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html">Render</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a31a5cbbd39a8c6ac46ea4bf8c3f21c34 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdca9127a75fe4681d396874a81af7ef inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html#abdca9127a75fe4681d396874a81af7ef">PrepareToRendering</a> () override</td></tr>
+<tr class="memdesc:abdca9127a75fe4681d396874a81af7ef inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renderingの直前に呼ばれる リソースが一つで部分的な変更を行うなどを想定  <a href="#abdca9127a75fe4681d396874a81af7ef">[詳解]</a><br /></td></tr>
+<tr class="separator:abdca9127a75fe4681d396874a81af7ef inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6f4dd7658eb6e25cd4eb2ed9da758f4 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html#af6f4dd7658eb6e25cd4eb2ed9da758f4">Rendering</a> () override</td></tr>
+<tr class="memdesc:af6f4dd7658eb6e25cd4eb2ed9da758f4 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preparationの直後に呼ばれレンダリングを行う  <a href="#af6f4dd7658eb6e25cd4eb2ed9da758f4">[詳解]</a><br /></td></tr>
+<tr class="separator:af6f4dd7658eb6e25cd4eb2ed9da758f4 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">Pyramid::Rendering::Detail::Optimize::IOptimize</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a9d050bb61a77311b4fd66c7422c7f9ae inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a9d050bb61a77311b4fd66c7422c7f9ae">IOptimize</a> ()=default</td></tr>
+<tr class="separator:a9d050bb61a77311b4fd66c7422c7f9ae inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99002c78639b331b7eacbb3171fa3a1d inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a99002c78639b331b7eacbb3171fa3a1d">~IOptimize</a> ()=default</td></tr>
+<tr class="separator:a99002c78639b331b7eacbb3171fa3a1d inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af395d66a51b78d49c242e8b30cc876af inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#af395d66a51b78d49c242e8b30cc876af">IOptimize</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;)=default</td></tr>
+<tr class="separator:af395d66a51b78d49c242e8b30cc876af inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cf984313d1c2280fdc68037834fb288 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a4cf984313d1c2280fdc68037834fb288">IOptimize</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a4cf984313d1c2280fdc68037834fb288 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab235721095ee91fc124b70328a54f39d inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#ab235721095ee91fc124b70328a54f39d">operator=</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;)=default</td></tr>
+<tr class="separator:ab235721095ee91fc124b70328a54f39d inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d6c2213a0bb511484354ebfa39d5f75 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a8d6c2213a0bb511484354ebfa39d5f75">operator=</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">IOptimize</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a8d6c2213a0bb511484354ebfa39d5f75 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f0bc5071f9e4ac7bee3e84c5bb5b78c inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a2f0bc5071f9e4ac7bee3e84c5bb5b78c">PrepareToOptimize</a> ()=0</td></tr>
+<tr class="separator:a2f0bc5071f9e4ac7bee3e84c5bb5b78c inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4653a1870ae0a8c29887884a8f3e3211 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a4653a1870ae0a8c29887884a8f3e3211">Optimize</a> (const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_context.html">Context</a> &amp;)=0</td></tr>
+<tr class="separator:a4653a1870ae0a8c29887884a8f3e3211 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fdc96ff18a5259eece711621f15ec24 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a0fdc96ff18a5259eece711621f15ec24">PROPERTY</a> (<a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a50fa1b61f7f2725b662e094171254bc3">m_RenderID</a>, RenderID, unsigned)</td></tr>
+<tr class="separator:a0fdc96ff18a5259eece711621f15ec24 inherit pub_methods_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+フレンド</h2></td></tr>
+<tr class="memitem:a65f9b4f94a6e15fd565a0c09aba72d6a"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html#a65f9b4f94a6e15fd565a0c09aba72d6a">CommandFinalizer</a></td></tr>
+<tr class="separator:a65f9b4f94a6e15fd565a0c09aba72d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30606aeb4640ef9908b23897cd37bd53"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html#a30606aeb4640ef9908b23897cd37bd53">RenderProvider</a></td></tr>
+<tr class="separator:a30606aeb4640ef9908b23897cd37bd53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+その他の継承メンバ</h2></td></tr>
+<tr class="inherit_header pro_attribs_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html">Pyramid::Rendering::Detail::WorldObjectRender</a> に属する継承限定公開変数類</td></tr>
+<tr class="memitem:a450a7f3e51afc1d060ae8be22bdde8a5 inherit pro_attribs_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_common_1_1_world_volume.html">Common::WorldVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render.html#a450a7f3e51afc1d060ae8be22bdde8a5">m_RenderVolume</a></td></tr>
+<tr class="separator:a450a7f3e51afc1d060ae8be22bdde8a5 inherit pro_attribs_class_pyramid_1_1_rendering_1_1_detail_1_1_world_object_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_pyramid_1_1_rendering_1_1_detail_1_1_render')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html">Pyramid::Rendering::Detail::Render</a> に属する継承限定公開変数類</td></tr>
+<tr class="memitem:a851a918c775945b0938c1f1711aea1aa inherit pro_attribs_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memItemLeft" align="right" valign="top">HLRCommand::HLRCommandPipeline &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_render.html#a851a918c775945b0938c1f1711aea1aa">m_Pipeline</a></td></tr>
+<tr class="separator:a851a918c775945b0938c1f1711aea1aa inherit pro_attribs_class_pyramid_1_1_rendering_1_1_detail_1_1_render"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html">Pyramid::Rendering::Detail::Optimize::IOptimize</a> に属する継承限定公開変数類</td></tr>
+<tr class="memitem:a50fa1b61f7f2725b662e094171254bc3 inherit pro_attribs_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize.html#a50fa1b61f7f2725b662e094171254bc3">m_RenderID</a></td></tr>
+<tr class="separator:a50fa1b61f7f2725b662e094171254bc3 inherit pro_attribs_class_pyramid_1_1_rendering_1_1_detail_1_1_optimize_1_1_i_optimize"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>最適化後にレンダリングを行う </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a5e4490e2d2f2772c4d23c387e7155cc1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Detail::OptimizationRender::OptimizationRender </td>
+          <td>(</td>
+          <td class="paramtype">HLRCommand::HLRCommandPipeline &amp;&#160;</td>
+          <td class="paramname"><em>_line</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2075305e4d85b1073b0473773e09eeca"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Detail::OptimizationRender::~OptimizationRender </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a698ff17a0c217dc5824f3f178dff3a73"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Detail::OptimizationRender::OptimizationRender </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a52f877380fc95031ab34c77c4542fcb1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::Rendering::Detail::OptimizationRender::OptimizationRender </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a99b53a5bd7d33a2e99df4e0b69eeef9c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a>&amp; Pyramid::Rendering::Detail::OptimizationRender::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a28e038c784c39d622bfee64e88a6e738"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a>&amp; Pyramid::Rendering::Detail::OptimizationRender::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_rendering_1_1_detail_1_1_optimization_render.html">OptimizationRender</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">フレンドと関連関数の詳解</h2>
+<a class="anchor" id="a65f9b4f94a6e15fd565a0c09aba72d6a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class CommandFinalizer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a30606aeb4640ef9908b23897cd37bd53"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_pyramid_1_1_rendering_1_1_render_provider.html">RenderProvider</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Detail/<a class="el" href="_optimization_render_8h_source.html">OptimizationRender.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Rendering/Detail/<a class="el" href="_optimization_render_8cpp.html">OptimizationRender.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

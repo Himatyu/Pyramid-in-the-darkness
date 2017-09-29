@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/Resource/API/IResourceAPI.h ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li><a href="annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="dir_ff63a2891cf0d86b615320d999c7b9f1.html">Pyramid</a></li><li class="navelem"><a class="el" href="dir_da9e93db9986c646cc18f8adcbc85676.html">Resource</a></li><li class="navelem"><a class="el" href="dir_af9f3d49f9b7bb862264d092e39e0637.html">API</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">IResourceAPI.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_i_resource_a_p_i_8h.html">[詳解]</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">// include </span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include&lt;memory&gt;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">// define </span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a5905045266b10b5108dd662da8857311">   17</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_planet9.html">Planet9</a></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">namespace </span>Resources</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keyword">namespace </span>API</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        {</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="keyword">template</span>&lt;<span class="keyword">class</span> ResourceFileType&gt;</div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html">   29</a></span>&#160;            <span class="keyword">class </span><a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html">IResourceAPI</a></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            {</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keyword">public</span>:</div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a22d2cd770e5c6aaa00ef6a392f273c67">   32</a></span>&#160;                <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                <span class="comment">//  default</span></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                <a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#ae4135085a1ab69804971e5e276411510">IResourceAPI</a>() = <span class="keywordflow">default</span>;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                <span class="keyword">virtual</span> <a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#aa055520554ea26723865c632451a82cb">~IResourceAPI</a>() = <span class="keywordflow">default</span>;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                <a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#ae4135085a1ab69804971e5e276411510">IResourceAPI</a>(<span class="keyword">const</span> <a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html">IResourceAPI</a>&amp;) = <span class="keywordflow">default</span>;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                <a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#ae4135085a1ab69804971e5e276411510">IResourceAPI</a>(<a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html">IResourceAPI</a>&amp;&amp;) = <span class="keywordflow">default</span>;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                <a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html">IResourceAPI</a>&amp;<a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a0d6598561e794e3f894e925210d4bbff">operator=</a>(<span class="keyword">const</span> <a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html">IResourceAPI</a>&amp;) = <span class="keywordflow">default</span>;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                <a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html">IResourceAPI</a>&amp;<a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a0d6598561e794e3f894e925210d4bbff">operator=</a>(<a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html">IResourceAPI</a>&amp;&amp;) = <span class="keywordflow">default</span>;</div><div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a790a39f1fa28e66486b9de2fd90a06f1">   43</a></span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                <span class="comment">// function</span></div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                <span class="keywordtype">void</span> <a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a5905045266b10b5108dd662da8857311">Load</a>(std::string _path);</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                <span class="keywordtype">void</span> <a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a22d2cd770e5c6aaa00ef6a392f273c67">UnLoad</a>();</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                <span class="comment">// operator</span></div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                <span class="keywordtype">void</span> <a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a790a39f1fa28e66486b9de2fd90a06f1">operator=</a>(std::shared_ptr&lt;ResourceFileType&gt; _sp);</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                <span class="keywordtype">bool</span> <a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a3677fa0d8ae6d15cf1f3e768e1f5d574">operator==</a>(nullptr_t _pNull);</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                <span class="keywordtype">bool</span> <a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a44d5041510525433690401702f7b2357">operator!=</a>(nullptr_t _pNull);</div><div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a44d5041510525433690401702f7b2357">   65</a></span>&#160;                <span class="keywordtype">void</span> <a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a0d6598561e794e3f894e925210d4bbff">operator=</a>(nullptr_t _pNull);</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                <span class="comment">// property</span></div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                <span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                <a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a38d4d087b9f9093290958012268d2c62">PROPERTY</a>(<a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a0652c68a520509bb9a9f24a6ee287d6f">m_spResourceFile</a>, spResourceFile, std::shared_ptr&lt;ResourceFileType&gt;);</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <span class="keyword">protected</span>:</div><div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a0652c68a520509bb9a9f24a6ee287d6f">   73</a></span>&#160;                std::shared_ptr&lt;ResourceFileType&gt;       <a class="code" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a0652c68a520509bb9a9f24a6ee287d6f">m_spResourceFile</a> = <span class="keyword">nullptr</span>;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            };</div><div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a14f3efa44358ccbbb34044a7293d7478">   75</a></span>&#160;<span class="preprocessor">#include&quot;<a class="code" href="_i_resource_a_p_i_8inl.html">IResourceAPI.inl</a>&quot;</span></div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">// EOF </span></div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">//-----------------------------------------------------------</span></div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div><div class="ttc" id="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i_html_a38d4d087b9f9093290958012268d2c62"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a38d4d087b9f9093290958012268d2c62">Planet9::Resources::API::IResourceAPI::PROPERTY</a></div><div class="ttdeci">PROPERTY(m_spResourceFile, spResourceFile, std::shared_ptr&lt; ResourceFileType &gt;)</div></div>
+<div class="ttc" id="namespace_planet9_html"><div class="ttname"><a href="namespace_planet9.html">Planet9</a></div><div class="ttdef"><b>Definition:</b> Constant.cpp:18</div></div>
+<div class="ttc" id="_i_resource_a_p_i_8inl_html"><div class="ttname"><a href="_i_resource_a_p_i_8inl.html">IResourceAPI.inl</a></div><div class="ttdoc">リソースAPIベースのテンプレート実装 </div></div>
+<div class="ttc" id="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i_html_aa055520554ea26723865c632451a82cb"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#aa055520554ea26723865c632451a82cb">Planet9::Resources::API::IResourceAPI::~IResourceAPI</a></div><div class="ttdeci">virtual ~IResourceAPI()=default</div></div>
+<div class="ttc" id="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i_html_a44d5041510525433690401702f7b2357"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a44d5041510525433690401702f7b2357">Planet9::Resources::API::IResourceAPI::operator!=</a></div><div class="ttdeci">bool operator!=(nullptr_t _pNull)</div><div class="ttdef"><b>Definition:</b> IResourceAPI.h:65</div></div>
+<div class="ttc" id="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i_html"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html">Planet9::Resources::API::IResourceAPI</a></div><div class="ttdoc">抽象リソースAPI リソースを持つ 読み込みと開放機能を持つ </div><div class="ttdef"><b>Definition:</b> IResourceAPI.h:29</div></div>
+<div class="ttc" id="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i_html_a0652c68a520509bb9a9f24a6ee287d6f"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a0652c68a520509bb9a9f24a6ee287d6f">Planet9::Resources::API::IResourceAPI::m_spResourceFile</a></div><div class="ttdeci">std::shared_ptr&lt; ResourceFileType &gt; m_spResourceFile</div><div class="ttdef"><b>Definition:</b> IResourceAPI.h:73</div></div>
+<div class="ttc" id="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i_html_ae4135085a1ab69804971e5e276411510"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#ae4135085a1ab69804971e5e276411510">Planet9::Resources::API::IResourceAPI::IResourceAPI</a></div><div class="ttdeci">IResourceAPI()=default</div></div>
+<div class="ttc" id="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i_html_a0d6598561e794e3f894e925210d4bbff"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a0d6598561e794e3f894e925210d4bbff">Planet9::Resources::API::IResourceAPI::operator=</a></div><div class="ttdeci">IResourceAPI &amp; operator=(const IResourceAPI &amp;)=default</div></div>
+<div class="ttc" id="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i_html_a3677fa0d8ae6d15cf1f3e768e1f5d574"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a3677fa0d8ae6d15cf1f3e768e1f5d574">Planet9::Resources::API::IResourceAPI::operator==</a></div><div class="ttdeci">bool operator==(nullptr_t _pNull)</div><div class="ttdef"><b>Definition:</b> IResourceAPI.h:54</div></div>
+<div class="ttc" id="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i_html_a22d2cd770e5c6aaa00ef6a392f273c67"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a22d2cd770e5c6aaa00ef6a392f273c67">Planet9::Resources::API::IResourceAPI::UnLoad</a></div><div class="ttdeci">void UnLoad()</div><div class="ttdoc">リソース開放 </div><div class="ttdef"><b>Definition:</b> IResourceAPI.h:32</div></div>
+<div class="ttc" id="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i_html_a790a39f1fa28e66486b9de2fd90a06f1"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a790a39f1fa28e66486b9de2fd90a06f1">Planet9::Resources::API::IResourceAPI::operator=</a></div><div class="ttdeci">void operator=(std::shared_ptr&lt; ResourceFileType &gt; _sp)</div><div class="ttdef"><b>Definition:</b> IResourceAPI.h:43</div></div>
+<div class="ttc" id="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i_html_a5905045266b10b5108dd662da8857311"><div class="ttname"><a href="class_planet9_1_1_resources_1_1_a_p_i_1_1_i_resource_a_p_i.html#a5905045266b10b5108dd662da8857311">Planet9::Resources::API::IResourceAPI::Load</a></div><div class="ttdeci">void Load(std::string _path)</div><div class="ttdoc">リソースの読み込み. </div><div class="ttdef"><b>Definition:</b> IResourceAPI.h:17</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

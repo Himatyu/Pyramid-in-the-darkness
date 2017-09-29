@@ -1,0 +1,370 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Pyramid: Pyramid::App::Extension::Component::PlayerModule クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pyramid
+   &#160;<span id="projectnumber">version 0.1</span>
+   </div>
+   <div id="projectbrief">Game Freamwork</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_pyramid.html">Pyramid</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_app.html">App</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_app_1_1_extension.html">Extension</a></li><li class="navelem"><a class="el" href="namespace_pyramid_1_1_app_1_1_extension_1_1_component.html">Component</a></li><li class="navelem"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pro-attribs">限定公開変数類</a> &#124;
+<a href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">Pyramid::App::Extension::Component::PlayerModule クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>プレイヤーに追加されるコンポーネント InitでpOwnerからキャストしたpPlayerをキャッシュする  
+ <a href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_player_module_8h_source.html">PlayerModule.h</a>&gt;</code></p>
+<div class="dynheader">
+Pyramid::App::Extension::Component::PlayerModule の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.png" usemap="#Pyramid::App::Extension::Component::PlayerModule_map" alt=""/>
+  <map id="Pyramid::App::Extension::Component::PlayerModule_map" name="Pyramid::App::Extension::Component::PlayerModule_map">
+<area href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_back_jet_effector.html" title="後方ジェットのエフェクト制御 " alt="Pyramid::App::Extension::Component::BackJetEffector" shape="rect" coords="0,112,352,136"/>
+<area href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_firearms_controler.html" title="プレイヤーとの火器管制を行う " alt="Pyramid::App::Extension::Component::FirearmsControler" shape="rect" coords="362,112,714,136"/>
+<area href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_life_maneger.html" title="プレイヤーのライフを管理する 最終的には内包したクラスにイベントをリレーしてダメージを反映させる ..." alt="Pyramid::App::Extension::Component::LifeManeger" shape="rect" coords="724,112,1076,136"/>
+<area href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_movement_controler.html" title="プレイヤーの移動管制を行う " alt="Pyramid::App::Extension::Component::MovementControler" shape="rect" coords="1086,112,1438,136"/>
+<area href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_tracking_camara.html" title="カメラの参照を持ちプレイヤーを追跡させる " alt="Pyramid::App::Extension::Component::PlayerTrackingCamara" shape="rect" coords="1448,112,1800,136"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:aee19230290bb7069fe6d2d5ce0277009"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#aee19230290bb7069fe6d2d5ce0277009">PlayerModule</a> (<a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_object_1_1_actor.html">Object::Actor</a> *)</td></tr>
+<tr class="separator:aee19230290bb7069fe6d2d5ce0277009"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab43477cd76738fdf638932fe945ea655"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#ab43477cd76738fdf638932fe945ea655">~PlayerModule</a> ()=default</td></tr>
+<tr class="separator:ab43477cd76738fdf638932fe945ea655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e52e33215ab39fd32dce84de34f4b23"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#a0e52e33215ab39fd32dce84de34f4b23">PlayerModule</a> (const <a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a> &amp;)=default</td></tr>
+<tr class="separator:a0e52e33215ab39fd32dce84de34f4b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ea4b1c5a4dfcb1366398581744d34c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#a60ea4b1c5a4dfcb1366398581744d34c">PlayerModule</a> (<a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a60ea4b1c5a4dfcb1366398581744d34c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeafd63fbbc73f953fcf5d552f1fe195"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#adeafd63fbbc73f953fcf5d552f1fe195">operator=</a> (const <a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a> &amp;)=default</td></tr>
+<tr class="separator:adeafd63fbbc73f953fcf5d552f1fe195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad567613a151f0125df0540aa1fab5443"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#ad567613a151f0125df0540aa1fab5443">operator=</a> (<a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ad567613a151f0125df0540aa1fab5443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b68e1f5409b02cbe038e1612fd86673"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#a0b68e1f5409b02cbe038e1612fd86673">Init</a> () override</td></tr>
+<tr class="separator:a0b68e1f5409b02cbe038e1612fd86673"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac97533d41173294dd345c1049fbd043"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#aac97533d41173294dd345c1049fbd043">PROPERTY</a> (<a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#a206afab31118860a3f328f8ec7435863">m_pPlayer</a>, pPlayer, <a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_object_1_1_actor.html">Object::Actor</a> *)</td></tr>
+<tr class="separator:aac97533d41173294dd345c1049fbd043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+限定公開変数類</h2></td></tr>
+<tr class="memitem:a206afab31118860a3f328f8ec7435863"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_object_1_1_actor.html">Object::Actor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#a206afab31118860a3f328f8ec7435863">m_pPlayer</a></td></tr>
+<tr class="separator:a206afab31118860a3f328f8ec7435863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>プレイヤーに追加されるコンポーネント InitでpOwnerからキャストしたpPlayerをキャッシュする </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="aee19230290bb7069fe6d2d5ce0277009"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::App::Extension::Component::PlayerModule::PlayerModule </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_object_1_1_actor.html">Object::Actor</a> *&#160;</td>
+          <td class="paramname"><em>_pPlayer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab43477cd76738fdf638932fe945ea655"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::App::Extension::Component::PlayerModule::~PlayerModule </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0e52e33215ab39fd32dce84de34f4b23"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::App::Extension::Component::PlayerModule::PlayerModule </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a60ea4b1c5a4dfcb1366398581744d34c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::App::Extension::Component::PlayerModule::PlayerModule </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a0b68e1f5409b02cbe038e1612fd86673"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyramid::App::Extension::Component::PlayerModule::Init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adeafd63fbbc73f953fcf5d552f1fe195"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a>&amp; Pyramid::App::Extension::Component::PlayerModule::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad567613a151f0125df0540aa1fab5443"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a>&amp; Pyramid::App::Extension::Component::PlayerModule::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html">PlayerModule</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aac97533d41173294dd345c1049fbd043"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pyramid::App::Extension::Component::PlayerModule::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_component_1_1_player_module.html#a206afab31118860a3f328f8ec7435863">m_pPlayer</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">pPlayer&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_object_1_1_actor.html">Object::Actor</a> *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a class="anchor" id="a206afab31118860a3f328f8ec7435863"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pyramid_1_1_app_1_1_extension_1_1_object_1_1_actor.html">Object::Actor</a>* Pyramid::App::Extension::Component::PlayerModule::m_pPlayer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/App/Extension/Component/<a class="el" href="_player_module_8h_source.html">PlayerModule.h</a></li>
+<li>C:/Users/HimaJin/Documents/Planet9/Programs/Pyramid/Project/Pyramid/App/Extension/Component/<a class="el" href="_player_module_8cpp.html">PlayerModule.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>
